@@ -5,7 +5,12 @@
 {% for post in site.posts reversed %}
    {% if post.featured %}
    <section class="party">
-      <h2>{{ post.title }}</h2>
+      <h2>
+         {{ post.title }}
+         <span class="party-pin text-primary">
+            <i class="fa fa-tag"></i> {{ post.category }}
+         <span>
+      </h2>
       <div><p>{{ post.content | truncatewords: 45 }}</p></div>
       <a class="btn text-primary" href="{{ post.url }}">Read More ;</a>
    </section>

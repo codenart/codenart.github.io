@@ -600,11 +600,28 @@ body {
    border: none;
 }
 
+.party-pin {
+   font-size: 1.4rem;
+   text-transform: uppercase;
+}
+
+.party-pin .fa {
+   -webkit-transform: rotate(-15deg);
+       -ms-transform: rotate(-15deg);
+           transform: rotate(-15deg);
+}
+
 .party h2 {
    font-size: 2.5rem;
 }
    @media (max-width: 768px) {
-      h2 { font-size: 2.1rem; }
+      .party h2 {
+         font-size: 2.1rem;
+      }
+
+      .party-pin {
+         font-size: 1.2rem;
+      }
    }
 
 .party .btn {
