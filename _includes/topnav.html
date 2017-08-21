@@ -1,0 +1,34 @@
+
+<nav id="topnav" class="font-ui bg-inverse">
+   <div class="navbar">
+      <div class="navbar-container container">
+
+         <button type="button" class="navbar-toggle"
+                 data-toggle="collapse" data-target="#mainnav" aria-expanded="false">
+            <i class="glyphicon glyphicon-option-horizontal text-white"></i>
+         </button>
+
+         <div id="mainnav" class="navbar-collapse collapse" aria-expanded="false">
+            <ul class="navbar-nav nav">
+               <li><a class="text-white bg-primary begin" href="/begin/">Begin</a></li>
+            {% for category in site.data.map.categories %}
+               {% assign title = category.title %}
+               {% assign url = category.url %}
+               {% if category.id == page.category %}
+                  {% assign state = "active" %}
+               {% else %}
+                  {% assign state = "" %}
+               {% endif %}
+               <li><a class="text-faded {{ state }}" href="{{ url }}">{{ title }}</a></li>
+            {% endfor %}
+            </ul>
+         </div><!-- .navbar-collapse -->
+
+         <a class="navbar-brand text-white" href="/">
+            CodeNart
+            <img src="/assets/logo.png" alt="logo">
+         </a>
+
+      </div><!-- .navbar-container -->
+   </div><!-- .navbar -->
+</nav>

@@ -1,0 +1,18 @@
+
+<main id="main" class="bg-white">
+   <div class="container">
+      <div class="row">
+         {% if page.layout == 'home' %}
+            {% include press.html %}
+         {% elsif page.layout == 'category' %}
+            {% include entry.html %}
+         {% elsif page.layout == 'post' %}
+            {% include article.html %}
+         {% elsif page.layout == 'oops' %}
+            {% include letter.html %}
+         {% else %} {% endif %}
+
+         {% include sidenav.html %}
+      </div>
+   </div>
+</main>

@@ -1,0 +1,33 @@
+<aside id="sidenav" class="ui col-sm-4 col-lg-offset-1 col-lg-3 bg-white">
+   <button class="collapse-toggle text-white bg-primary visible-xs-block" type="button" data-toggle="collapse"
+           data-target="#subnav" aria-expanded="false">
+      <i class="glyphicon glyphicon-list"></i>
+   </button>
+
+   <div id="subnav" class="collapse bg-white" aria-expanded="false">
+      <form class="input-group">
+         <input class="form-control text-white bg-primary" name="filter"
+                type="text" placeholder="Filter tutorials ...">
+         <span class="input-group-addon text-white bg-primary">
+            <i class="glyphicon glyphicon-filter"></i>
+         </span>
+      </form>
+
+      <ul class="nav nav-pills nav-stacked">
+      {% for category in site.data.map.categories %}
+         {% assign count = 0 %}
+         <li>
+            <a class="nav-heading text-inverse">{{ category.title }}</a>
+            <ol class="nav-list">
+            {% for post in site.categories[category[id]] reversed %}
+               {% assign count = count | plus: 1 %}
+               <li><a class="nav-link text-primary" href="{{ post.url }}">
+                  {{ count }}. {{ post.short }} <span class="hidden">{{ post.category}} - {{ post.title }}</p>
+               </a></li>
+            {% endfor %}
+            </ol>
+         </li>
+      {% endfor %}
+      </ul>
+   </div><!-- .collapse -->
+</aside>

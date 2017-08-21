@@ -1,0 +1,35 @@
+<!doctype html>
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   <meta property="og:title" content="{{ page.title }}">
+   <meta property="og:description" content="{{ page.description }}">
+   <meta property="og:image" content="/assets/cover.png">
+
+   <meta name="author" content="{{ site.author }}">
+   <meta name="keywords" content="{{ page.keywords }}">
+   <meta name="description" content="{{ page.description | strip_html }}">
+
+   <title>{{ page.title }}</title>
+
+   <link rel="stylesheet"
+         href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+         integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+         crossorigin="anonymous">
+   <link rel="stylesheet"
+         href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="/css/master.css">
+{% if page.style %}
+   <link rel="stylesheet" href="{{ page.style }}">
+{% endif %}
+
+   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+   <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+   <![endif]-->
+</head>
+<body><!-- foot.html -->

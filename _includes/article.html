@@ -1,0 +1,12 @@
+
+<article id="post" class="content col-sm-8">
+   <h1>{{ page.title }}</h1>
+
+   {{ page.content }}
+
+{% if page.next.category == page.category %}
+   <a class="d-inline-block text-primary" href="{{ page.next.url }}">
+      Next: {{ page.next.short }} ;
+   </a>
+{% endif %}
+</article>

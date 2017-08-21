@@ -1,0 +1,44 @@
+
+{% if page.layout == "home" %}
+   {% assign ttl = page.title %}
+   {% assign msg = page.description %}
+   {% assign url = "/begin/" %}
+   {% assign btn = "Start Here" %}
+{% elsif page.layout == "category" %}
+   {% for category in site.data.map.categories %}
+      {% if category.id == page.category %}
+         {% assign ttl = category.title %}
+      {% endif %}
+   {% endfor %}
+   {% assign msg = page.description %}
+   {% assign url = "#main" %}
+   {% assign btn = "Explore" %}
+{% elsif page.layout == "post" %}
+   {% for category in site.data.map.categories %}
+      {% if category.id == page.category %}
+         {% assign ttl = category.title %}
+      {% endif %}
+   {% endfor %}
+   {% assign msg = page.description %}
+   {% assign url = "#main" %}
+   {% assign btn = "Start Reading" %}
+{% elsif page.layout == "oops" %}
+   {% assign ttl = page.title %}
+   {% assign msg = page.description %}
+   {% assign url = site.homepage %}
+   {% assign btn = "Go back to HomePage" %}
+{% else %} {% endif %}
+
+<section id="display" class="bg-faded">
+   <div class="container">
+      <div class="row">
+         <div class="col-sm-6 col-md-7 col-lg-8">
+            <h2 class="ttl">{{ ttl }}</h2>
+            <p class="msg">{{ msg }}</p>
+            <a class="btn font-ui text-white bg-primary" href="{{ url }}">
+               {{ btn }} ;
+            </a>
+         </div><!-- .col -->
+      </div><!-- .row -->
+   </div><!-- .container -->
+</section>
