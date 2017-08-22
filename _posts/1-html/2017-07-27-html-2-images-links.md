@@ -25,17 +25,17 @@ has it:
 - Save file and give it a nice name as you want.
 - In the editor, type `im` then press `Enter`.
 
-![](http://i.imgur.com/OibR0Ih.jpg)
+![](/images/html-1/atom.jpg)
 
 That is `magic`. We've just put there `2 letters` and Atom knows that we want
 to add an `image` into the webpage. Now, we only need to tell web browsers
-[where](http://i.imgur.com/InshKPm.jpg) to get the `image`:
+[where](https://s19.postimg.org/9zaosqzdf/trees.jpg) to get the `image`:
 
-- Copy/Paste this url [http://i.imgur.com/InshKPm.jpg](http://i.imgur.com/InshKPm.jpg)
+- Copy/Paste this url [https://s19.postimg.org/9zaosqzdf/trees.jpg](https://s19.postimg.org/9zaosqzdf/trees.jpg)
 into the `src`.
 - Save file again and open it using your web browser.
 
-![credit to Psyperl](http://i.imgur.com/wnAsdJj.jpg)
+![credit to Psyperl](/images/html-1/trees.jpg)
 
 > Image - credit to [Psyperl](https://github.com/psyperl)
 
