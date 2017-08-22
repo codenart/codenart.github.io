@@ -5,11 +5,11 @@
  */
 $(document).ready(function() {
    const $button = $('#topnav').find('.navbar-toggle');
-   const $icon = $button.find('.glyphicon');
+   const $icon = $button.find('.fa');
 
    $button.click(function(event) {
-      $icon.toggleClass('glyphicon-option-horizontal')
-           .toggleClass('glyphicon-chevron-up');
+      $icon.toggleClass('fa-ellipsis-h')
+           .toggleClass('fa-chevron-up');
    });
 });
 
@@ -33,11 +33,11 @@ $(document).ready(function() {
  */
 $(document).ready(function() {
    const $button = $('#sidenav').find('.collapse-toggle');
-   const $icon = $button.find('.glyphicon');
+   const $icon = $button.find('.fa');
 
    $button.click(function(event) {
-      $icon.toggleClass('glyphicon-list')
-           .toggleClass('glyphicon-chevron-right');
+      $icon.toggleClass('fa-list')
+           .toggleClass('fa-chevron-right');
    });
 });
 
@@ -65,15 +65,15 @@ $(document).ready(function() {
    };
 
    $filterbutton.showFilterIcon = function() {
-      const $icon = $(this).find('.glyphicon');
-      $icon.addClass('glyphicon-filter')
-           .removeClass('glyphicon-remove');
+      const $icon = $(this).find('.fa');
+      $icon.addClass('fa-filter')
+           .removeClass('fa-remove');
    };
 
    $filterbutton.showClearIcon = function() {
-      const $icon = $(this).find('.glyphicon');
-      $icon.addClass('glyphicon-remove')
-           .removeClass('glyphicon-filter');
+      const $icon = $(this).find('.fa');
+      $icon.addClass('fa-remove')
+           .removeClass('fa-filter');
    };
 
    /*
@@ -128,18 +128,15 @@ $(document).ready(function() {
  * Post
  */
 $(document).ready(function() {
-   const $post = $('#post');
-   const $headings = $post.find('h2, h3');
-
-   $headings.click(function (event) {
+   $('#post').on('click', 'h2, h3', function (event) {
       const id = $(this).attr('id');
-      const href = document.location.href;
-      const url = href.replace(/^(.+:\/\/[^\/]+\/)(.+)$/i, 'https://codenart.github.io/$2');
-      const clipboard = url + '#' + id;
+      var url = document.location.href;
+          url = url.replace(/^(.+:\/\/[^\/]+\/)(.+)$/i, 'https://codenart.github.io/$2');
+          url = url + '#' + id;
 
-      const $tempinput = $('<input>', { style: 'position: fixed; bottom: -100%;' });
+      const $tempinput = $('<input>', { style: 'position: fixed; left: -100%;' });
       $('body').append($tempinput);
-      $tempinput.val(clipboard).select();
+      $tempinput.val(url).select();
 
       try
          { document.execCommand('copy'); }
@@ -148,4 +145,4 @@ $(document).ready(function() {
       finally
          { $tempinput.remove(); }
    });
-});
+}); // document ready

@@ -161,7 +161,7 @@ a.bg-primary:hover {
 
 .content blockquote {
    padding-left: 15px;
-   margin-left: 12px;
+   margin-left: 9px;
    margin-bottom: 27px;
 }
 
@@ -381,9 +381,12 @@ body {
    } /* media min-w 768 */
 
 #topnav .navbar-toggle {
+   font-size: 1rem;
+
    height: 54px;
+   line-height: 54px;
    margin: 0;
-   padding: 18px 27px 16px;
+   padding: 0 24px;
 
    position: absolute;
    bottom: 0;
@@ -475,8 +478,10 @@ body {
 }
 
 #sidenav .collapse-toggle {
-   width: 54px;
-   height: 51px;
+   font-size: 1rem;
+
+   width: 51px;
+   height: 49px;
 
    position: fixed;
    right: 18px;
@@ -538,7 +543,9 @@ body {
 }
 
 #sidenav .input-group-addon {
-   width: 48px;
+   font-size: 1.2rem;
+
+   width: 51px;
 
    border: 0;
    border-radius: 0;
@@ -600,34 +607,44 @@ body {
    border: none;
 }
 
-.party-pin {
-   font-size: 1.4rem;
+.party-util {
+   font-size: 0.9rem;
+   font-weight: bold;
+
+   display: inline-block;
+   margin-bottom: 3px;
+}
+
+.party-util .fa {
+   margin-right: 6px;
+
+   position: relative;
+   left: 3px;
+
+   -webkit-transform: rotate(-18deg);
+       -ms-transform: rotate(-18deg);
+           transform: rotate(-18deg);
+}
+
+.party-util span {
    text-transform: uppercase;
 }
 
-.party-pin .fa {
-   -webkit-transform: rotate(-15deg);
-       -ms-transform: rotate(-15deg);
-           transform: rotate(-15deg);
+.party-util:hover {
+   text-decoration: none;
 }
 
 .party h2 {
    font-size: 2.5rem;
 }
    @media (max-width: 768px) {
-      .party h2 {
-         font-size: 2.1rem;
-      }
-
-      .party-pin {
-         font-size: 1.2rem;
-      }
+      .party h2 { font-size: 2.1rem; }
    }
 
 .party .btn {
    font-weight: bold;
 
-   padding: 3px 0;
+   padding: 1px 0;
    margin-top: -6px;
 
    border-radius: 0;
@@ -644,31 +661,48 @@ body {
    padding: 70px 0 80px;
 }
 
-#anchor a {
+#anchor .this a:hover {
+   text-decoration: none;
+}
+
+#anchor .this {
+   font-size: 0.9rem;
+   font-weight: bold;
+   letter-spacing: 5px;
+
+   margin-bottom: 18px;
+
+   border-radius: none;
+}
+
+#anchor .this a {
+   display: inline-block;
+   padding: 3px 18px;
+}
+
+#anchor .somewhere {
+   margin-bottom: 18px;
+}
+
+#anchor .somewhere a {
    font-size: 1.1rem;
    line-height: 39px;
 
    display: inline-block;
-   width: 39px;
+   width: 41px;
    height: 39px;
    margin: 0 7px;
 
    border-radius: 50%;
 }
 
-#anchor a:first-child {
-   font-size: 0.9rem;
-   font-weight: bold;
-   letter-spacing: 5px;
-
-   display: block;
-   width: 100%;
-   margin: 0;
-   margin-bottom: 12px;
-
-   border-radius: none;
+#anchor .by {
+   word-spacing: 3px;
 }
 
-#anchor a:hover {
-   text-decoration: none;
+#anchor .by .fa {
+   font-size: 1.5rem;
+
+   position: relative;
+   top: 3px;
 }

@@ -5,6 +5,9 @@
 {% for post in site.posts reversed %}
    {% if post.category == page.category %}
    <section class="party">
+      <a class="party-util text-primary" href="{{ post.url }}">
+         <i class="fa fa-tag" aria-hidden="true"></i> <span>{{ post.category }}<span>
+      </a>
       <h2>{{ post.title }}</h2>
       <div><p>{{ post.content | truncatewords: 45 }}</p></div>
       <a class="btn text-primary" href="{{ post.url }}">Read More ;</a>

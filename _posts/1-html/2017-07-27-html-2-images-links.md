@@ -39,28 +39,60 @@ into the `src`.
 
 > Image - credit to [Psyperl](https://github.com/psyperl)
 
-## Single HTML tags and attributes
+We've used an image stored on [postimg.org](https://postimg.org/image/5dekkedu7/).
+You can create a `free` account to upload and use your own image. After uploading
+an image, just `right click` on the image on the website and choose
+[Copy Image Location](https://postimg.org/image/5dekkedu7/) then paste into the `src`.
 
-You may notice that there are something strange in the previous example. We've
+![credit to Psyperl](/images/html-1/postimage.jpg)
+
+> Free is always good.  
+> \_\_A simple & happy Mind
+
+In case you don't want to store your image on another website, you can create a
+folder named something like `images` and put all image-files there. In the `src`,
+type `the folder's name` followed by a slash `/` and `image's filename`.
+
+![](/images/html-1/relative.jpg)
+
+In this example, web browsers will start at the folder contains `the HTML
+document` and follow the `path` to look for the `image`.
+
+## Single HTML tags
+
+You may notice that there are something `strange` in the previous example. We've
 only seen [HTML tags](https://developer.mozilla.org/en/docs/Web/HTML/Element)
 come in pairs. But the `<img> tag` stands alone.
 
 And yes. There are some [HTML tags](https://developer.mozilla.org/en/docs/Web/HTML/Element)
 designed to stand alone. They're called `single tags`. There's nothing special.
-It just means none of them need a `closing tag` to pair with. So let's move to
-the next strange thing, the [attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes).
+It just means none of them need a `closing tag` to pair with.
+
+Another example of `single tag` is `<br>`, this tag will insert a `line br`  
+`eak` and commonly used in paragraphs when you want to write poetry.
+
+> Code is poet  
+> ry.  
+> \_\_WordPress.org
+
+Let's move to the next `strange` thing, the
+[HTML attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes).
+
+## HTML attributes
 
 [Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes) help
-us to describe some related information to
+us to describe some related information about
 [HTML tags](https://developer.mozilla.org/en/docs/Web/HTML/Element) as we've
 given a location to tell web browsers the image `source` using the `src`
 attribute.
 
 The `alt` stands for `alternative`, you can put there some words to describe the
 image in case your neighbor's web browser cannot load the image (slow connection,
-image has been removed, ...).
+image has been removed, your website doesn't like him/her, etc...).
 
-## How to create links to other webpages?
+That was all about `<img> tag`. Let's move next.
+
+## How to add links into a webpage?
 
 Yes! It's time for `magic` again:
 
@@ -80,8 +112,9 @@ editor, the second line, type `a` then press `Enter`.
 Have you found some wise messages from them? Wanna be
 <a style="color: #009900" href="https://www.youtube.com/watch?v=rRZ-IxZ46ng">green</a>?
 
-Actually, we can use `anchor tags` to wrap anything like text, images, ... to
-create a [clickable area](https://www.youtube.com/watch?v=zsCD5XCu6CM) and link to
+Actually, we can use `anchor tags` to wrap anything like text, images, a block
+of content include headings and paragraphs, etc... to create a
+[clickable area](https://www.youtube.com/watch?v=zsCD5XCu6CM) that link to
 [somewhere](https://www.youtube.com/watch?v=zsCD5XCu6CM) (Linkin Park).
 
 Oh, and now we know that
@@ -91,15 +124,18 @@ compose our document to suite our needs.
 
 ## What if... ?
 
-Do you wonder what if we need to use images stored locally but not from other websites?  
-Or what if we want to create links between our webpages but not to other websites?  
-Or even what if we want to create links to move between parts of the same page?
+Do you wonder what if we want to create links between our webpages but not to
+other websites?  
+It's `not` not easy. (This is double negative in my English. :D Not a typo. :D)  
+Just do the same thing as we've done in examples about `<img>`:
 
-Those stuff are a little bit tricky so we're gonna make a
-[single tutorial]((https://codenart.github.io{{ page.next.url }})) for them. Agree?
+- Put all your webpages in the same place.
+- In the `href`, just type the filename of which document you want to link to.
 
-Wait! Don't click on the link. It's time for
-[music](https://www.youtube.com/watch?v=rRZ-IxZ46ng):
+![](/images/html-1/link.jpg)
+
+Oooops. I've not noticed that our tutorial is too loooong now.
+It's time for [music](https://www.youtube.com/watch?v=rRZ-IxZ46ng):
 
 <div class="video">
    <iframe width="560" height="315"
@@ -110,4 +146,4 @@ Wait! Don't click on the link. It's time for
 
 > "What if being green is not easy?"  
 > "How about being blue or yellow instead?"  
-> __A simple & happy mind
+> \_\_A simple & happy mind

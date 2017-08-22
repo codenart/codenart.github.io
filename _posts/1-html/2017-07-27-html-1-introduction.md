@@ -40,7 +40,7 @@ a specific type of document which is preferred by
 [Web Browsers](https://codenart.github.io{{ page.url }}#how-to-create-a-webpage)
 called `HTML document` and the document's filename looks like this: `fountain.html`
 
-And.. we can create HTML documents using a simple text editor like Notepad.  
+And... we can create HTML documents using a simple text editor like Notepad.  
 Let's create one:
 - Open your [Notepad](https://en.wikipedia.org/wiki/Microsoft_Notepad).
 - Put there some nice words.
@@ -95,7 +95,7 @@ to show up.
 [heading level 1](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements).
 
 And there are plenty of [HTML tags](https://developer.mozilla.org/en/docs/Web/HTML/Element)
-to put anything that you can imagine on your website.
+help you to put anything on your website.
 
 > Learning HTML is just about trying some new tags and refreshing web browser.  
 > \_\_A simple & happy Mind
