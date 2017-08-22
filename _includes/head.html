@@ -4,12 +4,14 @@
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-   <meta property="og:title" content="{{ page.title }}">
-   <meta property="og:description" content="{{ page.description }}">
-   <meta property="og:image" content="/assets/cover.png">
+   <meta property="og:url"         content="https://codenart.github.io{{ page.url }}">
+   <meta property="og:type"        content="website">
+   <meta property="og:title"       content="{{ page.title }}">
+   <meta property="og:description" content="{{ page.description | strip_html }}">
+   <meta property="og:image"       content="/assets/cover.png">
 
-   <meta name="author" content="{{ site.author }}">
-   <meta name="keywords" content="{{ page.keywords }}">
+   <meta name="author"      content="{{ site.author }}">
+   <meta name="keywords"    content="{{ page.keywords }}">
    <meta name="description" content="{{ page.description | strip_html }}">
 
    <title>{{ page.title }}</title>
