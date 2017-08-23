@@ -128,7 +128,7 @@ of content include headings and paragraphs, etc... to create a
 Oh, and now we know that
 [HTML elements](https://developer.mozilla.org/en/docs/Web/HTML/Element) can be
 `nested`. We've just put an HTML element inside another. It means that we're
-freely to compose our document to suite our needs.
+freely to compose our documents to suite our needs.
 
 ## What if... ?
 

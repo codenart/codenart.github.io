@@ -73,7 +73,7 @@ They speak HTML, a simple and easy-to-learn language.
 Let's change our simple webpage a little bit. We're gonna put there a `heading`, a
 `paragraph` and a `button`:
 
-- Copy/Paste the ancient text below into your document.
+- Copy/Paste the ancient text below into your HTML document.
 - Save file again.
 - Refresh your web browser.
 

@@ -43,7 +43,7 @@ and share media files, have a `share button` with an `embed option` like this.
 `Screenshot:`
 ![using video from Youtube](/images/html-3/youtube.jpg)
 
-We only need to copy the provided HTML code and paste it into our HTML document.
+You only need to copy the provided HTML code and paste it into your HTML document.
 
 `Sample code:`
 <script src="https://gist.github.com/codenart/1f99616711e453377866fbadd7cb15a7.js"></script>
@@ -91,6 +91,6 @@ Waaaa... I've not noticed that this article is full of music now. :D
 I'm sorry if those stuff distracted you from learning process. :D
 
 After 3 tutorials, now we've already know how to add common content-types into
-our webpage. The next important thing is
+webpages. The next important thing is
 [grouping related content](https://codenart.github.io{{ post.next.url }}) into
-parts (navigation bar, main content, ...) and make your webpage look aesthetic.
+parts (navigation bar, main content, ...) and make them look aesthetic.
