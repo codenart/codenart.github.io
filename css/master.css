@@ -575,6 +575,8 @@ body {
 }
 
 #sidenav .nav-link {
+   text-transform: capitalize;
+
    display: block;
    padding: 6px 0;
 }

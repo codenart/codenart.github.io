@@ -47,7 +47,8 @@ Let's create one:
 - Save file as `yoursite.html`
 - Open the document using your web browser.
 
-![](/images/html-0/fountain.jpg)
+`Screenshot:`
+![an html document](/images/html-1/fountain.jpg)
 
 That's it. You've created a webpage. And if you put this webpage somewhere on
 the internet that people can reach it, then you have your very first website.
@@ -76,11 +77,13 @@ Let's change our simple webpage a little bit. We're gonna put there a `heading`,
 - Save file again.
 - Refresh your web browser.
 
+`Sample code:`
 <script src="https://gist.github.com/codenart/233e004d03d3e9ec33cf593881c8f23c.js"></script>
 
-![](/images/html-0/hope.jpg)
+`Screenshot:`
+![html document using tags](/images/html-1/hope.jpg)
 
-That is HTML.  
+That is HTML!  
 We simply surround everything with couples of `tags` and web browsers can
 somehow understand
 [what](https://codenart.github.io{{ page.url }}#how-to-add-images-buttons-etc)

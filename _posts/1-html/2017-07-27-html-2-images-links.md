@@ -25,38 +25,45 @@ has it:
 - Save file and give it a nice name as you want.
 - In the editor, type `im` then press `Enter`.
 
-![](/images/html-1/atom.jpg)
+`Screenshot:`
+![atom editor](/images/html-2/atom.jpg)
 
-That is `magic`. We've just put there `2 letters` and Atom knows that we want
+That is `magic`! We've just put there `2 letters` and Atom knows that we want
 to add an `image` into the webpage. Now, we only need to tell web browsers
 [where](https://s19.postimg.org/9zaosqzdf/trees.jpg) to get the `image`:
 
-- Copy/Paste this url [https://s19.postimg.org/9zaosqzdf/trees.jpg](https://s19.postimg.org/9zaosqzdf/trees.jpg)
+- Copy/Paste this url
+[https://s19.postimg.org/9zaosqzdf/trees.jpg](https://s19.postimg.org/9zaosqzdf/trees.jpg)
 into the `src`.
 - Save file again and open it using your web browser.
 
-![credit to Psyperl](/images/html-1/trees.jpg)
+`Screenshot:`
+![img tag](/images/html-2/trees.jpg)
 
 > Image - credit to [Psyperl](https://github.com/psyperl)
 
 We've used an image stored on [postimg.org](https://postimg.org/image/5dekkedu7/).
 You can create a `free` account to upload and use your own image. After uploading
-an image, just `right click` on the image on the website and choose
+an image, just `right click` on the image and choose
 [Copy Image Location](https://postimg.org/image/5dekkedu7/) then paste into the `src`.
 
-![credit to Psyperl](/images/html-1/postimage.jpg)
+`Screenshot:`
+![postimage.org](/images/html-2/postimage.jpg)
 
 > Free is always good.  
-> \_\_A simple & happy Mind
+> \_\_A <span id="simple">simple</span> & happy Mind
 
 In case you don't want to store your image on another website, you can create a
-folder named something like `images` and put all image-files there. In the `src`,
-type `the folder's name` followed by a slash `/` and `image's filename`.
+`folder` named something like `images` and put all image-files there. In the
+`src`, type `the folder's name` followed by a slash `/` and `image's filename`.
 
-![](/images/html-1/relative.jpg)
+`Screenshot:`
+![using an image stored locally](/images/html-2/relative.jpg)
 
 In this example, web browsers will start at the folder contains `the HTML
 document` and follow the `path` to look for the `image`.
+
+Reference: [Supported Image-Formats](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#Supported_image_formats)
 
 ## Single HTML tags
 
@@ -66,16 +73,16 @@ come in pairs. But the `<img> tag` stands alone.
 
 And yes. There are some [HTML tags](https://developer.mozilla.org/en/docs/Web/HTML/Element)
 designed to stand alone. They're called `single tags`. There's nothing special.
-It just means none of them need a `closing tag` to pair with.
+It just means that none of them need a `closing tag` to pair with.
 
 Another example of `single tag` is `<br>`, this tag will insert a `line br`  
 `eak` and commonly used in paragraphs when you want to write poetry.
 
-> Code is poet  
+> Code is Poet  
 > ry.  
-> \_\_WordPress.org
+> \_\_quote by WordPress.org
 
-Let's move to the next `strange` thing, the
+Let's talk about the next `strange` thing, the
 [HTML attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes).
 
 ## HTML attributes
@@ -83,14 +90,14 @@ Let's move to the next `strange` thing, the
 [Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes) help
 us to describe some related information about
 [HTML tags](https://developer.mozilla.org/en/docs/Web/HTML/Element) as we've
-given a location to tell web browsers the image `source` using the `src`
+given a location to tell web browsers about the image `source` using the `src`
 attribute.
 
 The `alt` stands for `alternative`, you can put there some words to describe the
-image in case your neighbor's web browser cannot load the image (slow connection,
+image in case your neighbor's web browser cannot find the image (slow connection,
 image has been removed, your website doesn't like him/her, etc...).
 
-That was all about `<img> tag`. Let's move next.
+That was all about `<img> tag`.
 
 ## How to add links into a webpage?
 
@@ -100,13 +107,14 @@ Yes! It's time for `magic` again:
 [Atom](https://codenart.github.io/begin/#how-to-have-fun-doing-a-boring-task)
 editor, the second line, type `a` then press `Enter`.
 - I guess you'll see this pair `<a href="#"></a>` show up.
-- Replace the hash `#` with this this url
+- Replace the hash `#` with this url
 [https://en.wikipedia.org/wiki/List_of_oldest_trees](https://en.wikipedia.org/wiki/List_of_oldest_trees).
 - Move the `<img> tag` into the position between the `anchor tags`.
 - Save file and refresh your web browser.
 - Click on the image
 - Then read about the wisest masters of the world.
 
+`Sample code:`
 <script src="https://gist.github.com/codenart/52baa4b077a7d30928c7019fdf357a7e.js"></script>
 
 Have you found some wise messages from them? Wanna be
@@ -119,20 +127,38 @@ of content include headings and paragraphs, etc... to create a
 
 Oh, and now we know that
 [HTML elements](https://developer.mozilla.org/en/docs/Web/HTML/Element) can be
-`nested`. We've just put an HTML element inside others. It means we're freely to
-compose our document to suite our needs.
+`nested`. We've just put an HTML element inside another. It means that we're
+freely to compose our document to suite our needs.
 
 ## What if... ?
 
-Do you wonder what if we want to create links between our webpages but not to
-other websites?  
-It's `not` not easy. (This is double negative in my English. :D Not a typo. :D)  
-Just do the same thing as we've done in examples about `<img>`:
+Do you wonder `what if` we want to create links between our webpages but not to
+other websites?
+
+It's ~~not~~ `easy`. (I'm sorry. There's a typo here. :D)  
+Just do the same thing as we've
+[done](https://codenart.github.io{{ page.url }}#simple) in examples about `<img>`:
 
 - Put all your webpages in the same place.
-- In the `href`, just type the filename of which document you want to link to.
+- In the `href`, just point to which document you want to link to.
 
-![](/images/html-1/link.jpg)
+`Screenshot:`
+![link to local webpage](/images/html-2/link.jpg)
+
+Do you wonder `what if` we want to creates a link to move to a specific part of
+the webpage like the [Start Reading ;](#display) button on the top of my website?
+
+It's `not` not easy. (This is double negative in my English. Not a typo. :D)  
+There is an
+[HTML attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes)
+called `id`. You can use it to give any HTML element an `identity`, then use the
+`id` as an `url` forwarded by a hash `#`.
+
+`Sample code:`
+<script src="https://gist.github.com/codenart/18129eafaa4f82931c6aa5fcee4ac443.js"></script>
+
+Does it work? If it doesn't, so you need a longer text which can make your
+website scrollable. (vertically)
 
 Oooops. I've not noticed that our tutorial is too loooong now.
 It's time for [music](https://www.youtube.com/watch?v=rRZ-IxZ46ng):
@@ -146,4 +172,6 @@ It's time for [music](https://www.youtube.com/watch?v=rRZ-IxZ46ng):
 
 > "What if being green is not easy?"  
 > "How about being blue or yellow instead?"  
+> "But green is beautiful."  
+> "Then why wonder?"  
 > \_\_A simple & happy mind
