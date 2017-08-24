@@ -169,6 +169,11 @@ a.bg-primary:hover {
    margin: 0;
 }
 
+.content code {
+   color: #009900;
+   background-color: #e9f9e9;
+}
+
 .content ul,
 .content ol {
    padding: 0;
@@ -186,11 +191,8 @@ a.bg-primary:hover {
 
 .content img {
    display: block;
-   width: auto;
+   width: 100%;
    height: auto;
-   max-width: 100%;
-   max-height: 500px;
-   min-height: 150px;
    margin: 30px auto;
 
    position: relative;

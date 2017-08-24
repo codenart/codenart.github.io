@@ -30,9 +30,6 @@ create a single webpage.
 
 ## How to create a webpage?
 
-> A webpage is nothing but a text document which can be opened by web browsers.  
-> \_\_A simple & happy Mind
-
 It's pretty much like how a `file` named something like `fountain.docx` can be
 opened by [Microsoft Word](https://en.wikipedia.org/wiki/Microsoft_Word) or
 [LibreOffice Writer](https://en.wikipedia.org/wiki/LibreOffice_Writer). There's
@@ -40,9 +37,13 @@ a specific type of document which is preferred by
 [Web Browsers](https://codenart.github.io{{ page.url }}#how-to-create-a-webpage)
 called `HTML document` and the document's filename looks like this: `fountain.html`
 
-And... we can create HTML documents using a simple text editor like Notepad.  
+> A webpage is nothing but a text document which can be opened by web browsers.  
+> \_\_A simple & happy Mind
+
+And... we can create HTML documents using a simple text editor like
+[Notepad](https://en.wikipedia.org/wiki/Microsoft_Notepad).  
 Let's create one:
-- Open your [Notepad](https://en.wikipedia.org/wiki/Microsoft_Notepad).
+- Open your Notepad.
 - Put there some nice words.
 - Save file as `yoursite.html`
 - Open the document using your web browser.
@@ -54,9 +55,8 @@ That's it. You've created a webpage. And if you put this webpage somewhere on
 the internet that people can reach it, then you have your very first website.
 
 I've found [Github Pages](https://pages.github.com/) is totally free and excellent.
-You can take a couple of minutes to take your simple website
-[online](https://github.com/join?source=header-home) then come back here to continue
-our tutorial. Go for it.
+You can take a couple of minutes to take your simple website online then come
+back here to continue our tutorial. Go for it.
 
 > Free is good.  
 > \_\_A simple & happy Mind
@@ -98,7 +98,7 @@ to show up.
 [heading level 1](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements).
 
 And there are plenty of [HTML tags](https://developer.mozilla.org/en/docs/Web/HTML/Element)
-help you to put anything on your website.
+which help us to put anything on our website.
 
 > Learning HTML is just about trying some new tags and refreshing web browser.  
 > \_\_A simple & happy Mind
@@ -112,7 +112,7 @@ useful stuff to make life easier. I've found another free and excellent `thing`
 created by Github - the [Atom Code Editor](https://atom.io/):
 
 1. One click to [download](https://atom.io/).
-2. Another one click to install.
+2. Another one to install.
 3. Then we can write HTML like a `magician` (not a coder).
 
 > Free is beyond good.  
@@ -120,12 +120,11 @@ created by Github - the [Atom Code Editor](https://atom.io/):
 
 Take a couple of minutes to get [Atom](https://atom.io/) installed on your
 computer then we will see `him` in action. The word [Atom](https://atom.io/)
-means `actor`, doesn't it?
+means `actor`, doesn't it? :D
 
-Once you have [Atom](https://atom.io/) ready at your hand... there's another
-important `thing` need to be done before we go to the
-[our next tutorial](https://codenart.github.io{{ page.next.url }}). It's
-[music](https://www.youtube.com/watch?v=eaw2Za2SUy4):
+Once you have Atom ready at your hand... there's another important `thing` need
+to be done before we go to the our next tutorial.  
+It's [Music](https://www.youtube.com/watch?v=eaw2Za2SUy4)!
 
 <div class="video">
    <iframe width="560" height="315"
