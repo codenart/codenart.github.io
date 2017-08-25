@@ -8,9 +8,9 @@ featured: bingo
 permalink: /beauty/
 
 title: Coming soon
-short: Coming soon
+short: Reintroduce CSS
 description:
 keywords:
 
-date: 2017-08-28 05:00:00
+date: 2017-08-24 05:00:00
 ---
