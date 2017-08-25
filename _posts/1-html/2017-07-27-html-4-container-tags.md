@@ -182,4 +182,6 @@ Our tutorial about HTML containers has finished! It's time for ~~css~~
 
 > Mother Earth is so generous. If only we give her the chance, she will restore
 > everything in absolute abundance and beauty.  
-> \_\_Sadhguru
+> \_\_Sadhguru Wisdom
+
+[Start learing CSS](https://codenart.github.io/beauty/ "int").

@@ -19,8 +19,8 @@ date: 2017-07-27 05:00:00
 > \_\_A simple & happy Mind
 
 Forget about technical and academic views. We go online everyday. We can start
-at homepage of [a website](https://medium.com/ "ext") and explore thousands of its
-pages. That's it.
+at homepage of [a website](https://medium.com/ "ext") and explore thousands of
+its pages. That's it.
 
 > A website is a collection of many webpages.  
 > \_\_A simple & happy Mind

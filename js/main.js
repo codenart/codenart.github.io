@@ -131,7 +131,6 @@ $(document).ready(function() {
    const $links = $('.content').find('a');
    const $extlinks = $links.filter('[title="ext"]');
    const $intlinks = $links.filter('[title="int"]');
-   const $pinlinks = $links.filter('[title="pin"]');
 
    $extlinks.attr({ 'target': '_blank' });
 
@@ -144,11 +143,7 @@ $(document).ready(function() {
       if(linkurl == pageurl)
          event.preventDefault();
       else
-         console.log('I love Non-doing <3');
-   });
-
-   $pinlinks.click(function(event) {
-      event.preventDefault();
+         console.log('I love non-doing <3');
    });
 }); // document ready
 
