@@ -67,25 +67,26 @@ which container to use then simple
 ## HTML containers in action
 
 Let's take an example that we're creating a simple webpage which has some
-navigation links at top, some sections to introduce yourself, and a footer
-contains copyright text.
+`navigation` links at top, some `sections` to introduce yourself, and a
+`footer` contains copyright text.
 
-We also assume that the navigation bar will have dark color background and white text.  
-The sections will have nice background images.  
-And the footer will have dark color background and white text.  
+We also assume that the `navigation` bar will have dark color background and
+white text.  
+The `sections` will have nice background images.  
+And the `footer` will have dark color background and white text.  
 So, our HTML document should look like this:
 
 `Sample code:`
 <script src="https://gist.github.com/codenart/d24a7671123cdc6105d2295150fa7e2f.js"></script>
 
 `Result:`
-![a tree](/images/html-4/atree.jpg)
+![credit to Psyperl](/images/html-4/atree.jpg)
 
 Does it work?  
 No? :D  
 I'm sorry. That was my bad. :D  
 I've not told you something about container tags. They are simply used to group
-other HTML elements and have no effect on the output.
+other HTML elements and produce no effect on the output.
 
 Let's add this line of code right before the `<nav>`, save file and refresh your
 web browser again:
@@ -184,4 +185,4 @@ Our tutorial about HTML containers has finished! It's time for ~~css~~
 > everything in absolute abundance and beauty.  
 > \_\_Sadhguru Wisdom
 
-[Start learing CSS](https://codenart.github.io/beauty/ "int").
+[Start learing CSS here!](https://codenart.github.io/beauty/ "int").

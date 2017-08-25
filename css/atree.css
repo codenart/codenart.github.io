@@ -21,7 +21,7 @@ nav {
    text-align: right;
 
    width: 100%;
-   padding: 0 15px;
+   padding: 0 12px;
 
    position: fixed;
    top: 0;
@@ -34,12 +34,14 @@ nav > a {
    text-decoration: none;
 
    display: inline-block;
-   padding: 12px;
+   padding: 12px 9px;
 
    color: white;
 }
 
 nav > a:first-child {
+   font-weight: bold;
+
    position: absolute;
    top: 0;
    left: 9px;
@@ -61,7 +63,7 @@ section {
    left: 0;
 
    background-color: white;
-   border-left: 9px solid black;
+   border-left: 6px solid black;
 }
 
 section:target {
