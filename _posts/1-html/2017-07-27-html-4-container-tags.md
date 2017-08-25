@@ -159,8 +159,7 @@ inside the `<head>` container.
 
 As you see that there is a `<meta>` tag. This element will allow us to used
 [Unicode](https://en.wikipedia.org/wiki/Unicode "ext") characters in our HTML
-document. This means so much to me as my native language has many characters
-which are only available to save in a Unicode Encoded document.
+document.
 
 The `<html>` container is the root container of the document. Something like a
 `<div>`. It's just that.
