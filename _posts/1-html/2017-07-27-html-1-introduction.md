@@ -19,8 +19,8 @@ date: 2017-07-27 05:00:00
 > \_\_A simple & happy Mind
 
 Forget about technical and academic views. We go online everyday. We can start
-at homepage of a website like [medium.com](https://medium.com/) and
-explore thousands of its pages. That's it.
+at homepage of [a website](https://medium.com/ "ext") and explore thousands of its
+pages. That's it.
 
 > A website is a collection of many webpages.  
 > \_\_A simple & happy Mind
@@ -31,17 +31,17 @@ create a single webpage.
 ## How to create a webpage?
 
 It's pretty much like how a `file` named something like `fountain.docx` can be
-opened by [Microsoft Word](https://en.wikipedia.org/wiki/Microsoft_Word) or
-[LibreOffice Writer](https://en.wikipedia.org/wiki/LibreOffice_Writer). There's
-a specific type of document which is preferred by
-[Web Browsers](https://codenart.github.io{{ page.url }}#how-to-create-a-webpage)
+opened by [Microsoft Word](https://en.wikipedia.org/wiki/Microsoft_Word "ext")
+or [LibreOffice Writer](https://en.wikipedia.org/wiki/LibreOffice_Writer "ext").
+There's a specific type of document which is preferred by
+[Web Browsers](https://codenart.github.io{{ page.url }}#how-to-create-a-webpage "int")
 called `HTML document` and the document's filename looks like this: `fountain.html`
 
 > A webpage is nothing but a text document which can be opened by web browsers.  
 > \_\_A simple & happy Mind
 
 And... we can create HTML documents using a simple text editor like
-[Notepad](https://en.wikipedia.org/wiki/Microsoft_Notepad).  
+[Notepad](https://en.wikipedia.org/wiki/Microsoft_Notepad "ext").  
 Let's create one:
 - Open your Notepad.
 - Put there some nice words.
@@ -54,7 +54,7 @@ Let's create one:
 That's it. You've created a webpage. And if you put this webpage somewhere on
 the internet that people can reach it, then you have your very first website.
 
-I've found [Github Pages](https://pages.github.com/) is totally free and excellent.
+I've found [Github Pages](https://pages.github.com/ "ext") is totally free and excellent.
 You can take a couple of minutes to take your simple website online then come
 back here to continue our tutorial. Go for it.
 
@@ -86,19 +86,21 @@ Let's change our simple webpage a little bit. We're gonna put there a `heading`,
 That is HTML!  
 We simply surround everything with couples of `tags` and web browsers can
 somehow understand
-[what](https://codenart.github.io{{ page.url }}#how-to-add-images-buttons-etc)
+[what](https://codenart.github.io{{ page.url }}#how-to-add-images-buttons-etc "int")
 we want them to present. You may notice that every `HTML tag` has its own name
 that describes the enclosed contents:
 
 - `button` is clearly to tell that we want a
-[button](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button)
+[button](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button "ext")
 to show up.
-- `p` stands for [paragraph](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p).
+- `p` stands for
+[paragraph](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p "ext").
 - `h1` means
-[heading level 1](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements).
+[heading level 1](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements "ext").
 
-And there are plenty of [HTML tags](https://developer.mozilla.org/en/docs/Web/HTML/Element)
-which help us to put anything on our website.
+And there are plenty of
+[HTML tags](https://developer.mozilla.org/en/docs/Web/HTML/Element "ext") which
+help us to put anything on our website.
 
 > Learning HTML is just about trying some new tags and refreshing web browser.  
 > \_\_A simple & happy Mind
@@ -109,24 +111,24 @@ But typing those angle brackets `<>` and repeated tags' name is a `boring` task.
 
 You know, we're living in a `magical` world. Great people keep sharing free and
 useful stuff to make life easier. I've found another free and excellent `thing`
-created by Github - the [Atom Code Editor](https://atom.io/):
+created by Github - the [Atom Code Editor](https://atom.io/ "ext"):
 
-1. One click to [download](https://atom.io/).
+1. One click to [download](https://atom.io/ "ext").
 2. Another one to install.
 3. Then we can write HTML like a `magician` (not a coder).
 
 > Free is beyond good.  
 > \_\_A simple & happy Mind
 
-Take a couple of minutes to get [Atom](https://atom.io/) installed on your
-computer then we will see `him` in action. The word [Atom](https://atom.io/)
+Take a couple of minutes to get [Atom](https://atom.io/ "ext") installed on your
+computer then we will see `him` in action. The word [Atom](https://atom.io/ "ext")
 means `actor`, doesn't it? :D
 
 Once you have Atom ready at your hand... there's another important `thing` need
 to be done before we go to the our next tutorial.  
-It's [Music](https://www.youtube.com/watch?v=eaw2Za2SUy4)!
+It's [Music](https://www.youtube.com/watch?v=eaw2Za2SUy4 "ext")!
 
-<div class="video">
+<div class="embed">
    <iframe width="560" height="315"
            src="https://www.youtube.com/embed/eaw2Za2SUy4"
            frameborder="0" allowfullscreen>

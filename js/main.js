@@ -11,7 +11,7 @@ $(document).ready(function() {
       $icon.toggleClass('fa-ellipsis-h')
            .toggleClass('fa-chevron-up');
    });
-});
+}); // document ready
 
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
@@ -25,7 +25,7 @@ $(document).ready(function() {
       event.preventDefault();
       $('html, body').animate({ scrollTop: readPosition }, 1000);
    });
-});
+}); // document ready
 
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
@@ -39,7 +39,7 @@ $(document).ready(function() {
       $icon.toggleClass('fa-list')
            .toggleClass('fa-chevron-right');
    });
-});
+}); // document ready
 
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
@@ -125,10 +125,39 @@ $(document).ready(function() {
 
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Content
+ */
+$(document).ready(function() {
+   const $links = $('.content').find('a');
+   const $extlinks = $links.filter('[title="ext"]');
+   const $intlinks = $links.filter('[title="int"]');
+   const $pinlinks = $links.filter('[title="pin"]');
+
+   $extlinks.attr({ 'target': '_blank' });
+
+   $intlinks.click(function(event) {
+      var linkurl = $(this).attr('href');
+          linkurl = (linkurl.indexOf('#') != -1) ? linkurl.split('#')[0] : linkurl;
+      var pageurl = window.location.href;
+          pageurl = (pageurl.indexOf('#') != -1) ? pageurl.split('#')[0] : pageurl;
+
+      if(linkurl == pageurl)
+         event.preventDefault();
+      else
+         console.log('I love Non-doing <3');
+   });
+
+   $pinlinks.click(function(event) {
+      event.preventDefault();
+   });
+}); // document ready
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  * Post
  */
 $(document).ready(function() {
-   $('#post').on('click', 'h2, h3', function (event) {
+   $('#post').on('click', 'h2, h3', function(event) {
       const id = $(this).attr('id');
       var url = document.location.href;
           url = url.replace(/^(.+:\/\/[^\/]+\/)(.+)$/i, 'https://codenart.github.io/$2');
@@ -140,7 +169,7 @@ $(document).ready(function() {
 
       try
          { document.execCommand('copy'); }
-      catch (err)
+      catch(err)
          { console.log(err); }
       finally
          { $tempinput.remove(); }

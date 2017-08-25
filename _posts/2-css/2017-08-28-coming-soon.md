@@ -5,11 +5,12 @@ script:
 
 category: css
 featured: bingo
+permalink: /beauty/
 
 title: Coming soon
 short: Coming soon
 description:
 keywords:
 
-date: 2017-07-30 05:05:00
+date: 2017-08-28 05:00:00
 ---

@@ -22,7 +22,7 @@
             {% for post in site.categories[category[id]] reversed %}
                {% assign count = count | plus: 1 %}
                <li><a class="nav-link text-primary" href="{{ post.url }}">
-                  {{ count }}. {{ post.short }} <span class="hidden">{{ post.category}} - {{ post.title }}</p>
+                  {{ count }}. {{ post.short }} <span class="hidden">{{ post.category}} - {{ post.title }} {{ post.keywords }}</span>
                </a></li>
             {% endfor %}
             </ol>
