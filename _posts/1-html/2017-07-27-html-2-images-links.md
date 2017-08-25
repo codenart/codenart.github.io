@@ -38,7 +38,6 @@ into the `src`.
 
 `Screenshot:`
 ![img tag](/images/html-2/trees.jpg)
-
 > Image - credit to [Psyperl](https://github.com/psyperl)
 
 We've used an image stored on

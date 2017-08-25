@@ -81,6 +81,7 @@ So, our HTML document should look like this:
 
 `Result:`
 ![credit to Psyperl](/images/html-4/atree.jpg)
+> Image - credit to [Psyperl](https://github.com/psyperl)
 
 Does it work?  
 No? :D  
