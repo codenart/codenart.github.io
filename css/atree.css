@@ -93,9 +93,15 @@ section > h2 {
    font-size: 1.6rem;
 }
 
-section > * {
-   white-space: nowrap;
+body {
    overflow: hidden;
+}
+
+#contact > h2,
+#contact > p, {
+   white-space: nowrap;
+
+   width: 402px;
 }
 
 body {
