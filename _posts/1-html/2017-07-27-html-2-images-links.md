@@ -15,7 +15,7 @@ keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding
 date: 2017-07-27 05:05:00
 ---
 
-[Atom](https://codenart.github.io/begin/#how-to-have-fun-doing-a-boring-task "int")
+[Atom](https://codenart.github.io/begin/#how-to-have-fun-doing-a-boring-task "ext")
 first. I love `magic` and Atom has it:
 
 - Open Atom.
@@ -46,11 +46,12 @@ account to upload and use your own image. After uploading an image, just `right
 click` on the image and choose `Copy Image Location` then paste into the `src`.
 
 > Free is always good.  
-> \_\_A <span id="simple">simple</span> & happy Mind
+> \_\_A simple & happy Mind
 
 `Screenshot:`
 ![postimage.org](/images/html-2/postimage.jpg)
 
+<span id="simple"></span>
 In case you don't want to store your image on another website, you can create a
 folder named something like `images` and put all image-files there. In the
 `src`, type `the folder's name` followed by a slash `/` and `image's filename`.
@@ -137,7 +138,7 @@ other websites?
 
 It's ~~not~~ `easy`. (I'm sorry. There's a typo here. :D)  
 Just do the same thing as we've done in examples about
-[img tag](htts://codenart.github.io{{ page.url }}#simple "int"):
+[img tag](#simple "int"):
 
 - Put all your webpages in the same place.
 - In the [href](https://www.w3schools.com/tags/att_a_href.asp), just point to
@@ -148,7 +149,7 @@ which document you want to link to.
 
 Do you wonder `what if` we want to creates a link to move to a specific part of
 the webpage like the
-[Start Reading ;](htts://codenart.github.io{{ page.url }}#display "int") button
+[Start Reading ;](#display "int") button
 on the top of my website?
 
 It's `not` not easy. (This is double negative in my English. Not a typo. :D)  

@@ -34,8 +34,9 @@ And here are commons container tags that you can choose to manage your webpage:
 You can have more than one navigation panel in your website as people commonly
 use these tag for top navigation panel, side navigation panel or document index.
 
-2| `<header></header>` -- This container tags are used to group introductory
-content. (Big heading and introduction paragraph, logo, branding stuff...)
+2| `<header></header>` -- This container tags are used to group
+[introductory content](https://www.w3schools.com/tags/tag_header.asp "ext").
+(Big heading and introduction paragraph, logo, branding stuff...)
 
 3| `<article></article>` -- Just an
 [article](https://www.w3schools.com/tags/tag_article.asp "ext").  
@@ -81,7 +82,7 @@ So, our HTML document should look like this:
 
 `Result:`
 ![credit to Psyperl](/images/html-4/atree.jpg)
-> Image - credit to [Psyperl](https://github.com/psyperl)
+> Background image - credit to [Psyperl](https://github.com/psyperl)
 
 Does it work?  
 No? :D  
@@ -120,16 +121,16 @@ And there will be more fun.
 
 Oh wait... It seems that there is no difference in the CSS learning process.
 It's still about typing something and refreshing web browser. And CSS is just
-another simplified version of English. There must be another reason for learning
-CSS...
+[another simplified version of English](https://codenart.github.io/css/atree.css "ext").
+There must be another reason for learning CSS...
 
 [Beauty!](https://www.youtube.com/watch?v=wTeRQ16O798 "ext") It's beauty!
 Creating beautiful stuff is our nature joy.  
-So, let's do CSS: [Re-introduce CSS](https://codenart.github.io/beauty/ "int").
+So, let's `do` CSS: [Re-introduce CSS](https://codenart.github.io/beauty/ "ext").
 
 Wait! There's another important thing I've to tell you about HTML. Just give me
 30 seconds more to finish this tutorial before we start our
-[first CSS tutorial](https://codenart.github.io/beauty/ "int").
+[first CSS tutorial](https://codenart.github.io/beauty/ "ext").
 
 ## The extreme containers
 
@@ -148,12 +149,12 @@ This is the basic HTML template and it is a standard for any HTML document.
 Our previous examples have worked well because all the modern web browsers have
 a smart feature which automatically apply this template and put all of our
 contents inside the
-[body](https://www.w3schools.com/tags/tag_body.asp "ext") container.
+[body container](https://www.w3schools.com/tags/tag_body.asp "ext").
 
-The [head](https://www.w3schools.com/tags/tag_head.asp "ext") container is used
-to group some HTML elements that provide related information about our webpage
-to search engines (Google, Bing, ...). Those elements will not be display on our
-webpages but they silently benefit your website.
+The [head container](https://www.w3schools.com/tags/tag_head.asp "ext") is used
+to group some HTML elements that provide related information about our webpages
+to web browsers. Those elements will not be display on your webpages but they
+silently benefit us.
 
 The `<link>` element which we used in the previous section, is normally placed
 inside the `<head>` container.
@@ -165,11 +166,11 @@ document.
 The `<html>` container is the root container of the document. Something like a
 `<div>`. It's just that.
 
-And `<!DOCTYPE html>` is not an element, it tell web browsers that `this
-document is an HTML document`. You don't need to know details about this tag
-because we only need it to stay `there`. Its story is about history of
-[Markup Languages](https://en.wikipedia.org/wiki/Markup_language "ext"). It's better
-to just leave the history at top of our HTML documents.
+And `<!DOCTYPE html>`, it tell web browsers that `this document is an HTML
+document`. We don't need to explore details about this tag because we only
+need it to stay `there`. Its story is about history of
+[Markup Languages](https://en.wikipedia.org/wiki/Markup_language "ext").
+It's better to just leave the history at top of our HTML documents.
 
 Our tutorial about HTML containers has finished! It's time for ~~css~~
 [Music](https://www.youtube.com/watch?v=n-BXNXvTvV4 "ext")!
@@ -183,6 +184,6 @@ Our tutorial about HTML containers has finished! It's time for ~~css~~
 
 > Mother Earth is so generous. If only we give her the chance, she will restore
 > everything in absolute abundance and beauty.  
-> \_\_Sadhguru Wisdom
+> \_\_Sadhguru's wisdom
 
-[Start learing CSS here!](https://codenart.github.io/beauty/ "int").
+[Start learing CSS here!](https://codenart.github.io/beauty/).

@@ -135,15 +135,11 @@ $(document).ready(function() {
    $extlinks.attr({ 'target': '_blank' });
 
    $intlinks.click(function(event) {
-      var linkurl = $(this).attr('href');
-          linkurl = (linkurl.indexOf('#') != -1) ? linkurl.split('#')[0] : linkurl;
-      var pageurl = window.location.href;
-          pageurl = (pageurl.indexOf('#') != -1) ? pageurl.split('#')[0] : pageurl;
+      const id = $(this).attr('href');
+      const readPosition = $(id).offset().top - 90;
 
-      if(linkurl == pageurl)
-         event.preventDefault();
-      else
-         console.log('I love non-doing <3');
+      event.preventDefault();
+      $('html, body').animate({ scrollTop: readPosition }, 1000);
    });
 }); // document ready
 

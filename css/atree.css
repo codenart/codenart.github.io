@@ -47,6 +47,10 @@ nav > a:first-child {
    left: 9px;
 }
 
+body {
+   overflow: hidden;
+}
+
 main {
    height: 100%;
 
@@ -87,6 +91,11 @@ section:target {
 section > h1,
 section > h2 {
    font-size: 1.6rem;
+}
+
+section > * {
+   white-space: nowrap;
+   overflow: hidden;
 }
 
 body {

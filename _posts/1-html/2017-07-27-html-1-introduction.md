@@ -34,7 +34,7 @@ It's pretty much like how a `file` named something like `fountain.docx` can be
 opened by [Microsoft Word](https://en.wikipedia.org/wiki/Microsoft_Word "ext")
 or [LibreOffice Writer](https://en.wikipedia.org/wiki/LibreOffice_Writer "ext").
 There's a specific type of document which is preferred by
-[Web Browsers](https://codenart.github.io{{ page.url }}#how-to-create-a-webpage "int")
+[Web Browsers](#how-to-create-a-webpage "int")
 called `HTML document` and the document's filename looks like this: `fountain.html`
 
 > A webpage is nothing but a text document which can be opened by web browsers.  
@@ -56,16 +56,17 @@ the internet that people can reach it, then you have your very first website.
 
 I've found [Github Pages](https://pages.github.com/ "ext") is totally free and excellent.
 You can take a couple of minutes to take your simple website online then come
-back here to continue our tutorial. Go for it.
+back here to continue our tutorial.  
+Go for it.
 
 > Free is good.  
 > \_\_A simple & happy Mind
 
 ## How to add images, buttons, etc...?
 
-As you see that web browsers are excellent presenters. We can tell them to show any
-kind of contents. But, in order to talk to them, we have to speak their language.
-They speak HTML, a simple and easy-to-learn language.
+As you see that web browsers are excellent presenters. We can tell them to show
+any kind of contents. But, in order to talk to them, we have to speak their
+language. They speak HTML, a simple and easy-to-learn language.
 
 > HTML is a simplified version of English.  
 > \_\_A simple & happy Mind
@@ -86,7 +87,7 @@ Let's change our simple webpage a little bit. We're gonna put there a `heading`,
 That is HTML!  
 We simply surround everything with couples of `tags` and web browsers can
 somehow understand
-[what](https://codenart.github.io{{ page.url }}#how-to-add-images-buttons-etc "int")
+[what](#how-to-add-images-buttons-etc "int")
 we want them to present. You may notice that every `HTML tag` has its own name
 that describes the enclosed contents:
 
