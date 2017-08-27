@@ -23,7 +23,7 @@ $(document).ready(function() {
 
    $button.click(function(event) {
       event.preventDefault();
-      $('html, body').animate({ scrollTop: readPosition }, 1000);
+      $('html, body').animate({ scrollTop: readPosition }, 900);
    });
 }); // document ready
 
@@ -139,7 +139,7 @@ $(document).ready(function() {
       const readPosition = $(id).offset().top - 90;
 
       event.preventDefault();
-      $('html, body').animate({ scrollTop: readPosition }, 1000);
+      $('html, body').animate({ scrollTop: readPosition }, 900);
    });
 }); // document ready
 
@@ -165,4 +165,21 @@ $(document).ready(function() {
       finally
          { $tempinput.remove(); }
    });
+}); // document ready
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Post-Shared
+ */
+$(document).ready(function() {
+   const url = window.location.href;
+   const id = '#' + url.split('#')[1];
+   var readPosition = null;
+
+   if(id != '#' && id != '#undefined')
+      readPosition = $(id).offset().top - 89;
+   else
+      readPosition = 0;
+
+   $('html, body').animate({ scrollTop: readPosition }, 0);
 }); // document ready

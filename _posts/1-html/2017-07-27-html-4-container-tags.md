@@ -90,8 +90,8 @@ I'm sorry. That was my bad. :D
 I've not told you something about container tags. They are simply used to group
 other HTML elements and produce no effect on the output.
 
-Let's add this line of code right before the `<nav>`, save file and refresh your
-web browser again:
+Add this line of code to the top of your HTML document (before the `<nav>`),
+save file and refresh your web browser again:
 
 `<link rel="stylesheet" href="https://codenart.github.io/css/atree.css">`
 
@@ -119,23 +119,21 @@ There's no more fun.
 Learning CSS is different. We'll try some CSS code and refresh web browsers.  
 And there will be more fun.
 
-Oh wait... It seems that there is no difference in the CSS learning process.
-It's still about typing something and refreshing web browser. And CSS is just
+Oh wait... It seems that there is no difference in the CSS learning process. :D  
+But I assure you that learning CSS is much more fun.
+
+CSS is just
 [another simplified version of English](https://codenart.github.io/css/atree.css "ext").
-There must be another reason for learning CSS...
+It's very easy to learn. So, let's start our
+[CSS tutorials](https://codenart.github.io/beauty/ "ext").
 
-[Beauty!](https://www.youtube.com/watch?v=wTeRQ16O798 "ext") It's beauty!
-Creating beautiful stuff is our nature joy.  
-So, let's `do` CSS: [Re-introduce CSS](https://codenart.github.io/beauty/ "ext").
-
-Wait! There's another important thing I've to tell you about HTML. Just give me
-30 seconds more to finish this tutorial before we start our
+Wait! There's another important thing I've to tell you about HTML containers.
+Just give me 30 seconds more to finish this tutorial before we start our
 [first CSS tutorial](https://codenart.github.io/beauty/ "ext").
 
 ## The extreme containers
 
-Yes. There are some special HTML containers that I've not told you in the first
-section.  
+Yes. There are some special HTML containers that I've not told you in the first section.  
 Just do this:
 
 - Create a new HTML document.
@@ -159,9 +157,12 @@ silently benefit us.
 The `<link>` element which we used in the previous section, is normally placed
 inside the `<head>` container.
 
-As you see that there is a `<meta>` tag. This element will allow us to used
+As you see that there is a `<meta>` tag. This element will allow us to use
 [Unicode](https://en.wikipedia.org/wiki/Unicode "ext") characters in our HTML
 document.
+
+The next one is a couple of `title` tags, they help us to name the webpage and
+display this name at top of web browsers (tab bar).
 
 The `<html>` container is the root container of the document. Something like a
 `<div>`. It's just that.
@@ -186,4 +187,4 @@ Our tutorial about HTML containers has finished! It's time for ~~css~~
 > everything in absolute abundance and beauty.  
 > \_\_Sadhguru's wisdom
 
-[Start learing CSS here!](https://codenart.github.io/beauty/).
+[Start learning CSS here!](https://codenart.github.io/beauty/).

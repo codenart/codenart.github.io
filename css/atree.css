@@ -41,10 +41,8 @@ nav > a {
 
 nav > a:first-child {
    font-weight: bold;
-
-   position: absolute;
-   top: 0;
-   left: 9px;
+   margin-left: 9px;
+   margin-right: auto;
 }
 
 body {
