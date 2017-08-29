@@ -110,8 +110,8 @@ help from [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS "ext").
 
 As you've already known the most common HTML tags, this is a perfect time to
 learn CSS. My HTML tutorials will be continued but I recommend you to use them
-as references. You don't need to read them all at the time. Cause it's `boring`.
-I promise. :D
+as references (use my site's search box when you need to know something). You
+don't need to read them all at the time. Because it's `boring`. I promise. :D
 
 Learning HTML is just that. Trying some HTML tags and refreshing web browsers.  
 There's no more fun.

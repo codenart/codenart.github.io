@@ -9,24 +9,25 @@ permalink: /beauty/
 
 title: What is CSS? Why do we need it?
 short: Getting Started
-description: Just like HTML, CSS is another simplified version of English. <br>CSS help us to make our websites look nicer. <br>Learning CSS is so much fun.
+description: Just like HTML, CSS is another simplified version of English. <br>CSS help us to make our websites look nicer. <br>Learning CSS is so much fun. :D
 keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, css, intro
 
 date: 2017-08-24 05:00:00
 ---
 
-We all know that [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML "ext")
-is a simplified version of English. It helps us to tell web browsers. With HTML,
-we can tell web browsers to display any type of contents (links, images, buttons,
-...). But none of HTML tags can help us to tell web browsers how to display
-those content aesthetically.
+We all know that
+[HTML](https://codenart.github.io/begin/#how-to-add-images-buttons-etc "ext") is
+a simplified version of English. It helps us to tell web browsers. With HTML, we
+can tell web browsers to display any type of contents (links, images, buttons,
+etc...). But none of HTML tags can help us to tell web browsers how to display those
+content aesthetically.
 
-There is no disappointment in this story. HTML is too simple both to learn and
-to use. That's why it cannot help us to fulfill too many purposes. Everything
-has its own use and limit. Fire can give life and knowledge but we also need
-healing and wisdom from Water. And
+There is no disappointment in this truth. HTML is too simple both to learn and
+to use. That's why it cannot help us to fulfill too many purposes. Everything has
+its own use and limit. Fire can give life and knowledge but we also need healing
+and wisdom from Water. And
 [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS "ext") is there to
-complete HTML.
+embrace HTML. <i class="fa fa-heart"></i>
 
 Ok. Fair enough. :D  
 This is a shorter introduction to CSS:
@@ -35,15 +36,16 @@ This is a shorter introduction to CSS:
 - CSS helps us to make our webpages look nicer.
 - Learning CSS is easy and so much much much fun. :D :D :D
 
-`only HTML:`
+`Only HTML:`
 ![a webpage's look without css](/images/css-1/alife.jpg)
 
 `HTML plus CSS:`
 ![a webpage's look with css help](/images/html-4/atree.jpg)
+> Background image - credit to [Psyperl](https://github.com/psyperl)
 
-I'm not trying to say that the second pic looks nicer than the first one. Cause
-I don't have good sense of using color and design stuff. But I assure you that
-CSS can help you to make your webpages look nicer and more lively than black
+I'm not trying to say that the second screenshot looks nicer than the first one.
+Cause I don't have good sense of using color and design stuff. But I assure you
+that CSS can help you to make your webpages look nicer and more lively than black
 and white text documents.
 
 > Without HTML, there is no website.  
@@ -51,8 +53,6 @@ and white text documents.
 > \_\_A simple and happy mind
 
 ## How does CSS code look like?
-
-Here is a sample CSS code snippet:
 
 `Sample code:`
 <script src="https://gist.github.com/codenart/4b52fbda1a1252823a9dc32cacfef883.js"></script>
@@ -63,14 +63,14 @@ Let me explain a little bit about the sample CSS code above:
 
 - There are 3 blocks of CSS code in the example. Each block has a couple of curly
 brackets `{ }` to group something. :D
-- Right before each `{ }` is a `selector`. Selectors helps you to select only the
-HTML elements that you want to make change.
+- Right before each `{ }` is a `selector`. Selectors helps us to select only the
+HTML elements that we want to make change.
 - Inside each `{ }` is one or more CSS rules which tell web browsers how to
-display the selected HTML elements. In the example above: white text,
-background color is crimson, size of letters.
+display the selected HTML elements. In the example above: white text, background
+color is crimson, size of letters.
 - Each CSS rule ends with a semi-colon `;` and has 2 parts separated by a colon `:`
-- The left part is a `property` that you want to make change to the selected elements.
-- The right part is a `value` that you want to apply to the property.
+- The left part is a `property` of the selected elements which we want to make change.
+- The right part is a `value` which we want to apply to the property.
 
 > Learning CSS is just about playing around with Selectors, Properties and Values.  
 > \_\_A simple and happy mind
@@ -102,8 +102,8 @@ We're gonna create a simple message with white text and red background:
 `Result:`
 ![simple](/images/css-1/simple.jpg)
 
-I believe that you've found CSS code is so easy to understand. There's no tricky
-stuff here. CSS is just that simple. Are you ready to learn more about Selectors,
+I believe that you've found CSS is so easy to understand. There's no tricky stuff
+here. CSS is just that simple. Are you ready to learn more about CSS Selectors,
 Properties and Values?
 
 Our first CSS tutorial has finished. It's time for
@@ -115,3 +115,7 @@ Our first CSS tutorial has finished. It's time for
            frameborder="0" allowfullscreen>
    </iframe>
 </div>
+
+> Don't hurry. Life is only available at this moment.  
+> Wish you peace and love, my buddy. <i class="fa fa-heart"></i>  
+> \_\_A simple and happy mind

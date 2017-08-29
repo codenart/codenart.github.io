@@ -54,9 +54,9 @@ Let's create one:
 That's it. You've created a webpage. And if you put this webpage somewhere on
 the internet that people can reach it, then you have your very first website.
 
-I've found [Github Pages](https://pages.github.com/ "ext") is totally free and excellent.
-You can take a couple of minutes to take your simple website online then come
-back here to continue our tutorial.  
+I've found [Github Pages](https://pages.github.com/ "ext") is totally free and
+excellent. You can take a couple of minutes to take your simple website online
+then come back here to continue our tutorial.  
 Go for it.
 
 > Free is good.  
@@ -71,8 +71,8 @@ language. They speak HTML, a simple and easy-to-learn language.
 > HTML is a simplified version of English.  
 > \_\_A simple & happy Mind
 
-Let's change our simple webpage a little bit. We're gonna put there a `heading`, a
-`paragraph` and a `button`:
+Let's change our simple webpage a little bit. We're gonna put there a `heading`,
+a `paragraph` and a `button`:
 
 - Copy/Paste the ancient text below into your HTML document.
 - Save file again.
@@ -85,11 +85,9 @@ Let's change our simple webpage a little bit. We're gonna put there a `heading`,
 ![html document using tags](/images/html-1/hope.jpg)
 
 That is HTML!  
-We simply surround everything with couples of `tags` and web browsers can
-somehow understand
-[what](#how-to-add-images-buttons-etc "int")
-we want them to present. You may notice that every `HTML tag` has its own name
-that describes the enclosed contents:
+We simply surround everything with couples of `tags` and web browsers can somehow
+understand [what](#how-to-add-images-buttons-etc "int") we want them to present.
+You may notice that every `HTML tag` has its own name that describes the enclosed contents:
 
 - `button` is clearly to tell that we want a
 [button](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button "ext")

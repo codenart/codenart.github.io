@@ -142,6 +142,10 @@ a.bg-primary:hover {
    background-color: #0073e6 !important;
 }
 
+.fa-heart {
+   color: #ff0000;
+}
+
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  * Content
@@ -324,11 +328,11 @@ body {
 
 #topnav .navbar-nav a:hover {
    color: #ffffff !important;
-   background-color: transparent;
+   background-color: #242e38;
 }
 
 #topnav .navbar-nav a:focus {
-   background-color: transparent;
+   background-color: #242e38;
 }
 
 #topnav .navbar-nav a.begin {
@@ -564,7 +568,7 @@ body {
 #sidenav .nav a:hover {
    text-decoration: none;
 
-   background-color: transparent;
+   background-color: #ffffff;
 }
 
 #sidenav .nav-heading {

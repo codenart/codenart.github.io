@@ -19,7 +19,7 @@ $(document).ready(function() {
  */
 $(document).ready(function() {
    const $button = $('#display').find('a[href="#main"]');
-   const readPosition = $('#main').offset().top - 39;
+   const readPosition = $('#main').offset().top - 36;
 
    $button.click(function(event) {
       event.preventDefault();
@@ -177,7 +177,7 @@ $(document).ready(function() {
    var readPosition = null;
 
    if(id != '#' && id != '#undefined')
-      readPosition = $(id).offset().top - 89;
+      readPosition = $(id).offset().top - 84;
    else
       readPosition = 0;
 

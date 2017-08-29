@@ -3,7 +3,7 @@ layout: post
 style:
 script:
 
-category: jekyll
+category: simpleapps
 featured: bingo
 
 title: Coming soon

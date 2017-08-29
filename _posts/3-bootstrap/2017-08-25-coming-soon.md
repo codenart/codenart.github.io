@@ -5,6 +5,7 @@ script:
 
 category: bootstrap
 featured: bingo
+permalink:
 
 title: Coming soon
 short: Coming soon

@@ -147,6 +147,7 @@ which document you want to link to.
 `Screenshot:`
 ![link to local webpage](/images/html-2/link.jpg)
 
+<span id="id"></span>
 Do you wonder `what if` we want to creates a link to move to a specific part of
 the webpage like the
 [Start Reading ;](#display "int") button
@@ -155,7 +156,7 @@ on the top of my website?
 It's `not` not easy. (This is double negative in my English. Not a typo. :D)  
 There is an HTML attribute called
 [id](https://www.w3schools.com/tags/att_id.asp "ext"). You can use it to give
-any HTML element an `identity`, then use
+any HTML element an `unique identity`, then use
 [the id](https://www.w3schools.com/tags/att_id.asp "ext") as an `url` (forwarded
 by a hash `#`).
 

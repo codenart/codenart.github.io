@@ -5,6 +5,7 @@ script:
 
 category: jquery
 featured: bingo
+permalink:
 
 title: Coming soon
 short: Coming soon
