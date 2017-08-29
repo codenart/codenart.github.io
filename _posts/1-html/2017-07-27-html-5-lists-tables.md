@@ -7,7 +7,7 @@ category: html
 featured:
 permalink:
 
-title: Lists & Tables
+title: 
 short: Lists & Tables
 description:
 keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, ordered, unordered, list, table
