@@ -106,14 +106,15 @@ We've finished talking about color-Values in CSS. The next common Value-type is
 `Length`. Length-Values are used in various CSS Properties to specify size of
 text and containers.
 
-## How to specify lengths in CSS?
+## How to specify Lengths in CSS?
 
 In daily life, we use numbers and units to specify lengths (3`cm`, 9`inch`,
-etc...). In CSS, we do it the same way.
+etc...).  
+In CSS, we do it the same way.
 
 In the previous tutorials, we've specified values to use with `font-size` for
 some elements in [pixel](https://en.wikipedia.org/wiki/Pixel "ext"). It is the
-most simple way to specify lengths in CSS. It's called `using static units`.
+most simple way to specify lengths in CSS. It's called using `static values`.
 
 Let's write some CSS code that use Length-Values.  
 We're gonna create some colored blocks which have different sizes.
@@ -127,10 +128,13 @@ We're gonna create some colored blocks which have different sizes.
 `Result:`
 ![dimension](/images/css-3/dimension.jpg)
 
-You may notice that when you resize your web browser window, those block
-maintains their specified widths. If you want to create a responsive website,
-you will need to make everything `flexible`. You may sometimes want those blocks
-automatically change their widths to fit in multiple screen sizes.
+## Specify lengths using dynamic values
+
+In the example above, you may notice that when you resize your web browser
+window, those block maintains their specified widths. If you want to create a
+responsive website, you will need to make everything `flexible`. You may
+sometimes want those blocks automatically change their widths to fit in multiple
+screen sizes.
 
 There are various length-Units in CSS which can help us to specify Lengths and
 make HTML elements responsive. The most popular one is `%`.
@@ -145,7 +149,7 @@ Here is a reference link for Length-Units in CSS:
 [CSS Units](https://www.w3schools.com/cssref/css_units.asp "ext").
 
 Our tutorial about
-[Colors & Lengths](http://codenart.github.io/css/2017/08/24/css-3-colors-lengths.html "ext")
+[Colors & Lengths](http://codenart.github.io{{ page.url }} "ext")
 has finished! From the next tutorial we will learn about CSS Properties and
 create some simple stuff. :D
 

@@ -94,3 +94,40 @@ by columns and rows. And here are reference links to the attributes:
 
 - [colspan attribute](https://www.w3schools.com/tags/att_colspan.asp "ext")
 - [rowspan attribute](https://www.w3schools.com/tags/att_rowspan.asp "ext")
+
+## Comments
+
+In the previous example, there is a line of code which does not appear in the result:  
+`<!-- The row above is for headings -->`
+
+This line is used for explanation in HTML document (code view) without affecting
+the result on webpage view. It is called a `comment`.
+
+A comment in HTML is created using an opening tag `<!--` and a ending tag `-->`
+
+Another benefit of using comments is to temporarily cancel a blocks of code
+without deleting or moving your code to a temporary place.
+
+`Sample code:`
+<script src="https://gist.github.com/codenart/585351dc0921ef2bdd9363b5bb9455ab.js"></script>
+
+`Result:`
+<table class="table">
+   <tr>
+      <th>Name</th>
+      <th>Age</th>
+      <th>Place</th>
+   </tr>
+
+   <tr>
+      <td>Methuselah</td>
+      <td>4,800</td>
+      <td>California</td>
+   </tr>
+
+   <tr>
+      <td>Senator</td>
+      <td>3,500</td>
+      <td>Florida</td>
+   </tr>
+</table>

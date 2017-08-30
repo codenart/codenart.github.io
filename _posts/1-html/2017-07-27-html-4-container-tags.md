@@ -18,7 +18,7 @@ date: 2017-07-27 05:15:00
 > A container is something that contains something.  
 > \_\_A simple and happy mind
 
-So... everything in an HTML document is container.  
+So... everything in an HTML document is a container.  
 `<p></p>` may contains other elements like links and images.  
 `<a></a>` can do the same thing.  
 
@@ -27,7 +27,7 @@ which do not describe specific content type like text or image. They are commonl
 used to group other HTML elements into components like `navigation bar`, `main
 content area`, `footer`, ...
 
-And here are commons container tags that you can choose to manage your webpage:
+And here are common container tags that you can choose to manage your webpage:
 
 1| `<nav></nav>` -- This container tags are used to group
 [navigation links](https://www.w3schools.com/tags/tag_nav.asp "ext").  
