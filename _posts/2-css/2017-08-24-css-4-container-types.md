@@ -31,12 +31,14 @@ This container-type can be sized by sizing properties.
 Ex: headings, paragraphs, div, nav, etc...
 
 `inline` containers won't take space, they keep their size as small as possible
-(just wrapping around the content inside).  
+(just wrapping around the content inside). Web browsers treat the containers as
+texts (words).  
 This container-type can NOT be sized.  
 Ex: links, span, etc...
 
-`inline-block` containers have the default look like `inline` containers.  
-But they can be sized as `block` containers.  
+`inline-block` containers are special. Web browsers treat them as `inline`
+containers.  
+But they can also be sized as `block` containers at once.  
 Ex: buttons, images, etc...
 
 ## Changing Type of a container
@@ -47,10 +49,10 @@ sized up a little bit to make sure that the visitor don't have to tap few times
 to hit the link.
 
 There is a CSS property called `display` which can help us to change the type of
-the container. Let's make some `buttons` using an `anchor element`. :D  
+the container. Let's make some `buttons` using an `anchor elements`. :D  
 
 Actually, HTML elements come with default looks but you can use CSS to change
-everything. You can make a heading look like a normal paragraph. You can make
+everything. You can make a normal paragraph look like a heading. You can make
 this look like that. And here we're gonna make some links look like buttons. :D
 
 `HTML code:`
@@ -63,11 +65,14 @@ this look like that. And here we're gonna make some links look like buttons. :D
 ![which is which](/images/css-4/which.jpg)
 
 Beside 3 common values `block`, `inline` and `inline-block`; The `display`
-property can use with various values which are useful in some cases. As usual,
-I prefer keep things simple. We don't need to use everything to create a nice website.
+property can use with various values which are useful in some ways. Some new
+values like `flex` are great for up-to-date web browsers. Here is the reference
+link in case you want to go further:
+[CSS display](https://www.w3schools.com/cssref/pr_class_display.asp "ext").
 
-Here is also reference link if you want to go further:
-[CSS display](https://www.w3schools.com/cssref/pr_class_display.asp "ext")
+As usual, I prefer keep things simple. You can use these 3 common values to
+create a nice website without any limitation. You can save the reference link
+for future learning. We still have so many common and important things to learn.
 
 Our tutorial about [Container Types](https://codenart.github.io{{ page.url }})
 has finished. In the next tutorial, we're gonna talk about
