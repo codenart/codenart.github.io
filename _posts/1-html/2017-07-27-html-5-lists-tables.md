@@ -7,10 +7,90 @@ category: html
 featured:
 permalink:
 
-title: 
+title: Creating Lists and Tables
 short: Lists & Tables
-description:
+description: As you've got more familiar with HTML, we're gonna go fast in this tutorial. <br>Lists and Tables are popular way to represent content. <br>Let's talk about them using HTML.
 keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, ordered, unordered, list, table
 
 date: 2017-07-27 05:20:00
 ---
+
+There are 3 types of Lists in HTML:
+
+- `unordered` list
+- `ordered` list
+- `definition` list
+
+The last one is very rarely used. So we only need to take care of the first two.
+
+## Unordered Lists
+
+To create an `u`nordered `l`ist, we firstly need to create a container using
+`<ul></ul>` tags.  
+The second step is specifying `l`ist `i`tems using `<li></li>` tags.
+
+`Sample code:`
+<script src="https://gist.github.com/codenart/27549a909e71ffd70d9b8a98e0a9b6b5.js"></script>
+
+`Result:`
+
+- Strawberry
+- Watermelon
+- Blueberry
+
+## Ordered Lists
+
+Creating an `o`rdered `l`ist is almost the same as creating an unordered one.
+
+`Sample code:`
+<script src="https://gist.github.com/codenart/1babf924dd1c4ded2bbcdf5bb95c80bc.js"></script>
+
+`Result:`
+1. Strawberry
+2. Watermelon
+3. Blueberry
+
+## Tables
+
+A table in HTML is created row by row. Here are steps to create a table:
+
+- Create `table` container: `<table></table>`
+- Create `t`able `r`ow(s) using one or more: `<tr></tr>`
+- In side each row, add `t`able `d`ata cell(s) using one or more: `<td></td>`
+- For the cells you want to use as row headings or column headings, use `th` instead of `td`
+
+`Sample code:`
+<script src="https://gist.github.com/codenart/7b49f6a66484ebcba0ce71f8496e44a3.js"></script>
+
+`Result:`
+<table class="table">
+   <tr>
+      <th>Name</th>
+      <th>Age</th>
+      <th>Place</th>
+   </tr>
+
+   <tr>
+      <td>Methuselah</td>
+      <td>4,800</td>
+      <td>California</td>
+   </tr>
+
+   <tr>
+      <td>Senator</td>
+      <td>3,500</td>
+      <td>Florida</td>
+   </tr>
+
+   <tr>
+      <td>Sarv-e Abarqu</td>
+      <td>4,000</td>
+      <td>Iran</td>
+   </tr>
+</table>
+
+There are also attributes which are used with `<td>` or `<th>` to expand cells
+by columns and rows. And here are reference links to the attributes:
+
+- [colspan attribute](https://www.w3schools.com/tags/att_colspan.asp "ext")
+- [rowspan attribute](https://www.w3schools.com/tags/att_rowspan.asp "ext")

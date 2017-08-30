@@ -146,15 +146,14 @@ Here is a reference link for Length-Units in CSS:
 
 Our tutorial about
 [Colors & Lengths](http://codenart.github.io/css/2017/08/24/css-3-colors-lengths.html "ext")
-has finished. It's time for ~~music~~
-[Magic](https://www.youtube.com/watch?v=fhGtA75r4jw "ext")!
+has finished! From the next tutorial we will learn about CSS Properties and
+create some simple stuff. :D
+
+It's time for ~~music~~ [Magic](https://www.youtube.com/watch?v=PZ595N9NZVg "ext")!
 
 <div class="embed">
    <iframe width="560" height="315"
-           src="https://www.youtube.com/embed/fhGtA75r4jw?ecver=1"
+           src="https://www.youtube.com/embed/PZ595N9NZVg"
            frameborder="0" allowfullscreen>
    </iframe>
 </div>
-
-From the next tutorial we will learn about CSS Properties and create some simple
-stuff. :D
