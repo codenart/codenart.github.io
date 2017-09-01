@@ -7,18 +7,18 @@ category: css
 featured:
 permalink:
 
-title: Not every container can be sized
+title: Common container-Types in CSS
 short: Container Types
-description: We've known that every HTML elements is a container that hold some content. <br>We've also sized some elements in the previous tutorial. <br>It's time to know more about containers.
+description: We've known that every HTML element is a container that hold some content. <br>We've also set size of some elements in the previous tutorial. <br>Let's talk a little more about containers.
 keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, css, display, property
 
 date: 2017-08-24 05:15:00
 ---
 
-In the previous tutorial, we've sized some `div` containers using `width` and
-`height` properties. But if you try to do the same thing with an element created
-by `<a></a>` tags, you will see that It just doesn't work. It's the containers'
-Types cause the difference.
+In the previous tutorial, we've set size of some `div` containers using `width`
+and `height` properties. But if you try to do the same thing with an element
+created by `<a></a>` tags, you will see that It just doesn't work. It's the
+containers' Types cause the difference.
 
 There are 3 common container-Types:
 
@@ -27,26 +27,26 @@ There are 3 common container-Types:
 - `inline-block` containers
 
 `block` containers take 100% width of parent containers by default.  
-This container-type can be sized by sizing properties.  
+This container-type can be set size of by Sizing Properties.  
 Ex: headings, paragraphs, div, nav, etc...
 
 `inline` containers won't take space, they keep their size as small as possible
 (just wrapping around the content inside). Web browsers treat the containers as
 texts (words).  
-This container-type can NOT be sized.  
+This container-type can NOT be set size of.  
 Ex: links, span, etc...
 
 `inline-block` containers are special. Web browsers treat them as `inline`
 containers.  
-But they can also be sized as `block` containers at once.  
+But they can also be set size of as `block` containers at once.  
 Ex: buttons, images, etc...
 
 ## Changing Type of a container
 
 Sometimes we want to help visitors to have better experience using our websites.
 If they use mobile devices and want to tap a link, the anchor element should be
-sized up a little bit to make sure that the visitor don't have to tap few times
-to hit the link.
+a little bit bigger than default to make sure that the visitor don't have to tap
+few times to hit the link.
 
 There is a CSS property called `display` which can help us to change the type of
 the container. Let's make some `buttons` using an `anchor elements`. :D  
@@ -76,4 +76,4 @@ for future learning. We still have so many common and important things to learn.
 
 Our tutorial about [Container Types](https://codenart.github.io{{ page.url }})
 has finished. In the next tutorial, we're gonna talk about
-[Sizing Properties](https://codenart.github.io{{ page.next.url }}).
+[Positioning Properties](https://codenart.github.io{{ page.next.url }}).
