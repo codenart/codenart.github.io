@@ -84,12 +84,15 @@ to appear right below the third button (which is yellow).
 
 This is how the sample code above work:
 
-- Web browsers will assume that there is a `base element` which have the `same
-size` with the button and stay at the button's `default position`
-- The rule `top: 60px` is used to specify the distance between the top edge of
-the button and the top edge of the base element
-- The rule `left: 154px` is used to specify the distance between the left edge
-of the button and the left edge of the base element
+- Web browsers will assume that there is a `base element`  
+which have the `same size` with the button  
+and stay at the button's `default position`
+- The rule `top: 60px` is used to specify the distance between   
+the `top edge of the button`  
+and the `top edge of the base element`
+- The rule `left: 154px` is used to specify the distance between  
+the `left edge of the button`  
+and the `left edge of the base element`
 
 ## Using position: absolute;
 
@@ -99,8 +102,8 @@ Conditionally, the parent container's position must not be `static`.
 
 We're gonna make a simple use of the `absolute` value by sketching a product
 card which has a small sale-off tag.  
-It's just a sketch and have no product's information. We're gonna make the card
-`blue` and the sale-off tag `red`.
+It's just a sketch and have no product's information. So, we're gonna make the
+card `blue` and the sale-off tag `red`.
 
 `HTML code:`
 <script src="https://gist.github.com/codenart/87a51fa031ae939031847c8ec28080fc.js"></script>
@@ -141,16 +144,16 @@ if the navigation bar is pinned and always visible.
 ## Comment in CSS
 
 In the 2 previous examples, you've noticed there some comment lines written in
-CSS file.
+CSS file which is not `code`.
 
-We can put some words to describe our code by using a pair of `/*` and `*/` to
-enclose a comment.
+We can write note in our code snippet by using a pair of `/*` and `*/` to
+enclose a `/* comment */`.
 
-We can also use comment to quickly cancel some CSS code block without deleting
+We can also use comments to quickly cancel some CSS code blocks without deleting
 or moving them to another temporary place.
 
 Our tutorial about
 [Positioning Properties](https://codenart.github.io{{ page.url }} "ext")
 has finished. In the next tutorial, we'll talk about
-[Spacing Properties](https://codenart.github.io{{ page.next.url }} "ext")
+[Styling Text](https://codenart.github.io{{ page.next.url }} "ext")
 and create a `real` navigation bar. Just a simple one. :D

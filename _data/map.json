@@ -19,6 +19,12 @@
 		},
 
       {
+         "id"    : "jekyll",
+         "url"   : "/jekyll/",
+         "title" : "Jekyll"
+		},
+
+      {
          "id"    : "javascript",
          "url"   : "/javascript/",
          "title" : "JavaScript"
@@ -31,9 +37,9 @@
 		},
 
       {
-         "id"    : "simpleapps",
-         "url"   : "/simpleapps/",
-         "title" : "SimpleApps"
+         "id"    : "sample",
+         "url"   : "/sample/",
+         "title" : "Sample"
 		}
 	]
 }

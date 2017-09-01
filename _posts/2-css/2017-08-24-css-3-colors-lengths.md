@@ -54,14 +54,6 @@ when we look into CSS code. But, they're more precise and flexible. Using
 about the `most popular` way: Using
 [HEX values](https://www.w3schools.com/colors/colors_hexadecimal.asp "ext").
 
-Let's assume that you are creating a website to give useful information to help
-other people and you don't want to miss anyone. There are many people around the
-world who are using
-[Internet Explorer version 8](https://en.wikipedia.org/wiki/Internet_Explorer "ext")
-and older technology web browsers. Fortunately, HEX values are precise and
-supported by all web browsers at the moment. That's why it's the most popular
-option to specify colors in CSS.
-
 You can use your favorite image editor to pick colors and get their HEX values
 to use in CSS code.
 There are also online tools which can help you to do the task:
@@ -82,9 +74,17 @@ can say `#bb0000`.
 `Result:`
 ![red dwarf](/images/css-3/reddwarf.jpg)
 
-That was all about the most popular way to specify Colors in CSS.  
+Let's assume that you are creating a website to give useful information to help
+other people and you don't want to miss anyone. There are many people around the
+world who are using
+[Internet Explorer version 8](https://en.wikipedia.org/wiki/Internet_Explorer "ext")
+and older technology web browsers. Fortunately, using HEX values is supported by
+all web browsers at the moment. That's why it's the most popular option to
+specify Colors in CSS.
+
 Yet, there are more ways to specify Colors in CSS. They're supported by Internet
-Explorer version 9, 10 and newer technology web browsers.
+Explorer version 9, 10 and newer technology web browsers like Firefox, Google
+Chrome and Opera.
 
 As my purpose is to keep all tutorials safe for every beginners, I want to make
 sure that all of the examples will work on any browsers. So, please click on the
@@ -152,12 +152,3 @@ Our tutorial about
 [Colors & Lengths](http://codenart.github.io{{ page.url }} "ext")
 has finished! From the next tutorial we will learn about CSS Properties and
 create some simple stuff. :D
-
-It's time for ~~music~~ [Magic](https://www.youtube.com/watch?v=PZ595N9NZVg "ext")!
-
-<div class="embed">
-   <iframe width="560" height="315"
-           src="https://www.youtube.com/embed/PZ595N9NZVg"
-           frameborder="0" allowfullscreen>
-   </iframe>
-</div>

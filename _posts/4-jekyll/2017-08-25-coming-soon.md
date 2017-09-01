@@ -3,8 +3,9 @@ layout: post
 style:
 script:
 
-category: simpleapps
+category: jekyll
 featured: bingo
+permalink:
 
 title: Coming soon
 short: Coming soon
