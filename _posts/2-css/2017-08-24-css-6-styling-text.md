@@ -162,5 +162,6 @@ Tutorial:
 Have you finished the tutorial and created a simple navigation bar? :D  
 Found it easy? :D  
 
-In the up next tutorials, we'll talk more and more about Styling Containers.
-There're many useful tools (Properties) are waiting for us to explore.
+In the up next tutorials, we'll talk more and more about Selectors and Styling
+Containers. There're many useful tools (Selectors & Properties) are waiting for
+us to explore.
