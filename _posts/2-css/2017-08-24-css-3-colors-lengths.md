@@ -16,14 +16,14 @@ date: 2017-08-24 05:10:00
 ---
 
 <span id="simple"></span>
-Color-Values are used with many Properties to style text, elements' background,
-elements' border, etc... The `most simple` way to specify Colors in CSS is using
+Color-Values are used with many Properties to style text, element's background,
+element's border, etc... The `most simple` way to specify Colors in CSS is using
 [Color Names](https://www.w3schools.com/colors/colors_groups.asp "ext"). Color
 Names are beautiful and easy to remember because they are written in our nature
 language.
 
 Here is a reference source of supported color names:
-[Click here](https://www.w3schools.com/colors/colors_groups.asp "ext")
+[Full list of supported color names](https://www.w3schools.com/colors/colors_groups.asp "ext")
 
 Let's write some CSS code.  
 As I'm not having good sense of design stuff and using colors, so I'm gonna use
@@ -31,16 +31,18 @@ a picture as color palette and pick some colors from it to use in examples. You
 should use your own favorite colors in your sample HTML document or your website. :D
 
 `Color palette:`
-![snow white and 7 dwarfs](/images/css-3/palette.jpg)
+![snow white and 7 dwarfs](/images/css/3/palette.jpg)
 
 `HTML code:`
-<script src="https://gist.github.com/codenart/4947882eb4a902a8683ff76aa9553c33.js"></script>
+<script src="https://gist.github.com/codenart/4947882eb4a902a8683ff76aa9553c33.js">
+</script>
 
 `CSS code:`
-<script src="https://gist.github.com/codenart/5e13d148bff2458e6048f8f70c58ccdb.js"></script>
+<script src="https://gist.github.com/codenart/5e13d148bff2458e6048f8f70c58ccdb.js">
+</script>
 
 `Result:`
-![snow white](/images/css-3/snowwhite.jpg)
+![snow white](/images/css/3/snowwhite.jpg)
 
 As you see that, color names are very descriptive. The example above use 2
 colors: `RoyalBlue` and `Snow` (Snow White is real). Anyone can look at CSS code
@@ -66,13 +68,15 @@ above is the most bright Red. My beloved Red is a little bit `less bright`, so I
 can say `#bb0000`.
 
 `HTML code:`
-<script src="https://gist.github.com/codenart/29964874e246275be3ddf9b7a2d1c747.js"></script>
+<script src="https://gist.github.com/codenart/29964874e246275be3ddf9b7a2d1c747.js">
+</script>
 
 `CSS code:`
-<script src="https://gist.github.com/codenart/23e0508d1a1066f7521daea6a794aad2.js"></script>
+<script src="https://gist.github.com/codenart/23e0508d1a1066f7521daea6a794aad2.js">
+</script>
 
 `Result:`
-![red dwarf](/images/css-3/reddwarf.jpg)
+![red dwarf](/images/css/3/reddwarf.jpg)
 
 Let's assume that you are creating a website to give useful information to help
 other people and you don't want to miss anyone. There are many people around the
@@ -83,12 +87,10 @@ all web browsers at the moment. That's why it's the most popular option to
 specify Colors in CSS.
 
 Yet, there are more ways to specify Colors in CSS. They're supported by Internet
-Explorer version 9, 10 and newer technology web browsers like Firefox, Google
-Chrome and Opera.
+Explorer version 9+, and newer technology web browsers like Firefox, Google Chrome
+and Opera.
 
-As my purpose is to keep all tutorials safe for every beginners, I want to make
-sure that all of the examples will work on any browsers. So, please click on the
-links below to learn more about CSS colors:
+Here are some reference links to learn more about CSS colors:
 
 - The most `simple` way to specify colors in CSS: --Using
 [Color Names](https://www.w3schools.com/colors/colors_groups.asp "ext").
@@ -100,7 +102,7 @@ links below to learn more about CSS colors:
 [Gradients](https://www.w3schools.com/colors/colors_gradient.asp "ext").
 
 `Screenshot (using Gradients):`
-![7 dwarfs](/images/css-3/sevendwarfs.jpg)
+![7 dwarfs](/images/css/3/sevendwarfs.jpg)
 
 We've finished talking about color-Values in CSS. The next common Value-type is
 `Length`. Length-Values are used in various CSS Properties to specify size of
@@ -120,13 +122,15 @@ Let's write some CSS code that use Length-Values.
 We're gonna create some colored blocks which have different sizes.
 
 `HTML code:`
-<script src="https://gist.github.com/codenart/4ffbb4bc310d672bd422af91f341836f.js"></script>
+<script src="https://gist.github.com/codenart/4ffbb4bc310d672bd422af91f341836f.js">
+</script>
 
 `CSS code:`
-<script src="https://gist.github.com/codenart/ee1a1f60dc27242eeb297039b8c7abee.js"></script>
+<script src="https://gist.github.com/codenart/ee1a1f60dc27242eeb297039b8c7abee.js">
+</script>
 
 `Result:`
-![dimension](/images/css-3/dimension.jpg)
+![dimension](/images/css/3/dimension.jpg)
 
 ## Specify lengths using dynamic values
 
@@ -143,7 +147,8 @@ Let's change the above CSS code a little bit and resize your web browser to see
 the effect.
 
 `CSS code:`
-<script src="https://gist.github.com/codenart/ec72e9b9586dfdbd05c8b12da592141f.js"></script>
+<script src="https://gist.github.com/codenart/ec72e9b9586dfdbd05c8b12da592141f.js">
+</script>
 
 Here is a reference link for Length-Units in CSS:
 [CSS Units](https://www.w3schools.com/cssref/css_units.asp "ext").

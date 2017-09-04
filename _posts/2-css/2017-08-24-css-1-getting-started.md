@@ -17,15 +17,15 @@ date: 2017-08-24 05:00:00
 
 We all know that
 [HTML](https://codenart.github.io/begin/#how-to-add-images-buttons-etc "ext") is
-a simplified version of English. It helps us to tell web browsers. With HTML, we
-can tell web browsers to display any type of contents (links, images, buttons,
-etc...). But none of HTML tags can help us to tell web browsers how to display those
-content aesthetically.
+a simplified version of English. It helps us to talk to web browsers. With HTML,
+we can tell web browsers to display any type of contents (links, images, buttons,
+etc...). But, none of HTML tags can help us to tell web browsers how to display
+those content aesthetically.
 
 There is no disappointment in this truth. HTML is too simple both to learn and
 to use. That's why it cannot help us to fulfill too many purposes. Everything has
-its own use and limit. Fire can give life and knowledge but we also need healing
-and wisdom from Water. And
+its own use and limit. Fire can give us life and knowledge but we also need
+healing and wisdom from Water. And
 [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS "ext") is there to
 embrace HTML. <i class="fa fa-heart"></i>
 
@@ -37,14 +37,14 @@ This is a shorter introduction to CSS:
 - Learning CSS is easy and so much much much fun. :D :D :D
 
 `Only HTML:`
-![a webpage's look without css](/images/css-1/alife.jpg)
+![a webpage's look without css](/images/css/1/alife.jpg)
 
 `HTML plus CSS:`
 ![a webpage's look with css help](/images/html-4/atree.jpg)
 > Background image - credit to [Psyperl](https://github.com/psyperl)
 
 I'm not trying to say that the second screenshot looks nicer than the first one.
-Cause I don't have good sense of using color and design stuff. But I assure you
+Cause I don't have good sense of using colors and design stuff. But I assure you
 that CSS can help you to make your webpages look nicer and more lively than black
 and white text documents.
 
@@ -55,7 +55,8 @@ and white text documents.
 ## How does CSS code look like?
 
 `Sample code:`
-<script src="https://gist.github.com/codenart/4b52fbda1a1252823a9dc32cacfef883.js"></script>
+<script src="https://gist.github.com/codenart/4b52fbda1a1252823a9dc32cacfef883.js">
+</script>
 
 Do you feel that CSS code looks more `English` than HTML? :D
 
@@ -64,7 +65,7 @@ Let me explain a little bit about the sample CSS code above:
 - There are 3 blocks of CSS code in the example. Each block has a couple of curly
 brackets `{ }` to group something. :D
 - Right before each `{ }` is a `selector`. Selectors helps us to select only the
-HTML elements that we want to make change.
+HTML elements that we want to decorate.
 - Inside each `{ }` is one or more CSS rules which tell web browsers how to
 display the selected HTML elements. In the example above: white text, background
 color is crimson, size of letters.
@@ -94,13 +95,15 @@ We're gonna create a simple message with white text and red background:
 - In the CSS file... please copy the CSS snippet below into your CSS file. :D
 
 `HTML code:`
-<script src="https://gist.github.com/codenart/25caa2f56814e72e174bf76f263ba8b0.js"></script>
+<script src="https://gist.github.com/codenart/25caa2f56814e72e174bf76f263ba8b0.js">
+</script>
 
 `CSS code:`
-<script src="https://gist.github.com/codenart/0b5e434dc57ca6e4354bc940dad041b8.js"></script>
+<script src="https://gist.github.com/codenart/0b5e434dc57ca6e4354bc940dad041b8.js">
+</script>
 
 `Result:`
-![simple](/images/css-1/simple.jpg)
+![simple](/images/css/1/simple.jpg)
 
 I believe that you've found CSS is so easy to understand. There's no tricky stuff
 here. CSS is just that simple. Are you ready to learn more about CSS Selectors,

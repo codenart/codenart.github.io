@@ -51,10 +51,6 @@ few times to hit the link.
 There is a CSS property called `display` which can help us to change the type of
 the container. Let's make some `buttons` using an `anchor elements`. :D  
 
-Actually, HTML elements come with default looks but you can use CSS to change
-everything. You can make a normal paragraph look like a heading. You can make
-this look like that. And here we're gonna make some links look like buttons. :D
-
 `HTML code:`
 <script src="https://gist.github.com/codenart/6c2bbe34a1aa628ea3ed8f95af208d04.js"></script>
 
@@ -62,7 +58,7 @@ this look like that. And here we're gonna make some links look like buttons. :D
 <script src="https://gist.github.com/codenart/b2587f37a88d04ea92a337e5c327f706.js"></script>
 
 `Result:`
-![which is which](/images/css-4/which.jpg)
+![which is which](/images/css/4/which.jpg)
 
 Beside 3 common values `block`, `inline` and `inline-block`; The `display`
 property can use with various values which are useful in some ways. Some new
@@ -70,9 +66,10 @@ values like `flex` are great for up-to-date web browsers. Here is the reference
 link in case you want to go further:
 [CSS display](https://www.w3schools.com/cssref/pr_class_display.asp "ext").
 
-As usual, I prefer keep things simple. You can use these 3 common values to
+As usual, I prefer keep things simple. We can use these 3 common values to
 create a nice website without any limitation. You can save the reference link
-for future learning. We still have so many common and important things to learn.
+for future learning. We still have so many common and important things needed
+to cover.
 
 Our tutorial about [Container Types](https://codenart.github.io{{ page.url }})
 has finished. In the next tutorial, we're gonna talk about

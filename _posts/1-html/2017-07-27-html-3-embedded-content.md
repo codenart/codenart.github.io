@@ -28,7 +28,7 @@ to your video file.
 - That's it.
 
 `Screenshot:`
-![embed a video stored locally in webpage](/images/html-3/vibe.jpg)
+![embed a video stored locally in webpage](/images/html/3/vibe.jpg)
 
 But!  
 Video files are <b style="position: relative; top: 6px; font-size: 1.2rem">weight</b>.
@@ -45,10 +45,11 @@ files, have a `share button` with an `embed option`. You only need to copy the
 provided HTML code and paste it into your HTML document.
 
 `Screenshot:`
-![using video from Youtube](/images/html-3/youtube.jpg)
+![using video from Youtube](/images/html/3/youtube.jpg)
 
 `Sample code:`
-<script src="https://gist.github.com/codenart/1f99616711e453377866fbadd7cb15a7.js"></script>
+<script src="https://gist.github.com/codenart/1f99616711e453377866fbadd7cb15a7.js">
+</script>
 
 `Result:`
 <div class="embed">
@@ -63,13 +64,14 @@ About the `iframe tag`, we're gonna talk about it in the next section.
 Reference:
 [Supported Video-Formats](https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats "ext")
 
-## Adding a webpage into a webpage
+## The iframe tag
 
-HTML allows us to embed `a webpage` in a another webpage using
-[iframe tag](https://www.w3schools.com/TAgs/tag_iframe.asp "ext").
+The [iframe tag](https://www.w3schools.com/TAgs/tag_iframe.asp "ext") is allows
+us to embed `a webpage` in a another webpage.
 
 `Sample code:`
-<script src="https://gist.github.com/codenart/92dfea3c2e8e70ec6c739c399be96e62.js"></script>
+<script src="https://gist.github.com/codenart/92dfea3c2e8e70ec6c739c399be96e62.js">
+</script>
 
 The [width](https://www.w3schools.com/tags/att_iframe_width.asp "ext")
 and [height](https://www.w3schools.com/tags/att_iframe_height.asp "ext")
@@ -78,31 +80,32 @@ container of embedded content.
 
 ## How to add audios into a webpage?
 
-We're gonna make another invocation:
+We're gonna make another wish and send to Atom:
 
 - Ooommm... Atom, the new mantra is `au`.
 - Poof! `<audio src=""></audio>`.
 - Now we need to add a file path to the
 [src](https://www.w3schools.com/tags/att_audio_src.asp "ext").
-- We also need
-[autoplay](https://www.w3schools.com/tags/att_audio_autoplay.asp "ext")
-and [controls](https://www.w3schools.com/tags/att_audio_controls.asp "ext").
+- We also need to add
+[autoplay](https://www.w3schools.com/tags/att_audio_autoplay.asp "ext") and
+[controls](https://www.w3schools.com/tags/att_audio_controls.asp "ext") attributes.
 
 As you get more skilled in doing magic with Atom, I'll just show sample code
-form now on. :D
+from now on. :D
 
 `Screenshot:`
-![embed audio file stored locally in a webpage](/images/html-3/blue.jpg)
+![embed audio file stored locally in a webpage](/images/html/3/blue.jpg)
 
 And there's also a free solution for audio upload if you don't want to store
 your audio files locally:
 [SoundCloud](https://soundcloud.com/azliel/dj-okawari-bluebird-story-ft "ext")
 
 `Screenshot:`
-![using audio from soundcloud.com](/images/html-3/soundcloud.jpg)
+![using audio from soundcloud.com](/images/html/3/soundcloud.jpg)
 
 `Sample code:`
-<script src="https://gist.github.com/codenart/23e5f6b69214cb08bb8ba9f0701e4a46.js"></script>
+<script src="https://gist.github.com/codenart/23e5f6b69214cb08bb8ba9f0701e4a46.js">
+</script>
 
 `Result:`
 <div class="embed">

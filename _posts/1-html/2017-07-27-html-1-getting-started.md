@@ -9,7 +9,7 @@ permalink: /begin/
 
 title: How to create a website?
 short: Getting Started
-description: Anyone can create a website using HTML. <br>It is a simplified and easier-to-learn version of English. <br>Even though I'm not a native English speaker, I've created this website using HTML.
+description: Anyone can create a website using HTML. <br>HTML is a simplified and easier-to-learn version of English. <br>Even though I'm not a native English speaker, I've created this website using HTML.
 keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, create, website, webpage, learn, html tags
 
 date: 2017-07-27 05:00:00
@@ -40,7 +40,7 @@ called `HTML document` and the document's filename looks like this: `fountain.ht
 > A webpage is nothing but a text document which can be opened by web browsers.  
 > \_\_A simple & happy Mind
 
-And... we can create HTML documents using a simple text editor like
+We can create HTML documents using a simple text editor like
 [Notepad](https://en.wikipedia.org/wiki/Microsoft_Notepad "ext").  
 Let's create one:
 - Open your Notepad.
@@ -49,7 +49,7 @@ Let's create one:
 - Open the document using your web browser.
 
 `Screenshot:`
-![an html document](/images/html-1/fountain.jpg)
+![an html document](/images/html/1/fountain.jpg)
 
 That's it. You've created a webpage. And if you put this webpage somewhere on
 the internet that people can reach it, then you have your very first website.
@@ -79,15 +79,16 @@ a `paragraph` and a `button`:
 - Refresh your web browser.
 
 `Sample code:`
-<script src="https://gist.github.com/codenart/233e004d03d3e9ec33cf593881c8f23c.js"></script>
+<script src="https://gist.github.com/codenart/233e004d03d3e9ec33cf593881c8f23c.js">
+</script>
 
 `Screenshot:`
-![html document using tags](/images/html-1/hope.jpg)
+![html document using tags](/images/html/1/hope.jpg)
 
 That is HTML!  
 We simply surround everything with couples of `tags` and web browsers can somehow
 understand [what](#how-to-add-images-buttons-etc "int") we want them to present.
-You may notice that every `HTML tag` has its own name that describes the enclosed contents:
+You may notice that every `HTML tag` has its own name that describes the enclosed content:
 
 - `button` is clearly to tell that we want a
 [button](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button "ext")
@@ -104,7 +105,7 @@ help us to put anything on our website.
 > Learning HTML is just about trying some new tags and refreshing web browser.  
 > \_\_A simple & happy Mind
 
-But typing those angle brackets `<>` and repeated tags' name is a `boring` task.
+But typing those angle brackets `<>` and repeated tag names is a `boring` task.
 
 ## How to have fun doing a boring task?
 

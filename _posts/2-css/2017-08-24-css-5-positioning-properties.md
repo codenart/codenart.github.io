@@ -32,7 +32,7 @@ static by the rule `position: static;`. The word `static` means cannot be change
 The `gang of 4` have no ample scope to their abilities. Eventhough we write their
 names thoudsand times, no change will be made to our webpages.
 
-In order to embrace the `gang of 4`, we need to wake their leader up by changing
+In order to free the `gang of 4`, we need to wake their leader up by changing
 value of the [position](https://www.w3schools.com/cssref/pr_class_position.asp "ext")
 property.
 
@@ -41,7 +41,7 @@ Sorry. I've forgot to tell you about the
 property. Actually, It was the `gang of 5`.
 
 `The gang of 5:`
-![kungfu panda](/images/css-5/five.jpg)
+![kungfu panda](/images/css/5/five.jpg)
 
 Ok. Fair enough. :D  
 This is a shorter version of the story:
@@ -80,7 +80,7 @@ to appear right below the third button (which is yellow).
 <script src="https://gist.github.com/codenart/864950b1547c16d532e50b9e33c00262.js"></script>
 
 `Result:`
-![relative](/images/css-5/relative.jpg)
+![relative](/images/css/5/relative.jpg)
 
 This is how the sample code above work:
 
@@ -100,10 +100,9 @@ The `absolute` value will tell web browsers that we want to set position of the
 element relatively to `parent container`.  
 Conditionally, the parent container's position must not be `static`.
 
-We're gonna make a simple use of the `absolute` value by sketching a product
-card which has a small sale-off tag.  
-It's just a sketch and have no product's information. So, we're gonna make the
-card `blue` and the sale-off tag `red`.
+We're gonna see a simple use of the `absolute` value by sketching a product
+card which has a small sale-off tag. It's just a sketch and has no product's
+information. :D
 
 `HTML code:`
 <script src="https://gist.github.com/codenart/87a51fa031ae939031847c8ec28080fc.js"></script>
@@ -112,13 +111,13 @@ card `blue` and the sale-off tag `red`.
 <script src="https://gist.github.com/codenart/b6b02ae6dc9f8a3f2356ccad235c21f7.js"></script>
 
 `Result:`
-![absolute](/images/css-5/absolute.jpg)
+![absolute](/images/css/5/absolute.jpg)
 
 If [position](https://www.w3schools.com/cssref/pr_class_position.asp "ext") of
 the parent container is `static`, web browsers will check the grand container,
 the grand grand, ... to find the nearest ancestor container which has non-`static`
 [position](https://www.w3schools.com/cssref/pr_class_position.asp "ext"), then
-set position of the element base on it.
+set position of the element base on the ancestor.
 
 ## Using position: fixed;
 
@@ -146,8 +145,7 @@ if the navigation bar is pinned and always visible.
 In the 2 previous examples, you've noticed there some comment lines written in
 CSS file which is not `code`.
 
-We can write note in our code snippet by using a pair of `/*` and `*/` to
-enclose a `/* comment */`.
+We can write note in CSS by using a pair of `/*` and `*/` to enclose a `/* comment */`.
 
 We can also use comments to quickly cancel some CSS code blocks without deleting
 or moving them to another temporary place.

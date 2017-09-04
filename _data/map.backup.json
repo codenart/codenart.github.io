@@ -25,6 +25,18 @@
 		},
 
       {
+         "id"    : "javascript",
+         "url"   : "/javascript/",
+         "title" : "JavaScript"
+		},
+
+      {
+         "id"    : "jquery",
+         "url"   : "/jquery/",
+         "title" : "jQuery"
+		},
+
+      {
          "id"    : "sample",
          "url"   : "/sample/",
          "title" : "Sample"

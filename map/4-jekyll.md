@@ -1,8 +1,8 @@
 ---
 layout: category
 
-category: bootstrap
-permalink: /bootstrap/
+category: jekyll
+permalink: /jekyll/
 
 title: Bootstrap
 description: Coming soon

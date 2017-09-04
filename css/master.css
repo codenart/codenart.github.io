@@ -665,6 +665,19 @@ body {
 
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Post
+ */
+#post .btn {
+   font-size: 1rem;
+   font-weight: bold;
+
+   padding: 15px 27px;
+
+   border-radius: 0;
+}
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  * Anchor
  */
 #anchor {

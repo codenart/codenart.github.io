@@ -27,7 +27,8 @@ or how important the content is.
 Here are common `Semantic` formatters:
 
 `Sample code:`
-<script src="https://gist.github.com/codenart/0caa47c78c60f8d8c0551896a7524048.js"></script>
+<script src="https://gist.github.com/codenart/0caa47c78c60f8d8c0551896a7524048.js">
+</script>
 
 `Result:`
 
@@ -44,10 +45,25 @@ like. They do not describe or emphasize the content.
 Here are common `Non-semantic` formatters:
 
 `Sample code:`
-<script src="https://gist.github.com/codenart/22643c17d0fe52f8e0c7a85f2d26675e.js"></script>
+<script src="https://gist.github.com/codenart/22643c17d0fe52f8e0c7a85f2d26675e.js">
+</script>
 
 `Result:`
 
 **This content should look Bold**  
 *This content should look Italicized*  
 <u>This content should look Underlined</u>
+
+## The formatters `<code>` and `<pre>`
+
+I've separate these two text formatters from those above because... I love them. :D
+
+They're commonly used to display `code`.  
+The `<code></code>` tags are semantic and the `<pre></pre>` tags are non-semantic.
+
+To quickly write some keywords or a short line of code in a paragraph, we can
+use `<code></code>`.
+
+To write a block of code we can use `<pre></pre>`. The `pre` element will
+`preserve` white-spaces so we don't have to use `<br>` to add line-breaks
+like we use to do with paragraphs.

@@ -9,7 +9,7 @@ permalink:
 
 title: HTML container tags
 short: Container Tags
-description: In this tutorial, we're gonna talk about HTML container tags and their uses. <br>A container is something that contains something. <br>Is it a correct sentence? :D :D :D
+description: In this tutorial, we're gonna talk about HTML container tags and their uses. <br>A container is something that contains something. <br>Does it sound silly? :D :D :D
 keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, container, basic, template, css, intro
 
 date: 2017-07-27 05:15:00
@@ -40,8 +40,8 @@ use these tag for top navigation panel, side navigation panel or document index.
 
 3| `<article></article>` -- Just an
 [article](https://www.w3schools.com/tags/tag_article.asp "ext").  
-People consider an article is a block of content which is independent from other
-sections of a webpage. (blog post, facebook post, ...)
+An article is a block of content which is independent from other sections of a
+webpage. (blog post, facebook post, ...)
 
 4| `<section></section>` -- A
 [section](https://www.w3schools.com/tags/tag_section.asp "ext") is a block of
@@ -78,10 +78,11 @@ And the `footer` will have dark color background and white text.
 So, our HTML document should look like this:
 
 `Sample code:`
-<script src="https://gist.github.com/codenart/d24a7671123cdc6105d2295150fa7e2f.js"></script>
+<script src="https://gist.github.com/codenart/d24a7671123cdc6105d2295150fa7e2f.js">
+</script>
 
 `Result:`
-![credit to Psyperl](/images/html-4/atree.jpg)
+![credit to Psyperl](/images/html/4/atree.jpg)
 > Background image - credit to [Psyperl](https://github.com/psyperl)
 
 Does it work?  
@@ -127,7 +128,7 @@ CSS is just
 It's very easy to learn. So, let's start our
 [CSS tutorials](https://codenart.github.io/beauty/ "ext").
 
-Wait! There's another important thing I've to tell you about HTML containers.
+Oh wait! There's another important thing I've to tell you about HTML containers.
 Just give me 30 seconds more to finish this tutorial before we start our
 [first CSS tutorial](https://codenart.github.io/beauty/ "ext").
 
@@ -140,7 +141,8 @@ Just do this:
 - Give Atom this new mantra: `ht`
 
 `Poof!`
-<script src="https://gist.github.com/codenart/862e4da903b23cd62d38aee05726889a.js"></script>
+<script src="https://gist.github.com/codenart/862e4da903b23cd62d38aee05726889a.js">
+</script>
 
 This is the basic HTML template and it is a standard for any HTML document.  
 
@@ -161,15 +163,16 @@ As you see that there is a `<meta>` tag. This element will allow us to use
 [Unicode](https://en.wikipedia.org/wiki/Unicode "ext") characters in our HTML
 document.
 
-The next one is a couple of `title` tags, they help us to name the webpage and
-display this name at top of web browsers (tab bar).
+The next one is a couple of
+[title tags](https://www.w3schools.com/tags/tag_title.asp "ext"), they help us
+to name the webpage and display this name at top of web browsers (tab bar).
 
 The `<html>` container is the root container of the document. Something like a
 `<div>`. It's just that.
 
-And `<!DOCTYPE html>`, it tell web browsers that `this document is an HTML
-document`. We don't need to explore details about this tag because we only
-need it to stay `there`. Its story is about history of
+And `<!DOCTYPE html>`, it tell web browsers that `this document's type is HTML`.
+We don't need to explore details about this tag because we only need it to stay
+`there`. Its story is about history of
 [Markup Languages](https://en.wikipedia.org/wiki/Markup_language "ext").
 It's better to just leave the history at top of our HTML documents.
 

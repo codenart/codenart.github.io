@@ -24,7 +24,7 @@ first. I love `magic` and Atom has it:
 - In the editor, type `im` then press `Enter`.
 
 `Screenshot:`
-![atom editor](/images/html-2/atom.jpg)
+![atom editor](/images/html/2/atom.jpg)
 
 That is Magic!  
 We've just put there `2 letters` and Atom knows that we want to add an
@@ -37,7 +37,7 @@ into the `src`.
 - Save file again and open it using your web browser.
 
 `Screenshot:`
-![img tag](/images/html-2/trees.jpg)
+![img tag](/images/html/2/trees.jpg)
 > Image - credit to [Psyperl](https://github.com/psyperl)
 
 We've used an image stored on
@@ -49,7 +49,7 @@ click` on the image and choose `Copy Image Location` then paste into the `src`.
 > \_\_A simple & happy Mind
 
 `Screenshot:`
-![postimage.org](/images/html-2/postimage.jpg)
+![postimage.org](/images/html/2/postimage.jpg)
 
 <span id="simple"></span>
 In case you don't want to store your image on another website, you can create a
@@ -57,7 +57,7 @@ folder named something like `images` and put all image-files there. In the
 `src`, type `the folder's name` followed by a slash `/` and `image's filename`.
 
 `Screenshot:`
-![using an image stored locally](/images/html-2/relative.jpg)
+![using an image stored locally](/images/html/2/relative.jpg)
 
 In this example, web browsers will start at the folder contains the `HTML
 document` and follow the `path` to look for the `image`.
@@ -116,7 +116,8 @@ position between the [anchor tags](https://www.w3schools.com/tags/tag_a.asp "ext
 - Then read about the wisest masters of the world.
 
 `Sample code:`
-<script src="https://gist.github.com/codenart/52baa4b077a7d30928c7019fdf357a7e.js"></script>
+<script src="https://gist.github.com/codenart/52baa4b077a7d30928c7019fdf357a7e.js">
+</script>
 
 Have you found some wise messages from them? Wanna be
 <a style="color: #009900" href="https://www.youtube.com/watch?v=rRZ-IxZ46ng">green</a>?
@@ -129,7 +130,7 @@ paragraphs, etc... to create a
 
 Oh, and now we know that HTML elements can be `nested`. We've just put an HTML
 element inside another. It means that we're freely to compose our documents to
-suite our needs.
+fulfill our needs.
 
 ## What if... ?
 
@@ -142,10 +143,10 @@ Just do the same thing as we've done in examples about
 
 - Put all your webpages in the same place.
 - In the [href](https://www.w3schools.com/tags/att_a_href.asp), just point to
-which document you want to link to.
+the document which you want to link to.
 
 `Screenshot:`
-![link to local webpage](/images/html-2/link.jpg)
+![link to local webpage](/images/html/2/link.jpg)
 
 <span id="id"></span>
 Do you wonder `what if` we want to creates a link to move to a specific part of
@@ -161,7 +162,8 @@ any HTML element an `unique identity`, then use
 by a hash `#`).
 
 `Sample code:`
-<script src="https://gist.github.com/codenart/18129eafaa4f82931c6aa5fcee4ac443.js"></script>
+<script src="https://gist.github.com/codenart/18129eafaa4f82931c6aa5fcee4ac443.js">
+</script>
 
 Does it work? If it doesn't, so you need a longer text which can make your
 website scrollable. (vertically)

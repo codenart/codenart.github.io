@@ -21,7 +21,8 @@ There are 3 types of Lists in HTML:
 - `ordered` list
 - `definition` list
 
-The last one is very rarely used. So we only need to take care of the first two.
+The last one is very rarely used.  
+In this article, we'll talking about unordered list, ordered list and tables.
 
 ## Unordered Lists
 
@@ -30,7 +31,8 @@ To create an `u`nordered `l`ist, we firstly need to create a container using
 The second step is specifying `l`ist `i`tems using `<li></li>` tags.
 
 `Sample code:`
-<script src="https://gist.github.com/codenart/27549a909e71ffd70d9b8a98e0a9b6b5.js"></script>
+<script src="https://gist.github.com/codenart/27549a909e71ffd70d9b8a98e0a9b6b5.js">
+</script>
 
 `Result:`
 
@@ -43,7 +45,8 @@ The second step is specifying `l`ist `i`tems using `<li></li>` tags.
 Creating an `o`rdered `l`ist is almost the same as creating an unordered one.
 
 `Sample code:`
-<script src="https://gist.github.com/codenart/1babf924dd1c4ded2bbcdf5bb95c80bc.js"></script>
+<script src="https://gist.github.com/codenart/1babf924dd1c4ded2bbcdf5bb95c80bc.js">
+</script>
 
 `Result:`
 1. Strawberry
@@ -60,7 +63,8 @@ A table in HTML is created row by row. Here are steps to create a table:
 - For the cells you want to use as row headings or column headings, use `th` instead of `td`
 
 `Sample code:`
-<script src="https://gist.github.com/codenart/7b49f6a66484ebcba0ce71f8496e44a3.js"></script>
+<script src="https://gist.github.com/codenart/7b49f6a66484ebcba0ce71f8496e44a3.js">
+</script>
 
 `Result:`
 <table class="table">
@@ -109,7 +113,8 @@ Another benefit of using comments is to temporarily cancel a blocks of code
 without deleting or moving your code to a temporary place.
 
 `Sample code:`
-<script src="https://gist.github.com/codenart/585351dc0921ef2bdd9363b5bb9455ab.js"></script>
+<script src="https://gist.github.com/codenart/585351dc0921ef2bdd9363b5bb9455ab.js">
+</script>
 
 `Result:`
 <table class="table">
