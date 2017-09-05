@@ -174,7 +174,7 @@ We've already known how to combine selectors and playing around with 3 types of
 selectors: `Basic Selectors`, `Id Selectors`, `Class Selectors`. Do you think
 that it will be great if we have more types of selectors?
 
-About tutorial about
+Our tutorial about
 [Combining Selectors](https://codenart.github.io{{ page.url }} "ext") has finished.
 In the next tutorial, we'll talk about
 [Pseudo Selectors](https://codenart.github.io{{ page.next.url }} "ext") which
