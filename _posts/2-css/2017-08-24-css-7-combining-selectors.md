@@ -167,8 +167,8 @@ greater-than-symbol `>`.
 </script>
 
 I've been using `id selectors` to simplify all the examples. But, the front
-selectors can be `class selectors` or `basic selectors`. Just give yourself some
-examples to practice more.
+selectors can be `class selectors` or `basic selectors`. I hope you get the
+idea of how the combinations work. :D
 
 We've already known how to combine selectors and playing around with 3 types of
 selectors: `Basic Selectors`, `Id Selectors`, `Class Selectors`. Do you think
