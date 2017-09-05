@@ -27,7 +27,8 @@ continuity spirals.
 ![spiral](/images/css/7/spiral.jpg)
 
 We start by learning some basic stuff and create some things.  
-Then we back to the core knowledge to learn more deeply and create better things.  
+Then we back to the core knowledge to learn a little more deeply and create a
+little better things.  
 That's it.
 
 And now we're starting a new cycle to learn more about CSS Selectors. :D
@@ -168,15 +169,11 @@ greater-than-symbol `>`.
 
 I've been using `id selectors` to simplify all the examples. But, the front
 selectors can be `class selectors` or `basic selectors`. I hope you get the
-idea of how the combinations work. :D
-
-We've already known how to combine selectors and playing around with 3 types of
-selectors: `Basic Selectors`, `Id Selectors`, `Class Selectors`. Do you think
-that it will be great if we have more types of selectors?
+ideas of how the combinations work. :D
 
 Our tutorial about
 [Combining Selectors](https://codenart.github.io{{ page.url }} "ext") has finished.
 In the next tutorial, we'll talk about
-[Pseudo Selectors](https://codenart.github.io{{ page.next.url }} "ext") which
+[Pseudo Classes](https://codenart.github.io{{ page.next.url }} "ext") which
 can help us to create interactive effects: Something like when visitors hover
 mouse pointer on a link and its color will be changed.
