@@ -10,7 +10,7 @@ permalink:
 title: Combining CSS Selectors
 short: Combining Selectors
 description: We don't have to use all the tools that are available in CSS to create a nice website. <br>But, if we have more tools, it means we have more choices. <br>Let's talk more about CSS Selectors.
-keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, css, combine selectors, pseudo selectors
+keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, css, combine selectors
 
 date: 2017-08-24 05:30:00
 ---
@@ -32,7 +32,7 @@ That's it.
 
 And now we're starting a new cycle to learn more about CSS Selectors. :D
 
-## Why should we combine Selectors?
+## What is benefit of Combining Selectors?
 
 Let's take a look back at our
 [simple navigation bar](https://codenart.github.io/sample/2017/09/03/sample-1-simple-navbar.html#prepare-html-code "ext").
