@@ -40,7 +40,7 @@ This is a shorter introduction to CSS:
 ![a webpage's look without css](/images/css/1/alife.jpg)
 
 `HTML plus CSS:`
-![a webpage's look with css help](/images/html-4/atree.jpg)
+![a webpage's look with css help](/images/html/4/atree.jpg)
 > Background image - credit to [Psyperl](https://github.com/psyperl)
 
 I'm not trying to say that the second screenshot looks nicer than the first one.

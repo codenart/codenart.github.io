@@ -157,7 +157,7 @@ single article. So, please keep this tab open and click on the link below to
 go to the article:
 
 Tutorial:
-[Creating a minimal navigation bar](http://codenart.github.io/sample/2017/09/03/simple-navbar.html "ext")
+[Creating a minimal navigation bar](http://codenart.github.io/sample/2017/09/03/sample-1-simple-navbar.html "ext")
 
 Have you finished the tutorial and created a simple navigation bar? :D  
 Found it easy? :D  

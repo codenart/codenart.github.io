@@ -58,7 +58,7 @@ Styling task can be divided into these sub-tasks;
 3. Give the `#logo` unique style (maybe unique background-color or fancy font :D).
 4. Set position of the `#about` to the right corner of the navigation bar.
 
-## 1. Styling the `<nav>` container
+### 1. Styling the `<nav>` container
 
 To pin the navigation bar at top of the web browser's viewport is a simple task
 which we have done once in the tutorial about
@@ -70,7 +70,7 @@ Just remember to set the container's `width` to `100%`. Because the rule
 <script src="https://gist.github.com/codenart/17f311aad4518fe51174f0d9c0304dca.js">
 </script>
 
-## 2. Sizing links up
+### 2. Sizing links up
 
 Actually, we've 2 tasks here. After sizing all the links, their text will stay
 on the top left corner of each container. So, centering text is an extra task
@@ -80,7 +80,7 @@ needed to be done.
 <script src="https://gist.github.com/codenart/bd3d7d28c1fca22eaf86e3e20cb7a5f3.js">
 </script>
 
-## 3. Give `#logo` unique style
+### 3. Give `#logo` unique style
 
 This part is optional and it depends on your own style. I'm just making a simple
 style as an example. The `width` of `#logo` depends on its content (long or short text).
@@ -89,7 +89,7 @@ style as an example. The `width` of `#logo` depends on its content (long or shor
 <script src="https://gist.github.com/codenart/a81aee456a27710a997d07dea5587f37.js">
 </script>
 
-## 4. Positioning the `#about`
+### 4. Positioning the `#about`
 
 This is the last and the easiest task. We will just set its position to the
 right corner of the navigation bar. :D
@@ -122,7 +122,7 @@ will be slightly changed, etc...
 lengths, it will look a bit cluttered. And we still have to change CSS code to
 adapt to the certain text.
 - It is not responsive and well adapt to mobile screen. Normally, on mobile
-screen, the main block of links can be toggled clicking on a button.
+screen, the main block of links can be toggled by clicking on a button.
 
 There is no disappointment here. It just means that we can make everything
 better in future when we have more tools in our hands (advanced selectors,
