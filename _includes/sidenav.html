@@ -5,13 +5,13 @@
    </button>
 
    <div id="subnav" class="collapse bg-white" aria-expanded="false">
-      <form class="input-group">
+      <div class="input-group">
          <input class="form-control text-white bg-primary" name="filter"
                 type="text" placeholder="Filter tutorials ...">
          <span class="input-group-addon text-white bg-primary">
             <i class="fa fa-filter" aria-hidden="true"></i>
          </span>
-      </form>
+      </div>
 
       <ul class="nav nav-pills nav-stacked">
       {% for category in site.data.map.categories %}

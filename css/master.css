@@ -325,6 +325,11 @@ body {
          border-bottom: 0;
       }
    }
+      @media (min-width: 992px) {
+         #topnav .navbar-nav a.begin {
+            margin-left: 15px;
+         }
+      }
 
 #topnav .navbar-nav a:hover {
    color: #ffffff !important;

@@ -105,7 +105,7 @@ help us to put anything on our website.
 > Learning HTML is just about trying some new tags and refreshing web browser.  
 > \_\_A simple & happy Mind
 
-But typing those angle brackets `<>` and repeated tag names is a `boring` task.
+But... typing those angle brackets `<>` and repeated tag names is a `boring` task.
 
 ## How to have fun doing a boring task?
 
@@ -124,8 +124,8 @@ Take a couple of minutes to get [Atom](https://atom.io/ "ext") installed on your
 computer then we will see `him` in action. The word [Atom](https://atom.io/ "ext")
 means `actor`, doesn't it? :D
 
-Once you have Atom ready at your hand... there's another important `thing` need
-to be done before we go to the our next tutorial.  
+Once you have Atom ready at your hand... there's another important `thing`
+needed to be done before we go to the our next tutorial.  
 It's [Music](https://www.youtube.com/watch?v=eaw2Za2SUy4 "ext")!
 
 <div class="embed">

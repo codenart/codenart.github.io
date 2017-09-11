@@ -26,10 +26,9 @@ continuity spirals.
 `A spiral:`
 ![spiral](/images/css/7/spiral.jpg)
 
-We start by learning some basic stuff and create some things.  
-Then we back to the core knowledge to learn a little more deeply and create a
-little better things.  
-That's it.
+We start by learning some basic stuff and create some things. Then we back to
+the core knowledge to learn a little more deeply and create a little better
+things. That's it.
 
 And now we're starting a new cycle to learn more about CSS Selectors. :D
 
@@ -175,5 +174,5 @@ Our tutorial about
 [Combining Selectors](https://codenart.github.io{{ page.url }} "ext") has finished.
 In the next tutorial, we'll talk about
 [Pseudo Classes](https://codenart.github.io{{ page.next.url }} "ext") which
-can help us to create interactive effects: Something like when visitors hover
-mouse pointer on a link and its color will be changed.
+can help us to create interactive effects: Something like when a visitor hovers
+mouse pointer on a link and the link's color will be changed.
