@@ -57,8 +57,8 @@ precisely and make class names able to be re-used.
 This is an example about combining CSS Selectors. In this example, there're 2
 CSS blocks:
 
-- The first one will select only `nav-link` nested inside `#topnav`
-- The second one will select only `nav-link` nested inside `#sidenav`
+- The first one will select only `.nav-link` nested inside `#topnav`
+- The second one will select only `.nav-link` nested inside `#sidenav`
 
 <script src="https://gist.github.com/codenart/16916b9abe854737abea076a823d38f6.js">
 </script>

@@ -82,10 +82,10 @@ Have you touched that? :D
 
 As you see that
 [Pseudo Classes](https://www.w3schools.com/css/css_pseudo_classes.asp "ext") are
-not really something new. We've actually got the idea about how they work since
-the first example. So, We're not going to make examples about every one of them.
-Just save the reference link for future use. Or you can quickly parse the link
-to pick out some and playing around with them.
+not really something new. It's easy to get the idea about how they work. So,
+We're not going to make examples about every one of them. Just save the reference
+link for future uses. Or you can quickly parse the link to pick out some and
+playing around with them.
 
 Next. Let's talk about Pseudo Elements.  
 Ooops! I've not mentioned Pseudo Elements before. I'm sorry for this sudden plan. :D
@@ -138,10 +138,7 @@ How about visualizing a newspaper? :D
 
 Our tutorial about
 [Pseudo Classes & Pseudo Elements](https://codenart.github.io{{ page.url }} "ext")
-has finished. In the next tutorial, we'll talk about `margin` & `padding`
-properties which can help use to control spaces inside and outside containers.
-They're one of the most commonly used properties in CSS. They're simple, easy
-to understand. And yet, they're very very very useful. :D
-
-`P/s:` You don't have to remember everything in details. You only need to know that
-these tools exist. Bookmark reference links and pick up them whenever you need. :D
+has finished. In the next tutorial, we'll talk about
+[Width & Height properties](https://codenart.github.io{{ page.next.url }} "ext").
+Yes, we've used those properties since the early tutorials. But, to keep things
+simple at the beginning, there're a few things about them that I've not mentioned. :D
