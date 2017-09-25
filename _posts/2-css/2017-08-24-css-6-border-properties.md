@@ -135,3 +135,12 @@ If all 4 corners are rounded equally, we can use the short form with only 1 valu
 Our tutorial about `borders` has finished. Now we've known how to style containers.
 In the next tutorial, we'll talk about more about how to set position and align
 containers.
+
+`P/s:` Besides background and border properties, there are also some other
+properties which can help us to style containers for various purposes. The
+properties will require Internet Explorer version `9+` and newer technology web
+browsers like Chrome, Firefox, Opera, etc. In case you want to go further, please
+check out these two properties:
+
+- [opacity](https://www.w3schools.com/cssref/css3_pr_opacity.asp "ext") property
+- [box-shadow](https://www.w3schools.com/cssref/css3_pr_box-shadow.asp "ext") property
