@@ -7,10 +7,10 @@ category: css
 featured:
 permalink:
 
-title: Positioning properties in CSS
-short: Positioning Properties
+title: Position properties in CSS
+short: Position Properties
 description: We've know how to set size of and decorate containers to make them look nice. <br>Positioning is the next step to make our webpages look tidy. <br>Let's talk about Positioning Properties.
-keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, css, positioning properties, position, static, relative, absolute, fixed, top, right, bottom, left
+keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, css, position, properties, static, relative, absolute, fixed, top, right, bottom, left
 
 date: 2017-08-24 05:30:00
 ---
@@ -148,7 +148,7 @@ little bit to look more balance.
 </script>
 
 Our tutorial about
-[Positioning Properties](https://codenart.github.io{{ page.url }} "ext")
+[Position Properties](https://codenart.github.io{{ page.url }} "ext")
 has finished. In the next tutorial, we'll talk about
 [Styling Text](https://codenart.github.io{{ page.next.url }} "ext")
 and create a navigation bar. (Just a simple one. :D)

@@ -138,10 +138,10 @@ How about visualizing a newspaper? :D
 
 Our tutorial about
 [Pseudo Classes & Pseudo Elements](https://codenart.github.io{{ page.url }} "ext")
-has finished. In the next tutorial, we'll talk about
-[Spacing Properties](https://codenart.github.io{{ page.next.url }} "ext").
-They're one of the most commonly used Properties in CSS. They're simple, easy to
-understand. Yet, they're very very very useful tools. :D
+has finished. In the next tutorial, we'll talk about `margin` & `padding`
+properties which can help use to control spaces inside and outside containers.
+They're one of the most commonly used properties in CSS. They're simple, easy
+to understand. And yet, they're very very very useful. :D
 
 `P/s:` You don't have to remember everything in details. You only need to know that
 these tools exist. Bookmark reference links and pick up them whenever you need. :D

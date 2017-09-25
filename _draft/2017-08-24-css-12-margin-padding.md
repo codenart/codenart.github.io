@@ -8,11 +8,11 @@ featured:
 permalink:
 
 title: The margin & padding properties
-short: Spacing Properties
+short: Margin & Padding
 description: The main purpose of using Spacing Properties is to control spaces. Does it sound great? :D <br>The properties help us to control spaces around and inside containers. <br>They're used for both Sizing & Positioning purposes.
-keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, css, spacing properties, padding, margin
+keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, css, space, properties, padding, margin
 
-date: 2017-08-24 05:50:00
+date: 2017-08-24 05:55:00
 ---
 
 Controlling Spaces is the most important technique in every aspect of life.  
