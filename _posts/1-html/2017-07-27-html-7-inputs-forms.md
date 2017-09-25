@@ -9,14 +9,15 @@ permalink:
 
 title: The most basic inputs
 short: Inputs & Forms
-description: In this tutorial, we're gonna talk about basics of Inputs and Forms. <br>They're used to create login field, search box, etc... <br>Let's start with some text-fields.
+description: In this tutorial, we're gonna talk about basics of Inputs and Forms. <br>They're used to create login-field, search-box, etc... <br>Let's start with some text-fields.
 keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, input, form, button
 
 date: 2017-07-27 05:30:00
 ---
 
 `Text-field` is the most basic type of inputs which is seen in almost every
-website. A text-field is a small box that visitors can put there a line of text.
+website. A text-field is a small box that visitors can put there a single line
+of text.
 
 `Sample code:`
 <script src="https://gist.github.com/codenart/a919acbeb34e84eb8a7cc86a8b078043.js">
@@ -32,9 +33,10 @@ Password text field:
        style="padding: 5px 15px; margin: 5px 0 8px;">
 
 The `<input> tags` can be used to create various types of inputs. To create a
-normal text-field or password-field, we need to specify `type` of the input
-using [type attribute](https://www.w3schools.com/tags/att_input_type.asp "ext"). A
-password-field will have its content covered by bullets.
+normal text-field or a password-field, we need to specify `type` of the input
+using [type attribute](https://www.w3schools.com/tags/att_input_type.asp "ext").
+A password-field is just a little bit different from a normal one: it will have
+its content covered by bullets.
 
 References: [type attribute](https://www.w3schools.com/tags/att_input_type.asp "ext")
 
@@ -62,11 +64,13 @@ a `submit button`.
    <button type="reset" style="padding: 5px 25px">Reset</button>
 </form>
 
+(The border is made using CSS.)
+
 When inputs are used in a form for collecting and submitting information, every
-inputs must have a `field name` specified using
+inputs must have a `name` specified using
 [name attribute](https://www.w3schools.com/tags/att_name.asp). This is a
-convention for working with collected information at server-side. We can name
-fields whatever as we want. :D
+convention for working with collected information at server-side. We are freely
+to name the fields as whatever we want. :D
 
 The `reset button` is optional. It is used for resetting all inputs of the form.
 
@@ -78,10 +82,13 @@ right on browser's address bar.
 `Screenshot:`
 ![submitted](/images/html/7/submitted.jpg)
 
-This is just OK with non-sensitive information like search keywords. But, in
-order to protect sensitive information like login info, we need to use form's
-[method attribute](https://www.w3schools.com/tags/att_form_method.asp "ext").
-This attribute can be used with 1 of these 2 values: `get`, `post`.
+This is just OK with non-sensitive information like search keywords. But! In
+case the collected information is sensitive like login info, we need to use form's
+[method attribute](https://www.w3schools.com/tags/att_form_method.asp "ext") to
+keep the information secured.
+
+The [method attribute](https://www.w3schools.com/tags/att_form_method.asp "ext")
+can be used with 1 of these 2 values: `get`, `post`.
 
 The `method="get"` is implicitly used by forms by default. The `method="post"`
 is the one that can help us to prevent sensitive information form being

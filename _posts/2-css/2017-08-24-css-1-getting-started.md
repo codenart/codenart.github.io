@@ -19,7 +19,7 @@ We all know that
 [HTML](https://codenart.github.io/begin/#how-to-add-images-buttons-etc "ext") is
 a simplified version of English. It helps us to talk to web browsers. With HTML,
 we can tell web browsers to display any type of contents (links, images, buttons,
-etc...). But, none of HTML tags can help us to tell web browsers how to display
+etc...). But none of HTML tags can help us to tell web browsers how to display
 those content aesthetically.
 
 There is no disappointment in this truth. HTML is too simple both to learn and
@@ -41,12 +41,12 @@ This is a shorter introduction to CSS:
 
 `HTML plus CSS:`
 ![a webpage's look with css help](/images/html/4/atree.jpg)
-> Background image - credit to [Psyperl](https://github.com/psyperl)
+> Background image - credit to [Psyperl](https://www.freecodecamp.org/psyperl "ext")
 
-I'm not trying to say that the second screenshot looks nicer than the first one.
-Cause I don't have good sense of using colors and design stuff. But I assure you
-that CSS can help you to make your webpages look nicer and more lively than black
-and white text documents.
+Oh. I'm not saying that the second screenshot looks nicer than the first one. Cause
+I don't have good sense of using colors and design stuff. But I assure you that
+CSS can help you to make your webpages look nicer and more lively than black and
+white text documents. :D
 
 > Without HTML, there is no website.  
 > Without CSS, there is no beautiful website.  
@@ -60,15 +60,15 @@ and white text documents.
 
 Do you feel that CSS code looks more `English` than HTML? :D
 
-Let me explain a little bit about the sample CSS code above:
+Let me explain a little bit about the sample CSS code snippet above:
 
 - There are 3 blocks of CSS code in the example. Each block has a couple of curly
-brackets `{ }` to group something. :D
-- Right before each `{ }` is a `selector`. Selectors helps us to select only the
-HTML elements that we want to decorate.
+braces `{ }` to group something. :D
+- Right before each `{ }` is a `selector`. Selectors helps us to select the HTML
+elements that we want to decorate.
 - Inside each `{ }` is one or more CSS rules which tell web browsers how to
 display the selected HTML elements. In the example above: white text, background
-color is crimson, size of letters.
+color is crimson, sizes of letters.
 - Each CSS rule ends with a semi-colon `;` and has 2 parts separated by a colon `:`
 - The left part is a `property` of the selected elements which we want to make change.
 - The right part is a `value` which we want to apply to the property.
@@ -92,7 +92,7 @@ element that point to the CSS file:
 
 We're gonna create a simple message with white text and red background:
 - In the HTML document, add an `h1` with this sentence: `Simple is beautiful .`
-- In the CSS file... please copy the CSS snippet below into your CSS file. :D
+- In the CSS file... please copy the CSS code snippet below into your CSS file. :D
 
 `HTML code:`
 <script src="https://gist.github.com/codenart/25caa2f56814e72e174bf76f263ba8b0.js">
@@ -103,7 +103,15 @@ We're gonna create a simple message with white text and red background:
 </script>
 
 `Result:`
-![simple](/images/css/1/simple.jpg)
+
+<p data-height="500" data-theme-id="light" data-slug-hash="YrzaGG" data-default-tab="result"
+   data-user="codenart" data-embed-version="2" data-pen-title="The beauty of simplicity"
+   class="codepen">
+   See the Pen <a href="https://codepen.io/codenart/pen/YrzaGG/">The beauty of
+   simplicity</a> by Kei Nart (<a href="https://codepen.io/codenart">@codenart
+   </a>) on <a href="https://codepen.io">CodePen</a>.
+</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 I believe that you've found CSS is so easy to understand. There's no tricky stuff
 here. CSS is just that simple. Are you ready to learn more about CSS Selectors,
@@ -119,6 +127,5 @@ Our first CSS tutorial has finished. It's time for
    </iframe>
 </div>
 
-> Don't hurry. Life is only available at this moment.  
-> Wish you peace and love, my buddy. <i class="fa fa-heart"></i>  
+> Wish you peace and joy, my buddy. <i class="fa fa-heart"></i>  
 > \_\_A simple and happy mind

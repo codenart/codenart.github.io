@@ -8,7 +8,7 @@ featured: bingo
 
 title: Creating a simple navigation bar
 short: Simple Navbar
-description: In this tutorial, we're gonna create a simple navigation bar using HTML and CSS. <br>This tutorial is a part of the 6th CSS tutorial in this website. <br>Please, be sure of handling basic stuff. :D
+description: In this tutorial, we're gonna create a simple navigation bar using HTML and CSS. <br>This tutorial is a part of the 8th CSS tutorial in this website. <br>Please, be sure of handling basic stuff. :D
 keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, simple, sample, navigation, bar, nav, navbar, html, css
 
 date: 2017-09-03 05:00:00
@@ -16,7 +16,7 @@ date: 2017-09-03 05:00:00
 
 Before starting this tutorial, let me assume that you've come from the CSS
 tutorial about
-[Styling Text](https://codenart.github.io/css/2017/08/24/css-6-styling-text.html "ext")
+[Styling Text](https://codenart.github.io/css/2017/08/24/css-8-styling-text.html "ext")
 on my website. So, at the moment, we've some basic tools ready in our hand:
 
 - Basic selectors, Class selectors, Id selectors
@@ -25,7 +25,7 @@ on my website. So, at the moment, we've some basic tools ready in our hand:
 - And some properties used for Styling Text
 
 In this tutorial, we will make use of these tools to create a simple navigation
-bar (no responsive yet). And this is how the navigation bar will look like:
+bar. And this is how the navigation bar will look like:
 
 `Screen shot:`
 ![navigation bar](/images/sample/1/nature.jpg)
@@ -62,15 +62,16 @@ Styling task can be divided into these sub-tasks;
 
 To pin the navigation bar at top of the web browser's viewport is a simple task
 which we have done once in the tutorial about
-[Positioning properties](https://codenart.github.io/css/2017/08/24/css-5-positioning-properties.html#using-position-fixed "ext").  
+[Positioning properties](https://codenart.github.io/css/2017/08/24/css-7-positioning-properties.html#using-position-fixed "ext").  
 Just remember to set the container's `width` to `100%`. Because the rule
-`position: fixed;` will make the container collapse if we don't specify a `width`.
+`position: fixed;` will make the container collapse if we don't specify
+container's `width`.
 
 `CSS code:`
 <script src="https://gist.github.com/codenart/17f311aad4518fe51174f0d9c0304dca.js">
 </script>
 
-### 2. Sizing links up
+### 2. Setting size of `<a>` elements
 
 Actually, we've 2 tasks here. After sizing all the links, their text will stay
 on the top left corner of each container. So, centering text is an extra task
@@ -128,13 +129,8 @@ There is no disappointment here. It just means that we can make everything
 better in future when we have more tools in our hands (advanced selectors,
 spacing properties, screen size query, etc...).
 
-As a learner, I find myself learn new things everyday and it's ok to show the
-world what I have today. And I'm looking forward to see your website in the
-nearest day. Please, leave the link to your website in the comment box at
-bottom of my website (any post). :D
-
 It's time to come back to our
-[CSS tutorials](https://codenart.github.io/css/2017/08/24/css-6-styling-text.html#create-a-simple-navigation-bar "ext").
+[CSS tutorials](https://codenart.github.io/css/2017/08/24/css-8-styling-text.html#create-a-simple-navigation-bar "ext").
 We've many interesting stuff waiting there.
 
-[Click here to go back to the CSS tutorial about Styling Text.](https://codenart.github.io/css/2017/08/24/css-6-styling-text.html#create-a-simple-navigation-bar "ext")
+[Click here to go back to the CSS tutorial about Styling Text.](https://codenart.github.io/css/2017/08/24/css-8-styling-text.html#create-a-simple-navigation-bar "ext")

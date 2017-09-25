@@ -15,9 +15,6 @@ keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding
 date: 2017-07-27 05:00:00
 ---
 
-> The more simply we see things, the more easily we start to act and make things done.  
-> \_\_A simple & happy Mind
-
 Forget about technical and academic views. We go online everyday. We can start
 at homepage of [a website](https://medium.com/ "ext") and explore thousands of
 its pages. That's it.
@@ -66,9 +63,9 @@ Go for it.
 
 As you see that web browsers are excellent presenters. We can tell them to show
 any kind of contents. But, in order to talk to them, we have to speak their
-language. They speak HTML, a simple and easy-to-learn language.
+language. They speak HTML, a simplified and easier-to-learn version of English.
 
-> HTML is a simplified version of English.  
+> HTML is just a simplified version of English.  
 > \_\_A simple & happy Mind
 
 Let's change our simple webpage a little bit. We're gonna put there a `heading`,
@@ -100,7 +97,8 @@ to show up.
 
 And there are plenty of
 [HTML tags](https://developer.mozilla.org/en/docs/Web/HTML/Element "ext") which
-help us to put anything on our website.
+help us to put anything on our website. We just need to try them one by one in
+an HTML document and refresh web browser to know their uses.
 
 > Learning HTML is just about trying some new tags and refreshing web browser.  
 > \_\_A simple & happy Mind

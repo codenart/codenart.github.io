@@ -20,7 +20,7 @@ This time we're gonna use
 
 - Put your video file in the same folder with the HTML document or in a sub-folder.
 - Ask Atom to perform this 2-letters mantra: `vi`.
-- You will see `<video src="" autoplay poster=""></video>` show up.
+- You will see something show up: `<video src="" autoplay poster=""></video>`.
 - Using [src](https://www.w3schools.com/tags/att_video_src.asp "ext") to point
 to your video file.
 - Replace `poster=""` with
@@ -30,15 +30,7 @@ to your video file.
 `Screenshot:`
 ![embed a video stored locally in webpage](/images/html/3/vibe.jpg)
 
-But!  
-Video files are <b style="position: relative; top: 6px; font-size: 1.2rem">weight</b>.
-So I prefer an online solution:
-[Youtube](https://www.youtube.com/watch?v=eNzenkoeJcY "ext") is free.
-
-> Free is Life.  
-> \_\_A simple & happy mind
-
-You can upload your video to
+You can also upload your video to
 [Youtube](https://www.youtube.com/watch?v=eNzenkoeJcY "ext") then embed back in
 your website. Most of the websites which allow us to upload and share media
 files, have a `share button` with an `embed option`. You only need to copy the
@@ -67,7 +59,7 @@ Reference:
 ## The iframe tag
 
 The [iframe tag](https://www.w3schools.com/TAgs/tag_iframe.asp "ext") is allows
-us to embed `a webpage` in a another webpage.
+us to embed `a webpage` in another webpage.
 
 `Sample code:`
 <script src="https://gist.github.com/codenart/92dfea3c2e8e70ec6c739c399be96e62.js">
@@ -80,7 +72,7 @@ container of embedded content.
 
 ## How to add audios into a webpage?
 
-We're gonna make another wish and send to Atom:
+We're gonna make another mantra and send to Atom:
 
 - Ooommm... Atom, the new mantra is `au`.
 - Poof! `<audio src=""></audio>`.
@@ -98,7 +90,7 @@ from now on. :D
 
 And there's also a free solution for audio upload if you don't want to store
 your audio files locally:
-[SoundCloud](https://soundcloud.com/azliel/dj-okawari-bluebird-story-ft "ext")
+[SoundCloud](https://soundcloud.com/azliel/dj-okawari-bluebird-story-ft "ext").
 
 `Screenshot:`
 ![using audio from soundcloud.com](/images/html/3/soundcloud.jpg)

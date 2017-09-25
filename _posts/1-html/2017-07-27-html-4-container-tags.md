@@ -32,7 +32,7 @@ And here are common container tags that you can choose to manage your webpage:
 1| `<nav></nav>` -- This container tags are used to group
 [navigation links](https://www.w3schools.com/tags/tag_nav.asp "ext").  
 You can have more than one navigation panel in your website as people commonly
-use these tag for top navigation panel, side navigation panel or document index.
+use these tags for top navigation panel, side navigation panel, and document index.
 
 2| `<header></header>` -- This container tags are used to group
 [introductory content](https://www.w3schools.com/tags/tag_header.asp "ext").
@@ -45,9 +45,9 @@ webpage. (blog post, facebook post, ...)
 
 4| `<section></section>` -- A
 [section](https://www.w3schools.com/tags/tag_section.asp "ext") is a block of
-contents is does not fully contain a post.  
-It is commonly used to create an entry which has a heading, an excerpt and a
-`read more`.
+contents which does not fully contain a post like an article.  
+This container tags are commonly used to create an entry which has a heading,
+an excerpt and a `read more`.
 
 5| `<main></main>` -- If our webpage is not a blog post and it contains a list
 of category entries, then we should group up all entries using
@@ -61,8 +61,8 @@ main content area. It can be a block of reference links or small widgets.
 [bottom](https://www.w3schools.com/TAgs/tag_footer.asp "ext") of a webpage.  
 
 8| `<div></div>` -- This container tags have no meaning to your webpage's
-structure. But it's the most commonly used container. When you don't know
-which container to use then simple
+structure. Yet, it's the most commonly used container. When you don't know
+which container to use, then simple
 [division](https://www.w3schools.com/tags/tag_div.asp "ext") is the choice.
 
 ## HTML containers in action
@@ -71,10 +71,12 @@ Let's take an example that we're creating a simple webpage which has some
 `navigation` links at top, some `sections` to introduce yourself, and a
 `footer` contains copyright text.
 
-We also assume that the `navigation` bar will have dark color background and
+We also assume that:
+- The `navigation` bar will have dark color background and
 white text.  
-The `sections` will have nice background images.  
-And the `footer` will have dark color background and white text.  
+- The `sections` will have nice background images.  
+- And the `footer` will have dark color background and white text.
+
 So, our HTML document should look like this:
 
 `Sample code:`
@@ -83,7 +85,7 @@ So, our HTML document should look like this:
 
 `Result:`
 ![credit to Psyperl](/images/html/4/atree.jpg)
-> Background image - credit to [Psyperl](https://github.com/psyperl)
+> Background image - credit to [Psyperl](https://www.freecodecamp.org/psyperl "ext")
 
 Does it work?  
 No? :D  
@@ -91,8 +93,8 @@ I'm sorry. That was my bad. :D
 I've not told you something about container tags. They are simply used to group
 other HTML elements and produce no effect on the output.
 
-Add this line of code to the top of your HTML document (before the `<nav>`),
-save file and refresh your web browser again:
+Add the line of code below to the top of your HTML document (before the `<nav>`);
+Save file and refresh your web browser again.
 
 `<link rel="stylesheet" href="https://codenart.github.io/css/atree.css">`
 
@@ -101,18 +103,19 @@ That is CSS!
 
 ## What is CSS? Why do we need it?
 
-There are `some` important things that I would want to tell you at the beginning.
-But my mind has been drawn by Music and ...
+There are `some` important things that I would want to tell you at the beginning
+but my mind is quite forgetful.
 
 [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML "ext") can only help
 us to tell web browser `what` to display.  
 To tell web browser `how` to display our contents aesthetically, we need some
-help from [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS "ext").
+help from [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS "ext"): another
+simplified and easier-to-learn version of English.
 
 As you've already known the most common HTML tags, this is a perfect time to
 learn CSS. My HTML tutorials will be continued but I recommend you to use them
 as references (use my site's search box when you need to know something). You
-don't need to read them all at the time. Because it's `boring`. I promise. :D
+don't need to read them all at the time because it's `boring`. I promise. :D
 
 Learning HTML is just that. Trying some HTML tags and refreshing web browsers.  
 There's no more fun.
@@ -123,18 +126,13 @@ And there will be more fun.
 Oh wait... It seems that there is no difference in the CSS learning process. :D  
 But I assure you that learning CSS is much more fun.
 
-CSS is just
-[another simplified version of English](https://codenart.github.io/css/atree.css "ext").
-It's very easy to learn. So, let's start our
-[CSS tutorials](https://codenart.github.io/beauty/ "ext").
-
-Oh wait! There's another important thing I've to tell you about HTML containers.
+There's another important thing I've to tell you about HTML containers.  
 Just give me 30 seconds more to finish this tutorial before we start our
 [first CSS tutorial](https://codenart.github.io/beauty/ "ext").
 
 ## The extreme containers
 
-Yes. There are some special HTML containers that I've not told you in the first section.  
+Yes, there are some special HTML containers that I've not told you in the first section.  
 Just do this:
 
 - Create a new HTML document.
@@ -146,18 +144,16 @@ Just do this:
 
 This is the basic HTML template and it is a standard for any HTML document.  
 
-Our previous examples have worked well because all the modern web browsers have
-a smart feature which automatically apply this template and put all of our
-contents inside the
+Our previous examples worked well because all the modern web browsers have a
+smart feature which automatically apply this template and put all of our contents
+inside the
 [body container](https://www.w3schools.com/tags/tag_body.asp "ext").
 
 The [head container](https://www.w3schools.com/tags/tag_head.asp "ext") is used
 to group some HTML elements that provide related information about our webpages
-to web browsers. Those elements will not be display on your webpages but they
-silently benefit us.
-
-The `<link>` element which we used in the previous section, is normally placed
-inside the `<head>` container.
+to web browsers. Those elements will not be displayed on our webpages but they
+silently benefit us. For example, the `<link>` element which we used in the
+previous section, is normally placed inside the `<head>` container.
 
 As you see that there is a `<meta>` tag. This element will allow us to use
 [Unicode](https://en.wikipedia.org/wiki/Unicode "ext") characters in our HTML
@@ -171,7 +167,7 @@ The `<html>` container is the root container of the document. Something like a
 `<div>`. It's just that.
 
 And `<!DOCTYPE html>`, it tell web browsers that `this document's type is HTML`.
-We don't need to explore details about this tag because we only need it to stay
+We don't need to explore details about this one because we only need it to stay
 `there`. Its story is about history of
 [Markup Languages](https://en.wikipedia.org/wiki/Markup_language "ext").
 It's better to just leave the history at top of our HTML documents.

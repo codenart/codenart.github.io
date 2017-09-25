@@ -12,7 +12,7 @@ short: Styling Text
 description: We've used the `font-size` property a few times to change size of text contents. <br>Let's take a quick look at some basic Text Styling Properties. <br>Later, we'll create a simple navigation bar.
 keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, css, styling text, font-family, font-size, font-weight, font-style, text-align, line-height
 
-date: 2017-08-24 05:25:00
+date: 2017-08-24 05:35:00
 ---
 
 Here are some other Font Properties:
@@ -35,14 +35,19 @@ We're gonna create some paragraphs:
 <script src="https://gist.github.com/codenart/5174a3366ddd82b22d7145011dcb011a.js"></script>
 
 `Result:`
-![font](/images/css/6/font.jpg)
 
-For `p` elements, `font-weight` and `font-style` are set as `normal` by default.
-I've just written them down to take note of the available values.
+<p data-height="500" data-theme-id="light" data-slug-hash="pWgmRX"
+   data-default-tab="result" data-user="codenart" data-embed-version="2"
+   data-pen-title="Font Properties" class="codepen">
+   See the Pen <a href="https://codepen.io/codenart/pen/pWgmRX/">Font Properties</a>
+   by Kei Nart (<a href="https://codepen.io/codenart">@codenart</a>) on
+   <a href="https://codepen.io">CodePen</a>.
+</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 As you notice that we can specify more than 1 font in `font-family` to make sure
 at least 1 specified font will be found. Otherwise, web browsers will pick up a
-ready font of user's device in the same family (ex: monospace).
+ready font of user's device in the same family.
 
 ## Find and use free fonts
 
@@ -53,12 +58,12 @@ webpage. There are some websites offer free fonts to use with your website and
 Firstly, you need to explore [the website](https://fonts.google.com/ "ext") to
 find a font and click on the `plus icon` on top right corner.
 
-![choose font](/images/css/6/find.jpg)
+![choose font](/images/css/8/find.jpg)
 
 Then click on the selected bar at the bottom of the web browsers viewport, copy
 and paste the provided HTML code into your HTML document.
 
-![link to document](/images/css/6/link.jpg)
+![link to document](/images/css/8/link.jpg)
 
 Now, you can use the font in your CSS code.
 
@@ -71,7 +76,7 @@ Now, you can use the font in your CSS code.
 </script>
 
 `Result:`
-![free font in use](/images/css/6/freefont.jpg)
+![free font in use](/images/css/8/freefont.jpg)
 
 ## Decorating and transforming text
 
@@ -88,8 +93,8 @@ of webpage (like navigation bar), we can use the `text-transform` property. The
 property can be used with one of these values:
 
 - `capitalize` - <span style="text-transform: capitalize">first letter of each word should be uppercase</span>
-- `uppercase` - <span style="text-transform: uppercase">everything on the planet should be uppercase</span>
-- `lowercase` - <span style="text-transform: lowercase">everything in the universe should be lowercase</span>
+- `lowercase` - <span style="text-transform: lowercase">everything on this planet should be lowercase</span>
+- `uppercase` - <span style="text-transform: uppercase">everything in the universe should be uppercase</span>
 - `none` - remove text transformation (if any)
 
 ## Aligning text and changing line height
@@ -110,10 +115,10 @@ Here is an example of using `text-align` with 3 paragraphs.
 <script src="https://gist.github.com/codenart/fc5904f2f6092c1452c0af247eeb5196.js"></script>
 
 `Result:`
-![align](/images/css/6/align.jpg)
+![align](/images/css/8/align.jpg)
 
-Besides vertically aligning text, controlling `line-height` is important to make
-our text contents look better.  
+Besides horizontally aligning text, controlling `line-height` is important to
+make our text contents look better.  
 
 The `line-height` property is normally use with a value in `px` or `%`.  
 If it is used with a value in `%`, the value will be calculated base on the
@@ -128,27 +133,11 @@ Ideal `line-height` for normal paragraphs is 150-170%.
 <script src="https://gist.github.com/codenart/e86e2c809ad915aa1a08d4ff293c1170.js"></script>
 
 `Result:`
-![space](/images/css/6/space.jpg)
+![space](/images/css/8/space.jpg)
 
 The `line-height` property is also useful when we want to vertically center text
-of an element which has a single line of text.
-
-In the tutorial about
-[Container Types](https://codenart.github.io/css/2017/08/24/css-4-container-types.html#changing-type-of-a-container "ext"),
-we have create some look-like-button links. :D  
-But, we've not solved the case when those links contain text. Let's do it now.  
-Our purpose is to add and center text (both horizontally and vertically).
-
-`HTML code:`
-<script src="https://gist.github.com/codenart/bfdce09d5a41c325d41f40d19b947197.js">
-</script>
-
-`CSS code:`
-<script src="https://gist.github.com/codenart/a7d01690dff6d8d95b60d7b046742e1c.js">
-</script>
-
-`Result:`
-![centered](/images/css/6/which.jpg)
+of an element which only has a single line of text; We can simply set value of
+`line-height` is the same as element's height.
 
 ## Create a simple navigation bar
 
@@ -162,6 +151,5 @@ Tutorial:
 Have you finished the tutorial and created a simple navigation bar? :D  
 Found it easy? :D  
 
-In the up next tutorials, we'll talk more and more about Selectors and Styling
-Containers. There're many useful tools (Selectors & Properties) are waiting for
-us to explore.
+There are more useful tools (Selectors & Properties) are waiting for us to explore.
+In the next tutorial, we're gonna meet Selectors again. :D

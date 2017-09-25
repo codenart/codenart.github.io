@@ -9,7 +9,7 @@ permalink:
 
 title: Common container-Types in CSS
 short: Container Types
-description: We've known that every HTML element is a container that hold some content. <br>We've also set size of some elements in the previous tutorial. <br>Let's talk a little more about containers.
+description: We've known that every HTML element is a container that hold some contents. <br>We've also set size of some containers in the previous tutorial. <br>Let's talk a little bit more about containers.
 keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, css, display, property
 
 date: 2017-08-24 05:15:00
@@ -17,8 +17,9 @@ date: 2017-08-24 05:15:00
 
 In the previous tutorial, we've set size of some `div` containers using `width`
 and `height` properties. But if you try to do the same thing with an element
-created by `<a></a>` tags, you will see that It just doesn't work. It's the
-containers' Types cause the difference.
+created by `<a></a>` tags, you will see that it just doesn't work. It's because
+of the default container-Type of the `<a>` container does not allow us to set
+size of the container.
 
 There are 3 common container-Types:
 
@@ -26,51 +27,65 @@ There are 3 common container-Types:
 - `inline` containers
 - `inline-block` containers
 
-`block` containers take 100% width of parent containers by default.  
-This container-type can be set size of by Sizing Properties.  
+`block` containers take 100% width of their parent containers by default.  
+We can set size of these containers using Sizing Properties like `width` and `height`.  
 Ex: headings, paragraphs, div, nav, etc...
 
-`inline` containers won't take space, they keep their size as small as possible
-(just wrapping around the content inside). Web browsers treat the containers as
+`inline` containers won't take space. They keep their size as small as possible
+(just wrapping around the content inside). Web browsers treat these containers as
 texts (words).  
-This container-type can NOT be set size of.  
+We can NOT set size of these containers.  
 Ex: links, span, etc...
 
-`inline-block` containers are special. Web browsers treat them as `inline`
-containers.  
-But they can also be set size of as `block` containers at once.  
+`inline-block` containers are special. Web browsers treat them as texts (`inline`
+containers) but we can set size of these containers.  
 Ex: buttons, images, etc...
 
 ## Changing Type of a container
 
-Sometimes we want to help visitors to have better experience using our websites.
-If they use mobile devices and want to tap a link, the anchor element should be
-a little bit bigger than default to make sure that the visitor don't have to tap
-few times to hit the link.
+If we want to provide better experience to mobile users, every anchor elements
+should be a little bit bigger than their default sizes (may be as big as a button)
+to make sure that visitors don't have to tap few times to hit a link.
 
-There is a CSS property called `display` which can help us to change the type of
-the container. Let's make some `buttons` using an `anchor elements`. :D  
+There is a CSS property called `display` which can help us to change type of
+containers. Let's create some look-like-button links. :D  
 
 `HTML code:`
-<script src="https://gist.github.com/codenart/6c2bbe34a1aa628ea3ed8f95af208d04.js"></script>
+<script src="https://gist.github.com/codenart/6c2bbe34a1aa628ea3ed8f95af208d04.js">
+</script>
 
 `CSS code:`
-<script src="https://gist.github.com/codenart/b2587f37a88d04ea92a337e5c327f706.js"></script>
+<script src="https://gist.github.com/codenart/b2587f37a88d04ea92a337e5c327f706.js">
+</script>
 
 `Result:`
-![which is which](/images/css/4/which.jpg)
 
-Beside 3 common values `block`, `inline` and `inline-block`; The `display`
-property can use with various values which are useful in some ways. Some new
-values like `flex` are great for up-to-date web browsers. Here is the reference
-link in case you want to go further:
-[CSS display](https://www.w3schools.com/cssref/pr_class_display.asp "ext").
+<p data-height="500" data-theme-id="light" data-slug-hash="yzLRmE"
+   data-default-tab="result" data-user="codenart" data-embed-version="2"
+   data-pen-title="Which is Which?" class="codepen">
+   See the Pen <a href="https://codepen.io/codenart/pen/yzLRmE/">Which is Which?</a>
+   by Kei Nart (<a href="https://codepen.io/codenart">@codenart</a>) on
+   <a href="https://codepen.io">CodePen</a>.
+</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
-As usual, I prefer keep things simple. We can use these 3 common values to
-create a nice website without any limitation. You can save the reference link
-for future learning. We still have so many common and important things needed
-to cover.
+Besides 3 common values `block`, `inline`, and `inline-block`; The `display`
+property can be used with various values which are useful in some ways. Some of
+them will require up-to-date web browsers but they are great. Here is the
+reference link in case you want to go further:
+[The display Property](https://www.w3schools.com/cssref/pr_class_display.asp "ext").
+
+## Writting comments in CSS
+
+Just like HTML, We can write comments in CSS code. Comments will be ingored when
+web browsers parse our CSS code.
+
+A comment in CSS can be written by using a pair of `/*` and `*/` to enclose
+`/* something */`.
+
+We can also use comments to quickly cancel some CSS code blocks without deleting
+or moving them to another temporary place.
 
 Our tutorial about [Container Types](https://codenart.github.io{{ page.url }})
-has finished. In the next tutorial, we're gonna talk about
-[Positioning Properties](https://codenart.github.io{{ page.next.url }}).
+has finished. In the next tutorials, we're gonna talk about some properties
+which are used to decorate containers.

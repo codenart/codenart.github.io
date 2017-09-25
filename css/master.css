@@ -249,8 +249,8 @@ iframe {
    margin-bottom: 27px;
 }
 
-.content .gist-file {
-   border-radius: 5px !important;
+.content .cp_embed_wrapper {
+   margin-bottom: 27px;
 }
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *

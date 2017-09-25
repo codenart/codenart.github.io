@@ -12,7 +12,7 @@ short: Combining Selectors
 description: We don't have to use all the tools that are available in CSS to create a nice website. <br>But, if we have more tools, it means we have more choices. <br>Let's talk more about CSS Selectors.
 keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, css, combine selectors
 
-date: 2017-08-24 05:30:00
+date: 2017-08-24 05:40:00
 ---
 
 If you wonder why we've not talked about Combining CSS Selectors at
@@ -24,13 +24,13 @@ going on a straight line. Our paths are always spirals; seamless and
 continuity spirals.
 
 `A spiral:`
-![spiral](/images/css/7/spiral.jpg)
+![spiral](/images/css/9/spiral.jpg)
 
 We start by learning some basic stuff and create some things. Then we back to
 the core knowledge to learn a little more deeply and create a little better
 things. That's it.
 
-And now we're starting a new cycle to learn more about CSS Selectors. :D
+And now we're starting a new cycle by learning more about CSS Selectors. :D
 
 ## What is benefit of Combining Selectors?
 
@@ -76,25 +76,24 @@ Combining CSS Selectors fall into 3 types and we're gonna talk about them one by
 `Union` of multiple Selectors is commonly used to reduce repetition in CSS.
 
 Let's assume that we want to apply the same font to all headings in our webpages.
-There're 6 levels of headings so this is how we do without combining selectors:
+So, this is how we style them without combining selectors:
 
 `CSS code:`
 <script src="https://gist.github.com/codenart/f62af0f6a4bf4cdb4855e5b269fae2ac.js">
 </script>
 
-If we've more rules needed to be applied, it means we've to repeat them 6 times.
-It's ok to do copy/paste a few times. But, we can do it faster:
+The following re-written code snippet can provide the same effect:
 
 `CSS code:`
 <script src="https://gist.github.com/codenart/4255563daa1cde9ce6d3933d8d0d582f.js">
 </script>
 
-By writing Selectors in a row and separate them using commas `,` we can write some
-shared rules and avoid repetition in our code. And that is `Union`. Let's talk
-about `Intersection`.
+By writing Selectors in a row and separate them using commas `,` we can write
+some shared rules and avoid repetition in our code. And that is `Union`. Let's
+talk about `Intersection`.
 
-`Intersection` helps us to select elements more precisely by writing selectors
-seamlessly.
+`Intersection` helps us to select elements more precisely by append a selector
+to another one.
 
 The example below will select only `<p>` elements which are members of `.excerpt`,
 and vice versa.
@@ -109,7 +108,7 @@ and vice versa.
 
 ### 2. Next Sibling & Followed Siblings
 
-To select the `next sibling` of an element, we can use a plus `+` to combine Selectors.
+To select the `next sibling` of an element, we can use a plus sign `+` to combine Selectors.
 
 The example below will select only the `<p>` element which is the next sibling
 of `#unique`.
@@ -122,14 +121,14 @@ of `#unique`.
 <script src="https://gist.github.com/codenart/86a8c1f96fe5ffe6f489d89c7ce4cec7.js">
 </script>
 
-Of course, if we change the `#unique` to `h2` in our CSS code, all of those 3
-`<p>` elements will be selected. The web browsers will understand that we want
-to select every `<p>` elements which is the next sibling of an `<h2>` element.
+If we change the `#unique` to `h2` in our CSS code, all of those 3 `<p>` elements
+will be selected. The web browsers will understand that we want to select every
+`<p>` elements which is the next sibling of an `<h2>` element.
 
-To select all the followed siblings of an element, we can use a tilde `~` to
+To select all the `followed siblings` of an element, we can use a tilde `~` to
 combine Selectors.
 
-We'll make use of the above example. Let's change our code snippets a little bit.
+Let's change our code snippets a little bit.
 
 `CSS code:`
 <script src="https://gist.github.com/codenart/8112576504443e7d247b3ea4d20e8614.js">
@@ -145,7 +144,7 @@ To select `Children` of an element, we can use a greater-than-symbol `>` to
 combine selectors.
 
 The example below will select only the links which are Children of `#topnav`,
-not all descendants.
+but not all descendants.
 
 `CSS code:`
 <script src="https://gist.github.com/codenart/198548a99e29f9f299598f8e9e245205.js">

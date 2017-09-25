@@ -9,7 +9,7 @@ permalink:
 
 title: Semantic text formatters
 short: Text Formatters
-description: In this tutorial, we're gonna talk about some tags used to format text contents. <br>They help us to emphasize important contents of webpages. <br>They're commonly used in main contents.
+description: In this tutorial, we're gonna talk about some tags which are used to format text contents. <br>They help us to emphasize important contents of webpages. <br>They're commonly used in main contents.
 keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, text, formatters, bold, italic, del, code, pre
 
 date: 2017-07-27 05:25:00
@@ -20,11 +20,11 @@ The HTML tags which are called text formatters can be categorized into 2 groups:
 - `Semantic` formatters
 - `Non-semantic` formatters
 
-The `Semantic` formatters tell web browsers how the content should look like.
-They also tell search engines (Google, Bing, etc...) about what the content is
-or how important the content is.
+The `semantic` formatters tell web browsers how the contents should look like.
+They also tell search engines (Google, Bing, etc...) what the contents are, or
+how important the contents are.
 
-Here are common `Semantic` formatters:
+Here are common `semantic` formatters:
 
 `Sample code:`
 <script src="https://gist.github.com/codenart/0caa47c78c60f8d8c0551896a7524048.js">
@@ -39,8 +39,8 @@ Here are common `Semantic` formatters:
 
 ## Non-semantic text formatters
 
-`Non-semantic` formatters only tell web browsers how the content should look
-like. They do not describe or emphasize the content.
+`Non-semantic` formatters only tell web browsers how the contents should look
+like. They do not describe the contents, neither tell search engines anything.
 
 Here are common `Non-semantic` formatters:
 

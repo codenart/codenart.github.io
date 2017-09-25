@@ -9,7 +9,7 @@ permalink:
 
 title: How to add images into a webpage?
 short: Images & Links
-description: I've missed something in the first tutorial. So they're flying over here. <br>Adding images into your webpage, creating links. <br>And... see Atom in Action.
+description: I've missed something in the first tutorial, so they're flying over here. <br>Adding images into your webpage, creating links. <br>And... see Atom in Action.
 keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, image, link
 
 date: 2017-07-27 05:05:00
@@ -45,9 +45,6 @@ We've used an image stored on
 account to upload and use your own image. After uploading an image, just `right
 click` on the image and choose `Copy Image Location` then paste into the `src`.
 
-> Free is always good.  
-> \_\_A simple & happy Mind
-
 `Screenshot:`
 ![postimage.org](/images/html/2/postimage.jpg)
 
@@ -59,8 +56,8 @@ folder named something like `images` and put all image-files there. In the
 `Screenshot:`
 ![using an image stored locally](/images/html/2/relative.jpg)
 
-In this example, web browsers will start at the folder contains the `HTML
-document` and follow the `path` to look for the `image`.
+In this case, web browsers will start at the folder contains the `HTML document`
+and follow the `path` to look for the `image`.
 
 Reference:
 [Supported Image-Formats](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#Supported_image_formats "ext")
@@ -68,12 +65,12 @@ Reference:
 ## Single HTML tags
 
 You may notice that there are something `strange` in the previous example. We've
-only seen HTML tags come in pairs. But the
+only seen HTML tags come in pairs, yet the
 [img tag](https://www.w3schools.com/tags/tag_img.asp "ext") stands alone.
 
-And yes. There are some HTML tags designed to stand alone. They're called
-`single tags`. There's nothing special. It just means that none of them need a
-`closing tag` to pair with.
+Yes, there are some HTML tags designed to stand alone. They're called `single tags`.
+There's nothing special. It just means that none of them need a `closing tag` to
+pair with.
 
 Another example of single tags is
 [br tag](https://www.w3schools.com/tags/tag_br.asp "ext"), this tag will insert
@@ -90,9 +87,9 @@ Let's talk about the next `strange` thing, the
 ## HTML attributes
 
 [Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes "ext")
-help us to describe some related information about HTML tags as we've given a
-location to tell web browsers about the image `source` using the
-[src attribute](https://www.w3schools.com/tags/att_img_src.asp "ext").
+help us to describe some related information about HTML tags. As you see that
+we've given a location to tell web browsers about the image `source` in the
+previous example using the [src attribute](https://www.w3schools.com/tags/att_img_src.asp "ext").
 
 The [alt attribute](https://www.w3schools.com/tags/att_img_alt.asp "ext") stands
 for `alternative`, you can put there some words to describe the image in case
@@ -168,8 +165,11 @@ by a hash `#`).
 Does it work? If it doesn't, so you need a longer text which can make your
 website scrollable. (vertically)
 
-Oooops. I've not noticed that our tutorial is too loooong now.  
-It's time for [Music](https://www.youtube.com/watch?v=rRZ-IxZ46ng "ext")!
+Oooops. I've not noticed that our tutorial is too loooong now. Let's take a
+break. In the next tutorial, we'll talk about
+[embedded content](https://codenart.github.io{{ page.next.url }} "ext").
+
+And now, it's time for music. :D
 
 <div class="embed">
    <iframe width="560" height="315"

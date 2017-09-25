@@ -9,22 +9,22 @@ permalink:
 
 title: How to select a specific element?
 short: Selectors & Priorities
-description: In this tutorial, we're gonna talk about CSS Selectors and Priorities. <br>I was so forgetful that I've not mentioned Priorities. <br>Luckily, everything is just in time. :D
+description: In this tutorial, we're gonna talk about CSS Selectors and Priorities. <br>I was so forgetful that I've not mentioned Priorities. <br>Fortunately, everything is just in time. :D
 keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, css, selectors, priorities
 
 date: 2017-08-24 05:05:00
 ---
 
 In the previous tutorial, we've seen how CSS Selectors work in basic. We simply
-use HTML tags' names to select elements. They are every useful for styling common
-stuff like paragraphs, article's headings... But, sometimes we need to give some
-specific elements unique styles.
+use HTML tags' names to select elements. They are nice for styling common stuff
+like paragraphs, article's headings... But sometimes we need to give some specific
+elements unique styles. To make it possible, CSS allows us to select a specific
+element using its
+[id](https://codenart.github.io/html/2017/07/27/html-2-images-links.html#id "ext").
 
-Fortunately, CSS allows us to select a specific element using its
-[id](https://codenart.github.io/html/2017/07/27/html-2-images-links.html#id "ext").  
 Let's write some CSS code to see an `id selector` in action.  
-We're gonna create a [list](https//codenart.github.io) of fruits, none of them
-are special but each one of them is unique. :D
+We're gonna create a [list](https//codenart.github.io) of fruits that none of
+them are special but each one of them is unique. :D
 
 `HTML code:`
 <script src="https://gist.github.com/codenart/68314c206a0353c16a784f879e65df7d.js">
@@ -35,9 +35,18 @@ are special but each one of them is unique. :D
 </script>
 
 `Result:`
-![unique](/images/css/2/unique.jpg)
 
-You may notice that the id selectors begin with a hash `#`. It looks the same
+<p data-height="500" data-theme-id="light" data-slug-hash="qPBoVb" data-default-tab="result"
+   data-user="codenart" data-embed-version="2" data-pen-title="Not special but Unique"
+   class="codepen">
+   See the Pen
+   <a href="https://codepen.io/codenart/pen/qPBoVb/">Not special but Unique</a>
+   by Kei Nart (<a href="https://codepen.io/codenart">@codenart</a>) on
+   <a href="https://codepen.io">CodePen</a>.
+</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+
+You may notice that the id selectors begin with a hash `#`. It looks the same as
 how we use id to create
 [internal links](https://codenart.github.io/html/2017/07/27/html-2-images-links.html#id "ext").
 
@@ -49,7 +58,7 @@ And there are `Class selectors` which are excellent for styling mixed stuff. :D
 
 To use Class selectors, we need to specify class names for HTML elements using
 [class attribute](https://www.w3schools.com/tags/att_class.asp "ext") and use
-the class names as selectors.
+the class names as Selectors.
 
 `HTML code:`
 <script src="https://gist.github.com/codenart/33357d72dafcc0955c2f31cf596610e6.js">
@@ -60,16 +69,20 @@ the class names as selectors.
 </script>
 
 `Result:`
-![mixed](/images/css/2/mixed.jpg)
+
+<p data-height="450" data-theme-id="light" data-slug-hash="pWoLxB" data-default-tab="result"
+   data-user="codenart" data-embed-version="2" data-pen-title="The Harmony"
+   class="codepen">
+   See the Pen <a href="https://codepen.io/codenart/pen/pWoLxB/">The Harmony</a>
+   by Kei Nart (<a href="https://codepen.io/codenart">@codenart</a>) on
+   <a href="https://codepen.io">CodePen</a>.
+</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 Yet, Class selectors are far more superior.  
-As you notice that a Class can have more than 1 member. In our daily life, we
-have dancing classes, meditate classes, etc... where people meet and learn
-together. And anyone can also take more than 1 class.
-
-This time, we're gonna define Classes and their styles firstly. Later, we'll
-decide which elements will join the Classes and each element will join more
-than one Class.
+As you see that a Class can have more than 1 member. This time, we're gonna
+define Classes and their styles firstly. Later, we'll decide which elements
+will join the Classes and each element will join more than 1 Class.
 
 `CSS code:`
 <script src="https://gist.github.com/codenart/df4a9eb30406234057ed8a28a61c4b63.js">
@@ -80,15 +93,24 @@ than one Class.
 </script>
 
 `Result:`
-![join](/images/css/2/join.jpg)
+
+<p data-height="450" data-theme-id="light" data-slug-hash="WZNJem" data-default-tab="result"
+   data-user="codenart" data-embed-version="2" data-pen-title="The Harmony"
+   class="codepen">
+   See the Pen <a href="https://codepen.io/codenart/pen/WZNJem/">The Harmony</a>
+   by Kei Nart (<a href="https://codepen.io/codenart">@codenart</a>) on
+   <a href="https://codepen.io">CodePen</a>.
+</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+
+This idea is the same as in our daily life, isn't it? We have dancing classes,
+meditate classes, etc... where people meet and learn together; And anyone can
+also take `more than` 1 Class.
 
 ## Priorities in CSS
 
-Priority is about `this one is more important than that one`.  
-
-In CSS, Priority stands for the same meaning.  
-For example, when an HTML element's text color is affected by more than 1 CSS
-rules, the element will choose only 1 rule to apply.
+When an HTML element's text color is affected by more than 1 CSS rule, the element
+will choose only 1 rule to apply. Let's take a look at the example below.
 
 `HTML code:`
 <script src="https://gist.github.com/codenart/ae58befa55150b625de22215b671b598.js">
@@ -99,24 +121,32 @@ rules, the element will choose only 1 rule to apply.
 </script>
 
 `Result:`
-![choice](/images/css/2/choice.jpg)
+
+<p data-height="450" data-theme-id="light" data-slug-hash="boGMVz" data-default-tab="result"
+   data-user="codenart" data-embed-version="2" data-pen-title="Choice" class="codepen">
+   See the Pen <a href="https://codepen.io/codenart/pen/boGMVz/">Choice</a>
+   by Kei Nart (<a href="https://codepen.io/codenart">@codenart</a>) on
+   <a href="https://codepen.io">CodePen</a>.
+</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 Normally, CSS files will be processed by web browser from top to bottom and the
-last rule should override the others. It's the CSS priorities cause the result,
-and it's the selectors cause the priorities. Here is the list of priorities from
-high to low level base on selectors:
+last rule should override the others. It's the CSS Priorities cause the result,
+and it's the Selectors cause the Priorities:
 
-1. Id selector
-2. Class selector
-3. Basic selector
+1. `Id selectors` has the highest priority
+2. `Class selectors` has higher priority than basic selectors
+3. `Basic selectors`
 
 ## Special priority
 
-We can also make a certain CSS rule become a very important one by append the
-`!important` keyword right before ending of the CSS rule.
+We can also make a certain CSS rule become a very important one by appending the
+`!important` keyword right before the end of the CSS rule.
 
-This keyword will not care about selectors. It simply make the certain CSS rule
-become a super star.
+This keyword will not care about Selectors. It simply makes selected HTML
+elements feel at [Home](https://www.youtube.com/watch?v=-98nmUfaBqs "ext").
+So, they will prefer the CSS rule (which are bound with this keyword) on top
+of other choices.
 
 `CSS code:`
 <script src="https://gist.github.com/codenart/72cae94670da3e989650052c1410f8fe.js">
@@ -129,14 +159,14 @@ become a super star.
 `Result:`
 ![home](/images/css/2/home.jpg)
 
-> HTML elements has their own wisdom. :D  
-> \_\_A simple and happy mind
+The most important part of learning CSS is about Properties and Values. For each
+certain Property, there are various Values which can be used with. So, we will
+cover details about CSS Values when we talk about each certain Property.
 
-`!important` makes HTML elements feel at home. So, they will prefer the CSS
-rules which are bound with this keyword on top of other choices.
+In the next tutorial, we'll talk about 2 common Value-types: `Color` and `Length`.
+They are used with various CSS Properties.
 
-We all love home feeling. It's time for
-[Home](https://www.youtube.com/watch?v=-98nmUfaBqs "ext"). <i class="fa fa-heart"></i>
+And now, it's time for [Music](https://www.youtube.com/watch?v=-98nmUfaBqs "ext")! <i class="fa fa-heart"></i>
 
 <div class="embed">
    <iframe width="560" height="315"
@@ -144,11 +174,3 @@ We all love home feeling. It's time for
            frameborder="0" allowfullscreen>
    </iframe>
 </div>
-
-The most important part of learning CSS is about Properties and Values. For each
-certain Property, there are various Values which can be used with. So, we will
-cover details about CSS Values when we talk about each certain Property.
-
-But, there're some common Value-types shared between CSS Properties like `Color`
-and `Length`. And we will cover these two Value-types in the next tutorial
-before start learning about certain Properties.

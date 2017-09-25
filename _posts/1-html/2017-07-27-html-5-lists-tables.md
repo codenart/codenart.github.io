@@ -9,7 +9,7 @@ permalink:
 
 title: Creating Lists and Tables
 short: Lists & Tables
-description: As you've got more familiar with HTML, we're gonna go fast in this tutorial. <br>Lists and Tables are popular way to represent data. <br>Let's talk about them.
+description: As you've got more familiar with HTML, we're gonna go fast in this tutorial. <br>Lists and Tables are popular way to represent data. <br>Let's create some of them.
 keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, ordered, unordered, list, table
 
 date: 2017-07-27 05:20:00
@@ -21,8 +21,8 @@ There are 3 types of Lists in HTML:
 - `ordered` list
 - `definition` list
 
-The last one is very rarely used.  
-In this article, we'll talking about unordered list, ordered list and tables.
+The last one is very rarely used, so we're gonna talk about unordered list,
+ordered list and tables.
 
 ## Unordered Lists
 
@@ -57,10 +57,10 @@ Creating an `o`rdered `l`ist is almost the same as creating an unordered one.
 
 A table in HTML is created row by row. Here are steps to create a table:
 
-- Create `table` container: `<table></table>`
-- Create `t`able `r`ow(s) using one or more: `<tr></tr>`
-- In side each row, add `t`able `d`ata cell(s) using one or more: `<td></td>`
-- For the cells you want to use as row headings or column headings, use `th` instead of `td`
+- Create a `table` container using `<table></table>` tags.
+- Create `t`able `r`ow(s) using `<tr></tr>` tags.
+- Inside each row, add `t`able `d`ata cell(s) using `<td></td>` tags.
+- For the cells which you want to use as row headings or column headings, use `th` instead of `td`.
 
 `Sample code:`
 <script src="https://gist.github.com/codenart/7b49f6a66484ebcba0ce71f8496e44a3.js">
@@ -101,13 +101,15 @@ by columns and rows. And here are reference links to the attributes:
 
 ## Comments
 
-In the previous example, there is a line of code which does not appear in the result:  
+In the previous example, there was a line of code which has not appeared in the
+result:
+
 `<!-- The row above is for headings -->`
 
-This line is used for explanation in HTML document (code view) without affecting
-the result on webpage view. It is called a `comment`.
+This line is used for explanation in HTML document without affecting the output
+on webpage view. It is called a `comment`.
 
-A comment in HTML is created using an opening tag `<!--` and a ending tag `-->`
+A comment in HTML is created using an opening tag `<!--` and a ending tag `-->`.
 
 Another benefit of using comments is to temporarily cancel a blocks of code
 without deleting or moving your code to a temporary place.
