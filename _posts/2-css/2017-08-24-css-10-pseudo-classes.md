@@ -54,10 +54,10 @@ There are plenty of
 [Pseudo Classes](https://www.w3schools.com/css/css_pseudo_classes.asp "ext")
 listed here:
 [Full list of Pseudo Classes](https://www.w3schools.com/css/css_pseudo_classes.asp "ext").
-Let's pick another Pseudo Class to practice.
 
-This time we're gonna use the selector `:hover`. This one is very common used
-for styling links and buttons. But, we can also use it for other stuff.
+Let's pick another Pseudo Class to practice. This time we're gonna use the
+selector `:hover`. This one is very common used for styling links and buttons.
+But, we can also use it for other stuff.
 
 `HTML code:`
 <script src="https://gist.github.com/codenart/086b1dcc5bf29eea1dec26cedcb8a906.js">
@@ -123,8 +123,10 @@ the class `.entry`.
 </p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
-In the example `::before` is used to insert elements right `before` the selected elements.  
-There're also `::after` which is used to insert elements right `after` the selected elements.  
+In the example above, `::before` is used to insert elements right `before` the
+selected elements.  
+There're also `::after` which is used to insert elements right `after` the
+selected elements.  
 
 Besides, there are 3 more `Pseudo Elements` available in the current version of
 CSS:
@@ -133,12 +135,12 @@ CSS:
 - `::first-line` - select the first line of an element
 - `::selection` - select the portion of text of an element that is selected by user
 
-You can try those `Pseudo Stuff` with some `<p>` elements to create... something. :D  
-How about visualizing a newspaper? :D  
+You can try those `Pseudo Stuff` with some `<p>` elements to do something like
+visualizing a newspaper. :D
 
 Our tutorial about
 [Pseudo Classes & Pseudo Elements](https://codenart.github.io{{ page.url }} "ext")
 has finished. In the next tutorial, we'll talk about
 [Width & Height properties](https://codenart.github.io{{ page.next.url }} "ext").
 Yes, we've used those properties since the early tutorials. But, to keep things
-simple at the beginning, there're a few things about them that I've not mentioned. :D
+simple at the beginning, I've not mentioned a few things about them. :D

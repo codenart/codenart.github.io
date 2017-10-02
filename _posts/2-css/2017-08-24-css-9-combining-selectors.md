@@ -9,7 +9,7 @@ permalink:
 
 title: Combining CSS Selectors
 short: Combining Selectors
-description: We don't have to use all the tools that are available in CSS to create a nice website. <br>But, if we have more tools, it means we have more choices. <br>Let's talk more about CSS Selectors.
+description: We don't have to use all the tools that are available in CSS to create a nice website. <br>But, if we know more tools, it means we have more choices. <br>Let's talk more about CSS Selectors.
 keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, css, combine selectors
 
 date: 2017-08-24 05:40:00
@@ -19,7 +19,7 @@ If you wonder why we've not talked about Combining CSS Selectors at
 [the beginning](https://codenart.github.io/css/2017/08/24/css-2-selectors-priorities.html "ext"),
 I've to say it was my bad. I've just missed these stuff for... no reason. :D  
 
-In every aspect of life, our most naturally way of learning anything is not
+In every aspect of life, our most naturally way to learn anything, is not
 going on a straight line. Our paths are always spirals; seamless and
 continuity spirals.
 

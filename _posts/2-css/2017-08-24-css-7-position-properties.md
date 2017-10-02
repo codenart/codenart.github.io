@@ -9,7 +9,7 @@ permalink:
 
 title: Position properties in CSS
 short: Position Properties
-description: We've know how to set size of and decorate containers to make them look nice. <br>Positioning is the next step to make our webpages look tidy. <br>Let's talk about Positioning Properties.
+description: We've know how to set size of and decorate containers to make them look nice. <br>Positioning is the next step to make our webpages look tidy. <br>Let's talk about Position Properties.
 keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, css, position, properties, static, relative, absolute, fixed, top, right, bottom, left
 
 date: 2017-08-24 05:30:00
@@ -42,7 +42,7 @@ differently. So, we're gonna make some sections for the last 3 values of the
 [position](https://www.w3schools.com/cssref/pr_class_position.asp "ext")
 property and see the `gang of 4` in action.
 
-## Using `position: fixed;`
+## Using position: fixed;
 
 The rule `position: fixed;` will tell web browsers that we want to set position
 of the element relatively to `web browser's viewport`. The element will be
@@ -82,7 +82,7 @@ and the `right edge of web browser's viewport`.
 the `bottom edge of the button`  
 and the `bottom edge of web browser's viewport`.
 
-## Using `position: absolute;`
+## Using position: absolute;
 
 The rule `position: absolute;` will tell web browsers that we want to set
 position of the element relatively to `its parent container`. Conditionally,
@@ -112,11 +112,11 @@ card which has a small sale-off tag. :D
 
 If [position](https://www.w3schools.com/cssref/pr_class_position.asp "ext") of
 the parent container is `static`, web browsers will check the grand container,
-the grand grand, ... to find the closest ancestor container which has non-`static`
+the grand grand, ... to find the closest ancestor container which has `non-static`
 [position](https://www.w3schools.com/cssref/pr_class_position.asp "ext"), then
 set position of the element base on the ancestor.
 
-## Using `position: relative;`
+## Using position: relative;
 
 The rule `position: relative;` will tell web browsers that we want to set
 position of the element relatively to `its default position`. Unlike the 2
