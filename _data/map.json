@@ -19,6 +19,18 @@
 		},
 
       {
+         "id"    : "javascript",
+         "url"   : "/javascript/",
+         "title" : "JavaScript"
+		},
+
+      {
+         "id"    : "jquery",
+         "url"   : "/jquery/",
+         "title" : "jQuery"
+		},
+
+      {
          "id"    : "jekyll",
          "url"   : "/jekyll/",
          "title" : "Jekyll"

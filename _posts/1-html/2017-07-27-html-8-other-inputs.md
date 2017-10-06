@@ -25,8 +25,8 @@ There are 3 groups of common input types:
 
 Yes, we've seen text-fields in the previous tutorial.
 
-A `text-area` is nothing but a text-field expanded to multiple lines. To create
-a `text-area`, we use `<textarea> tags` instead of `<input>`.
+A text-area is nothing but a text-field expanded to multiple lines. To create
+a text-area, we use `<textarea> tags` instead of `<input> tags`.
 
 `Sample code:`
 <script src="https://gist.github.com/codenart/7992c7f17cb96977b2aa18d51fa69bcc.js">
@@ -48,12 +48,14 @@ a `text-area`, we use `<textarea> tags` instead of `<input>`.
 
 ## 2. Radio-button & Check-box & Dropdown-list
 
-The next common input types are `Radio-button`, `Check-box`, and `Dropdown-list`.
+The next common input types are radio-button, check-box, and dropdown-list.
 These input types help us to provide some options for visitors to choose.
 
-`Radio-button` and `Check-box` are created by using `<input> tags` and look
-quite the same. While `Radio-buttons` allow only 1 option checked, `Check-boxes`
-allow more than 1 option checked.
+### Radio-button & Check-box
+
+Radio-button and check-box are created by using `<input> tags` and look quite
+the same. While radio-buttons allow only 1 option checked, check-boxes allow
+more than 1 option checked.
 
 `Sample code:`
 <script src="https://gist.github.com/codenart/8495195640b9ac2426c75ac7cd72640d.js">
@@ -84,14 +86,15 @@ As these inputs do not allow visitors to enter their own information (values).
 We need to specify default value for each choice using
 [value attribute](https://www.w3schools.com/tags/att_value.asp "ext").
 The [value attribute](https://www.w3schools.com/tags/att_value.asp "ext")
-can also be used to specify default value for `text-field` and `text-area`.
+can also be used to specify default value for text-field and text-area.
 
 The [checked attribute](https://www.w3schools.com/tags/att_input_checked.asp "ext")
 is used to set a choice checked by default.
 
-Let's talk about `Dropdown-list`.  
-`Dropdown-list` is used in case there are over numbers of choices. For example,
-a nationality list should be created by using `Dropdown-list`.
+### Dropdown-list
+
+Dropdown-list is used in case there are over numbers of choices (for example:
+a nationality list)
 
 `Sample code:`
 <script src="https://gist.github.com/codenart/3481b234e28644afe7a1f72d062f2804.js">
@@ -113,8 +116,8 @@ a nationality list should be created by using `Dropdown-list`.
 
 ## 3. File-browser & Others
 
-Here is how to creating a `Browse...` button which is used to open built-in
-`File-browser` of web browsers:
+Here is how to create a `Browse...` button which is used to open built-in
+file-browser of web browsers:
 
 `Sample code:`
 <script src="https://gist.github.com/codenart/e5ae28418fe376702e89946927e516b2.js">
@@ -128,7 +131,7 @@ Here is how to creating a `Browse...` button which is used to open built-in
    <button type="submit" style="padding: 5px 25px;">Upload Photos</button>
 </form>
 
-Beside basic common input types which were listed above, there're plenty of
+Besides basic common input types which were listed above, there're plenty of
 other input types which are cool and supported by up-to-date browsers. Please,
 click on the link below if you want to learn further about them.
 
@@ -136,12 +139,12 @@ References: [input type attribute](https://www.w3schools.com/tags/att_input_type
 
 ## The `<label>` tags
 
-This is a convenient to make `Radio-buttons` and `Check-boxs` more friendly to
+This is a convenient to make radio-buttons and check-boxs more friendly to
 mobile user. With `<label>` tags, we can create clickable areas that are bound
-to control elements like `Radio-buttons` and `Check-boxs`. So, visitors can
-either tap on control elements or label elements.
+to radio-buttons and check-boxes. So, visitors can either tap on control
+elements or label elements.
 
-The most simple way to bind a `label` element to a control element is putting
+The most simple way to bind a label element to a control element is putting
 the control element inside the label element.
 
 `Sample code:`
@@ -166,10 +169,9 @@ the control element inside the label element.
    <button type="submit" style="padding: 5px 25px; margin-top: 15px;">Send</button>
 </form>
 
-A `label` element can also be bound to a control element using
+A label element can also be bound to a control element using
 [for attribute](https://www.w3schools.com/tags/att_for.asp "ext"). In this case,
-the control element must have an `id` which is also specified as value of the
-label's `for-attribute`.
+the control element must have an `id`.
 
 `Sample code:`
 <script src="https://gist.github.com/codenart/8c77b7f49a783e697bdf8aa6a0982b74.js">

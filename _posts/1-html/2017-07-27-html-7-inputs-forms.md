@@ -15,15 +15,10 @@ keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding
 date: 2017-07-27 05:30:00
 ---
 
-`Text-field` is the most basic type of inputs which is seen in almost every
-website. A text-field is a small box that visitors can put there a single line
-of text.
+The most basic type of inputs which is seen in almost every website, is `text-field`.
+A text-field is a small box that visitors can put there a single line of text.
 
-`Sample code:`
-<script src="https://gist.github.com/codenart/a919acbeb34e84eb8a7cc86a8b078043.js">
-</script>
-
-`Result:`
+`Sample text-fields:`
 
 Normal text field:  
 <input type="text" placeholder="You can type here..."
@@ -32,11 +27,11 @@ Password text field:
 <input type="password" placeholder="Password will be covered."
        style="padding: 5px 15px; margin: 5px 0 8px;">
 
-The `<input> tags` can be used to create various types of inputs. To create a
-normal text-field or a password-field, we need to specify `type` of the input
-using [type attribute](https://www.w3schools.com/tags/att_input_type.asp "ext").
-A password-field is just a little bit different from a normal one: it will have
-its content covered by bullets.
+Text-fields can be created using [input tags](https://www.w3schools.com/TagS/tag_input.asp "ext").
+
+`Sample code:`
+<script src="https://gist.github.com/codenart/a919acbeb34e84eb8a7cc86a8b078043.js">
+</script>
 
 References: [type attribute](https://www.w3schools.com/tags/att_input_type.asp "ext")
 
@@ -69,8 +64,7 @@ a `submit button`.
 When inputs are used in a form for collecting and submitting information, every
 inputs must have a `name` specified using
 [name attribute](https://www.w3schools.com/tags/att_name.asp). This is a
-convention for working with collected information at server-side. We are freely
-to name the fields as whatever we want. :D
+convention for working with collected information at server-side.
 
 The `reset button` is optional. It is used for resetting all inputs of the form.
 
@@ -90,9 +84,9 @@ keep the information secured.
 The [method attribute](https://www.w3schools.com/tags/att_form_method.asp "ext")
 can be used with 1 of these 2 values: `get`, `post`.
 
-The `method="get"` is implicitly used by forms by default. The `method="post"`
-is the one that can help us to prevent sensitive information form being
-displayed on web browser's address bar.
+The `method="get"` is implicitly used by default. The `method="post"` is the one
+that can help us to prevent sensitive information form being displayed on web
+browser's address bar.
 
 `Sample code:`
 <script src="https://gist.github.com/codenart/aef5aba5957501d760b7347ff4d2e18d.js">

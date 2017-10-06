@@ -26,9 +26,9 @@ ordered list and tables.
 
 ## Unordered Lists
 
-To create an `u`nordered `l`ist, we firstly need to create a container using
+To create an unordered list, we firstly need to create a container using
 `<ul></ul>` tags.  
-The second step is specifying `l`ist `i`tems using `<li></li>` tags.
+The second step is specifying list items using `<li></li>` tags.
 
 `Sample code:`
 <script src="https://gist.github.com/codenart/27549a909e71ffd70d9b8a98e0a9b6b5.js">
@@ -42,7 +42,7 @@ The second step is specifying `l`ist `i`tems using `<li></li>` tags.
 
 ## Ordered Lists
 
-Creating an `o`rdered `l`ist is almost the same as creating an unordered one.
+Creating an ordered list is almost the same as creating an unordered one.
 
 `Sample code:`
 <script src="https://gist.github.com/codenart/1babf924dd1c4ded2bbcdf5bb95c80bc.js">
@@ -57,9 +57,9 @@ Creating an `o`rdered `l`ist is almost the same as creating an unordered one.
 
 A table in HTML is created row by row. Here are steps to create a table:
 
-- Create a `table` container using `<table></table>` tags.
-- Create `t`able `r`ow(s) using `<tr></tr>` tags.
-- Inside each row, add `t`able `d`ata cell(s) using `<td></td>` tags.
+- Create a table container using `<table></table>` tags.
+- Create table's row(s) using `<tr></tr>` tags.
+- Inside each row, add table's data cell(s) using `<td></td>` tags.
 - For the cells which you want to use as row headings or column headings, use `th` instead of `td`.
 
 `Sample code:`
@@ -117,24 +117,3 @@ without deleting or moving your code to a temporary place.
 `Sample code:`
 <script src="https://gist.github.com/codenart/585351dc0921ef2bdd9363b5bb9455ab.js">
 </script>
-
-`Result:`
-<table class="table">
-   <tr>
-      <th>Name</th>
-      <th>Age</th>
-      <th>Place</th>
-   </tr>
-
-   <tr>
-      <td>Methuselah</td>
-      <td>4,800</td>
-      <td>California</td>
-   </tr>
-
-   <tr>
-      <td>Senator</td>
-      <td>3,500</td>
-      <td>Florida</td>
-   </tr>
-</table>

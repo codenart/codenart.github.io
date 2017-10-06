@@ -87,9 +87,7 @@ So, our HTML document should look like this:
 ![credit to Psyperl](/images/html/4/atree.jpg)
 > Background image - credit to [Psyperl](https://www.freecodecamp.org/psyperl "ext")
 
-Does it work?  
-No? :D  
-I'm sorry. That was my bad. :D  
+Does it work? No? I'm sorry. That was my bad. :D  
 I've not told you something about container tags. They are simply used to group
 other HTML elements and produce no effect on the output.
 
@@ -103,7 +101,7 @@ That is CSS!
 
 ## What is CSS? Why do we need it?
 
-There are `some` important things that I would want to tell you at the beginning
+There are some important things that I would want to tell you at the beginning
 but my mind is quite forgetful.
 
 [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML "ext") can only help
@@ -115,7 +113,7 @@ simplified and easier-to-learn version of English.
 As you've already known the most common HTML tags, this is a perfect time to
 learn CSS. My HTML tutorials will be continued but I recommend you to use them
 as references (use my site's search box when you need to know something). You
-don't need to read them all at the time because it's `boring`. I promise. :D
+don't need to read them all at the time because it's boring. I promise. :D
 
 Learning HTML is just that. Trying some HTML tags and refreshing web browsers.  
 There's no more fun.
@@ -126,7 +124,7 @@ And there will be more fun.
 Oh wait... It seems that there is no difference in the CSS learning process. :D  
 But I assure you that learning CSS is much more fun.
 
-There's another important thing I've to tell you about HTML containers.  
+There's one more important thing I've to tell you about HTML containers.  
 Just give me 30 seconds more to finish this tutorial before we start our
 [first CSS tutorial](https://codenart.github.io/beauty/ "ext").
 
@@ -142,7 +140,7 @@ Just do this:
 <script src="https://gist.github.com/codenart/862e4da903b23cd62d38aee05726889a.js">
 </script>
 
-This is the basic HTML template and it is a standard for any HTML document.  
+This is the basic HTML template and it is standard for any HTML document.  
 
 Our previous examples worked well because all the modern web browsers have a
 smart feature which automatically apply this template and put all of our contents
@@ -152,27 +150,23 @@ inside the
 The [head container](https://www.w3schools.com/tags/tag_head.asp "ext") is used
 to group some HTML elements that provide related information about our webpages
 to web browsers. Those elements will not be displayed on our webpages but they
-silently benefit us. For example, the `<link>` element which we used in the
-previous section, is normally placed inside the `<head>` container.
+silently benefit us.
 
 As you see that there is a `<meta>` tag. This element will allow us to use
-[Unicode](https://en.wikipedia.org/wiki/Unicode "ext") characters in our HTML
-document.
+Unicode characters in our HTML document.
 
-The next one is a couple of
-[title tags](https://www.w3schools.com/tags/tag_title.asp "ext"), they help us
-to name the webpage and display this name at top of web browsers (tab bar).
+The next one is a couple of `<title> tags`, they help us to name the webpage and
+display this name at top of web browsers (tab bar).
 
 The `<html>` container is the root container of the document. Something like a
 `<div>`. It's just that.
 
 And `<!DOCTYPE html>`, it tell web browsers that `this document's type is HTML`.
-We don't need to explore details about this one because we only need it to stay
-`there`. Its story is about history of
+We don't need to explore details about this one. Its story is about history of
 [Markup Languages](https://en.wikipedia.org/wiki/Markup_language "ext").
-It's better to just leave the history at top of our HTML documents.
+We'd better to just leave the history at top of our HTML documents.
 
-Our tutorial about HTML containers has finished! It's time for ~~css~~
+Our tutorial about HTML containers has finished! It's time for
 [Music](https://www.youtube.com/watch?v=n-BXNXvTvV4 "ext")!
 
 <div class="embed">

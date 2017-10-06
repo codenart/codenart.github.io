@@ -16,7 +16,7 @@ date: 2017-07-27 05:15:00
 ---
 
 This time we're gonna use
-[video](https://www.w3schools.com/tags/tag_video.asp "ext") stored locally first:
+[video](https://www.w3schools.com/tags/tag_video.asp "ext") files stored locally first:
 
 - Put your video file in the same folder with the HTML document or in a sub-folder.
 - Ask Atom to perform this 2-letters mantra: `vi`.
@@ -72,7 +72,8 @@ container of embedded content.
 
 ## How to add audios into a webpage?
 
-We're gonna make another mantra and send to Atom:
+Adding audios into a webpage is just similar to adding videos. We're gonna make
+another mantra and send to Atom:
 
 - Ooommm... Atom, the new mantra is `au`.
 - Poof! `<audio src=""></audio>`.
@@ -108,7 +109,7 @@ your audio files locally:
 </div>
 
 Waaaa... I've not noticed that this article is full of music now. :D  
-I'm sorry if those stuff distracted you from learning process. :D
+I'm sorry if those stuff distracted you. :D
 
 After 3 tutorials, now we've already know how to add basic content-types into
 webpages. The next important thing is grouping related content into parts

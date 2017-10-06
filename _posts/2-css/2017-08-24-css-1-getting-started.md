@@ -63,10 +63,10 @@ Do you feel that CSS code looks more `English` than HTML? :D
 Let me explain a little bit about the sample CSS code snippet above:
 
 - There are 3 blocks of CSS code in the example. Each block has a couple of curly
-braces `{ }` to group something. :D
-- Right before each `{ }` is a `selector`. Selectors helps us to select the HTML
-elements that we want to decorate.
-- Inside each `{ }` is one or more CSS rules which tell web browsers how to
+braces `{}` to group something. :D
+- Right before each `{}` there is a `selector`. Selectors helps us to select the
+HTML elements that we want to decorate.
+- Inside each `{}`, there are some CSS rules which tell web browsers how to
 display the selected HTML elements. In the example above: white text, background
 color is crimson, sizes of letters.
 - Each CSS rule ends with a semi-colon `;` and has 2 parts separated by a colon `:`

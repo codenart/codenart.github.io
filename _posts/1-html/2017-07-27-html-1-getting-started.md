@@ -107,9 +107,9 @@ But... typing those angle brackets `<>` and repeated tag names is a `boring` tas
 
 ## How to have fun doing a boring task?
 
-You know, we're living in a `magical` world. Great people keep sharing free and
-useful stuff to make life easier. I've found another free and excellent `thing`
-created by Github - the [Atom Code Editor](https://atom.io/ "ext"):
+You know, we're living in a `magical` world. Great people keep sharing `free`
+and useful stuff to make life easier. I've found another free and excellent
+`thing` created by Github - the [Atom Code Editor](https://atom.io/ "ext"):
 
 1. One click to [download](https://atom.io/ "ext").
 2. Another one to install.
@@ -123,8 +123,8 @@ computer then we will see `him` in action. The word [Atom](https://atom.io/ "ext
 means `actor`, doesn't it? :D
 
 Once you have Atom ready at your hand... there's another important `thing`
-needed to be done before we go to the our next tutorial.  
-It's [Music](https://www.youtube.com/watch?v=eaw2Za2SUy4 "ext")!
+needed to be done before we go to the our next tutorial: It's
+[Music](https://www.youtube.com/watch?v=eaw2Za2SUy4 "ext")!
 
 <div class="embed">
    <iframe width="560" height="315"
@@ -134,5 +134,5 @@ It's [Music](https://www.youtube.com/watch?v=eaw2Za2SUy4 "ext")!
 </div>
 
 > Don't rush anything. Breath and go slowly.  
-> Wish you peace and joy, my buddy.  
+> Wish you peace and joy, buddy.  
 > \_\_A simple & happy Mind

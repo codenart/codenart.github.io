@@ -20,11 +20,11 @@ The HTML tags which are called text formatters can be categorized into 2 groups:
 - `Semantic` formatters
 - `Non-semantic` formatters
 
-The `semantic` formatters tell web browsers how the contents should look like.
+The semantic formatters tell web browsers how the contents should look like.
 They also tell search engines (Google, Bing, etc...) what the contents are, or
 how important the contents are.
 
-Here are common `semantic` formatters:
+Here are common semantic formatters:
 
 `Sample code:`
 <script src="https://gist.github.com/codenart/0caa47c78c60f8d8c0551896a7524048.js">
@@ -39,10 +39,10 @@ Here are common `semantic` formatters:
 
 ## Non-semantic text formatters
 
-`Non-semantic` formatters only tell web browsers how the contents should look
+Non-semantic formatters only tell web browsers how the contents should look
 like. They do not describe the contents, neither tell search engines anything.
 
-Here are common `Non-semantic` formatters:
+Here are common Non-semantic formatters:
 
 `Sample code:`
 <script src="https://gist.github.com/codenart/22643c17d0fe52f8e0c7a85f2d26675e.js">
@@ -53,17 +53,3 @@ Here are common `Non-semantic` formatters:
 **This content should look Bold**  
 *This content should look Italicized*  
 <u>This content should look Underlined</u>
-
-## The formatters `<code>` and `<pre>`
-
-I've separate these two text formatters from those above because... I love them. :D
-
-They're commonly used to display `code`.  
-The `<code></code>` tags are semantic and the `<pre></pre>` tags are non-semantic.
-
-To quickly write some keywords or a short line of code in a paragraph, we can
-use `<code></code>`.
-
-To write a block of code we can use `<pre></pre>`. The `pre` element will
-`preserve` white-spaces so we don't have to use `<br>` to add line-breaks
-like we use to do with paragraphs.

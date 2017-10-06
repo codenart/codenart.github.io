@@ -9,7 +9,7 @@ permalink:
 
 title: How to add images into a webpage?
 short: Images & Links
-description: I've missed something in the first tutorial, so they're flying over here. <br>Adding images into your webpage, creating links. <br>And... see Atom in Action.
+description: I've missed something in the first tutorial, so they're flying over here. <br>Adding images into a webpage, creating links. <br>And... see Atom in Action.
 keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, image, link
 
 date: 2017-07-27 05:05:00
@@ -34,7 +34,7 @@ we only need to tell web browsers `where` to get the image:
 - Copy/Paste this url
 [https://s19.postimg.org/9zaosqzdf/trees.jpg](https://s19.postimg.org/9zaosqzdf/trees.jpg "ext")
 into the `src`.
-- Save file again and open it using your web browser.
+- Save file again and open the document using your web browser.
 
 `Screenshot:`
 ![img tag](/images/html/2/trees.jpg)
@@ -52,12 +52,11 @@ click` on the image and choose `Copy Image Location` then paste into the `src`.
 In case you don't want to store your image on another website, you can create a
 folder named something like `images` and put all image-files there. In the
 `src`, type `the folder's name` followed by a slash `/` and `image's filename`.
+Web browsers will start at the folder contains the `HTML document` and follow
+the `path` to look for the `image`.
 
 `Screenshot:`
 ![using an image stored locally](/images/html/2/relative.jpg)
-
-In this case, web browsers will start at the folder contains the `HTML document`
-and follow the `path` to look for the `image`.
 
 Reference:
 [Supported Image-Formats](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#Supported_image_formats "ext")
@@ -65,7 +64,7 @@ Reference:
 ## Single HTML tags
 
 You may notice that there are something `strange` in the previous example. We've
-only seen HTML tags come in pairs, yet the
+only seen HTML tags come in pairs, but the
 [img tag](https://www.w3schools.com/tags/tag_img.asp "ext") stands alone.
 
 Yes, there are some HTML tags designed to stand alone. They're called `single tags`.
@@ -81,8 +80,7 @@ a `line br`
 > ry.  
 > \_\_quote by WordPress.org
 
-Let's talk about the next `strange` thing, the
-[HTML attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes "ext").
+Let's talk about the next `strange` thing.
 
 ## HTML attributes
 
@@ -151,11 +149,11 @@ the webpage like the
 [Start Reading ;](#display "int") button
 on the top of my website?
 
-It's `not` not easy. (This is double negative in my English. Not a typo. :D)  
+It's `not` not easy. (This is double negative in my English, not a typo. :D)  
 There is an HTML attribute called
 [id](https://www.w3schools.com/tags/att_id.asp "ext"). You can use it to give
-any HTML element an `unique identity`, then use
-[the id](https://www.w3schools.com/tags/att_id.asp "ext") as an `url` (forwarded
+any HTML element a unique identity, then use
+[the id](https://www.w3schools.com/tags/att_id.asp "ext") as an url (forwarded
 by a hash `#`).
 
 `Sample code:`
