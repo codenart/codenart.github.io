@@ -682,6 +682,11 @@ body {
    border-radius: 0;
 }
 
+#post .fb {
+   padding: 27px 15px;
+   border: 1px solid hsl(0, 0%, 90%);
+}
+
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  * Anchor

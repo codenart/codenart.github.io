@@ -15,7 +15,7 @@ keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding
 date: 2017-08-24 05:00:00
 ---
 
-We all know that
+Everybody knows know that
 [HTML](https://codenart.github.io/begin/#how-to-add-images-buttons-etc "ext") is
 a simplified version of English. It helps us to talk to web browsers. With HTML,
 we can tell web browsers to display any type of contents (links, images, buttons,
@@ -45,8 +45,8 @@ This is a shorter introduction to CSS:
 
 Oh. I'm not saying that the second screenshot looks nicer than the first one. Cause
 I don't have good sense of using colors and design stuff. But I assure you that
-CSS can help you to make your webpages look nicer and more lively than black and
-white text documents. :D
+CSS can help you to make your webpages look nicer and more lively than white
+documents. :D
 
 > Without HTML, there is no website.  
 > Without CSS, there is no beautiful website.  
