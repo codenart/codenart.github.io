@@ -36,7 +36,7 @@ use these tags for top navigation panel, side navigation panel, and document ind
 
 2| `<header></header>` -- This container tags are used to group
 [introductory content](https://www.w3schools.com/tags/tag_header.asp "ext").
-(Big heading and introduction paragraph, logo, branding stuff...)
+(big heading and introduction paragraph, logo, branding stuff...)
 
 3| `<article></article>` -- Just an
 [article](https://www.w3schools.com/tags/tag_article.asp "ext").  

@@ -46,19 +46,19 @@ them are special but each one of them is unique. :D
 </p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
-You may notice that the id selectors begin with a hash `#`. It looks the same as
-how we use id to create
+You may notice that each of the `id selectors` begin with a hash `#`. It looks the
+same as how we use `id` to create
 [internal links](https://codenart.github.io/html/2017/07/27/html-2-images-links.html#id "ext").
 
 ## Class selectors
 
 `Basic selectors` are useful for styling common stuff.  
 `Id selectors` are great for styling unique stuff.  
-And there are `Class selectors` which are excellent for styling mixed stuff. :D
+And there are `class selectors` which are excellent for styling mixed stuff. :D
 
-To use Class selectors, we need to specify class names for HTML elements using
+To use `class selectors`, we need to specify class names for HTML elements using
 [class attribute](https://www.w3schools.com/tags/att_class.asp "ext") and use
-the class names as Selectors.
+the class names as selectors. Note that every `class selector` begin with a dot `.`
 
 `HTML code:`
 <script src="https://gist.github.com/codenart/33357d72dafcc0955c2f31cf596610e6.js">
@@ -79,10 +79,10 @@ the class names as Selectors.
 </p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
-Yet, Class selectors are far more superior.  
-As you see that a Class can have more than 1 member. This time, we're gonna
-define Classes and their styles firstly. Later, we'll decide which elements
-will join the Classes and each element will join more than 1 Class.
+Yet, `class selectors` are far more superior.  
+As you see that a class can have more than 1 member. This time, we're gonna
+define classes and their styles firstly. Later, we'll decide which elements
+will join the classes and each element will join more than 1 class.
 
 `CSS code:`
 <script src="https://gist.github.com/codenart/df4a9eb30406234057ed8a28a61c4b63.js">
@@ -105,7 +105,7 @@ will join the Classes and each element will join more than 1 Class.
 
 This idea is the same as in our daily life, isn't it? We have dancing classes,
 meditate classes, etc... where people meet and learn together; And anyone can
-also take `more than` 1 Class.
+also take `more than` 1 class.
 
 ## Priorities in CSS
 
@@ -136,7 +136,7 @@ and it's the Selectors cause the Priorities:
 
 1. `Id selectors` has the highest priority
 2. `Class selectors` has higher priority than basic selectors
-3. `Basic selectors`
+3. `Basic selectors` ...
 
 ## Special priority
 
@@ -164,9 +164,8 @@ certain Property, there are various Values which can be used with. So, we will
 cover details about CSS Values when we talk about each certain Property.
 
 In the next tutorial, we'll talk about 2 common Value-types: `Color` and `Length`.
-They are used with various CSS Properties.
-
-And now, it's time for [Music](https://www.youtube.com/watch?v=-98nmUfaBqs "ext")! <i class="fa fa-heart"></i>
+And now, it's time for [Music](https://www.youtube.com/watch?v=-98nmUfaBqs "ext")!
+<i class="fa fa-heart"></i>
 
 <div class="embed">
    <iframe width="560" height="315"
