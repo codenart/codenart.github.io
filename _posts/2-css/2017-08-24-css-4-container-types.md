@@ -7,7 +7,7 @@ category: css
 featured:
 permalink:
 
-title: Common container-Types in CSS
+title: Common container-types in CSS
 short: Container Types
 description: We've known that every HTML element is a container that hold some contents. <br>We've also set size of some containers in the previous tutorial. <br>Let's talk a little bit more about containers.
 keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, css, display, property
@@ -18,34 +18,35 @@ date: 2017-08-24 05:15:00
 In the previous tutorial, we've set size of some `div` containers using `width`
 and `height` properties. But if you try to do the same thing with an element
 created by `<a></a>` tags, you will see that it just doesn't work. It's because
-of the default container-Type of the `<a>` container does not allow us to set
-size of the container.
+of the default `container type` of the `<a></a>` element does not allow us to
+set size of the container.
 
-There are 3 common container-Types:
+There are 3 common `container types`:
 
 - `block` containers
 - `inline` containers
 - `inline-block` containers
 
 `block` containers take 100% width of their parent containers by default.  
-We can set size of these containers using Sizing Properties like `width` and `height`.  
+We can set size of these containers using `width` and `height` properties.  
 Ex: headings, paragraphs, div, nav, etc...
 
 `inline` containers won't take space. They keep their size as small as possible
-(just wrapping around the content inside). Web browsers treat these containers as
-texts (words).  
+(just wrapping around the content inside). Web browsers treat these containers
+as texts (words).  
 We can NOT set size of these containers.  
 Ex: links, span, etc...
 
 `inline-block` containers are special. Web browsers treat them as texts (`inline`
-containers) but we can set size of these containers.  
+containers) but we can also set size of these containers using `width` and
+`height` properties.  
 Ex: buttons, images, etc...
 
-## Changing Type of a container
+## Changing type of a container
 
-If we want to provide better experience to mobile users, every anchor elements
-should be a little bit bigger than their default sizes (may be as big as a button)
-to make sure that visitors don't have to tap few times to hit a link.
+Sometimes we want to provide better experience to mobile users by making size of
+anchor elements a little bit bigger than default to make sure that visitors don't
+have to tap few times to hit a link.
 
 There is a CSS property called `display` which can help us to change type of
 containers. Let's create some look-like-button links. :D  
@@ -71,14 +72,14 @@ containers. Let's create some look-like-button links. :D
 
 Besides 3 common values `block`, `inline`, and `inline-block`; The `display`
 property can be used with various values which are useful in some ways. Some of
-them will require up-to-date web browsers but they are great. Here is the
-reference link in case you want to go further:
+them will require up-to-date web browsers. Here is the reference link in case
+you want to go further:
 [The display Property](https://www.w3schools.com/cssref/pr_class_display.asp "ext").
 
-## Writting comments in CSS
+## Writing comments in CSS
 
-Just like HTML, We can write comments in CSS code. Comments will be ingored when
-web browsers parse our CSS code.
+Just like HTML, We can write comments in CSS code. Comments will be ignored when
+web browsers process CSS code.
 
 A comment in CSS can be written by using a pair of `/*` and `*/` to enclose
 `/* something */`.
@@ -86,6 +87,5 @@ A comment in CSS can be written by using a pair of `/*` and `*/` to enclose
 We can also use comments to quickly cancel some CSS code blocks without deleting
 or moving them to another temporary place.
 
-Our tutorial about [Container Types](https://codenart.github.io{{ page.url }})
-has finished. In the next tutorials, we're gonna talk about some properties
-which are used to decorate containers.
+Our tutorial about [container-types](https://codenart.github.io{{ page.url }})
+has finished. In the next tutorial, we'll talk about `background properties`.
