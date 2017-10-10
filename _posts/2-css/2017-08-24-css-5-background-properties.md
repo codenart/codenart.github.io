@@ -17,11 +17,11 @@ date: 2017-08-24 05:20:00
 
 We've used the `background-color` property some times in the previous tutorial.
 This time we're gonna set an image as background of a container using
-`background-image`. This is the syntax of the property:
+`background-image` property. This is the syntax of the property:
 
 `background-image: url(path-to-image);`
 
-The path to the image is depend on if your image is stored locally or somewhere
+The path to the image depends on if your image is stored locally or somewhere
 else on the internet. In the example below, we'll use an image which
 is hosted by [postimg.org](https://postimg.org/ "ext").
 
@@ -51,15 +51,13 @@ image's size. Let's fix it in the next section.
 
 The `background-size` property can be used with 1 of these 2 smart values:
 `cover` and `contain`. Those 2 values will both try to make the background
-images fit to containers' size (at least 1 dimension).
+images fit to containers' size.
 
 The `background-size: cover;` will make sure that the background image will fully
-cover container's area. So, there's often 1 dimension of the background image
-which is larger than container's.
+cover container's area.
 
 The `background-size: contain;` will make sure that the background image will be
-fully displayed inside container. So, there's often 1 dimension of the background
-image which is smaller than container's.
+fully displayed inside container.
 
 Let's duplicate our container and try both of those 2 values.
 
@@ -90,27 +88,27 @@ To control repeating background image, there's `background-repeat` property. It
 can be used with 1 of these 3 values: `repeat-x`, `repeat-y`, and `no-repeat`.
 Just try this property with the second container to see if it works. :D
 
-P/s: The `background-size` property can also be used with 2 Length-Values. The
+P/s: The `background-size` property can also be used with 2 length-values. The
 first value is `width` and the second one is `height`:
 
 `background-size: 500px 300px;`
 
 ## The `background-position` property
 
-In usual, we want our background fully `cover` container's area. So, there will
-be a part of the background image is hidden. The `background-position` property
-can help us to set position of the background image and make sure the best part
-of the image will be shown. :D
+In usual, we want our background fully `cover` container's area. So, there's
+often a part of the background image is hidden. The `background-position`
+property can help us to set position of the background image and make sure the
+best part of the image will be shown. :D
 
-This is the default value of `background-position` property:
+This is the default values of `background-position` property:
 
 `background-position: left top;`
 
 The first value is horizontal position. It can be one of these values: `left`,
-`center`, `right`, or a Length-Value.
+`center`, `right`, or a length-value.
 
 The second value is vertical position. It can be one of these values: `top`,
-`center`, `bottom`, or a Length-Value.
+`center`, `bottom`, or a length-value.
 
 Let's change our example in the previous section a little bit to see the
 `background-position` property in use.
@@ -135,10 +133,10 @@ Let's change our example in the previous section a little bit to see the
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 Our tutorial about
-[Background Properties](https://codenart.github.io{{ page.url }}) has finished.
+[background-properties](https://codenart.github.io{{ page.url }}) has finished.
 There're also some other Background Properties for advanced utilizing that I
 don't bring them into this tutorial. Here is a list of all Background Properties
-in case you want to know further:
+in case you want to go further:
 
 - [background-color](https://www.w3schools.com/cssref/pr_background-color.asp "ext")
 - [background-image](https://www.w3schools.com/cssref/pr_background-image.asp "ext")
