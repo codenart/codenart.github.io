@@ -8,23 +8,20 @@ featured:
 permalink:
 
 title: How to specify Colors in CSS?
-short: Colors & Lengths
-description: In this tutorials, we're gonna talk about 2 common Value-types (Colors & Lengths). <br>Everyone of us loves colors in our own perspective. <br>So, let's start with CSS Colors. <i class="fa fa-heart"></i>
+short: Color & Length
+description: In this tutorials, we're gonna talk about 2 common value-types (Color & Length). <br>Everyone of us loves colors in our own perspective. <br>So, let's start with CSS Colors. <i class="fa fa-heart"></i>
 keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, css, colors, units
 
 date: 2017-08-24 05:10:00
 ---
 
 <span id="simple"></span>
-Color-Values are used with many Properties to style text, element's background,
-element's border, etc... The `most simple` way to specify Colors in CSS is using
-[Color-Names](https://www.w3schools.com/colors/colors_groups.asp "ext").
+Colors are used with many Properties to style text, element's background,
+element's border, etc... The `most simple` way to specify colors in CSS is using
+[color-names](https://www.w3schools.com/colors/colors_groups.asp "ext"). You can
+take a look at the color list here: [Full list of supported color-names](https://www.w3schools.com/colors/colors_groups.asp "ext")
 
-[Color-Names](https://www.w3schools.com/colors/colors_groups.asp "ext") are
-beautiful and easy to remember because they are written in our nature language.
-You can take a look at the color list here: [Full list of supported Color-Names](https://www.w3schools.com/colors/colors_groups.asp "ext")
-
-Let's write some CSS code using Color-Names.  
+Let's write some CSS code using `color names`.  
 As I'm not having good sense of design stuff and using colors, so I'm gonna use
 a picture as color palette and pick some colors from it to use in examples. You
 should use your own favorite colors in your sample HTML document or your website. :D
@@ -53,27 +50,28 @@ should use your own favorite colors in your sample HTML document or your website
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 In the example above, there're 2 colors: `RoyalBlue` and `Snow` (Snow White is
-real). As you see that, Color-Names are so descriptive and simple that anyone
+real). As you see that, `color names` are so descriptive and simple that anyone
 can look at CSS code and know how the colors look like.
 
-## Specify colors using HEX values
+## Specify colors using HEX-values
 
-There're also other choices to specify Colors in CSS. They're less descriptive
-than Color-Names when we look into CSS code but they're more precise and flexible.
-Using [Color-Names](#simple "int") is the `most simple` way, and now we're
+There're also other choices to specify colors in CSS. They're less descriptive
+than `color names` when we look into CSS code but they're more precise and flexible.
+Using [color-names](#simple "int") is the `most simple` way, and now we're
 gonna talk about the `most popular` way: Using
-[HEX-Values](https://www.w3schools.com/colors/colors_hexadecimal.asp "ext").
+[HEX-values](https://www.w3schools.com/colors/colors_hexadecimal.asp "ext").
 
-You can use your favorite image editor to pick colors and get their HEX-Values
-to use in CSS code.
-There are also online tools which can help you to do the task:
+There are online tools which can help use to pick colors and get their `HEX
+values` to use in CSS code:
 [Adobe Color](https://color.adobe.com/ "ext"),
 [W3schools Picker](https://www.w3schools.com/colors/colors_picker.asp "ext").
+You can also use your favorite image editor to the task.
 
-This is how we say `Red` using HEX-Values: `#ff0000`.  
-As HEX-Values are precise and flexible, we have more choices to say Red. The one
-above is the most bright Red. My beloved Red is a little bit `less bright`, so I
-can say `#bb0000`.
+This is how we say `Red` using `HEX values`: `#ff0000`.
+
+As `HEX values` are precise and flexible, we have more choices to say Red. The
+one above is the most bright Red. My beloved Red is a little bit `less bright`,
+so I can say `#bb0000`.
 
 `HTML code:`
 <script src="https://gist.github.com/codenart/29964874e246275be3ddf9b7a2d1c747.js">
@@ -94,43 +92,41 @@ can say `#bb0000`.
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 Let's assume that you are creating a website to give useful information to help
-other people and you don't want to miss anyone. There are many people around the
-world who are using
+other people and you want to be fair with everyone. There are many people around
+the world who are using
 [Internet Explorer version 8](https://en.wikipedia.org/wiki/Internet_Explorer "ext")
-and older technology web browsers. Fortunately, using HEX values is supported by
-all web browsers at the moment. That's why it's the most popular option to
-specify Colors in CSS.
+and older technology web browsers. Fortunately, using `HEX values` is supported
+by all web browsers at the moment. That's why it's the most popular option to
+specify colors in CSS.
 
-Yet, there are more ways to specify Colors in CSS. They're supported by Internet
-Explorer version 9+, and newer technology web browsers like Firefox, Google Chrome,
-and Opera.
+Yet, there are more ways to specify colors in CSS. They're supported by Internet
+Explorer version 9+, and newer technology web browsers like Firefox, Google
+Chrome, and Opera.
 
 Here are some reference links to learn more about CSS colors:
 
 - The most `simple` way to specify colors in CSS: --Using
-[Color Names](https://www.w3schools.com/colors/colors_groups.asp "ext").
+[color-names](https://www.w3schools.com/colors/colors_groups.asp "ext").
 - The most `popular` way to specify colors in CSS: --Using
-[HEX values](https://www.w3schools.com/colors/colors_hexadecimal.asp "ext").
+[HEX-values](https://www.w3schools.com/colors/colors_hexadecimal.asp "ext").
 - The most `efficient` way to specify colors in CSS: --Using
-[HSLA values](https://www.w3schools.com/colors/colors_hsl.asp "ext").
+[HSLA-values](https://www.w3schools.com/colors/colors_hsl.asp "ext").
 - The most `beautiful` way to specify colors in CSS: --Using
 [Gradients](https://www.w3schools.com/colors/colors_gradient.asp "ext").
 
 `Screenshot (using Gradients):`
 ![7 dwarfs](/images/css/3/sevendwarfs.jpg)
 
-We've finished talking about color-Values in CSS. The next common Value-type is
-`Length`. Length-Values are used in various CSS Properties to specify size of
-text and containers.
+We've finished talking about colors in CSS. Let's talk about the next common
+Value-type: Length.
 
-## How to specify Lengths in CSS?
+## How to specify lengths in CSS?
 
-In the previous tutorials, we've specified Length-Values
-(in [pixel](https://en.wikipedia.org/wiki/Pixel "ext")) to use with `font-size`
-It is the most simple way to specify lengths in CSS: using `static values`.
+In the previous tutorials, we've specified lengths in
+[pixel](https://en.wikipedia.org/wiki/Pixel "ext") to use with the `font-size`
+property. It is the most simple way to specify lengths in CSS: using `static values`.
 
-Let's write some CSS code that use `static values`.  
-We're gonna create some colored blocks which have different sizes.
+Here is another example using `static values` to specify lengths.
 
 `HTML code:`
 <script src="https://gist.github.com/codenart/4ffbb4bc310d672bd422af91f341836f.js">
@@ -152,11 +148,12 @@ We're gonna create some colored blocks which have different sizes.
 </p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
-## Specify lengths using Dynamic-Values
+## Specify lengths using dynamic-values
 
 For the example above, if we resize our web browsers' windows, those blocks will
-maintain their specified widths. Dynamic-Values help us to make those blocks
-flexible and adaptive to various screen sizes.
+maintain their specified widths. It means that they're not adaptive to various
+screen sizes . Dynamic-values help us to make those blocks flexible and adaptive
+to various screen sizes and more commonly used as responsive design is popular.
 
 Let's change the above CSS code snippet a little bit and resize your web browser
 to see the effect. This time, we're gonna use the unit `%` instead of `px` for
