@@ -1,59 +1,61 @@
+@charset "utf-8";
+
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  * Google Noto
  */
 @font-face {
-   font-family: 'Noto Sans';
-   src: url('../fonts/NotoSans-Regular.ttf');
+   font-family: "Noto Sans";
+   src: url("../fonts/NotoSans-Regular.ttf");
    font-weight: normal;
 }
 
 @font-face {
-   font-family: 'Noto Sans';
-   src: url('../fonts/NotoSans-Bold.ttf');
+   font-family: "Noto Sans";
+   src: url("../fonts/NotoSans-Bold.ttf");
    font-weight: bold;
 }
 
 @font-face {
-   font-family: 'Noto Sans';
-   src: url('../fonts/NotoSans-Italic.ttf');
+   font-family: "Noto Sans";
+   src: url("../fonts/NotoSans-Italic.ttf");
    font-style: italic;
 }
 
 @font-face {
-   font-family: 'Noto Sans';
-   src: url('../fonts/NotoSans-BoldItalic.ttf');
+   font-family: "Noto Sans";
+   src: url("../fonts/NotoSans-BoldItalic.ttf");
    font-weight: bold;
    font-style: italic;
 }
 
 @font-face {
-   font-family: 'Noto Sans UI';
-   src: url('../fonts/NotoSansUI-Regular.ttf');
+   font-family: "Noto Sans UI";
+   src: url("../fonts/NotoSansUI-Regular.ttf");
    font-weight: normal;
 }
 
 @font-face {
-   font-family: 'Noto Sans UI';
-   src: url('../fonts/NotoSansUI-Bold.ttf');
+   font-family: "Noto Sans UI";
+   src: url("../fonts/NotoSansUI-Bold.ttf");
    font-weight: bold;
 }
 
 @font-face {
-   font-family: 'Noto Sans UI';
-   src: url('../fonts/NotoSansUI-Italic.ttf');
+   font-family: "Noto Sans UI";
+   src: url("../fonts/NotoSansUI-Italic.ttf");
    font-style: italic;
 }
 
 @font-face {
-   font-family: 'Noto Sans UI';
-   src: url('../fonts/NotoSansUI-BoldItalic.ttf');
+   font-family: "Noto Sans UI";
+   src: url("../fonts/NotoSansUI-BoldItalic.ttf");
    font-weight: bold;
    font-style: italic;
 }
 
 @font-face {
-   font-family: 'Noto Mono';
-   src: url('../fonts/NotoMono-Regular.ttf');
+   font-family: "Noto Mono";
+   src: url("../fonts/NotoMono-Regular.ttf");
    font-weight: normal;
 }
 
@@ -66,15 +68,15 @@ html {
 }
 
 body {
-   font-family: 'Noto Sans', 'Helvetica', 'Segoe UI', 'Arial', sans-serif;
+   font-family: "Noto Sans", "Helvetica", "Segoe UI", "Arial", sans-serif;
 }
 
 .font-ui {
-   font-family: 'Noto Sans UI', 'Helvetica', 'Segoe UI', 'Arial', sans-serif;
+   font-family: "Noto Sans UI", "Helvetica", "Segoe UI", "Arial", sans-serif;
 }
 
 pre, code {
-   font-family: 'Noto Mono', 'Monaco', 'Consolas', monospace;
+   font-family: "Noto Mono", "Monaco", "Consolas", monospace;
 }
 
 h1, h2, h3 {
@@ -207,7 +209,7 @@ a.bg-primary:hover {
 }
 
 .content img::after {
-   content: 'Image Not Available';
+   content: "Image Not Available";
    font-weight: bold;
    text-align: center;
    text-transform: uppercase;
@@ -684,6 +686,7 @@ body {
 
 #post .fb {
    padding: 27px 15px;
+
    border: 1px solid hsl(0, 0%, 90%);
 }
 

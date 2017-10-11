@@ -157,7 +157,14 @@ of other choices.
 </script>
 
 `Result:`
-![home](/images/css/2/home.jpg)
+<p data-height="500" data-theme-id="light" data-slug-hash="ZXrzgN"
+   data-default-tab="result" data-user="codenart" data-embed-version="2"
+   data-pen-title="Home" class="codepen">
+   See the Pen <a href="https://codepen.io/codenart/pen/ZXrzgN/">Home</a>
+   by Kei Nart (<a href="https://codepen.io/codenart">@codenart</a>) on
+   <a href="https://codepen.io">CodePen</a>.
+</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 The most important part of learning CSS is about Properties and Values. For each
 certain Property, there are various Values which can be used with. So, we will
