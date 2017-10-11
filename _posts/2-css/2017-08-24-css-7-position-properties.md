@@ -9,7 +9,7 @@ permalink:
 
 title: Position properties in CSS
 short: Position Properties
-description: We've know how to set size of and decorate containers to make them look nice. <br>Positioning is the next step to make our webpages look tidy. <br>Let's talk about Position Properties.
+description: We've know how to set size of containers and decorate to make them look nice. <br>Positioning is the next step to make our webpages look tidy. <br>Let's talk about Position Properties.
 keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, css, position, properties, static, relative, absolute, fixed, top, right, bottom, left
 
 date: 2017-08-24 05:30:00
@@ -26,30 +26,31 @@ and move it around. They are so powerful that people call them the `gang of 4`:
 But, in order to keep our content well ordered by default, web browsers silently
 make all elements'
 [positions](https://www.w3schools.com/cssref/pr_class_position.asp "ext")
-unchangeable by the rule `position: static;`. To free the `gang of 4`, we need
-change value of the
+unchangeable by the rule `position: static;`. To free the `gang of 4` and see
+their potentials, we need to change value of the
 [position](https://www.w3schools.com/cssref/pr_class_position.asp "ext") property.
 
 The [position](https://www.w3schools.com/cssref/pr_class_position.asp "ext")
 property can be used with one of these values:
 - `static` (set by default) which prevent changing element's position
-- `relative`
 - `fixed`
 - `absolute`
+- `relative`
 
 For each value of the `position` property, the `gang of 4` will behave
 differently. So, we're gonna make some sections for the last 3 values of the
 [position](https://www.w3schools.com/cssref/pr_class_position.asp "ext")
 property and see the `gang of 4` in action.
 
-## Using position: fixed;
+## Using `position: fixed;`
 
 The rule `position: fixed;` will tell web browsers that we want to set position
-of the element relatively to `web browser's viewport`. The element will be
-detached from normal flow of the webpage.
+of the element relatively to `web browser's viewport`. This rule has a side
+effect that makes the element detached from normal flow of the webpage and won't
+take space as normal.
 
-Let's write a CSS code snippet using the `fixed` value. We're gonna create a
-button which is pinned at bottom right corner of web browser's viewport.
+Let's write some CSS code using the `fixed` value. We're gonna create a button
+which is pinned at bottom right corner of web browser's viewport.
 
 `HTML code:`
 <script src="https://gist.github.com/codenart/5765d36a50e4ebb1e15017c713d6771b.js">
