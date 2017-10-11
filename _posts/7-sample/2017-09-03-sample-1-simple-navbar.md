@@ -19,10 +19,10 @@ tutorial about
 [Styling Text](https://codenart.github.io/css/2017/08/24/css-8-styling-text.html "ext")
 on my website. So, at the moment, we've some basic tools ready in our hand:
 
-- Basic selectors, Class selectors, Id selectors
+- Basic selectors, class selectors, id selectors
 - Commonly used properties: `color` & `background-color`
-- Positioning properties
-- And some properties used for Styling Text
+- Position properties
+- And some properties used for styling text
 
 In this tutorial, we will make use of these tools to create a simple navigation
 bar. And this is how the navigation bar will look like:
@@ -49,12 +49,12 @@ part of your website.
 <script src="https://gist.github.com/codenart/4d742c66fae65b1b0ac0234b2b7ec023.js">
 </script>
 
-## To-do in CSS
+## To-dos in CSS
 
 Styling task can be divided into these sub-tasks;
 
 1. Coloring the `<nav>` container and make it `fixed` on top of the viewport.
-2. Sizing all the links up. They should have the same size.
+2. Sizing up all the links.
 3. Give the `#logo` unique style (maybe unique background-color or fancy font :D).
 4. Set position of the `#about` to the right corner of the navigation bar.
 
@@ -62,7 +62,7 @@ Styling task can be divided into these sub-tasks;
 
 To pin the navigation bar at top of the web browser's viewport is a simple task
 which we have done once in the tutorial about
-[Positioning properties](https://codenart.github.io/css/2017/08/24/css-7-positioning-properties.html#using-position-fixed "ext").  
+[position-properties](https://codenart.github.io/css/2017/08/24/css-7-position-properties.html#using-position-fixed "ext").  
 Just remember to set the container's `width` to `100%`. Because the rule
 `position: fixed;` will make the container collapse if we don't specify
 container's `width`.
@@ -73,9 +73,8 @@ container's `width`.
 
 ### 2. Setting size of `<a>` elements
 
-Actually, we've 2 tasks here. After sizing all the links, their text will stay
-on the top left corner of each container. So, centering text is an extra task
-needed to be done.
+We've done this once in the tutorial about
+[container-types](https://codenart.github.io/css/2017/08/24/css-4-container-types.html#changing-type-of-a-container "ext").
 
 `CSS code:`
 <script src="https://gist.github.com/codenart/bd3d7d28c1fca22eaf86e3e20cb7a5f3.js">
@@ -83,8 +82,8 @@ needed to be done.
 
 ### 3. Give `#logo` unique style
 
-This part is optional and it depends on your own style. I'm just making a simple
-style as an example. The `width` of `#logo` depends on its content (long or short text).
+This part is optional and it depends on your own style, you may want to use an
+image or text as my example.
 
 `CSS code:`
 <script src="https://gist.github.com/codenart/a81aee456a27710a997d07dea5587f37.js">
@@ -120,17 +119,17 @@ Visitors who use computers will be more pleasure when they hover mouse pointer
 on a link and see some effects. Maybe the text color or the link's background
 will be slightly changed, etc...
 - Links' widths are fixed. In case our links contain words which have different
-lengths, it will look a bit cluttered. And we still have to change CSS code to
-adapt to the certain text.
-- It is not responsive and well adapt to mobile screen. Normally, on mobile
-screen, the main block of links can be toggled by clicking on a button.
+lengths, the total look will be a bit cluttered. And we still have to change CSS
+code to adapt to the certain texts.
+- The navigation bar itself is not responsive and well adapt to mobile screen.
+Normally, on mobile screen, the main block of links can be toggled by clicking
+on a button.
 
 There is no disappointment here. It just means that we can make everything
 better in future when we have more tools in our hands (advanced selectors,
 spacing properties, screen size query, etc...).
 
-It's time to come back to our
-[CSS tutorials](https://codenart.github.io/css/2017/08/24/css-8-styling-text.html#create-a-simple-navigation-bar "ext").
-We've many interesting stuff waiting there.
+It's time to come back to our mainstream CSS tutorials. There're many interesting
+stuff waiting for us.
 
 [Click here to go back to the CSS tutorial about Styling Text.](https://codenart.github.io/css/2017/08/24/css-8-styling-text.html#create-a-simple-navigation-bar "ext")
