@@ -15,7 +15,7 @@ keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding
 date: 2017-08-24 05:40:00
 ---
 
-If you wonder why we've not talked about Combining CSS Selectors at
+If you wonder why we've not talked about combining CSS selectors at
 [the beginning](https://codenart.github.io/css/2017/08/24/css-2-selectors-priorities.html "ext"),
 I've to say it was my bad. I've just missed these stuff for... no reason. :D  
 
@@ -35,7 +35,7 @@ And now we're starting a new cycle by learning more about CSS Selectors. :D
 ## What is benefit of Combining Selectors?
 
 Let's take a look back at our
-[simple navigation bar](https://codenart.github.io/sample/2017/09/03/sample-1-simple-navbar.html#prepare-html-code "ext").
+[simple navigation bar](https://codenart.github.io/sample/2017/09/03/sample-1-simple-navbar.html#preparing-html-code "ext").
 
 `HTML code:`
 <script src="https://gist.github.com/codenart/4d742c66fae65b1b0ac0234b2b7ec023.js">
@@ -45,17 +45,9 @@ To style the links, we've given them a nice class name `nav-link` which is very
 descriptive. But, what if we have another navigation bar in our webpage? By
 directly using the class name in CSS we've made it not able to be re-used.
 
-`.nav-link { /* some rules */ }`
-
-If we use the class name `nav-link` again in the second navigation bar and
-directly using it to style links again, then our first navigation bar will be
-affected.
-
 Fortunately, CSS allows us to combine Selectors to select elements more
-precisely and make class names able to be re-used.
-
-This is an example about combining CSS Selectors. In this example, there're 2
-CSS blocks:
+precisely and make class names able to be re-used. The snippet below is an
+example about combining CSS Selectors. In the example, there're 2 CSS blocks:
 
 - The first one will select only `.nav-link` nested inside `#topnav`
 - The second one will select only `.nav-link` nested inside `#sidenav`
@@ -93,10 +85,8 @@ some shared rules and avoid repetition in our code. And that is `Union`. Let's
 talk about `Intersection`.
 
 `Intersection` helps us to select elements more precisely by append a selector
-to another one.
-
-The example below will select only `<p>` elements which are members of `.excerpt`,
-and vice versa.
+to another one. The example below will select only `<p>` elements which are
+members of `.excerpt`, and vice versa.
 
 `CSS code:`
 <script src="https://gist.github.com/codenart/2a678b174854a7d17bf7f8c107f00378.js">
@@ -108,10 +98,9 @@ and vice versa.
 
 ### 2. Next Sibling & Followed Siblings
 
-To select the `next sibling` of an element, we can use a plus sign `+` to combine Selectors.
-
-The example below will select only the `<p>` element which is the next sibling
-of `#unique`.
+To select the `next sibling` of an element, we can use a plus sign `+` to combine
+Selectors. The example below will select only the `<p>` element which is the next
+sibling of `#unique`.
 
 `CSS code:`
 <script src="https://gist.github.com/codenart/b5e1dc262384199539af6f68f084337b.js">
@@ -126,9 +115,7 @@ will be selected. The web browsers will understand that we want to select every
 `<p>` elements which is the next sibling of an `<h2>` element.
 
 To select all the `followed siblings` of an element, we can use a tilde `~` to
-combine Selectors.
-
-Let's change our code snippets a little bit.
+combine Selectors. Let's change our code snippets a little bit.
 
 `CSS code:`
 <script src="https://gist.github.com/codenart/8112576504443e7d247b3ea4d20e8614.js">
@@ -140,11 +127,9 @@ Let's change our code snippets a little bit.
 
 ### 3. Children & Descendants
 
-To select `Children` of an element, we can use a greater-than-symbol `>` to
-combine selectors.
-
-The example below will select only the links which are Children of `#topnav`,
-but not all descendants.
+To select `children` of an element, we can use a greater-than-symbol `>` to
+combine selectors. The example below will select only the links which are
+children of `#topnav`, but not all descendants.
 
 `CSS code:`
 <script src="https://gist.github.com/codenart/198548a99e29f9f299598f8e9e245205.js">
@@ -154,7 +139,7 @@ but not all descendants.
 <script src="https://gist.github.com/codenart/6662d2ad9ed814a586d667541161a282.js">
 </script>
 
-To select all `Descendants` of the `#topnav`, we can just remove the
+To select all `descendants` of the `#topnav`, we can just remove the
 greater-than-symbol `>`.
 
 `CSS code:`
@@ -166,12 +151,11 @@ greater-than-symbol `>`.
 </script>
 
 I've been using `id selectors` to simplify all the examples. But, the front
-selectors can be `class selectors` or `basic selectors`. I hope you get the
-ideas of how the combinations work. :D
+selectors can be `class selectors` or `basic selectors`. :D
 
 Our tutorial about
-[Combining Selectors](https://codenart.github.io{{ page.url }} "ext") has finished.
+[combining-selectors](https://codenart.github.io{{ page.url }} "ext") has finished.
 In the next tutorial, we'll talk about
-[Pseudo Classes](https://codenart.github.io{{ page.next.url }} "ext") which
+[pseudo-classes](https://codenart.github.io{{ page.next.url }} "ext") which
 can help us to create interactive effects: Something like when a visitor hovers
 mouse pointer on a link and the link's color will be changed.

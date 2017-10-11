@@ -33,7 +33,7 @@ bar. And this is how the navigation bar will look like:
 This tutorial is just an example, you should give the navigation bar your own
 style (size, color, font, etc...)
 
-## Prepare HTML code
+## Preparing HTML code
 
 From the expected result above, the navigation bar will contains 7 links.  
 2 of those links have unique style and should have their own `id`:  
