@@ -130,7 +130,6 @@ visualizing a newspaper. :D
 
 Our tutorial about
 [Pseudo Classes & Pseudo Elements](https://codenart.github.io{{ page.url }} "ext")
-has finished. In the next tutorial, we'll talk about
-[Width & Height properties](https://codenart.github.io{{ page.next.url }} "ext").
-Yes, we've used those properties since the early tutorials. But, to keep things
-simple at the beginning, I've not mentioned a few things about them. :D
+has finished. In the next tutorial, we'll meet width & height properties again.
+Yes, we've used those properties many times since the early tutorials. But, to
+keep things simple at the beginning, I've not mentioned something about them. :D
