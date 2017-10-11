@@ -9,17 +9,17 @@ permalink:
 
 title: CSS Pseudo Classes
 short: Pseudo Classes
-description: Pseudo Classes are just Selectors. They help us to style elements base on elements' states. <br>For example, we can make a link look different when it is hovered. <br>Let's talk about these amazing Selectors.
+description: Pseudo-classes are just selectors. They help us to style elements base on elements' states. <br>For example, we can make a link look different when it is hovered. <br>Let's talk about these amazing selectors.
 keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, css, pseudo classes
 
 date: 2017-08-24 05:45:00
 ---
 
-[Pseudo Classes](https://www.w3schools.com/css/css_pseudo_classes.asp "ext")
-are not something new. I call them `Pseudo Selectors`. They help us to style
-elements base on elements' states. Every `Pseudo Selectors` begins with a colon `:`.
+[Pseudo-classes](https://www.w3schools.com/css/css_pseudo_classes.asp "ext")
+are not something new. I call them `pseudo selectors`. They help us to style
+elements base on elements' states. Every pseudo-selectors begins with a colon `:`.
 
-Let's take a look at the example below. The Selector `:empty` will select every
+Let's take a look at the example below. The selector `:empty` will select every
 elements which is empty (have no text and child element).
 
 `CSS code:`
@@ -41,23 +41,17 @@ elements which is empty (have no text and child element).
 </p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
-That's it.
-[Pseudo Classes](https://www.w3schools.com/css/css_pseudo_classes.asp "ext")
-are just Selectors. But, in order to use them more precisely and effectively, we
-should
-[combine](https://codenart.github.io/css/2017/08/24/css-7-combining-selectors.html#1-union--intersection "ext")
-them with other Selectors (use
-   [Intersection](https://codenart.github.io/css/2017/08/24/css-7-combining-selectors.html#1-union--intersection "ext")):
+That's it. A pseudo class is nothing more than a selector. But, in order to use
+them more precisely and effectively, we should combine them with other selectors
+(use [intersection](https://codenart.github.io/css/2017/08/24/css-7-combining-selectors.html#1-union--intersection "ext")):
 `p:empty`, `.section:empty`, `a:hover`, etc...
 
-There are plenty of
-[Pseudo Classes](https://www.w3schools.com/css/css_pseudo_classes.asp "ext")
-listed here:
-[Full list of Pseudo Classes](https://www.w3schools.com/css/css_pseudo_classes.asp "ext").
+Here is the reference list of pseudo-classes:
+[Full list of pseudo-classes](https://www.w3schools.com/css/css_pseudo_classes.asp "ext").
 
-Let's pick another Pseudo Class to practice. This time we're gonna use the
-selector `:hover`. This one is very common used for styling links and buttons.
-But, we can also use it for other stuff.
+Let's pick another pseudo-class to practice. This time we're gonna use `:hover`.
+This one is very common used for styling links and buttons. But, we can also use
+it for other stuff.
 
 `HTML code:`
 <script src="https://gist.github.com/codenart/086b1dcc5bf29eea1dec26cedcb8a906.js">
@@ -80,28 +74,24 @@ But, we can also use it for other stuff.
 
 Have you touched that? :D  
 
-As you see that
-[Pseudo Classes](https://www.w3schools.com/css/css_pseudo_classes.asp "ext") are
-not really something new. It's easy to get the idea about how they work. So,
-We're not going to make examples about every one of them. Just save the reference
-link for future uses. Or you can quickly parse the link to pick out some and
-playing around with them.
-
-Next. Let's talk about Pseudo Elements.  
-Ooops! I've not mentioned Pseudo Elements before. I'm sorry for this sudden plan. :D
+As you see that pseudo-classes are not really something new. It's easy to get
+the idea about how they work. So, We're not going to make examples about every
+one of them. Just save the reference link for future uses or you can quickly
+parse the link to pick out some and playing around with them.
 
 ## Pseudo Elements
 
-[Pseudo Elements](https://www.w3schools.com/css/css_pseudo_elements.asp "ext")
+Oooops! I've not mentioned pseudo-elements in the headline. I'm sorry for this
+sudden plan. This one just gets involved at the moment I'm writing this line. :D
+
+[Pseudo-elements](https://www.w3schools.com/css/css_pseudo_elements.asp "ext")
 are elements which are not elements. :D
 
-I know it sounds silly but it's true. CSS allows us to insert some `fake elements`
+It may sound silly but it's true. CSS allows us to insert some `fake elements`
 into webpages. Search Engines like Google, Bing, etc... won't see the content
-inside those elements. It's because
-[Pseudo Elements](https://www.w3schools.com/css/css_pseudo_elements.asp "ext")
-are only used for styling purposes.
+inside those elements. It's because pseudo-elements are only used for styling purposes.
 
-The example below will insert a `Pseudo Element` right before each member of
+The example below will insert a pseudo-element right before each member of
 the class `.entry`.
 
 `CSS code:`
@@ -128,14 +118,14 @@ selected elements.
 There're also `::after` which is used to insert elements right `after` the
 selected elements.  
 
-Besides, there are 3 more `Pseudo Elements` available in the current version of
+Besides, there are 3 more pseudo-elements available in the current version of
 CSS:
 
 - `::first-letter` - select first letter of an element
 - `::first-line` - select the first line of an element
 - `::selection` - select the portion of text of an element that is selected by user
 
-You can try those `Pseudo Stuff` with some `<p>` elements to do something like
+You can try those pseudo-stuff with some `<p>` elements to do something like
 visualizing a newspaper. :D
 
 Our tutorial about

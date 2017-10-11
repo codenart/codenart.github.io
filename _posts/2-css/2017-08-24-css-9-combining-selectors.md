@@ -81,8 +81,8 @@ The following re-written code snippet can provide the same effect:
 </script>
 
 By writing Selectors in a row and separate them using commas `,` we can write
-some shared rules and avoid repetition in our code. And that is `Union`. Let's
-talk about `Intersection`.
+some shared rules and avoid repetition in our code. And that is `union`. Let's
+talk about `intersection`.
 
 `Intersection` helps us to select elements more precisely by append a selector
 to another one. The example below will select only `<p>` elements which are
