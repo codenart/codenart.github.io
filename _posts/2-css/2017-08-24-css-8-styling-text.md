@@ -9,13 +9,14 @@ permalink:
 
 title: Changing how letters look
 short: Styling Text
-description: We've used the `font-size` property a few times to change size of text contents. <br>Let's take a quick look at some basic Text Styling Properties. <br>Later, we'll create a simple navigation bar.
+description: We've used the font-size property a few times to change size of text contents. <br>Let's take a quick look at some basic text styling properties. <br>Later, we'll create a simple navigation bar.
 keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, css, styling text, font-family, font-size, font-weight, font-style, text-align, line-height
 
 date: 2017-08-24 05:35:00
 ---
 
-Here are some other Font Properties:
+We've used the font-size property a few times to change size of text contents.
+And here are some other commonly used font properties:
 
 - `font-weight` - bold/normal text
 - `font-style` - italic/normal text
@@ -46,8 +47,7 @@ We're gonna create some paragraphs:
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 As you notice that we can specify more than 1 font in `font-family` to make sure
-at least 1 specified font will be found. Otherwise, web browsers will pick up a
-ready font of user's device in the same family.
+at least 1 specified font will be found.
 
 ## Find and use free fonts
 
@@ -76,7 +76,14 @@ Now, you can use the font in your CSS code.
 </script>
 
 `Result:`
-![free font in use](/images/css/8/freefont.jpg)
+<p data-height="500" data-theme-id="light" data-slug-hash="oGyzWW"
+   data-default-tab="result" data-user="codenart" data-embed-version="2"
+   data-pen-title="Free Font" class="codepen">
+   See the Pen <a href="https://codepen.io/codenart/pen/oGyzWW/">Free Font</a>
+   by Kei Nart (<a href="https://codepen.io/codenart">@codenart</a>) on
+   <a href="https://codepen.io">CodePen</a>.
+</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 ## Decorating and transforming text
 
@@ -115,7 +122,14 @@ Here is an example of using `text-align` with 3 paragraphs.
 <script src="https://gist.github.com/codenart/fc5904f2f6092c1452c0af247eeb5196.js"></script>
 
 `Result:`
-![align](/images/css/8/align.jpg)
+<p data-height="500" data-theme-id="light" data-slug-hash="RLJGoj"
+   data-default-tab="result" data-user="codenart" data-embed-version="2"
+   data-pen-title="Alignment" class="codepen">
+   See the Pen <a href="https://codepen.io/codenart/pen/RLJGoj/">Alignment</a>
+   by Kei Nart (<a href="https://codepen.io/codenart">@codenart</a>) on
+   <a href="https://codepen.io">CodePen</a>.
+</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 Besides horizontally aligning text, controlling `line-height` is important to
 make our text contents look better.  
@@ -133,11 +147,18 @@ Ideal `line-height` for normal paragraphs is 150-170%.
 <script src="https://gist.github.com/codenart/e86e2c809ad915aa1a08d4ff293c1170.js"></script>
 
 `Result:`
-![space](/images/css/8/space.jpg)
+<p data-height="500" data-theme-id="light" data-slug-hash="eGKdGN"
+   data-default-tab="result" data-user="codenart" data-embed-version="2"
+   data-pen-title="Space" class="codepen">
+   See the Pen <a href="https://codepen.io/codenart/pen/eGKdGN/">Space</a>
+   by Kei Nart (<a href="https://codepen.io/codenart">@codenart</a>) on
+   <a href="https://codepen.io">CodePen</a>.
+</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 The `line-height` property is also useful when we want to vertically center text
 of an element which only has a single line of text; We can simply set value of
-`line-height` is the same as element's height.
+`line-height` to the same as element's height.
 
 ## Create a simple navigation bar
 
