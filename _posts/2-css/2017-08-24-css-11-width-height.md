@@ -14,3 +14,6 @@ keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding
 
 date: 2017-08-24 05:50:00
 ---
+
+min & max
+auto
