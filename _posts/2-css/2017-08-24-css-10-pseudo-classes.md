@@ -9,7 +9,7 @@ permalink:
 
 title: CSS Pseudo Classes
 short: Pseudo Classes
-description: Pseudo-classes are just selectors. They help us to style elements base on elements' states. <br>For example, we can make a link look different when it is hovered. <br>Let's talk about these amazing selectors.
+description: Pseudo-classes are just selectors. They help us to style elements base on elements' states. <br>For example, we can make a link looks different when it is hovered. <br>Let's talk about these amazing selectors.
 keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, css, pseudo classes
 
 date: 2017-08-24 05:45:00
@@ -81,18 +81,17 @@ parse the link to pick out some and playing around with them.
 
 ## Pseudo Elements
 
-Oooops! I've not mentioned pseudo-elements in the headline. I'm sorry for this
-sudden plan. This one just gets involved at the moment I'm writing this line. :D
+Oooops! I've not mentioned
+[pseudo-elements](https://www.w3schools.com/css/css_pseudo_elements.asp "ext")
+in the headline. I'm sorry for this sudden plan. Because I have a feeling that
+pseudo-elements are somewhat related to pseudo-classes. (Maybe not, I'm not sure. :D)
 
-[Pseudo-elements](https://www.w3schools.com/css/css_pseudo_elements.asp "ext")
-are elements which are not elements. :D
+CSS allows us to insert some `fake elements` into webpages. Search Engines like
+Google, Bing, etc... won't see the content inside those elements. It's because
+pseudo-elements are only used for styling purposes.
 
-It may sound silly but it's true. CSS allows us to insert some `fake elements`
-into webpages. Search Engines like Google, Bing, etc... won't see the content
-inside those elements. It's because pseudo-elements are only used for styling purposes.
-
-The example below will insert a pseudo-element right before each member of
-the class `.entry`.
+The example below will insert a pseudo-element right before each member of the
+class `.entry`.
 
 `CSS code:`
 <script src="https://gist.github.com/codenart/683213000907ad807e637d4a108de6c1.js">
@@ -113,10 +112,14 @@ the class `.entry`.
 </p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
-In the example above, `::before` is used to insert elements right `before` the
-selected elements.  
-There're also `::after` which is used to insert elements right `after` the
-selected elements.  
+As you see that, pseudo-elements' syntax look quite similar to pseudo-classes.
+I also consider pseudo-elements as selectors. Just imagine that our websites are
+full of `hidden fake elements` and we just select them using some special
+selectors and make them visible.
+
+In the example above, `::before` is used to select (or insert) pseudo-elements
+`before` the selected elements. We can also use `::after` to select pseudo-elements
+`after` the selected elements.  
 
 Besides, there are 3 more pseudo-elements available in the current version of
 CSS:
@@ -130,6 +133,6 @@ visualizing a newspaper. :D
 
 Our tutorial about
 [Pseudo Classes & Pseudo Elements](https://codenart.github.io{{ page.url }} "ext")
-has finished. In the next tutorial, we'll meet width & height properties again.
+has finished. In the next tutorial, we'll meet the width & height properties again.
 Yes, we've used those properties many times since the early tutorials. But, to
 keep things simple at the beginning, I've not mentioned something about them. :D

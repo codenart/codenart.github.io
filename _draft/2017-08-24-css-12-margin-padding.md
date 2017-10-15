@@ -18,7 +18,7 @@ date: 2017-08-24 05:55:00
 Controlling Spaces is the most important technique in every aspect of life.  
 In CSS, Controlling Spaces help us to quickly size up and position elements.
 
-![space](/images/css/11/space.jpg)
+![space](/images/css/12/space.jpg)
 
 There are some properties are used to control spaces inside and around containers:
 
