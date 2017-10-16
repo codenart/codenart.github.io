@@ -1,45 +1,45 @@
 {
-	"categories" : [
-		{
+   "categories" : [
+      {
          "id"    : "html",
          "url"   : "/html/",
          "title" : "Html"
-		},
+      },
 
       {
          "id"    : "css",
          "url"   : "/css/",
          "title" : "Css"
-		},
+      },
 
       {
          "id"    : "bootstrap",
          "url"   : "/bootstrap/",
          "title" : "Bootstrap"
-		},
+      },
 
       {
          "id"    : "javascript",
          "url"   : "/javascript/",
          "title" : "JavaScript"
-		},
+      },
 
       {
          "id"    : "jquery",
          "url"   : "/jquery/",
          "title" : "jQuery"
-		},
+      },
 
       {
          "id"    : "jekyll",
          "url"   : "/jekyll/",
          "title" : "Jekyll"
-		},
+      },
 
       {
          "id"    : "sample",
          "url"   : "/sample/",
          "title" : "Sample"
-		}
-	]
+      }
+   ]
 }

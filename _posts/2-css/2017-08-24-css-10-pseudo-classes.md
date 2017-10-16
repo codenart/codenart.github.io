@@ -118,8 +118,8 @@ full of `hidden fake elements` and we just select them using some special
 selectors and make them visible.
 
 In the example above, `::before` is used to select (or insert) pseudo-elements
-`before` the selected elements. We can also use `::after` to select pseudo-elements
-`after` the selected elements.  
+before the selected elements. We can also use `::after` to select pseudo-elements
+after the selected elements.  
 
 Besides, there are 3 more pseudo-elements available in the current version of
 CSS:

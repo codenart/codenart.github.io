@@ -417,6 +417,10 @@ body {
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  * Display
  */
+#display {
+   border-bottom: 1px solid #f0f0f0;
+}
+
 #display .container {
    padding-top: 30px;
    padding-bottom: 60px;
