@@ -18,8 +18,8 @@ date: 2017-08-24 05:15:00
 In the previous tutorial, we've set size of some `div` containers using `width`
 and `height` properties. But if you try to do the same thing with an element
 created by `<a></a>` tags, you will see that it just doesn't work. It's because
-of the default `container type` of the `<a></a>` element does not allow us to
-set size of the container.
+the default `container type` of the `<a></a>` element does not allow us to set
+size of the container.
 
 There are 3 common `container types`:
 

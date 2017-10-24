@@ -20,7 +20,7 @@ are not something new. I call them `pseudo selectors`. They help us to style
 elements base on elements' states. Every pseudo-selectors begins with a colon `:`.
 
 Let's take a look at the example below. The selector `:empty` will select every
-elements which is empty (have no text and child element).
+elements which is empty.
 
 `CSS code:`
 <script src="https://gist.github.com/codenart/5643dd3c4db3fd8851f8abcf41fcdc58.js">
@@ -42,8 +42,8 @@ elements which is empty (have no text and child element).
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 That's it. A pseudo class is nothing more than a selector. But, in order to use
-them more precisely and effectively, we should combine them with other selectors
-(use [intersection](https://codenart.github.io/css/2017/08/24/css-7-combining-selectors.html#1-union--intersection "ext")):
+pseudo-classes more precisely and effectively, we should combine them with other
+selectors (use [intersection](https://codenart.github.io/css/2017/08/24/css-7-combining-selectors.html#1-union--intersection "ext")):
 `p:empty`, `.section:empty`, `a:hover`, etc...
 
 Here is the reference list of pseudo-classes:
@@ -86,7 +86,7 @@ Oooops! I've not mentioned
 in the headline. I'm sorry for this sudden plan. Because I have a feeling that
 pseudo-elements are somewhat related to pseudo-classes. (Maybe not, I'm not sure. :D)
 
-CSS allows us to insert some `fake elements` into webpages. Search Engines like
+CSS allows us to insert some `fake elements` into webpages. Search engines like
 Google, Bing, etc... won't see the content inside those elements. It's because
 pseudo-elements are only used for styling purposes.
 
@@ -114,7 +114,7 @@ class `.entry`.
 
 As you see that, pseudo-elements' syntax look quite similar to pseudo-classes.
 I also consider pseudo-elements as selectors. Just imagine that our websites are
-full of `hidden fake elements` and we just select them using some special
+full of `hidden` fake elements and we just select them using some special
 selectors and make them visible.
 
 In the example above, `::before` is used to select (or insert) pseudo-elements
