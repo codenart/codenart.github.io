@@ -8,7 +8,7 @@ featured: bingo
 
 title: Creating a simple navigation bar
 short: Simple Navbar
-description: In this tutorial, we're gonna create a simple navigation bar using HTML and CSS. <br>This tutorial is a part of the 8th CSS tutorial in this website. <br>Please, be sure of handling basic stuff. :D
+description: In this tutorial, we're gonna create a simple navigation bar using HTML and CSS. <br>This tutorial is a part of the 8th CSS tutorial on my website. <br>Please, be sure of handling basic stuff. :D
 keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, simple, sample, navigation, bar, nav, navbar, html, css
 
 date: 2017-09-03 05:00:00
@@ -17,7 +17,7 @@ date: 2017-09-03 05:00:00
 Before starting this tutorial, let me assume that you've come from the CSS
 tutorial about
 [Styling Text](https://codenart.github.io/css/2017/08/24/css-8-styling-text.html "ext")
-on my website. So, at the moment, we've some basic tools ready in our hand:
+on my website. So, at the moment, we've some basic tools ready in our hands:
 
 - Basic selectors, class selectors, id selectors
 - Commonly used properties: `color` & `background-color`
@@ -129,7 +129,7 @@ There is no disappointment here. It just means that we can make everything
 better in future when we have more tools in our hands (advanced selectors,
 spacing properties, screen size query, etc...).
 
-It's time to come back to our mainstream CSS tutorials. There're many interesting
+It's time to come back to our unfinished CSS tutorials. There're many interesting
 stuff waiting for us.
 
 [Click here to go back to the CSS tutorial about Styling Text.](https://codenart.github.io/css/2017/08/24/css-8-styling-text.html#create-a-simple-navigation-bar "ext")

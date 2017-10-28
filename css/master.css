@@ -753,3 +753,17 @@ body {
    position: relative;
    top: 3px;
 }
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Printer
+ */
+@media print and (orientation: portrait) {
+   #topnav,
+   #sidenav,
+   #display,
+   #anchor,
+   .fb {
+      display: none;
+   }
+} /* @media print */
