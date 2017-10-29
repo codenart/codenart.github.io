@@ -16,7 +16,7 @@ date: 2017-08-24 06:00:00
 ---
 
 So, you are on Earth planet and someone has told you that you can write CSS code
-target to specific screen sizes. That's truth. Let's take a look at the following
+target to specific screen sizes. It's true. Let's take a look at the following
 example. If you resize your web browser window to make its width smaller than
 `600px`, the background will be `red`. Otherwise, the background will be `yellow`.
 
@@ -28,11 +28,13 @@ example. If you resize your web browser window to make its width smaller than
 <script src="https://gist.github.com/codenart/945f19d09b2c26472e08e4ca080accea.js">
 </script>
 
-`Result:` [Click here to see result](https://codepen.io/codenart/full/VMoGNp/ "ext")
+`Result:`
+
+[Click here to see result](https://codepen.io/codenart/full/VMoGNp/ "ext")
 
 As you noticed, there are 2 media query blocks which wrap some normal stuff
-inside. I call them conditional styles. Because only the CSS code inside a media
-query is only active when a certain condition is satisfied.
+inside. I call them conditional styles. Because the CSS code inside a media
+query block is inactive unless a certain condition is satisfied.
 
 In the example, the condition of the first media query is: viewport's width is
 not larger than `599px`. The second media query's condition is: viewport's width
@@ -50,14 +52,11 @@ Let's say if you're publishing your book's content on your website as blog posts
 (not in pdf form). You may want to help your audiences to print only main contents
 of the webpages if they want. So, you can create specific styles target printers
 to hide all ads and navigation bars. We also assume that the contents will be
-printed in portrait mode.
+printed in portrait mode:
 
 `CSS code:`
 <script src="https://gist.github.com/codenart/d89cbac3a1238b395b527d233b894694.js">
 </script>
-
-Ah! I've not mentioned something here. You may notice that we've use the word
-`and` to combine multiple conditions.
 
 ## Make your navigation bar responsive
 
@@ -72,8 +71,8 @@ Have you finished the tutorial and successfully created a responsive navigation
 bar? :D  
 Found some joyful moment? :D
 
-I know that was a tough job. Just a simple responsive navigation bar takes us
-sometime and ~100 lines of CSS code. What if I tell you that you don't have to
-write that much CSS code to achieve the same result (or even better)? :D.
+I know that was a tough job. Just a simple responsive navigation bar and it takes
+us ~100 lines of CSS code. What if I tell you that you don't have to write that
+much CSS code to achieve the same result (or even better)? :D.
 
 See you in the next tutorial.

@@ -42,30 +42,31 @@ children: logo, left link-list, and right link-list.
 <script src="https://gist.github.com/codenart/ad746b59ff7ca6812d580841f0f363a1.js">
 </script>
 
-There's something `strange` here, a new `<meta> tag`. This tag is used to tell
-web browsers that content of this website should never be scaled smaller. And so,
-for all the websites which show tiny texts on mobile devices are just missing the
-meta tag.
+There's something `strange` here, a new `<meta> tag` related to `viewport`. This
+tag is used to tell web browsers that content of this website should never be
+scaled smaller. And so, for all the websites which show tiny texts on mobile
+devices are just missing the meta tag.
 
-Next, let's add some navigation and social links. We also assume that these links
-will have same styles (size, text color, hover effect, ...). So, we're gonna
-group them using a nice class name: `nav-link`.
+Next, let's add some navigation links and social links. We also assume that
+these links will have same styles (size, text color, hover effect, ...). So,
+we're gonna group them using a nice class name: `nav-link`.
 
 `HTML code:`
 <script src="https://gist.github.com/codenart/3b33f0638887dbf67505fbdfb0a48b4d.js">
 </script>
 
-## 2. Styling target large screens
+## 2. Styling target large screen devices
 
 Many people on the Earth will tell you that you should write CSS code target
-mobile devices first (related to mobile first design). But, there's no fixed
-rule. You can also write CSS code target large screens first.
+mobile devices firstly (related to mobile first design). But, there's no fixed
+rule. In this tutorial, we're gonna write CSS target large screen devices before
+taking care of mobile devices.
 
 This task can be divided in sub-tasks:
 
 1. Laying out link-lists to make them stay in a same row, and pulling one to the right.
 2. Coloring stuff, and sizing all links up.
-3. Adding hover-effect to navigation and social links.
+3. Adding hover-effect to navigation links and social links.
 
 ### 2.1 Laying out link-lists
 
@@ -108,12 +109,12 @@ the inner texts are long or short.
 
 ### 2.3 Adding hover-effect
 
-I love subtle effects and am using the one which is used by github's website.
+I love subtle effects and am using the one which is used by Github's website.
 When user hovers mouse over a link, text color will just dim a little bit. Just
 exclude the logo.
 
 `CSS code:`
-<script src="https://gist.github.com/codenart/86c902d385ec7f3806c30ad3e59e13f9.js">
+<script src="https://gist.github.com/codenart/98a7723702d784e83b5f1de2c6a05a78.js">
 </script>
 
 ## 3. Styling target mobile devices
@@ -139,7 +140,7 @@ What we need to do is:
 
 ### 3.1 Make the two link-lists vertical
 
-As you notice that we've make the two link-list and all anchor elements
+In the previous sections, we've make the two link-list and all anchor elements
 `inline-block`; And we also set position of the second list to the right using
 `position: absolute`. Just override these two properties.
 
@@ -208,10 +209,10 @@ serious work. But we can even make it better in future:
 - The navigation bar is lack of animation/transition when it's toggled.
 - It's also lack of icons set as we've use text to describe social links. Oh,
 not really. Maybe you love words over icons.
-- The toggle-function should be handle using JavaScript. So, we don't have to
-use tricky stuff (in this case is the checkbox input).
+- The toggle-functionality should be handle using JavaScript. So, we don't have
+to use tricky stuff (in this case is the checkbox input).
 
-Ready to know more and do better? :D  
+Ready to learn more and do better? :D  
 Let's go back to our unfinished CSS tutorial. There're many interesting stuff
 waiting for us.
 
