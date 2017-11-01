@@ -3,9 +3,9 @@ layout: post
 style:
 script:
 
-category: jquery
+category: javascript
 featured: bingo
-permalink:
+permalink: /intel/
 
 title: Coming soon
 short: Coming soon

@@ -209,8 +209,6 @@ serious work. But we can even make it better in future:
 - The navigation bar is lack of animation/transition when it's toggled.
 - It's also lack of icons set as we've use text to describe social links. Oh,
 not really. Maybe you love words over icons.
-- The toggle-functionality should be handle using JavaScript. So, we don't have
-to use tricky stuff (in this case is the checkbox input).
 
 Ready to learn more and do better? :D  
 Let's go back to our unfinished CSS tutorial. There're many interesting stuff

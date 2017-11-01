@@ -5,7 +5,7 @@ script:
 
 category: bootstrap
 featured: bingo
-permalink:
+permalink: /magic/
 
 title: Coming soon
 short: Coming soon

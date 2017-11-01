@@ -3,9 +3,9 @@ layout: post
 style:
 script:
 
-category: jekyll
+category: jquery
 featured: bingo
-permalink:
+permalink: /wisdom/
 
 title: Coming soon
 short: Coming soon
