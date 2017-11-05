@@ -15,7 +15,7 @@ keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding
 date: 2017-08-24 05:00:00
 ---
 
-Everybody knows know that
+Everybody knows that
 [HTML](https://codenart.github.io/begin/#how-to-add-images-buttons-etc "ext") is
 a simplified version of English. It helps us to talk to web browsers. With HTML,
 we can tell web browsers to display any type of contents (links, images, buttons,
