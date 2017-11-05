@@ -41,7 +41,7 @@ is greater than or equals to `600px`.
 
 ## More about media query conditions
 
-Besides, creating constrains based on viewport's dimensions. We also have other
+Besides creating constrains based on viewport's dimensions, we also have other
 choices:
 
 - Media type: `screen`, `print`, `speech`, `all`

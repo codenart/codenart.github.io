@@ -180,4 +180,4 @@ Our tutorial about HTML containers has finished! It's time for
 > everything in absolute abundance and beauty.  
 > \_\_Sadhguru's wisdom
 
-[Start learning CSS here!](https://codenart.github.io/beauty/).
+[Start learning CSS here!](https://codenart.github.io/beauty/ "ext")
