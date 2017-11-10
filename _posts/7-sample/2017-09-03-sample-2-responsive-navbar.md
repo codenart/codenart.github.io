@@ -132,7 +132,7 @@ the navigation bar will look like on mobile devices.
 `Screenshot:`
 ![desktop](/images/sample/2/non-responsive.png)
 
-What we need to do is:
+Todos:
 
 1. Make the two link-lists vertical
 2. Make the navigation bar toggleable (collapse/expand)
@@ -214,4 +214,4 @@ Ready to learn more and do better? :D
 Let's go back to our unfinished CSS tutorial. There're many interesting stuff
 waiting for us.
 
-[Click here to go back to the CSS tutorial about Media Query.](https://codenart.github.io/css/2017/08/24/css-13-media-query.html#make-your-navigation-bar-responsive "ext")
+[Click here to go back to the CSS tutorial about Media Query.](https://codenart.github.io/css/2017/08/24/css-13-media-query.html#creating-a-responsive-navigation-bar "ext")
