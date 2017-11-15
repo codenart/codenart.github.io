@@ -22,7 +22,8 @@ following syntax:
 
 `transition: property duration;`
 
-We also note that there are many CSS properties are `not` animate-able: [List of animate-able CSS properties.](https://www.w3schools.com/cssref/css_animatable.asp "ext")
+We also note that there are many CSS properties which are `not` animate-able:
+[List of animate-able CSS properties.](https://www.w3schools.com/cssref/css_animatable.asp "ext")
 
 Let's make an example to see the transition property in action. We're gonna
 visualize a spring field of which `background-color` is smoothly changed when
@@ -51,7 +52,7 @@ simple way is to use the keyword `all` instead of a certain property name.
 
 The transition property can also have 2 more values which are `timing-function`
 and `delay`. For example, we can enhance the transition of the spring field
-above with `linear` timing and 0.5 second delay after the season changed.
+above with `linear` timing and 0.5 second delay.
 
 `transition: all 1s linear 0.5s;`
 
@@ -93,8 +94,5 @@ change with the transition effect.
 </p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
-Our tutorial about Transition Effects has finished. The next tutorial will be
-the last one in my CSS series. It's not really a tutorial but an article that I
-use to mention some important things. From this point, you'll have an overview
-and decide how far you want to go with CSS; and what to learn next to fulfill
-your purpose. :D
+Our tutorial about [Transition Effects](https://codenart.github.io{{ page.url }} "ext")
+has finished. In the next tutorial, we'll talk about creating Animations.

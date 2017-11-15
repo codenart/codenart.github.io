@@ -186,3 +186,10 @@ the control element must have an `id`.
    <input id="accept" type="checkbox" name="confirm" value="accept"> I've read and agree to the terms.<br>
    <button type="submit" style="padding: 5px 25px; margin-top: 15px;">Submit</button>
 </form>
+
+Our tutorial about [HTML Forms & Inputs](https://codenart.github.io{{ page.url }} "ext")
+has finished. This is also the last tutorial of my HTML for beginners series. For
+further learning, please checkout these resources:
+
+- [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML "ext")
+- [W3schools.com](https://www.w3schools.com/html/default.asp "ext")

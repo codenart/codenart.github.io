@@ -20,10 +20,10 @@ Atom Editor, Github Pages, Free Images Hosting, etc... And now, we're gonna add
 some more things to the list. :D
 
 A framework is `free` code that is shared by experienced developer to help us
-build things easier. Just imagine that you were the code star, you've create
-common components: navigation bar, dropdown, images slider, etc... Now, you want
-to share your code by allowing me to download your CSS file and a document to show
-me examples about those components. So, I can use your components by embedding
+build things easier. Just imagine that you were the code star, you'd have created
+common components: navigation bar, dropdown, images slider, etc... And now, you
+want to share your code by allowing me to download your CSS file and a document to
+show me examples about those components. So, I can use your components by embedding
 your CSS file to my HTML documents.
 
 It does not mean that my website will have the same look as yours. I can add my
@@ -35,7 +35,7 @@ very personalized.
 </script>
 
 In the HTML snippet above, let's assume that the `.navbar` is a component that
-is pre-styled in `your-framework.css` with nice paddings, responsive ready and
+was pre-styled in `your-framework.css` with nice paddings, responsive ready and
 light background. Now, I want to override its background to `Black` to fit my
 taste. I only need to write a single CSS rule in my `personalized.css`.
 
@@ -51,7 +51,7 @@ There are many CSS frameworks out there, maybe thousands of them. You can start
 with the most popular one - [Bootstrap](http://getbootstrap.com/ "ext"). This
 framework provides common components that help you quickly build responsive
 websites. After getting familiar with using document and applying the framework
-to create some websites, you can try other frameworks to find the one that can
+to create some websites, you can try other frameworks to find the one which really
 touch the bottom of your heart.
 
 You can learn Bootstrap yourself using its official page
@@ -60,12 +60,11 @@ Bootstrap tutorials but I'm not gonna create `another Bootstrap document`; My
 purpose is to show the most simple way to apply Bootstrap to create a website.
 Hopefully that you will join me in learning Bootstrap the simple way.
 
-[Start learning Bootstrap here!](https://codenart.github.io/magic/ "ext")
-
 You can start learning Bootstrap right now even our CSS series will be continued
-in a few more tutorials to cover basic knowledge about animation. I'll also
-mention some extra stuff and resources in the last CSS tutorial for further
-learning if you want to complete your vanilla CSS knowledge.
+in a few more tutorials to cover basic knowledge about creating transition effects
+for interactive components and animations.
+
+[Start learning Bootstrap here!](https://codenart.github.io/magic/ "ext")
 
 ## Using icons
 
@@ -107,4 +106,5 @@ Let's create a simple footer with some social links to use on your website.
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 Our tutorial about [Frameworks & Icons](https://codenart.github.io{{ page.url }})
-has finished. In the next tutorial, we'll talk about basic animations in CSS.
+has finished. In the next tutorial, we'll talk about creating transition effects
+for interactive components.
