@@ -3,14 +3,14 @@ layout: post
 style:
 script:
 
-category: javascript
+category: jquery
 featured: bingo
-permalink: /intel/
+permalink: /wisdom/
 
 title: Coming soon
 short: Coming soon
 description:
 keywords:
 
-date: 2017-08-25 05:00:00
+date: 2017-08-30 05:00:00
 ---

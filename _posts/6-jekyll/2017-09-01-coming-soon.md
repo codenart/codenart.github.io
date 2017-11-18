@@ -3,14 +3,14 @@ layout: post
 style:
 script:
 
-category: jquery
+category: jekyll
 featured: bingo
-permalink: /wisdom/
+permalink: /create/
 
 title: Coming soon
 short: Coming soon
 description:
 keywords:
 
-date: 2017-08-25 05:00:00
+date: 2017-09-01 05:00:00
 ---
