@@ -9,14 +9,11 @@ permalink: /magic/
 
 title: How to Bootstrap a website?
 short: Getting Started
-description:
+description: Don't mind about the grammar mistake in the title. :D<br>I know that "Bootstrap" is not a verb but it just looks Ok in my English. :D<br>Bootstrap is something magical to the one who is in love with HTML, CSS and an easy life. :D
 keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, css, bootstrap
 
 date: 2017-08-26 05:00:00
 ---
-
-Don't mind about the grammar mistake in the title. I know that "Bootstrap" is not
-a verb but it just looks Ok in my English. :D
 
 If you've been following my blog from the CSS tutorial about
 [Frameworks & Icons](https://codenart.github.io/css/2017/08/24/css-14-frameworks-icons.html "ext")
@@ -90,5 +87,3 @@ gonna create.
 
 Feel free to enhance the design with your own favorite colors and images. You can
 also change the design to make it look better and fit your taste. :D
-
-Ready? Go!
