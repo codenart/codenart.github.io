@@ -20,12 +20,12 @@ a verb but it just looks Ok in my English. :D
 
 If you've been following my blog from the CSS tutorial about
 [Frameworks & Icons](https://codenart.github.io/css/2017/08/24/css-14-frameworks-icons.html "ext")
-then you already knew what Bootstrap is. But, I still want to re-introduce the
-thing in this tutorial in case someone just accidently comes here and join our tutorial.
+then you already knew what Bootstrap is. But, I still want to re-introduce `the
+thing` in this tutorial in case someone just accidently comes here and join our tutorial.
 
 Bootstrap is the most popular HTML/CSS frameworks which provides common components
 (navigation bar, dropdown, image slider, grid layout tools, ...) to help us build
-websites easier, faster and smarter. :D
+websites easier, faster, and smarter. :D
 
 To start using Bootstrap, we need to use the following template to initialize
 every HTML documents.
@@ -43,7 +43,7 @@ after the Bootstrap's CSS file. We'll write some rules in this CSS file to overr
 some styles of used components. The purpose is to make our webpages look unique. :D
 
 At the end of the `<body>` section, there are 3 JavaScript files. Don't worry.
-You don't have to learn JavaScript yet to start using Bootstrap. These JavaScript
+You don't have to learn JavaScript to start using Bootstrap. These JavaScript
 files contains pre-written codes that make some interactive components work out
 of the box.
 
@@ -53,20 +53,20 @@ From Bootstrap's official homepage! - [http://www.getbootstrap.com/](http://www.
 
 Sure. I've said that I'm not going to create `another` Bootstrap document on my
 blog. My purpose is to share with you the most simple way to use Bootstrap and
-apply it to create a webpage. So, throughout my Bootstrap series, we'll create
-a complete webpage and discuss how to manage each components of the webpage.
+apply it to create a webpage. So, throughout my Bootstrap series, we'll explore
+the Bootstrap's official document and create a webpage together.
 
-Let's peek in the Bootstrap's document:
-[Click here.](http://getbootstrap.com/docs/4.0/getting-started/introduction/ "ext")
+Let's peek in the document:
+[Click here to see Bootstrap's official document.](http://getbootstrap.com/docs/4.0/getting-started/introduction/ "ext")
 
 `Screenshot:`
 ![bootstrap's homepage](/images/bootstrap/1/official.jpg)
 
-On the left bar of the website, there are 5 important menus:
+On the left bar of the website, there are 5 important menus which we'll frequently
+use:
 
 - [Getting Started](http://getbootstrap.com/docs/4.0/getting-started/introduction/ "ext") |
-I recommend you to read this part slowly and mindfully (when you really have time).
-Otherwise, you can save it for the last. :D
+I recommend you to read this part later after finishing our tutorials. :D
 - [Components](http://getbootstrap.com/docs/4.0/components/alerts/ "ext") | This
 part contains all the pre-built components which are ready to used.
 - [Utilities](http://getbootstrap.com/docs/4.0/utilities/borders/ "ext") | Many
@@ -81,4 +81,14 @@ classes.
 talks about common styles of contents; and contains helper classes related to
 typography and common content types.
 
-##
+## Let's create something with Bootstrap
+
+Ok. Here we go. Please click on the following link to see the webpage which we're
+gonna create.
+
+[Bootstrap it!](https://codepen.io/codenart/full/bYvVNy/ "ext")
+
+Feel free to enhance the design with your own favorite colors and images. You can
+also change the design to make it look better and fit your taste. :D
+
+Ready? Go!
