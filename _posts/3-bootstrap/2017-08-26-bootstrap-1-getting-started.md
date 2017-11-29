@@ -79,5 +79,5 @@ classes.
 `Sample webpage:` [Bootstrap it!](https://codepen.io/codenart/full/bYvVNy/ "ext")
 
 In the next tutorial, we'll talk about Bootstrap's components and utilities
-classes. We'll also apply them to create the navigation bar of the sample
-webpage above.
+classes. We'll also apply them to create the navigation bar and the header of
+the sample webpage above.
