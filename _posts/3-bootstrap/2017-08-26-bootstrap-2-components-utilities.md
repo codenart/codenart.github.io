@@ -226,5 +226,5 @@ Let's define those 2 classes in our `override.css` file.
 That's it! We've built 2 parts of the sample webpage with 14 lines of CSS. Our
 tutorial about [Components & Utilities](https://codenart.github.io{{ page.url }} "ext")
 has been finished. In the next tutorial, we'll have a quick introduction to
-Bootstrap's layout toolset. We'll also create the next 2 parts of the sample
-webpage.
+Bootstrap's Content & Layout toolsets. We'll also create the next 2 parts of the
+sample webpage.
