@@ -202,11 +202,11 @@ also be used to enhance visual composition of components.
 
 Does it work? No? :D  
 I'm sorry. That was my bad. I have not told you that the 2 classes `bg-trees` and
-`py-7` does not exist. :D
+`py-7` are not pre-defined by Bootstrap. :D
 
 Firstly, about [background utilities](https://getbootstrap.com/docs/4.0/utilities/colors/#background-color "ext"),
 Bootstrap offers many options with nice colors and gradients. But, for background
-images, we need to do some work with CSS. Typically, people often create a class
+images, we need to do some works with CSS. Typically, people often create a class
 name which can describe its use (like Bootstrap's Utilities). So, here we have
 `bg-trees`. :D
 
@@ -214,8 +214,8 @@ Second, about [spacing utilities](https://getbootstrap.com/docs/4.0/utilities/sp
 Bootstrap offers 5 level of paddings and margins. To add vertical paddings we
 can use classes from `py-1` to `py-5`. The largest padding we have is `py-5`
 which will add about `50px-height` spaces but we deserve more in this use case
-(let's say `150px`). We can override the pre-defined classes but I recommend you
-to create a padding level so we'll have more options for later uses.
+(let's say `150px`). We can override a pre-defined class but I recommend you
+to create a new padding level so we'll have more options for later uses.
 
 Let's define those 2 classes in our `override.css` file.
 
@@ -223,8 +223,6 @@ Let's define those 2 classes in our `override.css` file.
 <script src="https://gist.github.com/codenart/39aaa85719a5a8770983e0fd836b146e.js">
 </script>
 
-That's it! We've built 2 parts of the sample webpage with 14 lines of CSS. Our
-tutorial about [Components & Utilities](https://codenart.github.io{{ page.url }} "ext")
-has been finished. In the next tutorial, we'll have a quick introduction to
-Bootstrap's Content & Layout toolsets. We'll also create the next 2 parts of the
-sample webpage.
+That's it! We've built 2 parts of the sample webpage with 14 lines of CSS. The
+2 classes  `display-3` and `lead` are used in `jumbotron` example to enhance
+`typography`. We'll talk about them in the next tutorial.

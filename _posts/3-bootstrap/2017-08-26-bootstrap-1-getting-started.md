@@ -32,7 +32,7 @@ every HTML documents.
 </script>
 
 As you noticed that, we have embedded a CSS file named `bootstrap.min.css` from
-somewhere on the internet. This CSS file will contains pre-written styles for
+somewhere on the internet. This CSS file contains pre-written styles for
 common components.
 
 There's also blank CSS file named `override.css` which is embedded after the
@@ -50,7 +50,7 @@ From Bootstrap's official homepage! - [http://www.getbootstrap.com/](http://www.
 Sure. I've said that I'm not going to create `another` Bootstrap document on my
 blog. My purpose is to share with you the most simple way to use Bootstrap and
 apply it to create a webpage. So, throughout my Bootstrap series, we'll explore
-the Bootstrap's official document and create a simple webpage together.
+the Bootstrap's official document and create a simple homepage together.
 
 Let's peek in the document:
 [Click here to see Bootstrap's official document.](http://getbootstrap.com/docs/4.0/getting-started/introduction/ "ext")
@@ -74,10 +74,11 @@ classes.
 - [Content](http://getbootstrap.com/docs/4.0/content/reboot/ "ext") | This part
  contains helper classes related to typography and common content types.
 
-## Here is what we're gonna create
+For each of the menus above, we'll make a single tutorial and talk about the most
+important stuff. Later, we'll create a simple homepage together and I'll also
+list some resources for practicing. Here is the simple homepage which we'll
+create in the end of the series:
 
-`Sample webpage:` [Bootstrap it!](https://codepen.io/codenart/full/bYvVNy/ "ext")
+[Simple homepage - Bootstrap it!](https://codepen.io/codenart/full/bYvVNy/ "ext")
 
-In the next tutorial, we'll talk about Bootstrap's components and utilities
-classes. We'll also apply them to create the navigation bar and the header of
-the sample webpage above.
+See you in the next tutorial! :D
