@@ -9,7 +9,7 @@ permalink: /magic/
 
 title: How to Bootstrap a website?
 short: Getting Started
-description: Don't mind about the grammar mistake in the title. :D<br>I know that "Bootstrap" is not a verb but it just looks Ok in my English. :D<br>Bootstrap is something magical to the one who is in love with HTML, CSS and an easy life. :D
+description: Don't mind about the grammar mistake in the title. :D <br>I know that "Bootstrap" is not a verb but it just looks Ok in my English. :D <br>Bootstrap is something magical to the one who is in love with HTML, CSS, and an easy life. :D
 keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, css, bootstrap, getting started
 
 date: 2017-08-26 05:00:00
@@ -37,7 +37,7 @@ common components.
 
 There's also blank CSS file named `override.css` which is embedded after the
 Bootstrap's CSS file. This CSS file can be used to write some rules to override
-some styles of used components. The purpose is to make our webpages look unique. :D
+styles of used components. The purpose is to make our webpages look unique. :D
 
 At the end of the `<body>` section, there are 3 JavaScript files which contain
 pre-written codes that make some interactive components work out of the box.
@@ -81,4 +81,4 @@ create in the end of the series:
 
 [Simple homepage - Bootstrap it!](https://codepen.io/codenart/full/bYvVNy/ "ext")
 
-See you in the next tutorial! :D
+Are you ready to play with Bootstrap? See you in the next tutorial! :D
