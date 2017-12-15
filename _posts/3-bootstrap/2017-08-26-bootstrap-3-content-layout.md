@@ -104,4 +104,5 @@ we'll have 4 products per row.
 
 The current version of Bootstrap (v4) offers a new feature that allow us to align
 items using a helper class. Please check the [Alignment](https://getbootstrap.com/docs/4.0/layout/grid/#alignment "ext") section
-before heading to our next tutorial.
+before heading to our next tutorial. We'll build a simple homepage as planned in
+the beginning of this series. :D
