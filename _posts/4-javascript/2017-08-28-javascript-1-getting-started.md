@@ -27,7 +27,7 @@ That's it.
    Click me! I'll greet you. :D
 </button>
 
-Wanna see something made with JavaScript? :D  
+Wanna see other things made with JavaScript? :D  
 
 - [Play a Tic-Tac-Toe game](https://codepen.io/codenart/full/dRBxgm "ext")
 - [Simon Game on the web](https://codepen.io/codenart/full/YxKarz "ext")
