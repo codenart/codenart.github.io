@@ -8,7 +8,7 @@ featured:
 permalink:
 
 title: Creating a simple homepage
-short: Bootstrap It!
+short: Bootstrap It !
 description: In this tutorial, we'll build a simple homepage using the framework - Bootstrap. <br>If you haven't tried all Bootstrap's stuff yet, don't worry; <br>You don't have to. Just begin. :D
 keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, css, bootstrap, simple, homepage
 
