@@ -18,7 +18,7 @@ date: 2017-08-26 05:00:00
 If you've been following my blog from the CSS tutorial about
 [Frameworks & Icons](https://codenart.github.io/css/2017/08/24/css-14-frameworks-icons.html "ext")
 then you already knew what Bootstrap is. But, I still want to re-introduce `the
-thing` in this tutorial in case someone just accidently comes here and join our tutorial.
+thing` in case someone just accidently comes here and join our tutorial.
 
 Bootstrap is the most popular HTML/CSS frameworks which provides common components
 (navigation bar, dropdown, image slider, grid layout tools, ...) to help us build

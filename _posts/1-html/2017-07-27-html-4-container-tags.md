@@ -178,6 +178,6 @@ Our tutorial about HTML containers has finished! It's time for
 
 > Mother Earth is so generous. If only we give her the chance, she will restore
 > everything in absolute abundance and beauty.  
-> \_\_Sadhguru's wisdom
+> \_\_Sadhguru
 
 [Start learning CSS here!](https://codenart.github.io/beauty/ "ext")

@@ -5,7 +5,7 @@ script:
 
 category: jekyll
 featured: bingo
-permalink: /create/
+permalink: /jerk/
 
 title: Coming soon
 short: Coming soon

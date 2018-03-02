@@ -121,7 +121,7 @@ Actually, we can use [anchor tags](https://www.w3schools.com/tags/tag_a.asp "ext
 to wrap anything like text, images, a block of content include headings and
 paragraphs, etc... to create a
 [clickable area](https://www.youtube.com/watch?v=zsCD5XCu6CM "ext") that link to
-[somewhere](https://www.youtube.com/watch?v=zsCD5XCu6CM "ext") (Linkin Park).
+[somewhere](https://www.youtube.com/watch?v=zsCD5XCu6CM "ext").
 
 Oh, and now we know that HTML elements can be `nested`. We've just put an HTML
 element inside another. It means that we're freely to compose our documents to
@@ -136,7 +136,7 @@ It's ~~not~~ `easy`. (I'm sorry. There's a typo here. :D)
 Just do the same thing as we've done in examples about
 [img tag](#simple "int"):
 
-- Put all your webpages in the same place.
+- Put all your webpages in the same folder.
 - In the [href](https://www.w3schools.com/tags/att_a_href.asp), just point to
 the document which you want to link to.
 
@@ -161,7 +161,7 @@ by a hash `#`).
 </script>
 
 Does it work? If it doesn't, so you need a longer text which can make your
-website scrollable. (vertically)
+website scrollable (vertically).
 
 Oooops. I've not noticed that our tutorial is too loooong now. Let's take a
 break. In the next tutorial, we'll talk about

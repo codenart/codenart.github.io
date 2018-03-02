@@ -8,7 +8,7 @@ featured:
 permalink:
 
 title: How to specify Colors in CSS?
-short: Color & Length
+short: Colors & Lengths
 description: In this tutorials, we're gonna talk about 2 common value-types (Color & Length). <br>Everyone of us loves colors in our own perspective. <br>So, let's start with CSS Colors. <i class="fa fa-heart"></i>
 keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, css, colors, units
 
@@ -65,7 +65,7 @@ There are online tools which can help use to pick colors and get their `HEX
 values` to use in CSS code:
 [Adobe Color](https://color.adobe.com/ "ext"),
 [W3schools Picker](https://www.w3schools.com/colors/colors_picker.asp "ext").
-You can also use your favorite image editor to the task.
+You can also use your favorite image editor to do the task.
 
 This is how we say `Red` using `HEX values`: `#ff0000`.
 
@@ -91,7 +91,7 @@ so I can say `#bb0000`.
 </p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
-Let's assume that you are creating a website to give useful information to help
+Let's assume that you are creating a website to share useful information to help
 other people and you want to be fair with everyone. There are many people around
 the world who are using
 [Internet Explorer version 8](https://en.wikipedia.org/wiki/Internet_Explorer "ext")

@@ -54,7 +54,7 @@ same as how we use `id` to create
 
 `Basic selectors` are useful for styling common stuff.  
 `Id selectors` are great for styling unique stuff.  
-And there are `class selectors` which are excellent for styling mixed stuff. :D
+And there are `class selectors` which are excellent for styling grouped stuff. :D
 
 To use `class selectors`, we need to specify class names for HTML elements using
 [class attribute](https://www.w3schools.com/tags/att_class.asp "ext") and use
@@ -131,8 +131,8 @@ will choose only 1 rule to apply. Let's take a look at the example below.
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 Normally, CSS files will be processed by web browser from top to bottom and the
-last rule should override the others. It's the CSS Priorities cause the result,
-and it's the Selectors cause the Priorities:
+last rule should override the others. But those Selectors have different Priorities
+which affects the result.
 
 1. `Id selectors` has the highest priority
 2. `Class selectors` has higher priority than basic selectors
@@ -141,7 +141,7 @@ and it's the Selectors cause the Priorities:
 ## Special priority
 
 We can also make a certain CSS rule become a very important one by appending the
-`!important` keyword right before the end of the CSS rule.
+`!important` keyword right before the end of it.
 
 This keyword will not care about Selectors. It simply makes selected HTML
 elements feel at [Home](https://www.youtube.com/watch?v=-98nmUfaBqs "ext").

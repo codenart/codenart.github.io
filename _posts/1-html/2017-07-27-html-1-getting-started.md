@@ -37,9 +37,10 @@ called `HTML document` and the document's filename looks like this: `fountain.ht
 > A webpage is nothing but a text document which can be opened by web browsers.  
 > \_\_A simple & happy Mind
 
-We can create HTML documents using a simple text editor like
-[Notepad](https://en.wikipedia.org/wiki/Microsoft_Notepad "ext").  
-Let's create one:
+HTML documents can be created using a simple text editor like
+[Notepad](https://en.wikipedia.org/wiki/Microsoft_Notepad "ext") or a similar
+application. Let's create one:
+
 - Open your Notepad.
 - Put there some nice words.
 - Save file as `yoursite.html`
@@ -52,8 +53,8 @@ That's it. You've created a webpage. And if you put this webpage somewhere on
 the internet that people can reach it, then you have your very first website.
 
 I've found [Github Pages](https://pages.github.com/ "ext") is totally free and
-excellent. You can take a couple of minutes to take your simple website online
-then come back here to continue our tutorial.  
+excellent. You can take a couple of minutes to publish your simple website then
+come back here to continue our tutorial.  
 Go for it.
 
 > Free is good.  
@@ -71,7 +72,7 @@ language. They speak HTML, a simplified and easier-to-learn version of English.
 Let's change our simple webpage a little bit. We're gonna put there a `heading`,
 a `paragraph` and a `button`:
 
-- Copy/Paste the ancient text below into your HTML document.
+- Copy/Paste the text below into your HTML document.
 - Save file again.
 - Refresh your web browser.
 
@@ -95,9 +96,8 @@ to show up.
 - `h1` means
 [heading level 1](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements "ext").
 
-And there are plenty of
-[HTML tags](https://developer.mozilla.org/en/docs/Web/HTML/Element "ext") which
-help us to put anything on our website. We just need to try them one by one in
+And there are various [HTML tags](https://developer.mozilla.org/en/docs/Web/HTML/Element "ext")
+which allow us to put anything on our website. We just need to try them one by one in
 an HTML document and refresh web browser to know their uses.
 
 > Learning HTML is just about trying some new tags and refreshing web browser.  
