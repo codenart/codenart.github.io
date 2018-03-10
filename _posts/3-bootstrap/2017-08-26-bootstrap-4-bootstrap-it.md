@@ -19,6 +19,7 @@ Ready to see some magic? :D
 We're gonna build a homepage with just a few lines of CSS!  
 Before writing actual code, let's have a look at the expected result.  
 Please click on the following link:
+
 [Simple Homepage - Bootstrap It!](https://codepen.io/codenart/full/bYvVNy/ "ext")
 
 There are 6 parts of the webpage and we're gonna craft them one by one:
