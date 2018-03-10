@@ -98,11 +98,11 @@ Ok, here we go. The very first JavaScript statement.
 `Result:`
 ![console](/images/javascript/1/console.jpg)
 
-Since we're gonna dive into fundamental programming and ask JavaScript to perform
-some calculations, we need to see the output result somewhere. This statement
-will just print any thing we put between the parenthesis `()` to console window
-of the web browser. To open console window, you can press `F12` or right
-click on the webpage and choose `Inspect..` then choose console tab.
+Since we're gonna dive into fundamental programming concepts and not yet to touch
+the tools to manipulate the HTML document, we need to see the output somewhere else;
+And the statement above will just print any thing we put between the parenthesis
+`()` to console window of the web browser. To open console window, you can press `F12`
+or right click on the webpage and choose `Inspect..` then choose console tab.
 
 So, let's see have a closer look at our very first statement. It looks quite
 clear and understandable, right? We're telling the `console` window to `log`
@@ -115,11 +115,12 @@ statement using a semi-colon but it's a good habit for start time. You should
 always end a JavaScript statement with a semi-colon until your love of JavaScript
 grows big enough. :D
 
-- The next two `strange` things are the parenthesis `()` that we mentioned above
-and a dot `.` stands between the two words `console` and `log`. They're the most
-beautiful tiny things in programming. Once you understand their meanings, you have
-nothing left to do with fundamental stuff and you can swim by yourself. It takes
-some more tutorials for us to fully explore their meanings. So, for now, please
-consider them as separators which help to make the statement look clearer. :D
+- The next two `strange` things are the parenthesis `()` that we mentioned above;
+and a dot `.` which stands between the two words `console` and `log`. They're the
+most beautiful tiny things in programming. Once you understand their meanings, you
+have nothing left to do with fundamental stuff and you can swim by yourself. It
+takes some more tutorials for us to be available to their meanings. So, for now,
+please consider them as simple separators which help to make the statement look
+clearer. :D
 
 Can we just end our first JavaScript tutorial with wonders? :D
