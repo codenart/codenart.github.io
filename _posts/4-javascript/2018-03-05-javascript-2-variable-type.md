@@ -23,5 +23,5 @@ Oooops! Sorry! That type is not related to JavaScript. :D
 > An academic & unhappy Mind
 
 Well, actually, I'm not a fan of using academic words to describe things. Because
-academic words make everything looks ugly. Let's keep using the simple word `type`
+those words make everything looks ugly. Let's keep using the simple word `type`
 and ignore the ugly sentence above. We're gonna find another way to describe it. :D

@@ -260,6 +260,7 @@ iframe {
    margin-bottom: 27px;
 }
 
+
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  * Topnav
  */
@@ -598,6 +599,7 @@ body {
 #sidenav .nav-list {
    list-style: none;
    padding-left: 45px;
+   overflow: hidden;
 }
 
 #sidenav .nav-link {

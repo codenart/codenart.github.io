@@ -1,6 +1,6 @@
 <aside id="sidenav" class="ui col-sm-4 col-lg-offset-1 col-lg-3 bg-white">
-   <button class="collapse-toggle text-white bg-primary visible-xs-block" type="button" data-toggle="collapse"
-           data-target="#subnav" aria-expanded="false">
+   <button class="collapse-toggle text-white bg-primary visible-xs-block" type="button"
+           data-toggle="collapse" data-target="#subnav" aria-expanded="false">
       <i class="fa fa-list" aria-hidden="true"></i>
    </button>
 
@@ -15,15 +15,22 @@
 
       <ul class="nav nav-pills nav-stacked">
       {% for category in site.data.map.categories %}
-         {% assign count = 0 %}
          <li>
-            <a class="nav-heading text-inverse">{{ category.title }}</a>
+            <a class="nav-heading text-inverse">
+               {{ category.title }}
+            </a>
             <ol class="nav-list">
+            {% assign postCount = 0 %}
             {% for post in site.categories[category[id]] reversed %}
-               {% assign count = count | plus: 1 %}
-               <li><a class="nav-link text-primary" href="{{ post.url }}">
-                  {{ count }}. {{ post.short }} <span class="hidden">{{ post.category}} - {{ post.title }} {{ post.keywords }}</span>
-               </a></li>
+               {% assign postCount = postCount | plus: 1 %}
+               <li>
+                  <a class="nav-link text-primary" href="{{ post.url }}">
+                     {{ postCount }}. {{ post.short }}
+                     <span class="hidden">
+                        {{ post.category}} - {{ post.title }} {{ post.keywords }}
+                     </span>
+                  </a>
+               </li>
             {% endfor %}
             </ol>
          </li>

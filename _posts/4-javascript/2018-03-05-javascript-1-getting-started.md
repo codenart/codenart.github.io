@@ -9,7 +9,7 @@ permalink: /smart/
 
 title: What is JavaScript?
 short: Getting Started
-description: Unlike HTML and CSS, JavaScript is not a simplified version of English. <br>It is the most popular programming language now. <br>With JS, you can create ANYthing. :D
+description: Unlike HTML and CSS, JavaScript is not a simplified version of English. :D <br>It is one of the most popular programming languages. <br>With JS, you can create ANYthing. :D
 keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, javascript, getting started
 
 date: 2018-03-05 05:00:00
@@ -55,15 +55,12 @@ So, the another important thing that I want you to take note in this section is
 JavaScript code can be placed in a separated file and linked to the HTML document
 using `<script>` tags.
 
-## What can JavaScript actually do?
-
-Everything.
+## What can JavaScript actually do on the web?
 
 Firstly, JavaScript is a programming language so it can serve calculations and
 allows you to teach the computer to think. :D
 
-Secondly, in web browser environment, it allows you manipulate the HTML document
-for various purpose:
+Secondly, it allows you manipulate the HTML document for various purpose:
 
 - Change content of a specific element
 - Change styles of a specific element
@@ -104,9 +101,9 @@ And the statement above will just print any thing we put between the parenthesis
 `()` to console window of the web browser. To open console window, you can press `F12`
 or right click on the webpage and choose `Inspect..` then choose console tab.
 
-So, let's see have a closer look at our very first statement. It looks quite
-clear and understandable, right? We're telling the `console` window to `log`
-the number `2018`. So, there're 3 small things left for us to care about their
+So, let's have a closer look at our very first statement. It looks quite clear
+and understandable, right? We're telling the `console` window to `log` the
+number `2018`. So, there're 3 small things left for us to care about their
 meanings:
 
 - The first one is a semi-colon `;` at the end of the statement. I guess you've
@@ -117,10 +114,10 @@ grows big enough. :D
 
 - The next two `strange` things are the parenthesis `()` that we mentioned above;
 and a dot `.` which stands between the two words `console` and `log`. They're the
-most beautiful tiny things in programming. Once you understand their meanings, you
-have nothing left to do with fundamental stuff and you can swim by yourself. It
-takes some more tutorials for us to be available to their meanings. So, for now,
-please consider them as simple separators which help to make the statement look
-clearer. :D
+most beautiful tiny things in programming world. Once you understand their meanings,
+you have nothing left to do with fundamental stuff and you can swim by yourself.
+It takes some more tutorials for us to be available to their meanings. So, for
+now, please consider them as simple separators which help to make the statement
+look clearer. :D
 
 Can we just end our first JavaScript tutorial with wonders? :D
