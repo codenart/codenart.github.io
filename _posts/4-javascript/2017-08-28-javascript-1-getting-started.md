@@ -12,7 +12,7 @@ short: Getting Started
 description: Unlike HTML and CSS, JavaScript is not a simplified version of English. :D <br>It is one of the most popular programming languages. <br>With JS, you can create ANYthing. :D
 keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, javascript, getting started
 
-date: 2018-03-05 05:00:00
+date: 2017-08-28 05:00:00
 ---
 
 Unlike [HTML](https://codenart.github.io/begin/) and
