@@ -58,8 +58,8 @@ we're gonna group them using a nice class name: `nav-link`.
 ## 2. Styling target large screen devices
 
 Many people on the Earth will tell you that you should write CSS code target
-mobile devices firstly (related to mobile first design). But, there's no fixed
-rule. In this tutorial, we're gonna write CSS target large screen devices before
+mobile devices firstly (mobile first design). But, there's no fixed rule. In
+this tutorial, we're gonna write CSS target large screen devices before
 taking care of mobile devices.
 
 This task can be divided in sub-tasks:
@@ -90,7 +90,7 @@ position of the `.navbar-right`.
 <script src="https://gist.github.com/codenart/33ed7a147f1e254823501cb326d15bcc.js">
 </script>
 
-### 2.2 Coloring & sizing
+### 2.2 Coloring & Sizing
 
 Colors first, as they help our eyes to notice elements' sizes. We're gonna remove
 links' underlines as well.
@@ -196,7 +196,7 @@ and the two link-lists before cleaning up your code and merge classes' styles.
 <script src="https://gist.github.com/codenart/8f17f985162759d1b84f7c0989a204bc.js">
 </script>
 
-Here are the links to full source code of this tutorial (include some enhancements):
+Here are the links to full source code of this tutorial (included some minor enhancements):
 
 - [HTML code](https://gist.github.com/codenart/2833d928ff72bd27de3350c66a3c3aea "ext")
 - [CSS code](https://gist.github.com/codenart/e6db5ad240d89f42525c4eacd2c27543 "ext")
