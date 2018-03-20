@@ -52,8 +52,8 @@ quite flexible and there are so many stuff that may confuse you at the first loo
 I just put there some words to describe what to do in JS file. :D
 
 So, the another important thing that I want you to take note in this section is
-JavaScript code can be placed in a separated file and linked to the HTML document
-using `<script>` tags.
+JavaScript code can be placed in a separated file `.js` and linked to the HTML
+document using `<script>` tags.
 
 ## What can JavaScript actually do on the web?
 
@@ -99,7 +99,7 @@ Since we're gonna dive into fundamental programming concepts and not yet to touc
 the tools to manipulate the HTML document, we need to see the output somewhere else;
 And the statement above will just print any thing we put between the parenthesis
 `()` to console window of the web browser. To open console window, you can press `F12`
-or right click on the webpage and choose `Inspect..` then choose console tab.
+or right click on the webpage and choose `Inspect..` then choose `Console` tab.
 
 So, let's have a closer look at our very first statement. It looks quite clear
 and understandable, right? We're telling the `console` window to `log` the
