@@ -15,7 +15,7 @@ keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding
 date: 2017-08-28 05:05:00
 ---
 
-My type is blonde, medium height, smiley, and dreamy. How about yours?
+My type is thin, medium height, smiley, and dreamy. How about yours?
 
 Oooops! Sorry! That type is not related to JavaScript. :D
 
@@ -160,7 +160,7 @@ these rules:
 [JavaScript reversed keywords](https://www.w3schools.com/js/js_reserved.asp)
 
 So, we've created a box. Let's put something inside. Maybe a number, a huge number,
-a string, or ... a cat.
+a string, or ...a cat.
 
 ![a cat in a box](/images/javascript/2/cat.jpg)
 
@@ -197,4 +197,14 @@ You can put the result back into the old box instead of a new box. But, I prefer
 creating a new one since variable name is very useful to note about the state of
 the content after each manipulation. It makes your code more readable.
 
-Well, that was a long read. Let's take a break. See you then.
+Well, that was a long read. Let's take a break. I'm gonna have a dream about
+[my type](https://www.youtube.com/watch?v=W72LiPMNs9E&index=1&t=0s&list=PLsDw7WMCyjCoJcvMGQgm95c6KXzHvT_xS)
+in a few minutes. See you then.
+
+`My type:`
+<div class="embed">
+   <iframe width="560" height="315"
+           src="https://www.youtube.com/embed/W72LiPMNs9E"
+           frameborder="0" allowfullscreen>
+   </iframe>
+</div>
