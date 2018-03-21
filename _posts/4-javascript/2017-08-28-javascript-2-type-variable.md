@@ -197,9 +197,10 @@ You can put the result back into the old box instead of a new box. But, I prefer
 creating a new one since variable name is very useful to note about the state of
 the content after each manipulation. It makes your code more readable.
 
-Well, that was a long read. Let's take a break. I'm gonna have a dream about
-[my type](https://www.youtube.com/watch?v=W72LiPMNs9E&index=1&t=0s&list=PLsDw7WMCyjCoJcvMGQgm95c6KXzHvT_xS)
-in a few minutes. See you then.
+Well, that was a long read. Let's take a break. I'm gonna take a nap and dream
+about
+[my type](https://www.youtube.com/watch?v=W72LiPMNs9E&index=1&t=0s&list=PLsDw7WMCyjCoJcvMGQgm95c6KXzHvT_xS).
+See you then.
 
 `My type:`
 <div class="embed">
