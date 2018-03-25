@@ -20,7 +20,7 @@ My type is thin, medium height, smiley, and dreamy. How about yours?
 Oooops! Sorry! That type is not related to JavaScript. :D
 
 > Data type is a concept of classifying data for using in a program.  
-> An academic & unhappy Mind
+> \_\_An academic & unhappy Mind
 
 Well, actually, I'm not a fan of using academic words to describe things. Because
 those words make everything looks ugly. Let's keep using the simple word `type`
@@ -74,7 +74,7 @@ Type gets in. Different content type should be treated differently, right?
 
 We have the first basic type is `Number`; And the next one is called `String`
 which is used to represent text content. In JavaScript, a string is enclosed
-using a couple of single quote `'` or double quote `"`.
+using single quotes `'` or double quotes `"`.
 
 `JS code:`
 <script src="https://gist.github.com/codenart/04c89eaaa262adcdefbb5e21bdcf5721.js">
@@ -96,14 +96,12 @@ the concept of Variable.
 
 ## Automatic type conversion
 
-Besides `Number` and `String`, there are some more common types which are designed
-to make programming languages more flexible and give us more possibilities to
-express our needs to computers. Learning fundamental programming is just like
-learning to cook. We simply get to know all the common spices and how does each of
-them taste; And later we're freely to use them our own way to cook a meal.
+Learning fundamental programming is just like learning to cook. We simply get to
+know all the common spices and how does each of them taste; And later we're freely
+to use them our own way to cook a meal.
 
-Sometimes we can make a dish taste salty by using cinnamon instead of salt. It is
-possible not because those two are the same but they have quite the same meaning
+Sometimes we can make a dish taste salty by using cinnamon instead of salt. It
+is possible not because those two are the same but they have quite the same meaning
 to the dish. The same possibility happens in programming. Sometimes you can use
 `that type` instead of `this type` in an expression which requires `this type`. :D
 
@@ -111,17 +109,24 @@ to the dish. The same possibility happens in programming. Sometimes you can use
 <script src="https://gist.github.com/codenart/22ab375e9ab434ad549ec21ee64cd1f6.js">
 </script>
 
-In the example above, what we expect is a string concatenation. But I've put
+In the example above, what we expect is a string concatenation. But We've put
 there a number and it just works. This is a smart feature of JavaScript which
 automatically convert the number to a string before the operation is processed
-and help us to simplify our works. Generally, in many other programming languages,
-type conversion must be done explicitly by writing extra lines of code. We'll
-talk about explicit conversion in a few later tutorials.
+and help us to simplify our works.
+
+Besides `Number` and `String`, there are some more common types which are designed
+to make programming languages more flexible and give us more possibilities to
+express our needs to computers. Fundamental programming is all about those types
+and their uses.
 
 Since automatic type conversion is a very important feature in JavaScript, we'll
 mention it again and again whenever we meet a new Type. For the two basic Types
 we're talking about in this tutorial, there's only 1 way automatic conversion
 `Number -> String`. No vice-versa. Please take note of this. :D
+
+Generally, in many other programming languages, type conversion must be done
+explicitly by writing extra lines of code. JavaScript also provides methods for
+explicit type conversion and we'll cover the topic in a few later tutorials.
 
 ## The concept of Variable
 
@@ -137,12 +142,13 @@ the entry component then write some JavaScript code to trim those contents to
 - Put the excerpt back to HTML document.
 - Repeat those steps above for each of other entries.
 
-There's a need to temporarily store the content somewhere to manipulate it step
-by step before reaching its final form and put the result back to HTML document.
+Since the string manipulation takes more than 1 step to reach the final result,
+there's a need to temporarily store the content somewhere to manipulate it step
+by step until it reach the final form and put the result back to HTML document.
 We need a Variable!
 
-> A variable is simply a box that you can put anything inside
-> A simple & happy Mind
+> A variable is simply a box that you can put anything inside  
+> \_\_A simple & happy Mind
 
 A variable in JavaScript is declared using the keyword `var` followed by a name.
 
@@ -159,8 +165,8 @@ these rules:
 - It cannot be any of reserved keywords. See list here:
 [JavaScript reversed keywords](https://www.w3schools.com/js/js_reserved.asp)
 
-So, we've created a box. Let's put something inside. Maybe a number, a huge number,
-a string, or ...a cat.
+So, we've created a box. Let's put something inside it. Maybe a number; Maybe a
+big number; Maybe a huge number; Maybe a string; Or ...a cat.
 
 ![a cat in a box](/images/javascript/2/cat.jpg)
 
@@ -178,8 +184,8 @@ variable name.
 </script>
 
 You can both create a box and put something inside it at once as in the example
-above. There's no different but I've broken the statement for easier explanation.
-Let's manipulate the stored string.
+above. There's no different. I've just broken the statement for easier explanation.
+Now, let's manipulate the stored string.
 
 `JS code:`
 <script src="https://gist.github.com/codenart/1e8bc0361bfa04545427eef9c61c2389.js">
@@ -187,20 +193,18 @@ Let's manipulate the stored string.
 
 In the second statement, the equal sign `=` will take something on the right to
 put into the new box on the left. But, that `something` is an expression and
-your computer firstly need to perform a calculation the get the result.
+your computer firstly need to perform a calculation to get the result.
 
 The variable name on the right is called to take out the string `A cat`. A
-concatenation is processed and the result is a new string `A cat and another cat`.
-Then the result is put into the new box by the operator `=`.
+concatenation is processed and the result is a new string `A cat and another
+cat`. Then the result is put into the new box by the operator `=`.
 
 You can put the result back into the old box instead of a new box. But, I prefer
 creating a new one since variable name is very useful to note about the state of
 the content after each manipulation. It makes your code more readable.
 
-Well, that was a long read. Let's take a break. I'm gonna take a nap and dream
-about
-[my type](https://www.youtube.com/watch?v=W72LiPMNs9E&index=1&t=0s&list=PLsDw7WMCyjCoJcvMGQgm95c6KXzHvT_xS).
-See you then.
+Ok. So, we've got the first two basic programming concepts. Let's take a break
+before heading to our next tutorial.
 
 `My type:`
 <div class="embed">
