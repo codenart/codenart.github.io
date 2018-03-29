@@ -66,11 +66,11 @@ do something else.
 Since numbers are not everything, there are other needs that people deserve from
 daily computing. In daily life, most of us use `words` more frequently than
 numbers. So, when we create a software solution to automate a task, it's 99
-percent sure that we have to deal with text contents, too.
+percent sure that we have to deal with text contents as well.
 
 Now you see, there's a need to represent text contents in code and make your
 computer treat them differently than `numbers`. This is where the concept of
-Type gets in. Different content type should be treated differently, right?
+Type gets in. Different content types should be treated differently, right?
 
 We have the first basic type is `Number`; And the next one is called `String`
 which is used to represent text content. In JavaScript, a string is enclosed
@@ -206,7 +206,7 @@ the content after each manipulation. It makes your code more readable.
 Ok. So, we've got the first two basic programming concepts. Let's take a break
 before heading to our next tutorial.
 
-`My type:`
+`My Type:`
 <div class="embed">
    <iframe width="560" height="315"
            src="https://www.youtube.com/embed/W72LiPMNs9E"

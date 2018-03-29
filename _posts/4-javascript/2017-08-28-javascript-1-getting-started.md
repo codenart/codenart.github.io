@@ -121,3 +121,16 @@ now, please consider them as simple separators which help to make the statement
 look clearer. :D
 
 Can we just end our first JavaScript tutorial with wonders? :D
+
+## Writing comment in JavaScript
+
+Oh. Excuse me! There's one more little thing I need to tell you.
+
+As any other languages, JavaScript allows us to write comments in the code. There
+are 2 way to write a comment in JavaScript:
+- Start your comment with two slashes `//` and all the characters afterward to
+the end of the line will be considered as comment.
+- If you want to write a multiple-line comment, you can enclose it like we do in
+CSS: `/* comment goes here */`.
+
+That's it. Good bye!
