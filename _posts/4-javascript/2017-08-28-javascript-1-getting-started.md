@@ -69,7 +69,7 @@ Secondly, it allows you manipulate the HTML document for various purpose:
 Lastly, JavaScript also allows you to command the browser as you can do with your
 mouse and even more:
 
-- Open new window or close a focused one
+- Close window or open a new one
 - Resize or move the window around user's screen
 - Scroll the document by lines or by pages
 - Send request to a server or redirect user to another address

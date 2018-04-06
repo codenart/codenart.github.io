@@ -23,8 +23,8 @@ Oooops! Sorry! That type is not related to JavaScript. :D
 > \_\_An academic & unhappy Mind
 
 Well, actually, I'm not a fan of using academic words to describe things. Because
-those words make everything looks ugly. Let's keep using the simple word `type`
-and ignore the ugly sentence above. We're gonna find another way to grasp it. :D
+those words make everything looks ugly. Let's ignore the ugly sentence above.
+We're gonna find another way to grasp it. :D
 
 ## Let's play around with numbers
 
@@ -55,9 +55,9 @@ You can easily find division remainder as well.
 <script src="https://gist.github.com/codenart/ae8da240dc80c8cd5bee4fc663b9cec7.js">
 </script>
 
-Yet, JavaScript provides a lot more tools to work with numbers. But we're gonna
-keep things simple now and talk about those tools in later tutorials. Let's
-do something else.
+Yet, JavaScript provides a lot more efficient tools to work with numbers. But
+we're gonna keep things simple now and save those tools for later tutorials.
+Let's do something else.
 
 ## Get a string
 
@@ -89,44 +89,35 @@ sign `+` as a concatenation instead of an addition.
 </script>
 
 There are many tools in JavaScript which allow us to manipulate strings efficiently.
-But, we're not gonna talk about them here since our main purpose in this tutorial
+But, we're not gonna bring them all here since our main purpose in this tutorial
 is getting to know the concept of Type; And we also have another important concept
 to care about. Let's talk a little more about Type in JavaScript before taking
 the concept of Variable.
 
 ## Automatic type conversion
 
-Learning fundamental programming is just like learning to cook. We simply get to
-know all the common spices and how does each of them taste; And later we're freely
-to use them our own way to cook a meal.
-
-Sometimes we can make a dish taste salty by using cinnamon instead of salt. It
-is possible not because those two are the same but they have quite the same meaning
-to the dish. The same possibility happens in programming. Sometimes you can use
-`that type` instead of `this type` in an expression which requires `this type`. :D
+Coding in JavaScript is just playful as cooking. Sometimes we can make a dish
+taste salty by using cinnamon instead of salt. It is possible not because those
+two are the same but they have quite the same meaning to the dish. And the same
+possibility happens with JavaScript's types. Sometimes you can use `that type`
+instead of `this type` in an expression which requires `this type`. :D
 
 `JS code:`
 <script src="https://gist.github.com/codenart/22ab375e9ab434ad549ec21ee64cd1f6.js">
 </script>
 
 In the example above, what we expect is a string concatenation. But We've put
-there a number and it just works. This is a smart feature of JavaScript which
-automatically convert the number to a string before the operation is processed
-and help us to simplify our works.
-
-Besides `Number` and `String`, there are some more common types which are designed
-to make programming languages more flexible and give us more possibilities to
-express our needs to computers. Fundamental programming is all about those types
-and their uses.
-
-Since automatic type conversion is a very important feature in JavaScript, we'll
-mention it again and again whenever we meet a new Type. For the two basic Types
-we're talking about in this tutorial, there's only 1 way automatic conversion
-`Number -> String`. No vice-versa. Please take note of this. :D
+there a number and ...it just works. This is a smart feature of JavaScript which
+automatically convert the number to a string before the concatenation is
+processed and help us to simplify our works.
 
 Generally, in many other programming languages, type conversion must be done
-explicitly by writing extra lines of code. JavaScript also provides methods for
-explicit type conversion and we'll cover the topic in a few later tutorials.
+explicitly by writing extra lines of code. JavaScript also provides methods which
+serve explicit type conversion and we're not gonna talk about those tools in
+later tutorials.
+
+> JavaScript is out smart other programming languages.  
+> \_\_A simple & happy Mind
 
 ## The concept of Variable
 
@@ -136,47 +127,25 @@ made from a post's content. You decide to fully load the content of articles to
 the entry component then write some JavaScript code to trim those contents to
 300 characters of each excerpt. So, here are steps needed to do in JavaScript:
 
-- Extract content of an article from HTML document.
-- Trim it down to 300 characters long (included spaces).
+- Extract content of from HTML document.
+- Trim it down to 300 characters long.
 - Append three dots at the end of the trimmed content.
 - Put the excerpt back to HTML document.
 - Repeat those steps above for each of other entries.
 
-Since the string manipulation takes more than 1 step to reach the final result,
-there's a need to temporarily store the content somewhere to manipulate it step
+Since the string manipulation takes multiple steps to reach the final result,
+there's a need to `temporarily store the content somewhere` to manipulate it step
 by step until it reach the final form and put the result back to HTML document.
 We need a Variable!
-
-> A variable is simply a box that you can put anything inside  
-> \_\_A simple & happy Mind
-
-A variable in JavaScript is declared using the keyword `var` followed by a name.
-
-`JS code:`
-<script src="https://gist.github.com/codenart/1cdf13eaf423122c77323193d4729015.js">
-</script>
-
-You can give the box any other name that you want. Just make sure that it follows
-these rules:
-
-- A variable name can contains letters, digits, underscores `_`, and dollar sign `$`.
-- It must not begin with a number
-- Variable name is case sensitive. `box` and `Box` are different variables.
-- It cannot be any of reserved keywords. See list here:
-[JavaScript reversed keywords](https://www.w3schools.com/js/js_reserved.asp)
-
-So, we've created a box. Let's put something inside it. Maybe a number; Maybe a
-big number; Maybe a huge number; Maybe a string; Or ...a cat.
-
-![a cat in a box](/images/javascript/2/cat.jpg)
 
 `JS code:`
 <script src="https://gist.github.com/codenart/0d154adf692c8117c4bf933ac76176b5.js">
 </script>
 
+A variable in JavaScript is declared using the keyword `var` followed by a name.
 To assign a value to a variable, an equal sign `=` is used. The operation will
-take that something on the `right` side of the equal sign `=` and put inside the
-box on the `left`. Whenever you want to use the stored value, just call the
+take that `something` on the `right` side of the equal sign `=` and put inside
+the box on the `left`. Whenever you want to use the stored value, just call the
 variable name.
 
 `JS code:`
@@ -184,8 +153,14 @@ variable name.
 </script>
 
 You can both create a box and put something inside it at once as in the example
-above. There's no different. I've just broken the statement for easier explanation.
-Now, let's manipulate the stored string.
+above. There's no different. I've broken the statement just for clearer explanation. :D
+
+> A variable is simply a box that you can put anything inside.  
+> \_\_A simple & happy Mind
+
+![a cat in a box](/images/javascript/2/cat.jpg)
+
+Ok. Let's create another box and perform a simple manipulation.
 
 `JS code:`
 <script src="https://gist.github.com/codenart/1e8bc0361bfa04545427eef9c61c2389.js">
@@ -193,18 +168,26 @@ Now, let's manipulate the stored string.
 
 In the second statement, the equal sign `=` will take something on the right to
 put into the new box on the left. But, that `something` is an expression and
-your computer firstly need to perform a calculation to get the result.
-
-The variable name on the right is called to take out the string `A cat`. A
-concatenation is processed and the result is a new string `A cat and another
-cat`. Then the result is put into the new box by the operator `=`.
+your computer firstly need to perform a calculation to get the result. The
+variable name on the right is called to take out the string `A cat`. A
+concatenation is processed and the result is a new string `A cat and another cat`.
+Then the result is put into the new box by the operator `=`.
 
 You can put the result back into the old box instead of a new box. But, I prefer
-creating a new one since variable name is very useful to note about the state of
-the content after each manipulation. It makes your code more readable.
+creating a new one since variable name is very useful to describe the state of
+the stored content after each manipulation and gives your code more clarity.
 
-Ok. So, we've got the first two basic programming concepts. Let's take a break
-before heading to our next tutorial.
+We're freely to use other beautiful names for those boxes but there're also some
+rules that we should know:
+
+- A variable name can contains letters, digits, underscores `_`, and dollar sign `$`.
+- It must not begin with a number
+- Variable name is case sensitive. `box` and `Box` are two different variables.
+- It cannot be any of reserved keywords. See list here:
+[JavaScript reversed keywords](https://www.w3schools.com/js/js_reserved.asp)
+
+Ok. We've known the first two basic programming concepts. Let's take a break
+before heading to our next tutorial. :D
 
 `My Type:`
 <div class="embed">
