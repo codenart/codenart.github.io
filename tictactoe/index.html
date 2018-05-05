@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+      <link rel="manifest" href="./manifest.json">
+      <link rel="shortcut icon" href="/favicon.ico">
+      <meta name="theme-color" content="#000000">
+
+      <title>Tic Tac Toe</title>
+
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="./style.css">
+   </head>
+
+   <body>
+      <div class="app">
+         <div class="app-hi">
+            <button type="button" value="o"><i class="fa fa-circle-o"></i></button>
+            <button type="button" value="x"><i class="fa fa-times"></i></button>
+         </div><!-- .app-hi -->
+
+         <div class="app-field">
+            <div class="app-field-status">
+               <span id="win">Win: 0</span>
+               <span id="draw">Draw: 0</span>
+            </div>
+
+            <div class="app-field-board">
+               <button type="button" value="2"></button>
+               <button type="button" value="9"></button>
+               <button type="button" value="4"></button>
+               <button type="button" value="7"></button>
+               <button type="button" value="5"></button>
+               <button type="button" value="3"></button>
+               <button type="button" value="6"></button>
+               <button type="button" value="1"></button>
+               <button type="button" value="8"></button>
+            </div>
+
+            <div class="app-field-embrace">
+               HAVE FUN!
+            </div>
+         </div><!-- .app-field -->
+
+         <div id='messenger' class="app-messenger">
+            You first
+         </div><!-- .app-message -->
+      </div>
+
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+			     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+              crossorigin="anonymous"></script>
+      <script src="./main.js"></script>
+   </body>
+</html>

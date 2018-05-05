@@ -88,11 +88,11 @@ sign `+` as a concatenation instead of an addition.
 <script src="https://gist.github.com/codenart/091d76fcb44a1541f31d36b575217ed4.js">
 </script>
 
-There are many tools in JavaScript which allow us to manipulate strings efficiently.
-But, we're not gonna bring them all here since our main purpose in this tutorial
-is getting to know the concept of Type; And we also have another important concept
-to care about. Let's talk a little more about Type in JavaScript before taking
-the concept of Variable.
+There are also many tools in JavaScript which allow us to manipulate strings
+efficiently. But, we're not gonna bring them all here since our main purpose in
+this tutorial is getting to know the concept of Type; And we also have another
+important concept to care about. Let's talk a little more about Type in JavaScript
+before taking the concept of Variable.
 
 ## Automatic type conversion
 
@@ -106,7 +106,7 @@ instead of `this type` in an expression which requires `this type`. :D
 <script src="https://gist.github.com/codenart/22ab375e9ab434ad549ec21ee64cd1f6.js">
 </script>
 
-In the example above, what we expect is a string concatenation. But We've put
+In the example above, what we expect is a string concatenation. But, we've put
 there a number and ...it just works. This is a smart feature of JavaScript which
 automatically convert the number to a string before the concatenation is
 processed and help us to simplify our works.
@@ -125,18 +125,17 @@ Let's assume that you are building your personal blog. Your blog's homepage will
 contain some entries to the ten latest posts. Each entry will contain an excerpt
 made from a post's content. You decide to fully load the content of articles to
 the entry component then write some JavaScript code to trim those contents to
-300 characters of each excerpt. So, here are steps needed to do in JavaScript:
+300 characters of each excerpt. So, here are steps needed to do in order to
+create an excerpt:
 
 - Extract content of from HTML document.
 - Trim it down to 300 characters long.
 - Append three dots at the end of the trimmed content.
 - Put the excerpt back to HTML document.
-- Repeat those steps above for each of other entries.
 
 Since the string manipulation takes multiple steps to reach the final result,
 there's a need to `temporarily store the content somewhere` to manipulate it step
-by step until it reach the final form and put the result back to HTML document.
-We need a Variable!
+by step until it reach the final form. We need a Variable!
 
 `JS code:`
 <script src="https://gist.github.com/codenart/0d154adf692c8117c4bf933ac76176b5.js">
@@ -166,19 +165,17 @@ Ok. Let's create another box and perform a simple manipulation.
 <script src="https://gist.github.com/codenart/1e8bc0361bfa04545427eef9c61c2389.js">
 </script>
 
-In the second statement, the equal sign `=` will take something on the right to
-put into the new box on the left. But, that `something` is an expression and
-your computer firstly need to perform a calculation to get the result. The
-variable name on the right is called to take out the string `A cat`. A
-concatenation is processed and the result is a new string `A cat and another cat`.
-Then the result is put into the new box by the operator `=`.
+In the second statement, the assignment operator `=` will take something on the
+right to put into the new box on the left. But, that `something` is an expression
+and your computer firstly need to perform a calculation to get the result. The
+variable named `box` is called to take out the string `A cat`. A concatenation
+is processed and the result is a new string `A cat and another cat`. You can also
+put the result back into the old box instead of a new box. But, I prefer creating
+a new one since variable name is very useful to describe the state of the stored
+content after each manipulation and gives your code more clarity.
 
-You can put the result back into the old box instead of a new box. But, I prefer
-creating a new one since variable name is very useful to describe the state of
-the stored content after each manipulation and gives your code more clarity.
-
-We're freely to use other beautiful names for those boxes but there're also some
-rules that we should know:
+By naming variables, we're freely to use other beautiful names for those boxes
+but there're also some rules that we should take notes:
 
 - A variable name can contains letters, digits, underscores `_`, and dollar sign `$`.
 - It must not begin with a number

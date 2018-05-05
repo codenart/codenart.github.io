@@ -1,0 +1,195 @@
+
+* {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
+html {
+   font-family: 'Helvetica', 'Arial', sans-serif;
+   font-size: 16px;
+}
+
+body {
+   padding: 30px 0;
+
+   background: #f7f7f7;
+}
+
+button {
+   font-family: inherit;
+   font-size: inherit;
+
+   color: inherit;
+   background: inherit;
+
+   outline: none;
+   border: none;
+
+   cursor: pointer;
+}
+
+button::-moz-focus-inner {
+   border: none;
+}
+
+button.down {
+   background: #eee;
+}
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ *  App's frames
+ */
+.app,
+.app-hi,
+.app-field,
+.app-messenger {
+   font-size: 1rem;
+
+   width: 300px;
+   height: 500px;
+
+   background: #fff;
+}
+
+.app {
+   margin: 0 auto;
+
+   position: relative;
+
+   color: #333;
+   box-shadow: 3px 3px 8px #ccc;
+
+   overflow: hidden;
+}
+
+.app-hi,
+.app-field,
+.app-messenger {
+   position: absolute;
+   top: 0;
+   left: 0;
+   display: none;
+}
+
+.app-hi {
+   display: block;
+}
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ *  Hi
+ */
+.app-hi {
+   text-align: center;
+
+   padding-top: 193px;
+}
+
+.app-hi > button {
+   font-size: 2em;
+   padding: 10px 26px;
+   margin-right: -5px;
+}
+
+.app-hi > button:first-of-type {
+   border-right: 2px solid #eee;
+}
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ *  Messenger
+ */
+.app-messenger {
+   font-size: 1.2em;
+   text-align: center;
+   font-weight: bold;
+   text-transform: uppercase;
+
+   padding: 210px 21px;
+
+   color: #ccc;
+}
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ *  Field
+ */
+.app-field-status {
+   text-align: center;
+
+   width: 100%;
+
+   position: absolute;
+   top: 70px;
+}
+
+.app-field-status
+> span {
+   font-size: 1em;
+   font-weight: bold;
+   text-transform: uppercase;
+
+   display: inline-block;
+   padding: 21px 12px;
+}
+
+.app-field-status
+> span:last-child {
+   color: #ccc;
+}
+
+.app-field-board {
+   width: 210px;
+   height: 210px;
+
+   position: absolute;
+   top: 145px;
+   left: 45px;
+}
+
+.app-field-board::after {
+   content: '';
+   display: block;
+   clear: both;
+}
+
+.app-field-board
+> button {
+   font-size: 1.8em;
+
+   width: 70px;
+   height: 70px;
+
+   float: left;
+
+   border-right: 1px solid #ddd;
+   border-bottom: 1px solid #ddd;
+}
+
+.app-field-board > button:nth-child(1),
+.app-field-board > button:nth-child(4),
+.app-field-board > button:nth-child(7) {
+   border-left: 1px solid #ddd;
+}
+
+.app-field-board > button:nth-child(1),
+.app-field-board > button:nth-child(2),
+.app-field-board > button:nth-child(3) {
+   border-top: 1px solid #ddd;
+}
+
+.app-field-embrace {
+   font-size: 0.9em;
+   font-weight: bold;
+   text-align: center;
+
+   width: 100%;
+
+   position: absolute;
+   left: 0;
+   bottom: 30px;
+
+   color: #ddd;
+}
