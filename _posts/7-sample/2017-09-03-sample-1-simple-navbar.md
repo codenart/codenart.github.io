@@ -114,7 +114,7 @@ snippets somewhere in your computer so we can make use of them in future.
 
 This navigation bar is simple and ready to use but it also has some drawbacks:
 
-- Lack of hover effect. It's a small part make our website more interactive.
+- Lack of hover effect. It's a small feature to make our website more interactive.
 Visitors who use computers will be more pleasure when they hover mouse pointer
 on a link and see some effects. Maybe the text color or the link's background
 will be slightly changed, etc...

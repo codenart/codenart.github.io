@@ -97,10 +97,10 @@ before taking the concept of Variable.
 ## Automatic type conversion
 
 Coding in JavaScript is just playful as cooking. Sometimes we can make a dish
-taste salty by using cinnamon instead of salt. It is possible not because those
-two are the same but they have quite the same meaning to the dish. And the same
-possibility happens with JavaScript's types. Sometimes you can use `that type`
-instead of `this type` in an expression which requires `this type`. :D
+tasted salty by using cinnamon instead of salt. It is possible not because those
+two are the same; But because they have quite the same meaning to the dish. And
+the same possibility happens with JavaScript's types. Sometimes you can use `that
+type` instead of `this type` in an expression which requires `this type`. :D
 
 `JS code:`
 <script src="https://gist.github.com/codenart/22ab375e9ab434ad549ec21ee64cd1f6.js">
@@ -168,11 +168,11 @@ Ok. Let's create another box and perform a simple manipulation.
 In the second statement, the assignment operator `=` will take something on the
 right to put into the new box on the left. But, that `something` is an expression
 and your computer firstly need to perform a calculation to get the result. The
-variable named `box` is called to take out the string `A cat`. A concatenation
-is processed and the result is a new string `A cat and another cat`. You can also
-put the result back into the old box instead of a new box. But, I prefer creating
-a new one since variable name is very useful to describe the state of the stored
-content after each manipulation and gives your code more clarity.
+variable named `box` is called to take out the string `'A cat'`. A concatenation
+is processed and the result is a new string `'A cat and another cat'`. You can
+also put the result back into the old box instead of a new box. But, I prefer
+creating a new one since variable name is very useful to describe the state of
+the stored content after each manipulation and gives your code more clarity.
 
 By naming variables, we're freely to use other beautiful names for those boxes
 but there're also some rules that we should take notes:

@@ -9,7 +9,7 @@ permalink:
 
 title: Bootstrap's components
 short: Components & Utilities
-description: In this tutorial, we will have a gentle introduce to Bootstrap's Components and Utilities. <br>With Bootstrap's Components, we can build a webpage in minutes. <br>Let's start with talking about Components.
+description: In this tutorial, we will have a gentle introduction to Bootstrap's Components and Utilities. <br>With Bootstrap's Components, we can build a webpage in minutes. <br>Let's start with talking about Components.
 keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, css, bootstrap, components, utilities
 
 date: 2017-08-26 05:05:00
@@ -63,7 +63,7 @@ changing the class `btn-secondary` to `btn-danger`. We can also change size of
 the button by adding the class `btn-sm` or `btn-lg`.
 
 You can checkout some more button's options in the following document:  
-[Components -> Buttons](http://getbootstrap.com/docs/4.0/components/buttons/#examples "ext")
+[Components -> Buttons#examples](http://getbootstrap.com/docs/4.0/components/buttons/#examples "ext")
 
 For the components which do not have various pre-defined styles, Bootstrap offers
 other toolsets for customization. They are called `utilities` or `helper classes`.
@@ -87,7 +87,7 @@ class by using it in the `override.css` file.
 
 Since Bootstrap's components are responsive ready, it's important to know about
 Bootstrap's default breakpoints. A breakpoint is the point that a component may
-change its look to well adapt user's screen. And the following are the default
+change its look to well adapted to user's screen. And the following are the default
 breakpoints of Bootstrap:
 
 `CSS code:`
@@ -108,7 +108,7 @@ Notice that the class name pattern is also applied for other toolsets: `Utilitie
 `Layout` (we'll talk about layout toolset in the next tutorial). So let's take
 note of those breakpoints once again:
 
-- `-xl-` stands for small device which are equal or greater than `1200px`
+- `-xl-` stands for large device which are equal or greater than `1200px`
 - `-lg-` medium device ... equal or greater than `992px`
 - `-md-` medium device ... equal or greater than `768px`
 - `-sm-` medium device ... equal or greater than `576px`

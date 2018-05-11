@@ -78,7 +78,7 @@ more than 1 option checked.
    <button type="submit" style="padding: 5px 25px; margin-top: 10px;">Send</button>
 </form>
 
-You may noticed that there is some new attributes used here:
+You may notice that there is some new attributes used here:
 [value attribute](https://www.w3schools.com/tags/att_value.asp "ext") and
 [checked attribute](https://www.w3schools.com/tags/att_input_checked.asp "ext").
 

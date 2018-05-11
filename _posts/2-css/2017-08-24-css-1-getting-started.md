@@ -74,7 +74,7 @@ color is crimson, sizes of letters.
 - The right part is a `value` which we want to apply to the property.
 
 > Learning CSS is just about playing around with Selectors, Properties and Values.  
-> \_\_A simple and happy mind
+> \_\_A simple and happy Mind
 
 ## Where to put CSS code?
 
@@ -126,6 +126,3 @@ Our first CSS tutorial has finished. It's time for
            frameborder="0" allowfullscreen>
    </iframe>
 </div>
-
-> Wish you peace and joy, my buddy. <i class="fa fa-heart"></i>  
-> \_\_A simple and happy mind

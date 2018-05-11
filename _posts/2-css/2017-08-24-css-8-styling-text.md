@@ -134,7 +134,7 @@ Here is an example of using `text-align` with 3 paragraphs.
 Besides horizontally aligning text, controlling `line-height` is important to
 make our text contents look better.  
 
-The `line-height` property is normally use with a value in `px` or `%`.  
+The `line-height` property is normally used with a value in `px` or `%`.  
 If it is used with a value in `%`, the value will be calculated base on the
 current `font-size` of the element.
 

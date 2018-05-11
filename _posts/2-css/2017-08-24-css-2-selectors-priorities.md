@@ -58,7 +58,7 @@ And there are `class selectors` which are excellent for styling grouped stuff. :
 
 To use `class selectors`, we need to specify class names for HTML elements using
 [class attribute](https://www.w3schools.com/tags/att_class.asp "ext") and use
-the class names as selectors. Note that every `class selector` begin with a dot `.`
+the class names as selectors. Note that every `class selector` begins with a dot `.`
 
 `HTML code:`
 <script src="https://gist.github.com/codenart/33357d72dafcc0955c2f31cf596610e6.js">
@@ -145,8 +145,7 @@ We can also make a certain CSS rule become a very important one by appending the
 
 This keyword will not care about Selectors. It simply makes selected HTML
 elements feel at [Home](https://www.youtube.com/watch?v=-98nmUfaBqs "ext").
-So, they will prefer the CSS rule (which are bound with this keyword) on top
-of other choices.
+So, they will prefer the CSS rule on top of other choices.
 
 `CSS code:`
 <script src="https://gist.github.com/codenart/72cae94670da3e989650052c1410f8fe.js">
@@ -166,8 +165,8 @@ of other choices.
 </p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
-The most important part of learning CSS is about Properties and Values. For each
-certain Property, there are various Values which can be used with. So, we will
+The next important part of learning CSS is about Properties and Values. For each
+certain Property, there are various Values which can be applied. So, we will
 cover details about CSS Values when we talk about each certain Property.
 
 In the next tutorial, we'll talk about 2 common Value-types: `Color` and `Length`.

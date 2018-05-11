@@ -51,7 +51,7 @@ should use your own favorite colors in your sample HTML document or your website
 
 In the example above, there're 2 colors: `RoyalBlue` and `Snow` (Snow White is
 real). As you see that, `color names` are so descriptive and simple that anyone
-can look at CSS code and know how the colors look like.
+can guess how the colors look like when peek in CSS code.
 
 ## Specify colors using HEX-values
 
@@ -118,7 +118,7 @@ Here are some reference links to learn more about CSS colors:
 ![7 dwarfs](/images/css/3/sevendwarfs.jpg)
 
 We've finished talking about colors in CSS. Let's talk about the next common
-Value-type: Length.
+value-type: `Length`.
 
 ## How to specify lengths in CSS?
 
@@ -152,8 +152,8 @@ Here is another example using `static values` to specify lengths.
 
 For the example above, if we resize our web browsers' windows, those blocks will
 maintain their specified widths. It means that they're not adaptive to various
-screen sizes . Dynamic-values help us to make those blocks flexible and adaptive
-to various screen sizes and more commonly used as responsive design is popular.
+screen sizes. Dynamic-values help us to make those blocks flexible and adaptive
+to various screen sizes so our webpages may look good on any devices.
 
 Let's change the above CSS code snippet a little bit and resize your web browser
 to see the effect. This time, we're gonna use the unit `%` instead of `px` for

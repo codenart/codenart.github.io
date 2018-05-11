@@ -57,7 +57,7 @@ example about combining CSS Selectors. In the example, there're 2 CSS blocks:
 
 ## How to combine CSS Selectors?
 
-Combining CSS Selectors fall into 3 types and we're gonna talk about them one by one:
+Combining CSS Selectors falls into 3 types and we're gonna talk about them one by one:
 
 1. Union & Intersection
 2. Next Sibling & Followed Siblings

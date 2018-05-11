@@ -111,6 +111,6 @@ your audio files locally:
 Waaaa... I've not noticed that this article is full of music now. :D  
 I'm sorry if those stuff distracted you. :D
 
-After 3 tutorials, now we've already know how to add basic content-types into
-webpages. The next important thing is grouping related content into parts
-(navigation bar, main content, ...) and make them look aesthetic.
+After 3 tutorials, now we've already known how to add basic content-types into
+webpages. The next important thing is grouping related contents into parts
+(navigation bar, main content, footer, ...) and make them look aesthetic.

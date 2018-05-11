@@ -33,13 +33,12 @@ Ex: headings, paragraphs, div, nav, etc...
 
 `inline` containers won't take space. They keep their size as small as possible
 (just wrapping around the content inside). Web browsers treat these containers
-as contents (words).  
+as text contents (words).  
 We can NOT set size of these containers.  
 Ex: links, span, etc...
 
-`inline-block` containers are special. Web browsers treat them as contents
-(`inline` containers) but we can also set size of these containers using `width`
-and `height` properties.  
+`inline-block` containers are special. Web browsers treat them as text contents
+but also allow us set size of these containers using `width` and `height` properties.  
 Ex: buttons, images, etc...
 
 ## Changing type of a container

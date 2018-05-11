@@ -151,7 +151,7 @@ In the previous sections, we've make the two link-list and all anchor elements
 ### 3.2 Make the navigation bar toggleable
 
 Normally, this task will be handled by using another language called JavaScript.
-As we've not met JS yet, then we'll make it the HTML & CSS way by using a
+As we've not met JS yet, then we'll make it the CSS way by using a
 [checkbox](https://codenart.github.io/html/2017/07/27/html-8-other-inputs.html#2-radio-button--check-box--dropdown-list "ext")
 as an indicator; And we'll use the pseudo-class `:checked` to change size of the
 navigation bar base on the indicator's state.
@@ -185,7 +185,7 @@ So, remember to move a piece of code to outside of the media query block.
 <script src="https://gist.github.com/codenart/c17c61318cf1223973ddc87a41756c60.js">
 </script>
 
-## 4. cleaning up code
+## 4. Cleaning up code
 
 Congrazz!!! You've created a responsive navigation bar! You're talented. :D
 
@@ -210,7 +210,7 @@ serious work. But we can even make it better in future:
 - It's also lack of icons set as we've use text to describe social links. Oh,
 not really. Maybe you love words over icons.
 
-Ready to learn more and do better? :D  
+Ready to learn more and create better? :D  
 Let's go back to our unfinished CSS tutorial. There're many interesting stuff
 waiting for us.
 

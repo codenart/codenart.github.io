@@ -15,16 +15,17 @@ keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding
 date: 2017-08-24 06:05:00
 ---
 
-From the very early tutorials on this website, we've met many free & cool stuff:
-Atom Editor, Github Pages, Free Images Hosting, etc... And now, we're gonna add
-some more things to the list. :D
+From the very early tutorials, we've met many free & cool stuff: Atom Editor,
+Github Pages, Free Images Hosting, etc... And now, we're gonna add some more
+things to the list. :D
 
-A framework is `free` code that is shared by experienced developers to help us
-build things easier. Just imagine that you were the code star, you'd have created
+A framework is `free` code that is shared by skilled developers to help us build
+things easier. Just imagine that you were the code star, you'd have created
 common components: navigation bar, dropdown, images slider, etc... And now, you
-want to share your code by allowing me to download your CSS file and a document to
-show me examples about those components. So, I can use your components by embedding
-your CSS file to my HTML documents and copy/paste some HTML snippets from your examples.
+want to share your code by allowing me to download your CSS file and a document
+to show me examples about those components. So, I can use your components by
+embedding your CSS file to my HTML documents and copy/paste some HTML snippets
+from your examples.
 
 It does not mean that my website will have the same look as yours. I can add my
 own CSS file to override the outlook of any component and my website still look

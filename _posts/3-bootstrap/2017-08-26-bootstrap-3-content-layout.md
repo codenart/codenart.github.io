@@ -21,7 +21,7 @@ Just peek in the Content menu on the left sidebar of the Bootstrap's official we
 `Screenshot:`
 ![Bootstrap's Content toolsets](/images/bootstrap/3/content.jpg)
 
-Wew, there are only a few things appear in the sub-menu. Since the most common
+Wew, there are only a few things appeared in the sub-menu. Since the most common
 content types in almost every websites are `text` and `image`, Bootstrap's
 Content toolsets are all about those 2 content types. The most frequently used
 toolset is the one related to `Typography`. Let's see what we have in this toolset.
@@ -36,7 +36,7 @@ like a heading.
 Next section `Display headings` contains some classes which are pre-defined with
 a display font. If you're not familiar with design stuff, then a display font is
 a strong typeface which will strongly attract user's eyes. Normally, these
-utilities will be very nice to sit on front-pages.
+utilities will be applied for contents sit on front-pages.
 
 Let's write a piece of code to see the difference between `heading` classes
 and `display heading` classes. We'll also use the class `lead` which makes a
@@ -64,12 +64,12 @@ homepage mentioned in the first tutorial.
 
 ## Laying out using Bootstrap's grid system
 
-To make laying out task simpler, some great minds on earth have invented grid
-system. The idea is simple. Every container can be divided into 12 columns which
-has the same width. Each of the container's children will take some columns
-(up to 12) to adapt our design. Let's say when we want to create a product grid
-with many cards like the image below. Each card will take 3 columns and we will
-have 4 cards per row. Let's see how Bootstrap's Grid can help us in this case.
+To simplify laying out task, Bootstrap uses grid system. The idea is simple.
+Every container can be divided into 12 columns which has the same width. Each of
+the container's children will take some columns (up to 12) to adapt the design
+purpose. Let's say when we want to create a product grid with many cards like the
+image below. Each card will take 3 columns and we will have 4 cards per row. Let's
+see how Bootstrap's Grid can help in this case.
 
 `Sample image:`
 ![product grid](/images/bootstrap/3/grid.jpg)

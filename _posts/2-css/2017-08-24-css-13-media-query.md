@@ -57,7 +57,7 @@ printed in portrait mode:
 <script src="https://gist.github.com/codenart/d89cbac3a1238b395b527d233b894694.js">
 </script>
 
-## Creating a navigation bar responsive
+## Creating a responsive navigation bar
 
 To keep this post simple and purely focus on introducing media query syntax, I
 have to move this section to a single article. So, please keep this tab open and

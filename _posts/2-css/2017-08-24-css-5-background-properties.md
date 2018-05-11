@@ -88,8 +88,8 @@ To control repeating background image, there's `background-repeat` property. It
 can be used with 1 of these 3 values: `repeat-x`, `repeat-y`, and `no-repeat`.
 Just try this property with the second container to see if it works. :D
 
-P/s: The `background-size` property can also be used with 2 length-values. The
-first value is `width` and the second one is `height`:
+P/s: The `background-size` property can also be used with a couple of length-values.
+The first value is `width` and the second one is `height`:
 
 `background-size: 500px 300px;`
 

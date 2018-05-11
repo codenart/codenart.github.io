@@ -50,7 +50,7 @@ which are repeated as many times as we want. By default, it is set by:
 It means that the animation will be played 1 time only. We can also set it to
 `infinite`.
 
-## Multiple phases animation
+## Multi-phases animation
 
 Let's take a look back at the example in the first section. Inside the `@keyframes`
 block, the animation is defined using 2 states (stop points) `from` and `to`. We

@@ -35,7 +35,7 @@ As you noticed that, we have embedded a CSS file named `bootstrap.min.css` from
 somewhere on the internet. This CSS file contains pre-written styles for
 common components.
 
-There's also blank CSS file named `override.css` which is embedded after the
+There's also a blank CSS file named `override.css` which is embedded after the
 Bootstrap's CSS file. This CSS file can be used to write some rules to override
 styles of used components. The purpose is to make our webpages look unique. :D
 
@@ -79,6 +79,6 @@ important stuff. Later, we'll create a simple homepage together and I'll also
 list some resources for practicing. Here is the simple homepage which we'll
 create in the end of the series:
 
-[Simple homepage - Bootstrap it!](https://codepen.io/codenart/full/bYvVNy/ "ext")
+[Simple homepage - Bootstrap it !](https://codepen.io/codenart/full/bYvVNy/ "ext")
 
 Are you ready to play with Bootstrap? See you in the next tutorial! :D

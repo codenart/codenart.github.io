@@ -17,7 +17,7 @@ date: 2017-08-24 05:45:00
 
 [Pseudo-classes](https://www.w3schools.com/css/css_pseudo_classes.asp "ext")
 are not something new. I call them `pseudo selectors`. They help us to style
-elements base on elements' states. Every pseudo-selectors begins with a colon `:`.
+elements base on elements' state. Every pseudo-selectors begins with a colon `:`.
 
 Let's take a look at the example below. The selector `:empty` will select every
 elements which is empty.
@@ -75,9 +75,9 @@ it for other stuff.
 Have you touched that? :D  
 
 As you see that pseudo-classes are not really something new. It's easy to get
-the idea about how they work. So, We're not going to make examples about every
-one of them. Just save the reference link for future uses or you can quickly
-parse the link to pick out some and playing around with them.
+the idea about how they work. So, We're not going to make examples for every one
+of them. Just save the reference link for future uses or you can quickly parse
+the link to pick out some and playing around with them.
 
 ## Pseudo Elements
 

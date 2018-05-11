@@ -52,23 +52,23 @@ the point where we need help from the `auto` value.
 
 Is that a magic? We don't even have to make any calculation. Web browsers
 automatically take care of the complex task and maintain those images' aspect
-ratios. I've no idea why web browsers know exactly what we want. Everything
+ratio. I've no idea why web browsers know exactly what we want. Everything
 just works like charm. :D
 
-Note that the auto value can be used with various CSS properties and we'll meet
-it again in the next tutorials.
+Note that the `auto` value can be used with various CSS properties and we'll meet
+it again and again.
 
 ## Minimum and maximum values
 
 Besides the width and height properties that we've already known, CSS also offer
 some related properties like `min-width`, `max-width`, `min-height` and `max-height`.
 These properties are used to create some constraints that help us to make sure
-components will look right in any situation.
+components will look good in any situation.
 
 Let's say, the common line length for good reading experience is maximum 90
 characters or less; Combine with common font-size (around 16-18px) will give
 the result in ~700-800px. So, You may want to make sure your blog/website will
-use maximum line length as 800px or something around this value. This can be
+use maximum line length as 800px. This can be
 done by using `max-width` property:
 
 `.post { max-width: 800px }`

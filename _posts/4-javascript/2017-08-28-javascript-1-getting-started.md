@@ -24,9 +24,9 @@ certain situation.
 > \_\_A simple & happy Mind
 
 For example, you want to place a button on your webpage to greet user when he/she
-clicks on it. HTML can help to make the button shows up. CSS can help to make the
-button looks nice. But, none of those two languages can tell web browser `what to
-do` when user clicks on the button. This is the point where JavaScript gets in.
+clicks on it. HTML can help to make the button shown up. CSS can help to make the
+button looked nice. But, none of those two languages can tell web browser `what
+to do` when user clicks on the button. This is the point where JavaScript gets in.
 Let's see.
 
 `HTML code:`
@@ -130,7 +130,7 @@ As any other languages, JavaScript allows us to write comments in the code. Ther
 are 2 way to write a comment in JavaScript:
 - Start your comment with two slashes `//` and all the characters afterward to
 the end of the line will be considered as comment.
-- If you want to write a multiple-line comment, you can enclose it like we do in
+- If you want to write a multi-lines comment, you can enclose text like we do in
 CSS: `/* comment goes here */`.
 
 That's it. Good bye!
