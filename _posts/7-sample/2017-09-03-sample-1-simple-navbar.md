@@ -8,7 +8,7 @@ featured: bingo
 
 title: Creating a simple navigation bar
 short: Simple Navbar
-description: In this tutorial, we're gonna create a simple navigation bar using HTML and CSS. <br>This tutorial is a part of the 8th CSS tutorial on my website. <br>Please, be sure of handling basic stuff. :D
+description: In this tutorial, we're gonna create a navigation bar using HTML and CSS. <br>This tutorial is a part of the 8th CSS tutorial on my website. <br>Please, be sure of handling basic stuff. :D
 keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, simple, sample, navigation, bar, nav, navbar, html, css
 
 date: 2017-09-03 05:00:00

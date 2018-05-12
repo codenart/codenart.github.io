@@ -36,7 +36,7 @@ style (size, color, font, etc...).
 ## 1. Let's get it started
 
 Firstly, let's construct the navigation bar with a `<nav>` container and its 3
-children: logo, left link-list, and right link-list.
+children: logo and 2 lists of links.
 
 `HTML code:`
 <script src="https://gist.github.com/codenart/ad746b59ff7ca6812d580841f0f363a1.js">
@@ -64,23 +64,22 @@ taking care of mobile devices.
 
 This task can be divided in sub-tasks:
 
-1. Laying out link-lists to make them stay in a same row, and pulling one to the right.
-2. Coloring stuff, and sizing all links up.
-3. Adding hover-effect to navigation links and social links.
+1. Laying out 2 lists of links to make them stay in a same row, and pulling one to the right.
+2. Coloring stuff, and sizing up all the links.
+3. Adding hover-effect to all the links (excluded the logo).
 
 ### 2.1 Laying out link-lists
 
 By default, the two link-list wrapped using `<div> tag` will have the property
-`display: block` and does not allow them to stay in a row with the logo
-`.navbar-brand`. Let's fix this.
+`display: block` and does not allow them to stay in a row with the logo `.navbar-brand`.
+Let's fix this.
 
 `CSS code:`
 <script src="https://gist.github.com/codenart/cc945e514b6a1a007b079ba0dc0f2fd6.js">
 </script>
 
 To pull the `.navbar-right` to the right, the simple solution is using
-`position: absolute` and set position of the link-list base on its parent
-`.navbar`.
+`position: absolute` and set position of the list base on its parent `.navbar`.
 
 You can also consider to pin the navigation bar on top of the viewport by using
 `position: fixed`; Or if not, just make it `position: relative` so we can set
@@ -99,9 +98,9 @@ links' underlines as well.
 <script src="https://gist.github.com/codenart/d4f03a947e58fae1b9482c8f4ddd1d75.js">
 </script>
 
-To size all the links up, we'll use `padding` instead of `width & height`
-properties. This makes their sizes flexible; So, we don't have to care about if
-the inner texts are long or short.
+To size up all the links, we'll use `padding` instead of `width & height` properties.
+This makes their sizes flexible; So, we don't have to care about if the inner
+texts are long or short.
 
 `CSS code:`
 <script src="https://gist.github.com/codenart/86c902d385ec7f3806c30ad3e59e13f9.js">
@@ -134,13 +133,13 @@ the navigation bar will look like on mobile devices.
 
 Todos:
 
-1. Make the two link-lists vertical
+1. Make the two lists of links displayed vertical
 2. Make the navigation bar toggleable (collapse/expand)
 3. Add a toggler-button to the right corner or the navigation bar
 
 ### 3.1 Make the two link-lists vertical
 
-In the previous sections, we've make the two link-list and all anchor elements
+In the previous sections, we've make the two lists of links and all anchor elements
 `inline-block`; And we also set position of the second list to the right using
 `position: absolute`. Just override these two properties.
 
@@ -187,10 +186,10 @@ So, remember to move a piece of code to outside of the media query block.
 
 ## 4. Cleaning up code
 
-Congrazz!!! You've created a responsive navigation bar! You're talented. :D
+Congrazz!!! You've created a responsive navigation bar! You're awesome. :D
 
 You may also want to add some borders to separate components like the toggler-button
-and the two link-lists before cleaning up your code and merge classes' styles.
+and the two lists of links before cleaning up your code and merge classes' styles.
 
 `CSS code:`
 <script src="https://gist.github.com/codenart/8f17f985162759d1b84f7c0989a204bc.js">
@@ -208,7 +207,7 @@ serious work. But we can even make it better in future:
 
 - The navigation bar is lack of animation/transition when it's toggled.
 - It's also lack of icons set as we've use text to describe social links. Oh,
-not really. Maybe you love words over icons.
+not really. Maybe you love words over icons as I do.
 
 Ready to learn more and create better? :D  
 Let's go back to our unfinished CSS tutorial. There're many interesting stuff
