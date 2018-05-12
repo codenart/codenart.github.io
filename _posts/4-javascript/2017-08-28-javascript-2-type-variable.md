@@ -9,7 +9,7 @@ permalink:
 
 title: Type? Which type?
 short: Type & Variable
-description: In this tutorial, we're gonna talk about two basic concepts in programming (Type & Variable); <br>And have a gentle introduce to the most two common Types. <br>Let's get started with the concept of Type.
+description: In this tutorial, we're gonna talk about two basic concepts in programming (Type & Variable); <br>And have a gentle introduction to the most two common Types. <br>Let's get started with the concept of Type.
 keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, javascript, type, number, string, variable
 
 date: 2017-08-28 05:05:00
@@ -113,8 +113,7 @@ processed and help us to simplify our works.
 
 Generally, in many other programming languages, type conversion must be done
 explicitly by writing extra lines of code. JavaScript also provides methods which
-serve explicit type conversion and we're not gonna talk about those tools in
-later tutorials.
+serve explicit type conversion and we're gonna talk about those tools in later tutorials.
 
 > JavaScript is out smart other programming languages.  
 > \_\_A simple & happy Mind
@@ -129,7 +128,7 @@ the entry component then write some JavaScript code to trim those contents to
 create an excerpt:
 
 - Extract content of an entry from HTML document.
-- Trim it down to 300 characters long.
+- Trim it down to 300 characters length.
 - Append three dots at the end of the trimmed content.
 - Put the excerpt back to HTML document.
 

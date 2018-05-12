@@ -60,7 +60,7 @@ document using `<script>` tags.
 Firstly, JavaScript is a programming language so it can serve calculations and
 allows you to teach the computer to think. :D
 
-Secondly, it allows you manipulate the HTML document for various purpose:
+Secondly, it allows you manipulate the HTML document for various purposes:
 
 - Change content of a specific element
 - Change styles of a specific element
