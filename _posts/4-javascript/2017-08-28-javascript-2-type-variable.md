@@ -82,13 +82,13 @@ using single quotes `'` or double quotes `"`.
 
 You can place a plus sign `+` between two strings to concatenate them. Since
 we're working with strings (not numbers), your computer will consider the plus
-sign `+` as a concatenation instead of an addition.
+sign `+` as a concatenation operator instead of an addition operator.
 
 `JS code:`
 <script src="https://gist.github.com/codenart/091d76fcb44a1541f31d36b575217ed4.js">
 </script>
 
-There are also many tools in JavaScript which allow us to manipulate strings
+There are also many other tools in JavaScript which allow us to manipulate strings
 efficiently. But, we're not gonna bring them all here since our main purpose in
 this tutorial is getting to know the concept of Type; And we also have another
 important concept to care about. Let's talk a little more about Type in JavaScript
@@ -122,13 +122,13 @@ later tutorials.
 ## The concept of Variable
 
 Let's assume that you are building your personal blog. Your blog's homepage will
-contain some entries to the ten latest posts. Each entry will contain an excerpt
+contain some entries to the 10 latest posts. Each entry will contain an excerpt
 made from a post's content. You decide to fully load the content of articles to
 the entry component then write some JavaScript code to trim those contents to
 300 characters of each excerpt. So, here are steps needed to do in order to
 create an excerpt:
 
-- Extract content of from HTML document.
+- Extract content of an entry from HTML document.
 - Trim it down to 300 characters long.
 - Append three dots at the end of the trimmed content.
 - Put the excerpt back to HTML document.
@@ -152,7 +152,7 @@ variable name.
 </script>
 
 You can both create a box and put something inside it at once as in the example
-above. There's no different. I've broken the statement just for clearer explanation. :D
+above. There's no difference. I've broken the statement just for clearer explanation. :D
 
 > A variable is simply a box that you can put anything inside.  
 > \_\_A simple & happy Mind
@@ -167,8 +167,8 @@ Ok. Let's create another box and perform a simple manipulation.
 
 In the second statement, the assignment operator `=` will take something on the
 right to put into the new box on the left. But, that `something` is an expression
-and your computer firstly need to perform a calculation to get the result. The
-variable named `box` is called to take out the string `'A cat'`. A concatenation
+and your computer firstly need to perform a calculation to get the result: The
+variable named `box` is called to take out the string `'A cat'`; A concatenation
 is processed and the result is a new string `'A cat and another cat'`. You can
 also put the result back into the old box instead of a new box. But, I prefer
 creating a new one since variable name is very useful to describe the state of
@@ -177,7 +177,7 @@ the stored content after each manipulation and gives your code more clarity.
 By naming variables, we're freely to use other beautiful names for those boxes
 but there're also some rules that we should take notes:
 
-- A variable name can contains letters, digits, underscores `_`, and dollar sign `$`.
+- A variable name can contains letters, digits, underscore `_`, and dollar sign `$`.
 - It must not begin with a number
 - Variable name is case sensitive. `box` and `Box` are two different variables.
 - It cannot be any of reserved keywords. See list here:
