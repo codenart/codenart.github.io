@@ -50,7 +50,7 @@ documents. :D
 
 > Without HTML, there is no website.  
 > Without CSS, there is no beautiful website.  
-> \_\_A simple and happy mind
+> \_\_A simple & happy Mind
 
 ## How does CSS code look like?
 
@@ -74,7 +74,7 @@ color is crimson, sizes of letters.
 - The right part is a `value` which we want to apply to the property.
 
 > Learning CSS is just about playing around with Selectors, Properties and Values.  
-> \_\_A simple and happy Mind
+> \_\_A simple & happy Mind
 
 ## Where to put CSS code?
 

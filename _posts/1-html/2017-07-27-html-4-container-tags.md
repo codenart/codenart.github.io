@@ -16,7 +16,7 @@ date: 2017-07-27 05:15:00
 ---
 
 > A container is something that contains something.  
-> \_\_A simple and happy mind
+> \_\_A simple & happy Mind
 
 So... everything in an HTML document is a container.  
 `<p></p>` may contains other elements like links and images.  
