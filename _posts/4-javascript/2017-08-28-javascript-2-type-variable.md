@@ -123,8 +123,8 @@ serve explicit type conversion and we're gonna talk about those tools in later t
 Let's assume that you are building your personal blog. Your blog's homepage will
 contain some entries to the 10 latest posts. Each entry will contain an excerpt
 made from a post's content. You decide to fully load the content of articles to
-the entry component then write some JavaScript code to trim those contents to
-300 characters of each excerpt. So, here are steps needed to do in order to
+the entry components then write some JavaScript code to trim those contents to
+300 characters of each excerpt. So, here are steps needed to be done in order to
 create an excerpt:
 
 - Extract content of an entry from HTML document.
@@ -151,7 +151,7 @@ variable name.
 </script>
 
 You can both create a box and put something inside it at once as in the example
-above. There's no difference. I've broken the statement just for clearer explanation. :D
+above. There's no difference. I've broken the statement just for better explanation. :D
 
 > A variable is simply a box that you can put anything inside.  
 > \_\_A simple & happy Mind
