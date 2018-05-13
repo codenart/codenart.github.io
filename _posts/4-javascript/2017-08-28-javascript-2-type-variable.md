@@ -97,7 +97,7 @@ before taking the concept of Variable.
 ## Automatic type conversion
 
 Coding in JavaScript is just playful as cooking. Sometimes we can make a dish
-tasted salty by using cinnamon instead of salt. It is possible not because those
+taste salty by using cinnamon instead of salt. It is possible not because those
 two are the same; But because they have quite the same meaning to the dish. And
 the same possibility happens with JavaScript's types. Sometimes you can use `that
 type` instead of `this type` in an expression which requires `this type`. :D

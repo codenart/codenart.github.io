@@ -30,8 +30,8 @@ toolset is the one related to `Typography`. Let's see what we have in this tools
 ![Bootstrap's Typography toolset](/images/bootstrap/3/typography.jpg)
 
 The section `Headings` talks about common styles of heading tags pre-defined by
-Bootstrap. They also offer heading `classes` which can make any text element look
-like a heading.
+Bootstrap. They also offer heading `classes` which can make any text element
+look like a heading.
 
 Next section `Display headings` contains some classes which are pre-defined with
 a display font. If you're not familiar with design stuff, then a display font is
