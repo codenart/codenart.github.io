@@ -108,10 +108,10 @@ Notice that the class name pattern is also applied for other toolsets: `Utilitie
 `Layout` (we'll talk about layout toolset in the next tutorial). So let's take
 note of those breakpoints once again:
 
-- `-xl-` stands for large device which are equal or greater than `1200px`
-- `-lg-` medium device ... equal or greater than `992px`
+- `-xl-` stands for extra large device which are equal or greater than `1200px`
+- `-lg-` large device ... equal or greater than `992px`
 - `-md-` medium device ... equal or greater than `768px`
-- `-sm-` medium device ... equal or greater than `576px`
+- `-sm-` small device ... equal or greater than `576px`
 - No breakpoint keyword ... smaller than `576px` or `always`
 
 The most effective way to learn anything is always doing, applying, testing. So,
