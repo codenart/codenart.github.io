@@ -177,7 +177,7 @@ By naming variables, we're freely to use other beautiful names for those boxes
 but there're also some rules that we should take notes:
 
 - A variable name can contains letters, digits, underscore `_`, and dollar sign `$`.
-- It must not begin with a number
+- It must not begin with a number.
 - Variable name is case sensitive. `box` and `Box` are two different variables.
 - It cannot be any of reserved keywords. See list here:
 [JavaScript reversed keywords](https://www.w3schools.com/js/js_reserved.asp)
