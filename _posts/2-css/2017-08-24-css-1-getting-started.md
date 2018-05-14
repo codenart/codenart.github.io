@@ -43,7 +43,7 @@ This is a shorter introduction to CSS:
 ![a webpage's look with css help](/images/html/4/atree.jpg)
 > Background image - credit to [Psyperl](https://www.freecodecamp.org/psyperl "ext")
 
-Oh. I'm not saying that the second screenshot looks nicer than the first one. Cause
+Oh. I'm not saying that the second screenshot looks nicer than the first one; Cause
 I don't have good sense of using colors and design stuff. But I assure you that
 CSS can help you to make your webpages look nicer and more lively than white
 documents. :D
