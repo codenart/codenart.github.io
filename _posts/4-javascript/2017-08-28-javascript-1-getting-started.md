@@ -17,7 +17,7 @@ date: 2017-08-28 05:00:00
 
 Unlike [HTML](https://codenart.github.io/begin/) and
 [CSS](https://codenart.github.io/beauty/), JavaScript is a programming language.
-With JavaScript, you can teach the computer to think and make decision base on
+With JavaScript, you can teach the computer to think and make decision based on
 certain situation.
 
 > JavaScript can make your website smart.  
