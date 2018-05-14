@@ -24,8 +24,8 @@ certain situation.
 > \_\_A simple & happy Mind
 
 For example, you want to place a button on your webpage to greet user when he/she
-clicks on it. HTML can help to make the button shown up. CSS can help to make the
-button looked nice. But, none of those two languages can tell web browser `what
+clicks on it. HTML can help to make the button show up. CSS can help to make the
+button look nice. But, none of those two languages can tell web browser `what
 to do` when user clicks on the button. This is the point where JavaScript gets in.
 Let's see.
 
