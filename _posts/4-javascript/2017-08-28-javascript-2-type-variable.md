@@ -122,7 +122,7 @@ serve explicit type conversion and we're gonna talk about those tools in later t
 
 Let's assume that you are building your personal blog. Your blog's homepage will
 contain some entries to the 10 latest posts. Each entry will contain an excerpt
-made from a post's content. You decide to fully load the content of articles to
+made from a post's content. You decide to fully load the contents of articles to
 the entry components then write some JavaScript code to trim those contents to
 300 characters of each excerpt. So, here are steps needed to be done in order to
 create an excerpt:
