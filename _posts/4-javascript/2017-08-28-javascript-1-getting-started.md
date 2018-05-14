@@ -127,7 +127,7 @@ Can we just end our first JavaScript tutorial with wonders? :D
 Oh. Excuse me! There's one more little thing I need to tell you.
 
 As any other languages, JavaScript allows us to write comments in the code. There
-are 2 way to write a comment in JavaScript:
+are 2 ways to write a comment in JavaScript:
 - Start your comment with two slashes `//` and all the characters afterward to
 the end of the line will be considered as comment.
 - If you want to write a multi-lines comment, you can enclose text like we do in
