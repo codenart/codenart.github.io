@@ -72,7 +72,7 @@ Now you see, there's a need to represent text contents in code and make your
 computer treat them differently than `numbers`. This is where the concept of
 Type gets in. Different content types should be treated differently, right?
 
-We have the first basic type is `Number`; And the next one is called `String`
+We have the first basic type: `Number`; And the next one is called `String`
 which is used to represent text content. In JavaScript, a string is enclosed
 using single quotes `'` or double quotes `"`.
 
