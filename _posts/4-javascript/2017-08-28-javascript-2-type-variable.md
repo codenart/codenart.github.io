@@ -180,7 +180,7 @@ but there're also some rules that we should take notes:
 - It must not begin with a number.
 - Variable name is case sensitive. `box` and `Box` are two different variables.
 - It cannot be any of reserved keywords. See list here:
-[JavaScript reversed keywords](https://www.w3schools.com/js/js_reserved.asp)
+[JavaScript reserved keywords](https://www.w3schools.com/js/js_reserved.asp)
 
 Ok. We've known the first two basic programming concepts. Let's take a break
 before heading to our next tutorial. :D
