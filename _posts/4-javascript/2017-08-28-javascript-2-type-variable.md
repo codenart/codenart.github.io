@@ -23,7 +23,7 @@ Oooops! Sorry! That type is not related to JavaScript. :D
 > \_\_An academic & unhappy Mind
 
 Well, actually, I'm not a fan of using academic words to describe things. Because
-those words make everything looks ugly. Let's ignore the ugly sentence above.
+those words make everything look ugly. Let's ignore the ugly sentence above.
 We're gonna find another way to grasp it. :D
 
 ## Let's play around with numbers
