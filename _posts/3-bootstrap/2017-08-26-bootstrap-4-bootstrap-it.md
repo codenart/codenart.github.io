@@ -168,7 +168,7 @@ Here we have some works need to be done:
 - The 3-column layout may look well on tablet or larger screens. So, let's change
 the breakpoint from `col-sm` to `col-lg`; And also add nice vertical paddings to
 each blocks.
-- Each block will contain a heading level 3, a short paragraph, and a `read more`
+- Each block will contain a heading level 3, a short paragraph, and a `Learn more`
 button (actually a link with a visual look of a button).
 
 `HTML code:`
@@ -180,7 +180,7 @@ Too easy? :D
 ## 4. Finish it yourself :D
 
 I believe that you've found no difficulty crafting the next 2 sections and the
-footer. So, I'll just leave final version of source code here:
+footer. So, I'll just leave here the final version of the source code:
 
 `HTML code:`
 [Click here to see final HTML code](https://gist.github.com/codenart/e36a8fb1e1ea97e5fcec063e10d21c03 "ext")
