@@ -60,7 +60,7 @@ documents. :D
 
 Do you feel that CSS code looks more `English` than HTML? :D
 
-Let me explain a little bit about the sample CSS code snippet above:
+Let me explain a little bit about the sample code above:
 
 - There are 3 blocks of CSS code in the example. Each block has a couple of curly
 braces `{}` to group something. :D
