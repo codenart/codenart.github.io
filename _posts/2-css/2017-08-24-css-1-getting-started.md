@@ -78,7 +78,7 @@ color is crimson, sizes of letters.
 
 ## Where to put CSS code?
 
-It's easier done than said. (Is this a correct sentence? :D)  
+It's easier done than said. (Is this the correct idiom? :D)  
 Just do this:
 
 - Use Atom to create 2 files and place them in the same folder.
