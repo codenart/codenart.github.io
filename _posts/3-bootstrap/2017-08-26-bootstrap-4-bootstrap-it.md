@@ -128,7 +128,7 @@ for better semantic markup.
 
 Does it work? No? :D  
 I'm sorry. That was my bad. I've not told you that Bootstrap doesn't offer the two
-helper classes like `bg-trees` and `py-7`. For padding utilities, Bootstrap offer
+helper classes: `bg-trees` and `py-7`. For padding utilities, Bootstrap offer
 5 levels of paddings. And for background utilities, Bootstrap only offers colors & 
 gradients. We have to define the class `bg-trees` on our own.
 
