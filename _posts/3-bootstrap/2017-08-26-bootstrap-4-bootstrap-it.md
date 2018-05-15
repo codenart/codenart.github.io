@@ -128,14 +128,9 @@ for better semantic markup.
 
 Does it work? No? :D  
 I'm sorry. That was my bad. I've not told you that Bootstrap doesn't offer the two
-helper classes: `bg-trees` and `py-7`. For padding utilities, Bootstrap offer
-5 levels of paddings. And for background utilities, Bootstrap only offers colors & 
-gradients. We have to define the class `bg-trees` on our own.
-
-Let's say for vertical padding, they've defined `py-1` to `py-5`. The largest padding 
-is `py-5` will add about `50px height` top & bottom paddings to the container. But, 
-it's still not large enough to make our background looks beautiful. We're gonna define 
-our own helper class `py-7`, too. Let's write a few more lines of CSS.
+helper classes: `bg-trees` and `py-7`. For padding utilities, Bootstrap only offers
+5 levels of paddings: `py-1` to `py-5`. And for background utilities, Bootstrap 
+only offers colors & gradients. We have to define those two classes on our own.
 
 `CSS code:`
 <script src="https://gist.github.com/codenart/39aaa85719a5a8770983e0fd836b146e.js">
