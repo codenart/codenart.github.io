@@ -150,8 +150,8 @@ greater-than-symbol `>`.
 <script src="https://gist.github.com/codenart/41ed191731484930e63d9a340aa8d8d3.js">
 </script>
 
-I've been using `id selectors` to simplify all the examples. But, the front
-selectors can be `class selectors` or `basic selectors`. :D
+For all the examples in this tutorial, I've been using `id selectors` for better 
+explanation. But, the front selectors can be `class selectors` or `basic selectors`.
 
 Our tutorial about
 [combining-selectors](https://codenart.github.io{{ page.url }} "ext") has finished.
