@@ -42,7 +42,7 @@ differently. So, we're gonna make some sections for the last 3 values of the
 [position](https://www.w3schools.com/cssref/pr_class_position.asp "ext")
 property and see the `gang of 4` in action.
 
-## Using `position: fixed;`
+## Using position: fixed;
 
 The rule `position: fixed;` will tell web browsers that we want to set position
 of the element relatively to `web browser's viewport`. This rule has a side
