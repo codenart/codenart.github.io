@@ -9,14 +9,14 @@ permalink:
 
 title: How to add images into a webpage?
 short: Images & Links
-description: I've missed something in the first tutorial, so they're flying over here. <br>Adding images into a webpage, creating links. <br>And... see Atom in Action.
+description: I've missed something in the first tutorial, so they're flying over here. <br>Adding images into a webpage, creating links. <br>And... see Atom in action.
 keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, image, link
 
 date: 2017-07-27 05:05:00
 ---
 
 [Atom](https://codenart.github.io/begin/#how-to-have-fun-doing-a-boring-task "ext")
-first. I love `magic` and Atom has it:
+first! I love `magic` and Atom has it:
 
 - Open Atom.
 - Choose `File` option from menu panel, then `New File`.
