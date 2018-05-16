@@ -106,7 +106,7 @@ type` instead of `this type` in an expression which requires `this type`. :D
 <script src="https://gist.github.com/codenart/22ab375e9ab434ad549ec21ee64cd1f6.js">
 </script>
 
-In the example above, what we expect is a string concatenation. But, we've put
+In the example above, what we expect is a string concatenation; But, we've put
 there a number and ...it just works. This is a smart feature of JavaScript which
 automatically convert the number to a string before the concatenation is
 processed and help us to simplify our works.
