@@ -9,7 +9,7 @@ permalink: /magic/
 
 title: How to Bootstrap a website?
 short: Getting Started
-description: Don't mind about the grammar mistake in the title. :D <br>I know that "Bootstrap" is not a verb but it just looks Ok in my English. :D <br>Bootstrap is something magical to the one who is in love with HTML, CSS, and an easy life. :D
+description: Don't mind about the grammar mistake in the heading below. :D <br>I know that "Bootstrap" is not a verb but it just looks Ok in my English. :D <br>Bootstrap is something magical to the one who is in love with HTML, CSS, and an easy life. :D
 keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, css, bootstrap, getting started
 
 date: 2017-08-26 05:00:00
