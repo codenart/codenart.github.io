@@ -108,7 +108,7 @@ type` instead of `this type` in an expression which requires `this type`. :D
 
 In the example above, what we expect is a string concatenation; But, we've put
 there a number and ...it just works. This is a smart feature of JavaScript which
-automatically convert the number to a string before the concatenation is
+automatically converts the number to a string before the concatenation is
 processed and help us to simplify our works.
 
 Generally, in many other programming languages, type conversion must be done
