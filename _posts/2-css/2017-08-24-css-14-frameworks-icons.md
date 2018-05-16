@@ -29,7 +29,7 @@ from your examples.
 
 It does not mean that my website will have the same look as yours. I can add my
 own CSS file to override the outlook of any component and my website still look
-very personalized.
+very `personalized`.
 
 `HTML code:`
 <script src="https://gist.github.com/codenart/39514653f97b326cb884336ef4dc7184.js">
