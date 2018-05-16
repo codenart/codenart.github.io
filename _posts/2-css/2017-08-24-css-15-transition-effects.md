@@ -16,7 +16,7 @@ date: 2017-08-24 06:10:00
 ---
 
 The [transition](https://www.w3schools.com/css/css3_transitions.asp "ext") property
-can help us to add transition effects to interactive components easily. We only
+can help us to easily add transition effects to interactive components. We only
 need to specify which property will be changed and transition duration using the
 following syntax:
 
