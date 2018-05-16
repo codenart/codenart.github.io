@@ -43,7 +43,7 @@ Let's take a look back at our
 
 To style the links, we've given them a nice class name `nav-link` which is very
 descriptive. But, what if we have another navigation bar in our webpage? By
-directly using the class name in CSS we've made it not able to be re-used.
+directly using the class name in CSS, we've made it not able to be re-used.
 
 Fortunately, CSS allows us to combine Selectors to select elements more
 precisely and make class names able to be re-used. The snippet below is an
