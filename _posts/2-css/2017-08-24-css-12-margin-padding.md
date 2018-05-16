@@ -38,7 +38,7 @@ distance between bottom edge of the container and its content
 - [padding-left](https://www.w3schools.com/cssref/pr_padding-left.asp "ext") |
 distance between left edge of the container and its content
 
-Let's write some CSS code use `padding` properties. In the tutorial about
+In the tutorial about
 [Container Types](https://codenart.github.io/css/2017/08/24/css/4-container-types.html#changing-type-of-a-container "ext"),
 we've created some look-like-button links using width and height properties.
 Using width and height properties to specify size of those buttons has some
