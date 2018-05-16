@@ -111,8 +111,8 @@ on webpage view. It is called a `comment`.
 
 A comment in HTML is created using an opening tag `<!--` and a ending tag `-->`.
 
-Another benefit of using comments is to temporarily cancel a blocks of code
-without deleting or moving your code to a temporary place.
+Another benefit of using comments is to temporarily cancel a block of code
+without deleting or moving your code to another place.
 
 `Sample code:`
 <script src="https://gist.github.com/codenart/585351dc0921ef2bdd9363b5bb9455ab.js">
