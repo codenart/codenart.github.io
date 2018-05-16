@@ -18,8 +18,8 @@ date: 2017-08-24 05:50:00
 That word, `auto`, it sounds `smart`. Do you think so? :D  
 It's our nature to love something which is automatic. I love automatic dishwasher,
 automatic coffee machine, automatic cat feeder, etc.... And here, in CSS, we have
-the `auto` value. This value which will tell web browsers to automatically
-calculate suitable values for our CSS properties.
+the `auto` value. This value will tell web browsers to automatically calculate 
+suitable values for our CSS properties.
 
 
 Let's assume that we have 3 images and their actual sizes are 1920x1080, 1600x1000
