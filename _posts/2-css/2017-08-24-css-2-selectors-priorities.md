@@ -80,7 +80,7 @@ the class names as selectors. Note that every `class selector` begins with a dot
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 Yet, `class selectors` are far more superior.  
-As you see that a class can have more than 1 member. This time, we're gonna
+We've known that a class can have more than 1 member. This time, we're gonna
 define classes and their styles firstly. Later, we'll decide which elements
 will join the classes and each element will join more than 1 class.
 
@@ -144,7 +144,7 @@ We can also make a certain CSS rule become a very important one by appending the
 `!important` keyword right before the end of it.
 
 This keyword will not care about Selectors. It simply makes selected HTML
-elements feel at [Home](https://www.youtube.com/watch?v=-98nmUfaBqs "ext").
+elements feel at [home](https://www.youtube.com/watch?v=-98nmUfaBqs "ext").
 So, they will prefer the CSS rule on top of other choices.
 
 `CSS code:`
