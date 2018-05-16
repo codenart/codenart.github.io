@@ -9,7 +9,7 @@ permalink:
 
 title: The border properties
 short: Border Properties
-description: Creating borders is one of the most common ways to decorate containers; <br>You may see borders used in almost every websites; <br>Let's talk about border-properties.
+description: Creating borders is one of the most common ways to decorate containers; <br>You may see borders used in almost any website; <br>Let's talk about border-properties.
 keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, css, border, border-radius
 
 date: 2017-08-24 05:25:00
