@@ -112,14 +112,14 @@ class `.entry`.
 </p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
-As you see that, pseudo-elements' syntax look quite similar to pseudo-classes.
+As you see that, pseudo-element's syntax looks quite similar to pseudo-class's.
 I also consider pseudo-elements as selectors. Just imagine that our websites are
 full of `hidden` fake elements and we just select them using some special
 selectors and make them visible.
 
-In the example above, `::before` is used to select (or insert) pseudo-elements
+In the example above, `::before` is used to insert (or select) pseudo-elements
 before the selected elements. We can also use `::after` to select pseudo-elements
-after the selected elements.  
+after the selected elements.
 
 Besides, there are 3 more pseudo-elements available in the current version of
 CSS:
@@ -128,8 +128,7 @@ CSS:
 - `::first-line` - select the first line of an element
 - `::selection` - select the portion of text of an element that is selected by user
 
-You can try those pseudo-stuff with some `<p>` elements to do something like
-visualizing a newspaper. :D
+You can try those pseudo-stuff with some `<p>` elements to visualize a newspaper. :D
 
 Our tutorial about
 [Pseudo Classes & Pseudo Elements](https://codenart.github.io{{ page.url }} "ext")
