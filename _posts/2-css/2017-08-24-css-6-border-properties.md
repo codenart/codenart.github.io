@@ -133,7 +133,7 @@ the `box-sizing` property:
 The `border-box` value will tell web browsers that border will be drawn inside
 container's area.
 
-To make it clearer, the example below will demonstrate those two values of the
+To make it clear, the example below will demonstrate those two values of the
 `box-sizing` property.
 
 `HTML code:`
@@ -155,8 +155,7 @@ To make it clearer, the example below will demonstrate those two values of the
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 Our tutorial about `borders` has finished. Now we've known how to style containers.
-In the next tutorial, we'll talk about more about how to set position and align
-containers.
+In the next tutorial, we'll talk about how to set position and align containers.
 
 `P/s:` Besides background and border properties, there are also some other
 properties which can help us to style containers for various purposes. The
