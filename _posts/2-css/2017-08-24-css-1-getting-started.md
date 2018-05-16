@@ -73,7 +73,7 @@ color is crimson, sizes of letters.
 - The left part is a `property` of the selected elements which we want to make change.
 - The right part is a `value` which we want to apply to the property.
 
-> Learning CSS is just about playing around with Selectors, Properties and Values.  
+> Learning CSS is just about playing around with Selectors, Properties, and Values.  
 > \_\_A simple & happy Mind
 
 ## Where to put CSS code?
