@@ -83,8 +83,8 @@ the link to pick out some and playing around with them.
 
 Oooops! I've not mentioned
 [pseudo-elements](https://www.w3schools.com/css/css_pseudo_elements.asp "ext")
-in the headline. I'm sorry for this sudden plan. Because I have a feeling that
-pseudo-elements are somewhat related to pseudo-classes. (Maybe not, I'm not sure. :D)
+in the headline. I'm sorry for this sudden plan because I just have a strong 
+feeling that pseudo-elements are somewhat related to pseudo-classes. :D
 
 CSS allows us to insert some `fake elements` into webpages. Search engines like
 Google, Bing, etc... won't see the content inside those elements. It's because
