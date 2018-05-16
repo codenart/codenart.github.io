@@ -55,7 +55,7 @@ You can easily find division remainder as well.
 <script src="https://gist.github.com/codenart/ae8da240dc80c8cd5bee4fc663b9cec7.js">
 </script>
 
-Yet, JavaScript provides a lot more efficient tools to work with numbers. But
+Yet, JavaScript provides a lot more efficient tools to work with numbers; But
 we're gonna keep things simple now and save those tools for later tutorials.
 Let's do something else.
 
