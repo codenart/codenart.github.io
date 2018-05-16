@@ -140,7 +140,7 @@ References: [input type attribute](https://www.w3schools.com/tags/att_input_type
 ## The `<label>` tags
 
 This is a convenient to make radio-buttons and check-boxs more friendly to
-mobile user. With `<label>` tags, we can create clickable areas that are bound
+mobile user. With `<label>` tags, we can create clickable areas which are bound
 to radio-buttons and check-boxes. So, visitors can either tap on control
 elements or label elements.
 
