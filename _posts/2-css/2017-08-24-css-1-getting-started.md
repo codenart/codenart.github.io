@@ -113,9 +113,9 @@ We're gonna create a simple message with white text and red background:
 </p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
-I believe that you've found CSS is so easy to understand. There's no tricky stuff
-here. CSS is just that simple. Are you ready to learn more about CSS Selectors,
-Properties and Values?
+I believe that you've found out: CSS is so easy to understand. There's no tricky 
+stuff here. CSS is just that simple. Are you ready to learn more about CSS Selectors,
+Properties, and Values?
 
 Our first CSS tutorial has finished. It's time for
 [Music](https://www.youtube.com/watch?v=isx1oNFDki4 "ext")!
