@@ -115,10 +115,10 @@ learn CSS. My HTML tutorials will be continued but I recommend you to use them
 as references (use my site's search box when you need to know something). You
 don't need to read them all at the time because it's boring. I promise. :D
 
-Learning HTML is just that. Trying some HTML tags and refreshing web browsers.  
+Learning HTML is just that. Trying some HTML tags and refreshing web browser.  
 There's no more fun.
 
-Learning CSS is different. We'll try some CSS code and refresh web browsers.  
+Learning CSS is different. We'll try some CSS code and refresh web browser.  
 And there will be more fun.
 
 Oh wait... It seems that there is no difference in the CSS learning process. :D  
