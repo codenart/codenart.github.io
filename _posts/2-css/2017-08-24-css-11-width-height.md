@@ -24,8 +24,8 @@ suitable values for our CSS properties.
 
 Let's assume that we have 3 images and their actual sizes are 1920x1080, 1600x1000
 and 1000x1000. When we embed these images to a webpage, a clever move is specifying
-their widths using `%`, some thing like `width: 100%;` to make the images fit in
-to various screen sizes. But, wait! How about height?
+their widths using `%`, some thing like `width: 100%;` to make the images fit into 
+various screen sizes. But, wait! How about height?
 
 These images have different aspect ratios. So, to keep them not stretched, we
 may have to specify their heights one by one. Nope, we won't do that. This is
