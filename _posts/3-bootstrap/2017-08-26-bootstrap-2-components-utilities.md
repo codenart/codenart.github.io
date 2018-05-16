@@ -81,11 +81,11 @@ code to build a nice website.
 
 In case the pre-defined styles do not match your design, let's say your favorite
 `blue` background is brighter than Bootstrap's `bg-primary`, you can override the
-class by using it in the `override.css` file.
+class by using the `override.css` file.
 
 ## Bootstrap's default breakpoints
 
-Since Bootstrap's components are responsive ready, it's important to know about
+Since Bootstrap's components are responsive-ready, it's important to know about
 Bootstrap's default breakpoints. A breakpoint is the point that a component may
 change its look to well adapted to user's screen. And the following are the default
 breakpoints of Bootstrap:
@@ -112,7 +112,7 @@ note of those breakpoints once again:
 - `-lg-` large device ... equal or greater than `992px`
 - `-md-` medium device ... equal or greater than `768px`
 - `-sm-` small device ... equal or greater than `576px`
-- No breakpoint keyword ... smaller than `576px` or `always`
+- No breakpoint keyword ... smaller than `576px` or `any`
 
 The most effective way to learn anything is always doing, applying, testing. So,
 I recommend you to copy/paste some Bootstrap's components and utilities from
