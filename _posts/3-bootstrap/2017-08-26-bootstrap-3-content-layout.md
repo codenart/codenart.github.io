@@ -82,7 +82,7 @@ see how Bootstrap's Grid can help in this case.
 
 Simple? :D  
 Yet, Bootstrap's Grid can also help us to create a responsive layout. We can let
-PC users see 4 products per row; tablet users will see 2 products in per row; and
+PC users see 4 products per row; tablet users will see 2 products per row; and
 smartphone users will see only one product per row. Let's change our code snippet
 a little bit and resize your web browser window to see the result.
 
