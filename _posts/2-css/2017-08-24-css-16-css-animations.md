@@ -15,7 +15,7 @@ keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding
 date: 2017-08-24 06:15:00
 ---
 
-Just start with a simple example, I'll introduce the property and explain
+Just start with a simple example; I'll introduce the property and explain
 everything after you see the actual code. The example below will implement a
 simple animation. We'll have a box move from the left to the right and its
 background color also smoothly change from `red` to `blue`.
