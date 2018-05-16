@@ -35,8 +35,8 @@ As you noticed that, we have embedded a CSS file named `bootstrap.min.css` from
 somewhere on the internet. This CSS file contains pre-written styles for
 common components.
 
-There's also a blank CSS file named `override.css` which is embedded after the
-Bootstrap's CSS file. This CSS file can be used to write some rules to override
+There's also a blank CSS file named `override.css` which is embedded right after 
+the Bootstrap's CSS file. This CSS file can be used to write some rules to override
 styles of used components. The purpose is to make our webpages look unique. :D
 
 At the end of the `<body>` section, there are 3 JavaScript files which contain
