@@ -52,8 +52,7 @@ the point where we need help from the `auto` value.
 
 Is that a magic? We don't even have to make any calculation. Web browsers
 automatically take care of the complex task and maintain those images' aspect
-ratio. I've no idea why web browsers know exactly what we want. Everything
-just works like charm. :D
+ratio. I've no idea why web browsers know exactly what we want. :D
 
 Note that the `auto` value can be used with various CSS properties and we'll meet
 it again and again.
