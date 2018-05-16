@@ -156,14 +156,12 @@ an element or align it to the right.
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 For the first square, my purpose is to horizontally center it by creating some
-spaces on the left and the right. But I was lazy enough to avoid making some
-calculations. So, I just let web browsers take care of the task. :D
-
-I've found it just work. And I decided to apply the same method for the second
-square. Just let web browsers decide size of space on the left of the block.
+spaces on the left and the right; But, I was lazy enough to avoid making some
+calculations. So, I just let web browsers take care of the task. I've found that 
+it just works. And I decided to apply the same method for the second square. :D
 
 The best thing about this approach is web browsers will keep track of the elements
-all the time and re-calculate the value if `something` happens. You can try it on
+all the time and re-calculate the value if something happens. You can try it on
 your web browser and resize browser window to see how cool it is. Sizes of spaces
 will be automatically adjusted. The first square will keep being centered and the
 second square will keep being aligned to the right.
