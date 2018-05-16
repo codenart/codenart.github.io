@@ -32,7 +32,7 @@ Otherwise, the background will be `yellow`.
 [Click here to see result](https://codepen.io/codenart/full/VMoGNp/ "ext")
 
 As you noticed, there are 2 media query blocks which wrap some CSS rules inside.
-I call them conditional styles. Because the CSS code inside a media query block
+I call them conditional styles; Because the CSS code inside a media query block
 is inactive unless a certain condition is satisfied.
 
 In the example, the condition of the first media query is: viewport's width is
