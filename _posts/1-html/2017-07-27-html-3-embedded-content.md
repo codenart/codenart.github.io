@@ -58,8 +58,8 @@ Reference:
 
 ## The iframe tag
 
-The [iframe tag](https://www.w3schools.com/TAgs/tag_iframe.asp "ext") is allows
-us to embed `a webpage` in another webpage.
+The [iframe tag](https://www.w3schools.com/TAgs/tag_iframe.asp "ext") allows us 
+to embed `a webpage` in another webpage.
 
 `Sample code:`
 <script src="https://gist.github.com/codenart/92dfea3c2e8e70ec6c739c399be96e62.js">
