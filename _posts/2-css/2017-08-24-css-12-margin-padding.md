@@ -132,7 +132,7 @@ time. we will create some space around buttons.
 
 ## The auto value
 
-Here we meet it again. The `auto` value is commonly used with `margin` properties
+Here we meet it again, the `auto` value. It is commonly used with `margin` properties
 to quickly positioning elements. The example below will demonstrate how to center
 an element or align it to the right.
 
