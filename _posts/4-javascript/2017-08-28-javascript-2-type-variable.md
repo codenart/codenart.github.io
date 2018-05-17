@@ -129,7 +129,7 @@ create an excerpt:
 
 - Extract content of an entry from HTML document.
 - Trim it down to 300 characters length.
-- Append three dots at the end of the trimmed content.
+- Append three dots `...` at the end of the trimmed content.
 - Put the excerpt back to HTML document.
 
 Since the string manipulation takes multiple steps to reach the final result,
