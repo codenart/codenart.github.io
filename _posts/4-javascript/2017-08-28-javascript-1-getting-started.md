@@ -51,7 +51,7 @@ Well, actually, that was not how JavaScript looks like. Because the language is
 quite flexible and there are so many stuff that may confuse you at the first look;
 I just put there some words to describe what to do in JS file. :D
 
-So, the another important thing that I want you to take note in this section is
+So, the another important thing that I want you to take note in this section is...
 JavaScript code can be placed in a separated file `.js` and linked to the HTML
 document using `<script>` tags.
 
