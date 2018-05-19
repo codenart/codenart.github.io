@@ -75,7 +75,7 @@ mouse and even more:
 - Send request to a server or redirect user to another address
 
 Wew... We're gonna have to learn a lot.  
-But don't worry! The only important part is the first one; learning basic programming
+But, don't worry. The only important part is the first one: learning basic programming
 concepts and getting familiar with the language. Once you handled fundamental
 stuff, learning the next two parts is just easy as eating cake. So, let's get it
 started. :D
@@ -130,7 +130,7 @@ As any other languages, JavaScript allows us to write comments in the code. Ther
 are 2 ways to write a comment in JavaScript:
 - Start your comment with two slashes `//` and all the characters afterward to
 the end of the line will be considered as comment.
-- If you want to write a multi-lines comment, you can enclose text using a pair 
+- If you want to write a multi-lines comment, you can enclose text using a pair
 of `/*` and `*/` like we do in `/* CSS */`.
 
 That's it. Good bye!
