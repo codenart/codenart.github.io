@@ -180,4 +180,4 @@ And now, it's time for music. :D
 > "How about being blue or yellow instead?"  
 > "But green is beautiful."  
 > "Then why wonder?"  
-> \_\_A simple & happy mind
+> \_\_A simple & happy Mind
