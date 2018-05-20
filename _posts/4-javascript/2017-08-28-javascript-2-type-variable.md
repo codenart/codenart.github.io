@@ -22,7 +22,7 @@ Oooops! Sorry! That type is not related to JavaScript. :D
 > Data type is a concept of classifying data for using in a program.  
 > \_\_An academic & unhappy Mind
 
-Well, actually, I'm not a fan of using academic words to describe things. Because
+Well, actually, I'm not a fan of using academic words to describe things; Because
 those words make everything look ugly. Let's ignore the ugly sentence above.
 We're gonna find another way to grasp it. :D
 
