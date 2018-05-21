@@ -111,7 +111,6 @@ got familiar with it since CSS time. It's not mandatory to end a JavaScript
 statement using a semi-colon but it's a good habit for start time. You should
 always end a JavaScript statement with a semi-colon until your love of JavaScript
 grows big enough. :D
-
 - The next two `strange` things are the parenthesis `()` that we mentioned above;
 and a dot `.` which stands between the two words `console` and `log`. They're the
 most beautiful tiny things in programming world. Once you understand their meanings,
