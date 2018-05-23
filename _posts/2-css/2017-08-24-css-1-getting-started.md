@@ -10,7 +10,7 @@ permalink: /beauty/
 title: What is CSS? Why do we need it?
 short: Getting Started
 description: Just like HTML, CSS is another simplified version of English. <br>CSS help us to make our websites look nicer. <br>Learning CSS is so much fun. :D
-keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, css, intro
+keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, css, intro
 
 date: 2017-08-24 05:00:00
 ---
@@ -113,7 +113,7 @@ We're gonna create a simple message with white text and red background:
 </p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
-I believe that you've found out: CSS is so easy to understand. There's no tricky 
+I believe that you've found out: CSS is so easy to understand. There's no tricky
 stuff here. CSS is just that simple. Are you ready to learn more about CSS Selectors,
 Properties, and Values?
 

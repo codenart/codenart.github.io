@@ -10,7 +10,7 @@ permalink:
 title: Changing how letters look
 short: Styling Text
 description: We've used the font-size property a few times to change size of text contents. <br>Let's take a quick look at some basic text styling properties. <br>Later, we'll create a simple navigation bar.
-keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, css, styling text, font-family, font-size, font-weight, font-style, text-align, line-height
+keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, css, styling text, font-family, font-size, font-weight, font-style, text-align, line-height
 
 date: 2017-08-24 05:35:00
 ---

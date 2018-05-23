@@ -58,16 +58,16 @@ document using `<script>` tags.
 ## What can JavaScript actually do on the web?
 
 Firstly, JavaScript is a programming language so it can serve calculations and
-allows you to teach the computer to think. :D
+allows us to teach the computer to think. :D
 
-Secondly, it allows you manipulate the HTML document for various purposes:
+Secondly, it allows us manipulate the HTML document for various purposes:
 
 - Change content of a specific element
 - Change styles of a specific element
 - Add event listeners to interact with user
 
-Lastly, JavaScript also allows you to command the browser as you can do with your
-mouse and even more:
+Lastly, JavaScript also allows us to command the browser as we can do with mouse
+and even more:
 
 - Close window or open a new one
 - Resize or move the window around user's screen
@@ -96,15 +96,15 @@ Ok, here we go. The very first JavaScript statement.
 ![console](/images/javascript/1/console.jpg)
 
 Since we're gonna dive into fundamental programming concepts and not yet to touch
-the tools to manipulate the HTML document, we need to see the output somewhere else;
-And the statement above will just print any thing we put between the parenthesis
-`()` to console window of the web browser. To open console window, you can press `F12`
-or right click on the webpage and choose `Inspect..` then choose `Console` tab.
+the tools to manipulate the HTML document, we need to see the output somewhere
+else; And the statement above will just print any thing we put between the
+parenthesis `()` to console window of the web browser. To open console window,
+you can press `F12` or right click on the webpage and choose `Inspect..` then
+choose `Console` tab.
 
 So, let's have a closer look at our very first statement. It looks quite clear
-and understandable, right? We're telling the `console` window to `log` the
-number `2018`. So, there're 3 small things left for us to care about their
-meanings:
+and understandable, right? We're telling the `console` window to `log` the number
+`2018`. So, there're 3 small things left for us to care about their meanings:
 
 - The first one is a semi-colon `;` at the end of the statement. I guess you've
 got familiar with it since CSS time. It's not mandatory to end a JavaScript
@@ -127,8 +127,9 @@ Oh. Excuse me! There's one more little thing I need to tell you.
 
 As any other languages, JavaScript allows us to write comments in the code. There
 are 2 ways to write a comment in JavaScript:
+
 - Start your comment with two slashes `//` and all the characters afterward to
-the end of the line will be considered as comment.
+the end of the line will be ignored.
 - If you want to write a multi-lines comment, you can enclose text using a pair
 of `/*` and `*/` like we do in `/* CSS */`.
 

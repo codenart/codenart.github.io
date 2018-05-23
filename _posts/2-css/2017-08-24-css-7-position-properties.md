@@ -10,7 +10,7 @@ permalink:
 title: Position properties in CSS
 short: Position Properties
 description: We've know how to set size of containers and decorate to make them look nice. <br>Positioning is the next step to make our webpages look tidy. <br>Let's talk about Position Properties.
-keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, css, position, properties, static, relative, absolute, fixed, top, right, bottom, left
+keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, css, position, properties, static, relative, absolute, fixed, top, right, bottom, left
 
 date: 2017-08-24 05:30:00
 ---

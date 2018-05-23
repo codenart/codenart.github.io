@@ -10,7 +10,7 @@ permalink:
 title: Creating a simple homepage
 short: Bootstrap It !
 description: In this tutorial, we'll build a simple homepage using the framework - Bootstrap. <br>If you haven't tried all Bootstrap's stuff yet, don't worry; <br>You don't have to. Just begin. :D
-keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, css, bootstrap, simple, homepage
+keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, bootstrap, simple, homepage
 
 date: 2017-08-26 05:15:00
 ---
@@ -129,7 +129,7 @@ for better semantic markup.
 Does it work? No? :D  
 I'm sorry. That was my bad. I've not told you that Bootstrap doesn't offer the two
 helper classes: `bg-trees` and `py-7`. For padding utilities, Bootstrap only offers
-5 levels of paddings: `py-1` to `py-5`. And for background utilities, Bootstrap 
+5 levels of paddings: `py-1` to `py-5`. And for background utilities, Bootstrap
 only offers colors & gradients. We have to define those two classes on our own.
 
 `CSS code:`

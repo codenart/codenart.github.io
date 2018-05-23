@@ -107,7 +107,7 @@ type` instead of `this type` in an expression which requires `this type`. :D
 </script>
 
 In the example above, what we expect is a string concatenation; But, we've put
-there a number and ...it just works. This is a smart feature of JavaScript which
+there a number and... it just works. This is a smart feature of JavaScript which
 automatically converts the number to a string before the concatenation is
 processed and help us to simplify our works.
 
@@ -132,7 +132,7 @@ create an excerpt:
 - Append three dots `...` at the end of the trimmed content.
 - Put the excerpt back to HTML document.
 
-Since the string manipulation takes multiple steps to reach the final result,
+Since the string manipulation takes multiple steps to reaches the final result,
 there's a need to `temporarily store the content somewhere` to manipulate it step
 by step until it reach the final form. We need a Variable!
 
@@ -185,7 +185,7 @@ but there're also some rules that we should take notes:
 Ok. We've known the first two basic programming concepts. Let's take a break
 before heading to our next tutorial. :D
 
-`My Type:`
+`My type:`
 <div class="embed">
    <iframe width="560" height="315"
            src="https://www.youtube.com/embed/W72LiPMNs9E"

@@ -10,7 +10,7 @@ permalink:
 title: The animation property
 short: CSS Animations
 description: In this tutorial, we'll talk about how to create animations with complex movements in CSS. <br>This tutorial requires modern browsers - Firefox, Chrome, Opera, IE10+. <br>The examples below won't work on IE9 and older.
-keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, css, @keyframes, animation
+keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, css, @keyframes, animation
 
 date: 2017-08-24 06:15:00
 ---

@@ -10,7 +10,7 @@ permalink:
 title: How to select a specific element?
 short: Selectors & Priorities
 description: In this tutorial, we're gonna talk about CSS Selectors and Priorities. <br>I was so forgetful that I've not mentioned Priorities. <br>Fortunately, everything is just in time. :D
-keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, css, selectors, priorities
+keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, css, selectors, priorities
 
 date: 2017-08-24 05:05:00
 ---

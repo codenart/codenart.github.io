@@ -10,7 +10,7 @@ permalink:
 title: How to specify Colors in CSS?
 short: Colors & Lengths
 description: In this tutorials, we're gonna talk about 2 common value-types (Color & Length). <br>Everyone of us loves colors in our own perspective. <br>So, let's start with CSS Colors. <i class="fa fa-heart"></i>
-keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, css, colors, units
+keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, css, colors, units
 
 date: 2017-08-24 05:10:00
 ---

@@ -10,7 +10,7 @@ permalink:
 title: Bootstrap's components
 short: Components & Utilities
 description: In this tutorial, we will have a gentle introduction to Bootstrap's Components and Utilities. <br>With Bootstrap's Components, we can build a webpage in minutes. <br>Let's start with talking about Components.
-keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, css, bootstrap, components, utilities
+keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, bootstrap, components, utilities
 
 date: 2017-08-26 05:05:00
 ---

@@ -10,7 +10,7 @@ permalink:
 title: The auto value
 short: Width & Height
 description: In this tutorial, we'll meet the width & height properties again and discuss more about them.<br> We'll start with a special and very useful value. It is the `auto` value.<br> Later, we'll talk about some related properties.
-keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, css, size, properties, width, height, min-width, max-width, min-height, max-height, auto
+keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, css, size, properties, width, height, min-width, max-width, min-height, max-height, auto
 
 date: 2017-08-24 05:50:00
 ---
@@ -18,13 +18,13 @@ date: 2017-08-24 05:50:00
 That word, `auto`, it sounds `smart`. Do you think so? :D  
 It's our nature to love something which is automatic. I love automatic dishwasher,
 automatic coffee machine, automatic cat feeder, etc.... And here, in CSS, we have
-the `auto` value. This value will tell web browsers to automatically calculate 
+the `auto` value. This value will tell web browsers to automatically calculate
 suitable values for our CSS properties.
 
 
 Let's assume that we have 3 images and their actual sizes are 1920x1080, 1600x1000
 and 1000x1000. When we embed these images to a webpage, a clever move is specifying
-their widths using `%`, some thing like `width: 100%;` to make the images fit into 
+their widths using `%`, some thing like `width: 100%;` to make the images fit into
 various screen sizes. But, wait! How about height?
 
 These images have different aspect ratios. So, to keep them not stretched, we

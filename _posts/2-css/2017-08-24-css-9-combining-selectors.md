@@ -10,7 +10,7 @@ permalink:
 title: Combining CSS Selectors
 short: Combining Selectors
 description: We don't have to use all the tools that are available in CSS to create a nice website. <br>But, if we know more tools, it means we have more choices. <br>Let's talk more about CSS Selectors.
-keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, css, combine selectors
+keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, css, combine selectors
 
 date: 2017-08-24 05:40:00
 ---
@@ -150,7 +150,7 @@ greater-than-symbol `>`.
 <script src="https://gist.github.com/codenart/41ed191731484930e63d9a340aa8d8d3.js">
 </script>
 
-For all the examples in this tutorial, I've been using `id selectors` for better 
+For all the examples in this tutorial, I've been using `id selectors` for better
 explanation. But, the front selectors can be `class selectors` or `basic selectors`.
 
 Our tutorial about

@@ -10,7 +10,7 @@ permalink:
 title: Set an image as background
 short: Background Properties
 description: In the previous tutorial, we've decorated some containers using the background-color property. <br>Yet, there are more ways to make containers look more lively. <br>Let's talk more about backgrounds.
-keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, css, background
+keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, css, background
 
 date: 2017-08-24 05:20:00
 ---

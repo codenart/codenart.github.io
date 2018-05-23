@@ -10,7 +10,7 @@ permalink:
 title: HTML container tags
 short: Container Tags
 description: In this tutorial, we're gonna talk about HTML container tags and their uses. <br>A container is something that contains something. <br>Does it sound silly? :D :D :D
-keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, container, basic, template, css, intro
+keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, container, basic, template
 
 date: 2017-07-27 05:15:00
 ---

@@ -10,7 +10,7 @@ permalink:
 title: Common container-types in CSS
 short: Container Types
 description: We've known that every HTML element is a container that hold some contents. <br>We've also set size of some containers in the previous tutorial. <br>Let's talk a little bit more about containers.
-keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, css, display, property
+keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, css, display, property
 
 date: 2017-08-24 05:15:00
 ---

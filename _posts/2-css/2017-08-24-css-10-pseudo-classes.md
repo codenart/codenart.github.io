@@ -10,7 +10,7 @@ permalink:
 title: CSS Pseudo Classes
 short: Pseudo Classes
 description: Pseudo-classes are just selectors. They help us to style elements base on elements' states. <br>For example, we can make a link looks different when it is hovered. <br>Let's talk about these amazing selectors.
-keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, css, pseudo classes
+keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, css, pseudo classes
 
 date: 2017-08-24 05:45:00
 ---
@@ -83,7 +83,7 @@ the link to pick out some and playing around with them.
 
 Oooops! I've not mentioned
 [pseudo-elements](https://www.w3schools.com/css/css_pseudo_elements.asp "ext")
-in the headline. I'm sorry for this sudden plan because I just have a strong 
+in the headline. I'm sorry for this sudden plan because I just have a strong
 feeling that pseudo-elements are somewhat related to pseudo-classes. :D
 
 CSS allows us to insert some `fake elements` into webpages. Search engines like

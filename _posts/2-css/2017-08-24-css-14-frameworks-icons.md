@@ -10,7 +10,7 @@ permalink:
 title: What is a framework?
 short: Frameworks & Icons
 description: In this tutorial, we'll talk about how to use a framework to speed up our tasks; <br>And how to use free icons for user interface components. <br>These stuff will change the way you code.
-keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, css, framework, bootstrap, icons, font, awesome
+keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, css, framework, icons, font, awesome
 
 date: 2017-08-24 06:05:00
 ---

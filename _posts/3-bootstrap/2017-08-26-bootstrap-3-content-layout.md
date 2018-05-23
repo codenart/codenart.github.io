@@ -10,7 +10,7 @@ permalink:
 title: Bootstrap's utilities for content
 short: Content & Layout
 description: In this tutorial, we'll talk about Content and Layout toolsets (mentioned in the first tutorial). <br>Since content is the most fundamental material of a website; <br>Let's start with Bootstrap's Content toolsets.
-keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, css, bootstrap, content, layout
+keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, bootstrap, content, layout
 
 date: 2017-08-26 05:10:00
 ---

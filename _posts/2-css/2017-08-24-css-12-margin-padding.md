@@ -10,7 +10,7 @@ permalink:
 title: The margin & padding properties
 short: Margin & Padding
 description: The margin & padding properties are efficient tools which allow us to control spaces. <br>They're used for both sizing up and positioning elements. <br>Let's see these properties in action.
-keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, css, space, properties, padding, margin
+keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, css, space, properties, padding, margin
 
 date: 2017-08-24 05:55:00
 ---
@@ -157,7 +157,7 @@ an element or align it to the right.
 
 For the first square, my purpose is to horizontally center it by creating some
 spaces on the left and the right; But, I was lazy enough to avoid making some
-calculations. So, I just let web browsers take care of the task. I've found that 
+calculations. So, I just let web browsers take care of the task. I've found that
 it just works. And I decided to apply the same method for the second square. :D
 
 The best thing about this approach is web browsers will keep track of the elements
