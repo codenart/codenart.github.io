@@ -90,7 +90,7 @@ sign `+` as a concatenation operator instead of an addition operator.
 
 There are also many other tools in JavaScript which allow us to manipulate strings
 efficiently. But, we're not gonna bring them all here since our main purpose in
-this tutorial is getting to know the concept of Type; And we also have another
+this tutorial is just getting to know the concept of Type; And we also have another
 important concept to care about. Let's talk a little more about Type in JavaScript
 before taking the concept of Variable.
 
@@ -134,7 +134,7 @@ create an excerpt:
 
 Since the string manipulation takes multiple steps to reaches the final result,
 there's a need to `temporarily store the content somewhere` to manipulate it step
-by step until it reach the final form. We need a Variable!
+by step until it reaches the final form. We need a Variable!
 
 `JS code:`
 <script src="https://gist.github.com/codenart/0d154adf692c8117c4bf933ac76176b5.js">
