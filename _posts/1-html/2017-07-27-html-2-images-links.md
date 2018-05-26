@@ -32,7 +32,7 @@ We've just put there `2 letters` and Atom knows that we want to add an
 we only need to tell web browsers `where` to get the image:
 
 - Copy/Paste this url
-[https://s19.postimg.org/9zaosqzdf/trees.jpg](https://s19.postimg.org/9zaosqzdf/trees.jpg "ext")
+[https://s19.postimg.cc/9zaosqzdf/trees.jpg](https://s19.postimg.cc/9zaosqzdf/trees.jpg "ext")
 into the `src`.
 - Save file again and open the document using your web browser.
 

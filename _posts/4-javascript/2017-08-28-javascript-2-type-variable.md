@@ -151,7 +151,8 @@ variable name.
 </script>
 
 You can both create a box and put something inside it at once as in the example
-above. There's no difference. I've broken the statement just for better explanation. :D
+above. There's no difference. For the first example, I've broken the statement
+just for better explanation. :D
 
 > A variable is simply a box that you can put anything inside.  
 > \_\_A simple & happy Mind
