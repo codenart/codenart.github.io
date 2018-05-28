@@ -26,4 +26,5 @@ If you practice some Zen living approaches, then you will know that any `simple`
 action in our daily life can bring about blissful experience. Deeply influenced
 by Zen living style, the first programmers of the world have decided to bring
 the idea into programming. The core concept is to allow people to divide a complex
-task into simple actions.
+task into simple actions. This is sure good; Because we all know that a complex
+task rarely brings about blissfulness. :D
