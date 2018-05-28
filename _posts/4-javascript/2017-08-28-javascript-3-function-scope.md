@@ -19,9 +19,9 @@ That word, `function`, is actually a typing mistake made by one of the first
 programmers of the world. The original name of this type was `action` before the
 mistake has occurred in a documentation and spread over the programming world.
 Somewhere down the line, people started thinking like this type is something
-related to mathematics and make use of it the mathematical way.
+related to mathematics and make use of it the mathematical way. Let's scroll up
+the calendar a bit and talk about this type in term of `action`. :D
 
-Let's scroll up the calendar a bit and talk about this type in term of `action`.
 If you practice some Zen living approaches, then you will know that any `simple`
 action in our daily life can bring about blissful experience. Deeply influenced
 by Zen living style, the first programmers of the world have decided to bring
