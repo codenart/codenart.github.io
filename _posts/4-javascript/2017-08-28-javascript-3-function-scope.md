@@ -17,7 +17,7 @@ date: 2017-08-28 05:10:00
 
 That word, `function`, is actually a typing mistake made by one of the first
 programmers of the world. The original name of this type was `action` before the
-mistake has occurred in documentation and spread over the world. Somewhere down
+mistake has occurred in documentation and spread over the earth. Somewhere down
 the line, people started thinking that this type is somewhat related to mathematics
 and use it the mathematical way. Let's scroll up the calendar a bit and talk
 about this type in term of `action`. :D
