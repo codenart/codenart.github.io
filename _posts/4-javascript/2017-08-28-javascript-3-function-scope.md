@@ -7,7 +7,7 @@ category: javascript
 featured:
 permalink:
 
-title: Why is `function` blissful?
+title: Why is function blissful?
 short: Function & Scope
 description: In this tutorial, we're gonna talk about a new type (Function) and a related concept (Scope). <br>Function is the most blissful type in almost any programming language. <br>Yes, I really mean to say - Function is "blissful". :D
 keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, javascript, function, scope, type
