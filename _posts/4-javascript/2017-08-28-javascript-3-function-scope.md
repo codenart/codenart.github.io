@@ -28,3 +28,5 @@ by Zen living style, the first programmers of the world have decided to bring
 the idea into programming. The core concept is to allow people to divide a complex
 task into simple actions. This is sure good; Because we all know that a complex
 task rarely brings about blissfulness. :D
+
+## Using function

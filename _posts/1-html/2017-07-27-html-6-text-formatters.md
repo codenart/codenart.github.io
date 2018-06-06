@@ -9,7 +9,7 @@ permalink:
 
 title: Semantic text formatters
 short: Text Formatters
-description: In this tutorial, we're gonna talk about some tags which are used to format text contents. <br>They help us to emphasize important contents of webpages. <br>They're commonly used in main contents.
+description: In this tutorial, we're gonna talk about some tags which are used to format text. <br>They help us to emphasize important contents of webpages. <br>They're commonly used in main contents.
 keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, text, formatters, bold, italic, del, code, pre
 
 date: 2017-07-27 05:25:00

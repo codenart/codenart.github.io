@@ -9,7 +9,7 @@ permalink:
 
 title: How to add videos into a webpage?
 short: Embedded Content
-description: Embedded content is content that imports another file into the HTML document. <br>We have embedded an image into an HTML document. <br>Let's do it a few times again.
+description: Embedded content is content that imports another file into the HTML document. <br>We have embedded an image into an HTML document. <br>Let's do it few more times. :D
 keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, embedded, content, video, audio, music, image
 
 date: 2017-07-27 05:15:00
@@ -58,7 +58,7 @@ Reference:
 
 ## The iframe tag
 
-The [iframe tag](https://www.w3schools.com/TAgs/tag_iframe.asp "ext") allows us 
+The [iframe tag](https://www.w3schools.com/TAgs/tag_iframe.asp "ext") allows us
 to embed `a webpage` in another webpage.
 
 `Sample code:`

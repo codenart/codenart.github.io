@@ -61,9 +61,9 @@ Bootstrap tutorials but I'm not gonna create `another` Bootstrap document; My
 purpose is to share the most simple way to apply Bootstrap to create a website.
 Hopefully that you will join me in learning Bootstrap the simple way.
 
-You can start learning Bootstrap right now even our CSS series will be continued
-in a few more tutorials to cover basic knowledge about creating transition effects
-for interactive components and animations.
+You can start learning Bootstrap right now even though our CSS series will be
+continued with few more tutorials to cover basic knowledge about creating
+transition effects for interactive components and animations.
 
 [Start learning Bootstrap here!](https://codenart.github.io/magic/ "ext")
 

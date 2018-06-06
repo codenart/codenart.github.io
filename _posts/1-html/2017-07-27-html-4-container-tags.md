@@ -49,7 +49,7 @@ contents which does not fully contain a post like an article.
 This container tags are commonly used to create an entry which has a heading,
 an excerpt and a `read more`.
 
-5| `<main></main>` -- If our webpage is not a blog post and it contains a list
+5| `<main></main>` -- If a webpage is not a blog post and it contains a list
 of category entries, then we should group up all entries using
 [main tags](https://www.w3schools.com/tags/tag_main.asp "ext").
 
@@ -72,9 +72,8 @@ Let's take an example that we're creating a simple webpage which has some
 `footer` contains copyright text.
 
 We also assume that:
-- The `navigation` bar will have dark color background and
-white text.  
-- The `sections` will have nice background images.  
+- The `navigation` bar will have dark color background and white text.  
+- The `sections` will stand on a nice background.  
 - And the `footer` will have dark color background and white text.
 
 So, our HTML document should look like this:
@@ -161,7 +160,7 @@ display this name at top of web browsers (tab bar).
 The `<html>` container is the root container of the document. Something like a
 `<div>`. It's just that.
 
-And `<!DOCTYPE html>`, it tell web browsers that `this document's type is HTML`.
+And `<!doctype html>`, it tell web browsers that `this document's type is HTML`.
 We don't need to explore details about this one. Its story is about history of
 [Markup Languages](https://en.wikipedia.org/wiki/Markup_language "ext").
 We'd better to just leave the history at top of our HTML documents.

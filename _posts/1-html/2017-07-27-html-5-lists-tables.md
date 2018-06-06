@@ -9,20 +9,20 @@ permalink:
 
 title: Creating Lists and Tables
 short: Lists & Tables
-description: As you've got more familiar with HTML, we're gonna go fast in this tutorial. <br>Lists and Tables are popular way to represent data. <br>Let's create some of them.
+description: As you've got more familiar with HTML, we're gonna go fast in this tutorial. <br>Lists and Tables are popular ways to represent data. <br>Let's create some of them.
 keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, html, ordered, unordered, list, table
 
 date: 2017-07-27 05:20:00
 ---
 
-There are 3 types of Lists in HTML:
+There are 3 types of List in HTML:
 
 - `unordered` list
 - `ordered` list
 - `definition` list
 
 The last one is very rarely used, so we're gonna talk about unordered list,
-ordered list and tables.
+ordered list, and tables.
 
 ## Unordered Lists
 
