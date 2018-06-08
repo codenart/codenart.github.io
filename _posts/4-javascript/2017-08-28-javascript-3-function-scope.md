@@ -128,3 +128,11 @@ placeholder
 ## The concept of Scope
 
 placeholder
+
+`Whispering:`
+<div class="embed">
+   <iframe src="https://goo.gl/3XXjxs"
+           width="100%" height="450"
+           scrolling="no" frameborder="no">
+   </iframe>
+</div>
