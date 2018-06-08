@@ -24,9 +24,18 @@ about this type in term of `action`. :D
 
 If you practice some Zen living approaches, then you will know that any `simple`
 action in our daily life can bring about blissful experience. Deeply influenced
-by Zen living style, the first programmers of the world have decided to bring
-the idea into programming. The core concept is to allow people to divide a complex
-task into simple actions. This is sure good; Because we all know that a complex
+by Zen living style, the first programmers of the world decided to bring the idea
+into programming. The core concept is to allow people to divide a complex task
+into simple actions. This is sure , isn't it? Because we all know that a complex
 task rarely brings about blissfulness. :D
 
-## Using function
+## Using function in JavaScript
+
+To define an action in JavaScript the mistaken keyword is used.
+
+`JS code:`
+<script src="https://gist.github.com/codenart/cd6cc17aa35f74545b1ea9b50ea8b761.js">
+</script>
+
+And that was just a definition. All the statements inside the couple of curly
+braces `{}` will not be executed until we invoke the action.
