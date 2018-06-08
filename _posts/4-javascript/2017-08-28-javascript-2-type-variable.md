@@ -167,7 +167,7 @@ Ok. Let's create another box and perform a simple manipulation.
 
 In the second statement, the assignment operator `=` will take something on the
 right to put into the new box on the left. But, that `something` is an expression
-and your computer firstly need to perform a calculation to get the result: The
+and your computer firstly needs to perform a calculation to get the result: The
 variable named `box` is called to take out the string `'A cat'`; A concatenation
 is processed and the result is a new string `'A cat and another cat'`. You can
 also put the result back into the old box instead of a new box. But, I prefer
