@@ -12,5 +12,5 @@ short: Object & Everything
 description:
 keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, javascript, function, scope, type
 
-date: 2017-08-28 05:25:00
+date: 2017-08-28 05:15:00
 ---
