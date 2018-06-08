@@ -52,8 +52,8 @@ Let's talk more about this point.
 
 ## Invoking action with matter
 
-Yeah, just try and see what will happen. We're gonna invoke the action `drink`
-2 times with various drinks.
+Yes, just try and see what will happen. We're gonna invoke the action `drink` 2
+times with various drinks.
 
 `JS code:`
 <script src="https://gist.github.com/codenart/4e94cd16ae793409fec1e0ef283a90a8.js">
@@ -92,9 +92,9 @@ wherever this type is mentioned. It really scares away many creative people when
 they start thinking about coding. But, by borrowing ideas from mathematics, the
 type also acquires a tremendous beauty if we don't make it so serious.
 
-Back to the core concept of `function`, I mean `action`, it allows us to divide
-a complex task into simple actions. So, calculating is also considered as an
-action. Sometimes, we would want to do something like this.
+Back to the core concept of `function` it allows us to divide a complex task into
+simple actions. So, calculating is also considered as an action. Sometimes, we
+would want to do something like this.
 
 `JS code:`
 <script src="https://gist.github.com/codenart/af6a65557f1b9cf5d7f85ab473969110.js">
@@ -113,9 +113,9 @@ So, it's just about the keyword `return`. There's no more mathematics stuff get
 involved here. We can just take note of this: a function can return a value when
 being invoked.
 
-Ah.. There's one more little thing about the `return` statement, once the statement
-is reached the function execution will be ended and all the statements afterward
-will be ignored.
+And, there's one more little thing about the `return` statement, once the
+statement is reached the function execution will be ended and all the statements
+afterward will be ignored.
 
 `JS code:`
 <script src="https://gist.github.com/codenart/1d640b60b07e62d9b1d269bce5400358.js">
@@ -123,4 +123,8 @@ will be ignored.
 
 ## Function is a type
 
+placeholder
+
 ## The concept of Scope
+
+placeholder
