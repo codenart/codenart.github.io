@@ -31,8 +31,57 @@ complex task rarely brings about blissfulness. :D
 
 ## Using function in JavaScript
 
-To define an action in JavaScript the mistaken keyword is used.
+So, to define an action in JavaScript, the mistaken `keyword` is used. :D
 
 `JS code:`
 <script src="https://gist.github.com/codenart/cd6cc17aa35f74545b1ea9b50ea8b761.js">
 </script>
+
+All the statements which are put inside the couple of curly braces `{}` will not
+be executed until the action is invoked.
+
+`JS code:`
+<script src="https://gist.github.com/codenart/ba02a7de4d0916af86a61db2cb4c94cb.js">
+</script>
+
+Do you remember the parentheses `()` which are mentioned in our
+[first tutorial](https://codenart.github.io/smart/#the-baby-first-javascript-statements)?
+This is it! The `log` itself is an action, too. The only difference in the `drink`
+is that we've not put anything between its parentheses `()` when we invoke it.
+Let's talk more about this point.
+
+## Invoking action with matter
+
+Yeah, just try and see what will happen. We're gonna invoke the action `drink`
+2 times with various drinks.
+
+`JS code:`
+<script src="https://gist.github.com/codenart/4e94cd16ae793409fec1e0ef283a90a8.js">
+</script>
+
+What do you see in your console window? It's still taking `tea`, right? :D  
+It is because the action definition does not take advantage of the provided drinks.
+Let's change the definition a bit.
+
+`JS code:`
+<script src="https://gist.github.com/codenart/d84b97780efd98c56f408bea72b1aa23.js">
+</script>
+
+How about this time? Does it work? :D  
+By declaring a variable named `liquid` inside the parentheses `()` of the definition,
+we've made the action more flexible and saved a lot of time writing repetitive
+code. Just imagine if we had to write one action definition for each kind of
+drink. Wew...
+
+We can also have more than one variable inside the parentheses `()` of the
+definition by separating variables using commas `,` and give the action more
+details by invoking it with values separated by commas `,` as well.
+
+`JS code:`
+<script src="https://gist.github.com/codenart/0fe0189e35e7d77df732423c5b6a02a4.js">
+</script>
+
+Those variables are called `parameters`, such an annoying word from mathematics.
+Anyway, we'll keep calling them variables because they are just `variables`. :D
+
+## Just a little from mathematics
