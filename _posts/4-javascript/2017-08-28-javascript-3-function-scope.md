@@ -111,7 +111,7 @@ is used to `return` a value at the end of the function definition.
 
 And it's just about the keyword `return`. No more mathematics stuff gets involved
 here. There's only one more little thing about the `return` statement that we
-should take note: Once the statement is reached the function execution will be
+should take note: Once the statement is reached, the function execution will be
 ended and all the statements afterward will be ignored.
 
 `JS code:`
@@ -132,13 +132,14 @@ in a variable like this.
 <script src="https://gist.github.com/codenart/793360f7dd9dfc11cd67eedf54b9bc3e.js">
 </script>
 
-We can also pass a function as a value when we're invoking another function. By
-using function this way, we can yield more than 1 value from invoking a function.
-In many situations, this is more convenient than using `return` statement.
+We can also pass a function as a value when we're invoking another function.
 
 `JS code:`
 <script src="https://gist.github.com/codenart/703df2b4520cffbf33469c7ecc025fc7.js">
 </script>
+
+By using function this way, a function can yield more than 1 value when it is
+invoked. In many situations, this is more convenient than using a `return` statement.
 
 ## The concept of Scope
 
@@ -156,8 +157,7 @@ outside; The computer cannot find the variable so it says the variable `box` is
 `just` and it is only visible inside the function.
 
 The second note about the concept of `Scope` is that a function will always prefer
-to use its inner variables. In the following example, we'll create 2 variable
-with the same name `box`. One is outside the function and the another one is inside.
+to use its inner variables.
 
 `JS code:`
 <script src="https://gist.github.com/codenart/e6fb3d20885bc689f6dff7704a27daaf.js">
@@ -173,8 +173,7 @@ will refer to the outer variable.
 
 And that was all about the concept of `Scope`. So, we've known quite enough about
 fundamental stuff. Just one more tutorial and we will start manipulating the HTML
-document and make our webpages smart using JavaScript. Let's take a break before
-heading to our next tutorial.
+document. Let's take a break before heading to our next tutorial.
 
 `Whispering:`
 <div class="embed">
