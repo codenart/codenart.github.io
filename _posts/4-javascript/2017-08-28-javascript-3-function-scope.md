@@ -138,8 +138,9 @@ We can also pass a function as a value when we're invoking another function.
 <script src="https://gist.github.com/codenart/703df2b4520cffbf33469c7ecc025fc7.js">
 </script>
 
-By using function this way, a function can yield more than 1 value when it is
-invoked. In many situations, this is more convenient than using a `return` statement.
+By using function this way, the function `whisper` can yield more than 1 value
+when it is invoked. In many situations, this is more convenient than using a
+`return` statement.
 
 ## The concept of Scope
 
