@@ -8,7 +8,7 @@ featured:
 permalink:
 
 title:
-short: Array & Loop
+short: Document & Window
 description:
 keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, javascript, function, scope, type
 

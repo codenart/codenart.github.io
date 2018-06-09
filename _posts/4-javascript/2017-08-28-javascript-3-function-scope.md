@@ -163,9 +163,9 @@ with the same name `box`. One is outside the function and the another one is ins
 <script src="https://gist.github.com/codenart/e6fb3d20885bc689f6dff7704a27daaf.js">
 </script>
 
-It doesn't mean that the outer variable is not visible to the function. Yes, in
-case there's no inner variable which has the same name as the outer one. The
-function will refer to the outer variable.
+It doesn't mean that the outer variable is not visible to the function. In case
+there's no inner variable which has the same name as the outer one. The function
+will refer to the outer variable.
 
 `JS code:`
 <script src="https://gist.github.com/codenart/e183bd7100dff450cbe84f251525bb08.js">
