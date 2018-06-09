@@ -121,8 +121,8 @@ Our first CSS tutorial has finished. It's time for
 [Music](https://www.youtube.com/watch?v=isx1oNFDki4 "ext")!
 
 <div class="embed">
-   <iframe width="560" height="315"
-           src="https://www.youtube.com/embed/isx1oNFDki4?ecver=1"
-           frameborder="0" allowfullscreen>
+   <iframe src="https://goo.gl/h6jVVK"
+           width="100%" height="450"
+           scrolling="no" frameborder="no">
    </iframe>
 </div>

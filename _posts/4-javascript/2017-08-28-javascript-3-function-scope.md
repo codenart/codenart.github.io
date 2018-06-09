@@ -100,22 +100,19 @@ would want to do something like this.
 <script src="https://gist.github.com/codenart/af6a65557f1b9cf5d7f85ab473969110.js">
 </script>
 
-The main task look so clean and it's easy to guess what does the code do because
-we've moving away all the details using functions. This is possible because we
-can receive a value at the place a function is invoked. To do so, a statement is
-used to `return` a value at the end of the function definition.
+The main task look so clean and it's easy to guess what the code does because
+we've moved away all the details by using functions. This is possible because we
+can receive something at the place a function is invoked. To do so, a statement
+is used to `return` a value at the end of the function definition.
 
 `JS code:`
 <script src="https://gist.github.com/codenart/d263325733a166cbf9034ba69a74b25d.js">
 </script>
 
-So, it's just about the keyword `return`. There's no more mathematics stuff get
-involved here. We can just take note of this: a function can return a value when
-being invoked.
-
-And, there's one more little thing about the `return` statement, once the
-statement is reached the function execution will be ended and all the statements
-afterward will be ignored.
+So, it's just about the keyword `return`. No more mathematics stuff gets involved
+here. There's only one more little thing about the `return` statement that we
+should take note: Once the statement is reached the function execution will be
+ended and all the statements afterward will be ignored.
 
 `JS code:`
 <script src="https://gist.github.com/codenart/1d640b60b07e62d9b1d269bce5400358.js">
@@ -123,7 +120,7 @@ afterward will be ignored.
 
 ## Function is a type
 
-placeholder
+
 
 ## The concept of Scope
 
