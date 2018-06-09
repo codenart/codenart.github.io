@@ -93,7 +93,7 @@ they start thinking about coding. But, by borrowing ideas from mathematics, the
 type also acquires a tremendous beauty if we don't make it so serious.
 
 Back to the core concept of `function` it allows us to divide a complex task into
-simple actions. So, calculating is also considered as an action. Sometimes, we
+simple actions. So, calculating is also considered as an action and sometimes we
 would want to do something like this.
 
 `JS code:`
@@ -109,7 +109,7 @@ is used to `return` a value at the end of the function definition.
 <script src="https://gist.github.com/codenart/d263325733a166cbf9034ba69a74b25d.js">
 </script>
 
-So, it's just about the keyword `return`. No more mathematics stuff gets involved
+And it's just about the keyword `return`. No more mathematics stuff gets involved
 here. There's only one more little thing about the `return` statement that we
 should take note: Once the statement is reached the function execution will be
 ended and all the statements afterward will be ignored.
@@ -134,13 +134,47 @@ in a variable like this.
 
 We can also pass a function as a value when we're invoking another function. By
 using function this way, we can yield more than 1 value from invoking a function.
-In many situations, this is more convenience than using `return` statement.
+In many situations, this is more convenient than using `return` statement.
 
 `JS code:`
 <script src="https://gist.github.com/codenart/703df2b4520cffbf33469c7ecc025fc7.js">
 </script>
 
 ## The concept of Scope
+
+The main part of the tutorial has finished. Here is just a simple concept related
+to `function` and `variable`. We're gonna move through it quickly. Let's check
+the following code snippet.
+
+`JS code:`
+<script src="https://gist.github.com/codenart/24082265f1fe6007c3594d67e7f8bc0d.js">
+</script>
+
+We've created a variable inside the function `just` and tried to refer to it from
+outside; The computer cannot find the variable so it says the variable `box` is
+`undefined`. In other words, the variable's scope is protected by the function
+`just` and it is only visible inside the function.
+
+The second note about the concept of `Scope` is that a function will always prefer
+to use its inner variables. In the following example, we'll create 2 variable
+with the same name `box`. One is outside the function and the another one is inside.
+
+`JS code:`
+<script src="https://gist.github.com/codenart/e6fb3d20885bc689f6dff7704a27daaf.js">
+</script>
+
+It doesn't mean that the outer variable is not visible to the function. Yes, in
+case there's no inner variable which has the same name as the outer one. The
+function will refer to the outer variable.
+
+`JS code:`
+<script src="https://gist.github.com/codenart/e183bd7100dff450cbe84f251525bb08.js">
+</script>
+
+And that was all about the concept of `Scope`. So, we've known quite enough about
+fundamental stuff. Just one more tutorial and we will start manipulating the HTML
+document and make our webpages smart using JavaScript. Let's take a break before
+heading to our next tutorial.
 
 `Whispering:`
 <div class="embed">
