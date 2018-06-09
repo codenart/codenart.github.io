@@ -92,9 +92,9 @@ wherever this type is mentioned. It really scares away many creative people when
 they start thinking about coding. But, by borrowing ideas from mathematics, the
 type also acquires a tremendous beauty if we don't make it so serious.
 
-Back to the core concept of `function` it allows us to divide a complex task into
-simple actions. So, calculating is also considered as an action and sometimes we
-would want to do something like this.
+Back to the core concept of `function`, it allows us to divide a complex task
+into simple actions. So, calculating is also considered as an action and
+sometimes we would want to do something like this.
 
 `JS code:`
 <script src="https://gist.github.com/codenart/af6a65557f1b9cf5d7f85ab473969110.js">
@@ -120,9 +120,8 @@ ended and all the statements afterward will be ignored.
 
 ## Function is a type
 
-We've known how to define and invoke an action and various related stuff. It's
-time to move on; And this section is just a for reminding the most basic use of
-function as a type before we go to take the concept of Scope.
+This section is just a for reminding the most basic use of function as a type
+before we go to take the concept of Scope.
 
 Since function is a type, it means that we can consider a function as a value.
 In stead of defining a function with a name, we can store a `no-name` function
