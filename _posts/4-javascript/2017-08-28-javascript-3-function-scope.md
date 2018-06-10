@@ -101,9 +101,14 @@ sometimes we would want to do something like this.
 </script>
 
 The main task look so clean and it's easy to guess what the code does because
-we've moved away all the details by using functions. This is possible because we
-can receive something at the place a function is invoked. To do so, a statement
-is used to `return` a value at the end of the function definition.
+we've moved away all the details by using functions. The first function invocation
+`resulted something` and the result was stored in the variable `content`. The
+second invocation also `resulted something` and the result was stored in the
+variable excerpt.
+
+Yes, a function invocation can `result something`. This idea is borrowed from
+mathematics. To make a function able to result a value, a statement is used to
+`return` a value at the end of the function definition.
 
 `JS code:`
 <script src="https://gist.github.com/codenart/d263325733a166cbf9034ba69a74b25d.js">
