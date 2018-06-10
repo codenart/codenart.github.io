@@ -102,12 +102,12 @@ sometimes we would want to do something like this.
 
 The main task look so clean and it's easy to guess what the code does because
 we've moved away all the details by using functions. The first function invocation
-`resulted something` and the result was stored in the variable `content`. The
-second invocation also `resulted something` and the result was stored in the
+`yielded something` and the result was stored in the variable `content`. The
+second invocation also `yielded something` and the result was stored in the
 variable excerpt.
 
-Yes, a function invocation can `result something`. This idea is borrowed from
-mathematics. To make a function able to result a value, a statement is used to
+Yes, a function invocation can `yield something`. This idea is borrowed from
+mathematics. To make a function able to yield a value, a statement is used to
 `return` a value at the end of the function definition.
 
 `JS code:`
