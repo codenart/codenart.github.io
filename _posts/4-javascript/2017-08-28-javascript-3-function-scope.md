@@ -104,7 +104,7 @@ The main task look so clean and it's easy to guess what the code does because
 we've moved away all the details by using functions. The first function invocation
 `yielded something` and the result was stored in the variable `content`. The
 second invocation also `yielded something` and the result was stored in the
-variable excerpt.
+variable `excerpt`.
 
 Yes, a function invocation can `yield something`. This idea is borrowed from
 mathematics. To make a function able to yield a value, a statement is used to
@@ -125,7 +125,7 @@ ended and all the statements afterward will be ignored.
 
 ## Function is a type
 
-This section is just a for reminding the most basic use of function as a type
+This section is just for reminding the most basic use of function as a type
 before we go to take the concept of Scope.
 
 Since function is a type, it means that we can consider a function as a value.
