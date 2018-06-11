@@ -178,7 +178,7 @@ will refer to the outer variable.
 
 And that was all about the concept of `Scope`. So, we've known quite enough about
 fundamental stuff. Just one more tutorial and we will start manipulating the HTML
-document. Let's take a break before heading to our next tutorial.
+document. Let’s take a break before heading to our next tutorial.
 
 `Whispering:`
 <div class="embed">

@@ -98,7 +98,7 @@ Ok, here we go. The very first JavaScript statement.
 Since we're gonna dive into fundamental programming concepts and not yet to touch
 the tools to manipulate the HTML document, we need to see the output somewhere
 else; And the statement above will just print any thing we put between the
-parenthesis `()` to console window of the web browser. To open console window,
+parentheses `()` to console window of the web browser. To open console window,
 you can press `F12` or right click on the webpage and choose `Inspect..` then
 choose `Console` tab.
 
@@ -111,7 +111,7 @@ got familiar with it since CSS time. It's not mandatory to end a JavaScript
 statement using a semi-colon but it's a good habit for start time. You should
 always end a JavaScript statement with a semi-colon until your love of JavaScript
 grows big enough. :D
-- The next two `strange` things are the parenthesis `()` that we mentioned above;
+- The next two `strange` things are the parentheses `()` that we mentioned above;
 and a dot `.` which stands between the two words `console` and `log`. They're the
 most beautiful tiny things in programming world. It takes some more tutorials for
 us to be available to their meanings. So, for now, please consider them as simple

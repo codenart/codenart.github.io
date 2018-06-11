@@ -70,11 +70,9 @@ percent sure that we have to deal with text contents as well.
 
 Now you see, there's a need to represent text contents in code and make your
 computer treat them differently than `numbers`. This is where the concept of
-Type gets in. Different content types should be treated differently, right?
-
-We have the first basic type: `Number`; And the next one is called `String`
-which is used to represent text content. In JavaScript, a string is enclosed
-using single quotes `'` or double quotes `"`.
+Type gets in. We have the first basic type: `Number`; And the next one is called
+`String` which is used to represent text content. In JavaScript, a string is
+enclosed using single quotes `'` or double quotes `"`.
 
 `JS code:`
 <script src="https://gist.github.com/codenart/04c89eaaa262adcdefbb5e21bdcf5721.js">
@@ -109,7 +107,7 @@ type` instead of `this type` in an expression which requires `this type`. :D
 In the example above, what we expect is a string concatenation; But, we've put
 there a number and... it just works. This is a smart feature of JavaScript which
 automatically converts the number to a string before the concatenation is
-processed and help us to simplify our works.
+processed and helps us to simplify our works.
 
 Generally, in many other programming languages, type conversion must be done
 explicitly by writing extra lines of code. JavaScript also provides methods which
@@ -132,7 +130,7 @@ create an excerpt:
 - Append three dots `...` at the end of the trimmed content.
 - Put the excerpt back to HTML document.
 
-Since the string manipulation takes multiple steps to reaches the final result,
+Since the string manipulation takes multiple steps to reach the final result,
 there's a need to `temporarily store the content somewhere` to manipulate it step
 by step until it reaches the final form. We need a Variable!
 
