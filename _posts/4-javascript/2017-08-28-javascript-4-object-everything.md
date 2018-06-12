@@ -10,7 +10,7 @@ permalink:
 title: An object in JavaScript
 short: Object & Everything
 description: In this tutorial, we're gonna talk about the most important type in JavaScript. It is Object. <br>Indeed, JavaScript treats everything as Object. Everything! :D <br>Let's get to know about the type.
-keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, javascript, type, class, object, everything
+keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, javascript, type, class, prototype, object, everything
 
 date: 2017-08-28 05:15:00
 ---
@@ -18,7 +18,7 @@ date: 2017-08-28 05:15:00
 Whenever we lower down vibration to identify with the intellect which is the
 inferior dimension of the mind, everything seems to be separated and definable
 as objects. Anything can be defined by some properties and abilities. For example:
-A tree can may be considered as an object which has name, age, and ability to produce.
+A tree can be considered as an object which has name, age, and ability to produce.
 
 To reflect this dimension of the mind into programming, the first programmers of
 the world decided to allow modelling objects in code. This makes programming more
