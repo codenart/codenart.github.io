@@ -51,12 +51,16 @@ is an object; And the function `log` is actually bundled in the object.
 
 In the section above, we've used the variable `theTree` to store the object's
 reference; Then access bundled stuff of the object from outside by calling the
-variable `theTree`. To use the object's reference from inside, the keyword `this`
-is used to refer to the object itself.
+variable `theTree`. To use the object's reference from the inside, the keyword
+`this` is used to refer to the object itself.
 
 `JS code:`
 <script src="https://gist.github.com/codenart/0150dfbe42873ef9e298238d801e0673.js">
 </script>
+
+## Creating objects
+
+> ...in progress
 
 ## Everything in JavaScript is Object
 
