@@ -97,7 +97,7 @@ before taking the concept of Variable.
 Coding in JavaScript is just playful as cooking. Sometimes we can make a dish
 taste salty by using cinnamon instead of salt. It is possible not because those
 two are the same; But because they have quite the same meaning to the dish. And
-the same possibility happens with JavaScript's types. Sometimes you can use `that
+the same possibility happens with JavaScript's types. Sometimes we can use `that
 type` instead of `this type` in an expression which requires `this type`. :D
 
 `JS code:`
@@ -148,6 +148,8 @@ variable name.
 <script src="https://gist.github.com/codenart/d07b0efd36b06a29f95eab9690efd8d2.js">
 </script>
 
+![a cat in a box](/images/javascript/2/cat.jpg)
+
 You can both create a box and put something inside it at once as in the example
 above. There's no difference. For the first example, I've broken the statement
 just for better explanation. :D
@@ -155,22 +157,22 @@ just for better explanation. :D
 > A variable is simply a box that you can put anything inside.  
 > \_\_A simple & happy Mind
 
-![a cat in a box](/images/javascript/2/cat.jpg)
-
 Ok. Let's create another box and perform a simple manipulation.
 
 `JS code:`
 <script src="https://gist.github.com/codenart/1e8bc0361bfa04545427eef9c61c2389.js">
 </script>
+![two cats in a box](/images/javascript/2/cats.jpg)
 
 In the second statement, the assignment operator `=` will take something on the
 right to put into the new box on the left. But, that `something` is an expression
 and your computer firstly needs to perform a calculation to get the result: The
 variable named `box` is called to take out the string `'A cat'`; A concatenation
-is processed and the result is a new string `'A cat and another cat'`. You can
-also put the result back into the old box instead of a new box. But, I prefer
-creating a new one since variable name is very useful to describe the state of
-the stored content after each manipulation and gives your code more clarity.
+is processed and the result is a new string `'A cat and another cat'`.
+
+You can also put the result back into the old box instead of a new box. But, I
+prefer creating a new one since variable name is very useful to describe the state
+of the stored content after each manipulation and gives your code more clarity.
 
 By naming variables, we're freely to use other beautiful names for those boxes
 but there're also some rules that we should take notes:
