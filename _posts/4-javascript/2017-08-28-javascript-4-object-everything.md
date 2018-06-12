@@ -28,3 +28,13 @@ Let's have a look at the example below.
 `JS code:`
 <script src="https://gist.github.com/codenart/3f26eff5db309303e01fa8a9823e3b4b.js">
 </script>
+
+> ...in progress
+
+`Invitation:`
+<div class="embed">
+   <iframe width="560" height="315"
+           src="https://www.youtube.com/embed/uIAhuVhA-V0"
+           frameborder="0" allowfullscreen>
+   </iframe>
+</div>
