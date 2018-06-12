@@ -58,7 +58,7 @@ variable `theTree`. To use the object's reference from the inside, the keyword
 <script src="https://gist.github.com/codenart/0150dfbe42873ef9e298238d801e0673.js">
 </script>
 
-## Creating objects
+## Creating object using prototype
 
 > ...in progress
 
