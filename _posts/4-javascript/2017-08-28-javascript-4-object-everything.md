@@ -118,8 +118,8 @@ manipulate HTML document and command browser window to do many things. See you
 next time in the realm of `intellect`.
 
 In case you wonder the realm beyond. Here is an invitation to the superior
-dimension of the mind, the dimension of `knowing`, where things are one and words
-reach their limitation...
+dimension of the mind, the dimension of `knowing`, where things are one and
+words reach their limitation...
 
 `Invitation:`
 <div class="embed">
