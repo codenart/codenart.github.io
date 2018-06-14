@@ -118,7 +118,7 @@ manipulate HTML document and command browser window to do many things. See you
 next time in the realm of `intellect`.
 
 In case you wonder the realm beyond. Here is an invitation to the superior
-dimension of the mind, the dimension of `knowing`, where things are one and
+dimension of the mind, the dimension of `knowing`, where things are one, where
 words and thoughts reach their limitation...
 
 `Invitation:`
