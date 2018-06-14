@@ -78,11 +78,48 @@ feeding detail `color` and `age` of each object. By creating objects this way,
 we don't have to write much repetitive code like variable names and the function
 `whisper` which are the same in the actual objects.
 
+By defining a sketch, the first character of the sketch's name should be Uppercase
+while we've known variable and function names often start with a lowercase character.
+And there are many pre-defined sketches which bring various conveniences. Let's
+check what time is it now.
+
+`JS code:`
+<script src="https://gist.github.com/codenart/239e30c8ca1889f764fb3a29108f619b.js">
+</script>
+
+Reference:
+[JavaScript Date](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
+
 ## Everything in JavaScript is Object
 
-Not really. But, in fact, JavaScript treats everything as Object.
+Not really. But, in fact, JavaScript treats almost everything as object. :D
 
-> ...in progress
+A function is treated as an object.
+
+`JS code:`
+<script src="https://gist.github.com/codenart/a50548b7618428a9c0583d75bede6040.js">
+</script>
+
+A number is also treated as an object.
+
+`JS code:`
+<script src="https://gist.github.com/codenart/c1926748e08df122e9cd15dd0d0ffcac.js">
+</script>
+
+A string is treated as an object, too.
+
+`JS code:`
+<script src="https://gist.github.com/codenart/666595fc9948e30ceb6176c913bcea09.js">
+</script>
+
+And we'll meet more and more objects from now on. Our tutorial about `object` has
+finished. In the next tutorial, we'll meet 2 in-build objects which allow us to
+manipulate HTML document and command browser window to do many things. See you
+next time in the realm of `intellect`.
+
+In case you wonder the realm beyond. Here is an invitation to the superior
+dimension of the mind, the dimension of `knowing`, where things are one and words
+reach their limitation...
 
 `Invitation:`
 <div class="embed">
