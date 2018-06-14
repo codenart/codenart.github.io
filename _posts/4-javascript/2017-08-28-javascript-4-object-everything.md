@@ -16,9 +16,9 @@ date: 2017-08-28 05:15:00
 ---
 
 Whenever we lower down vibration to identify with the intellect which is the
-inferior dimension of the mind, everything seems to be separated and definable
-as objects. Anything can be defined by some properties and abilities. For example:
-A tree can be considered as an object which has name, age, and ability to produce.
+inferior dimension of the mind, everything seems to be separated and definable.
+Anything can be defined by some properties and abilities. For example: A tree
+can be considered as an object which has name, age, and ability to produce.
 
 To reflect this dimension of the mind into programming, the first programmers of
 the world decided to allow modelling objects in code. This makes programming more
@@ -32,17 +32,19 @@ have a look at the example below.
 Here we have an object stored in the variable `theTree`. An object in JavaScript
 is just a bundle of `variables` and `functions` enclosed by a couple of curly
 braces `{}`. The variables `name` and `age` are used to describe the tree's
-properties. On the other hand, the function `produce` is used to describe its
-ability to yield fruits.
+properties; And the function `produce` is used to describe its ability to yield
+fruits.
 
 Please take note that we don't need to use the keywords `var` and `function` for
-bundled variables and functions of an object. Normally, when referring to
-object, the variables are called `properties` and the functions are called
-`methods`. But, it's just the words matter, isn't it? We're gonna keep calling
-them `variables` and `functions` because they're just that.
+bundled variables and functions of an object; Values are bound with the variables
+using a colon `:` instead of an equal sign; And bundled things separated by commas.
 
-To access the bundled variables and functions, a dot `.` is used to chain the
-object's reference and bundled stuff. This is it! The dot which was mentioned in our
+Normally, when referring to object, the variables are called `properties` and the
+functions are called `methods`. But, it's just the words matter, isn't it? We're
+gonna keep calling them `variables` and `functions` because they're just that.
+
+To access the bundled variables and functions, a dot `.` is used to chain the object's
+reference and the bundled stuff. This is it! The dot which was mentioned in our
 [first tutorial](https://codenart.github.io/smart/#the-baby-first-javascript-statements).
 We've used it many times with the statement `console.log()`. The `console` itself
 is an object; And the function `log` is actually bundled in the object.
@@ -50,17 +52,31 @@ is an object; And the function `log` is actually bundled in the object.
 ## Referring from the inside
 
 In the section above, we've used the variable `theTree` to store the object's
-reference; Then access bundled stuff of the object from outside by calling the
-variable `theTree`. To use the object's reference from the inside, the keyword
-`this` is used to refer to the object itself.
+reference; Then access the bundled stuff of the object from outside by calling
+the variable `theTree`. To use the object's reference from the inside, the
+keyword `this` is used to refer to the object itself.
 
 `JS code:`
 <script src="https://gist.github.com/codenart/0150dfbe42873ef9e298238d801e0673.js">
 </script>
 
-## Creating object using prototype
+## Creating object using class
 
-> ...in progress
+Yet, creating object in JavaScript can be done in a more elegance way. Let's
+check the code snippet below.
+
+`JS code:`
+<script src="https://gist.github.com/codenart/4a55e1f18ab70b50cc8eb53798571f88.js">
+</script>
+
+The `class` keyword is used to create an object named `Thing` which serves as a
+sketch. It does not have detail `color` and `age`; Instead a `constructor` is
+used to bind `givenColor` and `givenAge` when an actual object is created later.
+
+And then we've created 2 objects using the keyword `new`, the sketch's name, and
+feeding detail `color` and `age` of each object. By creating objects this way,
+we don't have to write much repetitive code like variable names and the function
+`whisper` which are the same in the actual objects.
 
 ## Everything in JavaScript is Object
 
