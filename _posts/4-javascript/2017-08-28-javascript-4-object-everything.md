@@ -36,8 +36,8 @@ properties; And the function `produce` is used to describe its ability to yield
 fruits.
 
 Please take note that we don't need to use the keywords `var` and `function` for
-bundled variables and functions of an object; Values are bound with the variables
-using a colon `:` instead of an equal sign; And bundled things separated by commas.
+bundled stuff of an object; Values are bound with the variables using a colon `:`
+instead of an equal sign; And things separated by commas.
 
 Normally, when referring to object, the variables are called `properties` and the
 functions are called `methods`. But, it's just the words matter, isn't it? We're
@@ -94,7 +94,7 @@ Reference:
 
 Not really. But, in fact, JavaScript treats almost everything as object. :D
 
-A function is treated as an object.
+A function is treated as an object. It's a bundle.
 
 `JS code:`
 <script src="https://gist.github.com/codenart/a50548b7618428a9c0583d75bede6040.js">
@@ -113,9 +113,9 @@ A string is treated as an object, too.
 </script>
 
 And we'll meet more and more objects from now on. Our tutorial about `object` has
-finished. In the next tutorial, we'll meet 2 in-build objects which allow us to
-manipulate HTML document and command browser window to do many things. See you
-next time in the realm of `intellect`.
+finished. In the next tutorial, we'll meet 2 in-built objects of web browsers
+which allow us to manipulate HTML document and command browser window to do many
+things. See you next time in the realm of `intellect`.
 
 In case you wonder the realm beyond. Here is an invitation to the superior
 dimension of the mind, the dimension of `knowing`, where things are one, where
