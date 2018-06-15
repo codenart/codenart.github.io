@@ -70,15 +70,15 @@ check the code snippet below.
 </script>
 
 The `class` keyword is used to create an object named `Thing` which serves as a
-sketch. It does not have detail `color` and `age`; Instead a `constructor` is
+sketch. It does not have detail `color` and `age`; Instead, a `constructor` is
 used to bind `givenColor` and `givenAge` when an actual object is created later.
 
 And then we've created 2 objects using the keyword `new`, the sketch's name, and
 feeding detail `color` and `age` of each object. By creating objects this way,
 we don't have to write much repetitive code like variable names and the function
-`whisper` which are the same in the actual objects.
+`whisper` which behaves the same in the actual objects.
 
-By defining a sketch, the first character of the sketch's name should be Uppercase
+By naming a sketch, the first character of the sketch's name should be Uppercase
 while we've known variable and function names often start with a lowercase character.
 And there are many pre-defined sketches which bring various conveniences. Let's
 check what time is it now.
@@ -113,11 +113,11 @@ A string is treated as an object, too.
 </script>
 
 And we'll meet more and more objects from now on. Our tutorial about `object` has
-finished. In the next tutorial, we'll meet 2 in-built objects of web browsers
-which allow us to manipulate HTML document and command browser window to do many
-things. See you next time in the realm of `intellect`.
+finished. In the next tutorial, we'll meet an in-built object of web browser
+which allow us to manipulate HTML document. See you next time in the realm of
+`intellect`. :D
 
-In case you wonder the realm beyond. Here is an invitation to the superior
+In case you wonder the realm beyond, here is an invitation to the superior
 dimension of the mind, the dimension of `knowing`, where things are one, where
 words and thoughts reach their limitation...
 
