@@ -87,9 +87,6 @@ from system.
 <script src="https://gist.github.com/codenart/239e30c8ca1889f764fb3a29108f619b.js">
 </script>
 
-Reference:
-[JavaScript Date](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
-
 ## Everything in JavaScript is Object
 
 Not really. But, in fact, JavaScript treats almost everything as object. :D
