@@ -36,8 +36,8 @@ properties; And the function `produce` is used to describe its ability to yield
 fruits.
 
 Please take note that we don't need to use the keywords `var` and `function` for
-bundled stuff of an object; Values are bound with the variables using a colon `:`
-instead of an equal sign; And things separated by commas.
+bundled stuff of an object; Values are bound with the variables using colons `:`
+instead of equal signs; And things are separated by commas.
 
 Normally, when referring to object, the variables are called `properties` and the
 functions are called `methods`. But, it's just the words matter, isn't it? We're
@@ -76,12 +76,12 @@ used to bind `givenColor` and `givenAge` when an actual object is created later.
 And then we've created 2 objects using the keyword `new`, the sketch's name, and
 feeding detail `color` and `age` of each object. By creating objects this way,
 we don't have to write much repetitive code like variable names and the function
-`whisper` which behaves the same in the actual objects.
+`whisper` which behaves the same in those 2 objects.
 
-By naming a sketch, the first character of the sketch's name should be Uppercase
-while we've known variable and function names often start with a lowercase character.
-And there are many pre-defined sketches which bring various conveniences. Let's
-check what time is it now.
+JavaScript also provides pre-defined sketches and objects which bring about
+various conveniences. We're gonna talk about them in the next tutorials. Here
+is a small example which use the pre-defined sketch `Date` to get time information
+from system.
 
 `JS code:`
 <script src="https://gist.github.com/codenart/239e30c8ca1889f764fb3a29108f619b.js">
@@ -112,10 +112,10 @@ A string is treated as an object, too.
 <script src="https://gist.github.com/codenart/666595fc9948e30ceb6176c913bcea09.js">
 </script>
 
-And we'll meet more and more objects from now on. Our tutorial about `object` has
-finished. In the next tutorial, we'll meet an in-built object of web browser
-which allow us to manipulate HTML document. See you next time in the realm of
-`intellect`. :D
+And we'll meet more and more objects from now on. Our tutorial about `object`
+has finished. In the next tutorial, we'll meet 2 in-built objects of web browser
+which allow us to manipulate HTML document and command browser window. Goodbye
+and see you next time in the realm of `intellect`. :D
 
 In case you wonder the realm beyond, here is an invitation to the superior
 dimension of the mind, the dimension of `knowing`, where things are one, where
