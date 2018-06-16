@@ -78,10 +78,9 @@ feeding detail `color` and `age` of each object. By creating objects this way,
 we don't have to write much repetitive code like variable names and the function
 `whisper` which behaves the same in those 2 objects.
 
-JavaScript also provides pre-defined sketches and objects which bring about
-various conveniences. We're gonna talk about them in the next tutorials. Here
-is a small example which use the pre-defined sketch `Date` to get time information
-from system.
+JavaScript also provides pre-defined objects which offer about various conveniences.
+We're gonna talk about them in the next tutorials. Here is a small example which
+use the pre-defined class `Date` to get time information from system.
 
 `JS code:`
 <script src="https://gist.github.com/codenart/239e30c8ca1889f764fb3a29108f619b.js">
@@ -97,13 +96,15 @@ A function is treated as an object. It's a bundle.
 <script src="https://gist.github.com/codenart/a50548b7618428a9c0583d75bede6040.js">
 </script>
 
-A number is also treated as an object.
+A number is also treated as an object. Full reference here:
+[Number](https://www.w3schools.com/jsref/jsref_obj_number.asp)
 
 `JS code:`
 <script src="https://gist.github.com/codenart/c1926748e08df122e9cd15dd0d0ffcac.js">
 </script>
 
-A string is treated as an object, too.
+A string is treated as an object, too. Full reference here:
+[String](https://www.w3schools.com/jsref/jsref_obj_string.asp)
 
 `JS code:`
 <script src="https://gist.github.com/codenart/666595fc9948e30ceb6176c913bcea09.js">
