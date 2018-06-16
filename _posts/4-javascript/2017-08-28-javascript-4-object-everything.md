@@ -97,14 +97,14 @@ A function is treated as an object. It's a bundle.
 </script>
 
 A number is also treated as an object. Full reference here:
-[Number](https://www.w3schools.com/jsref/jsref_obj_number.asp)
+[Number Reference](https://www.w3schools.com/jsref/jsref_obj_number.asp)
 
 `JS code:`
 <script src="https://gist.github.com/codenart/c1926748e08df122e9cd15dd0d0ffcac.js">
 </script>
 
 A string is treated as an object, too. Full reference here:
-[String](https://www.w3schools.com/jsref/jsref_obj_string.asp)
+[String Reference](https://www.w3schools.com/jsref/jsref_obj_string.asp)
 
 `JS code:`
 <script src="https://gist.github.com/codenart/666595fc9948e30ceb6176c913bcea09.js">
