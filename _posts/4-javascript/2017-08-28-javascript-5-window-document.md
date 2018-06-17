@@ -23,7 +23,44 @@ of its bundled stuff listed. Here they are:
 - [Bundled functions](https://developer.mozilla.org/en-US/docs/Web/API/Window#Methods)
 
 Since our minds are very limited, they're just vehicles which are designed to
-travel in the reality, so trying to remember everything using the minds is just
-a worst idea ever. Let's take it easy by just having a gentle introduction to
-`what there are` in the document. We'll just care about some important stuff and
+serve wondering in the reality, so trying to remember everything using the minds
+is just a worst idea ever. Let's take it easy by just having a gentle introduction
+to `what there are` in the document. We'll just care about some common stuff and
 save the reference links for later use.
+
+Let's start with the bundled variables. The object `window` bundles many other
+objects which model various parts of the browser window. One of them is the
+object `console` that we've used from the very first tutorial. -
+[Console Reference](https://developer.mozilla.org/en-US/docs/Web/API/Console)
+
+`JS code:`
+<script src="https://gist.github.com/codenart/a8bec8b24224c0fff2407c1ab7d793a7.js">
+</script>
+
+Since the object `window` bundles so many things and it is frequently referred
+to, the object itself is inferred by web browsers; And we can just omit its
+reference while accessing its bundled stuff. That's why we can just say `console.log`
+instead of `window.console.log`.
+
+The next commonly used member of `window` is `location`. This object is used to
+get the current URL address or redirect user to another address. -
+[Location Reference](https://developer.mozilla.org/en-US/docs/Web/API/Location)
+
+`JS code:`
+<script src="https://gist.github.com/codenart/aa7a6dc4dbebbec9b599516a29922554.js">
+</script>
+
+Related to redirecting user to another address, another member of `window` which
+is named `history` is also frequently used. -
+[History Reference](https://developer.mozilla.org/en-US/docs/Web/API/History)
+
+`JS code:`
+<script src="https://gist.github.com/codenart/1e3ddf8d4dc9541ea8cee97694a8efab.js">
+</script>
+
+The most commonly used one is the object `document` which model the HTML document
+and allow us to manipulate the document. We're gonna make separated section for it.
+- [Document Reference](https://developer.mozilla.org/en-US/docs/Web/API/document)
+
+So, that was about bundled variables of the object `window`. Let's checkout some
+bundled functions before talking about the object `document`.
