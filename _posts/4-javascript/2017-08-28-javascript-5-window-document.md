@@ -59,8 +59,8 @@ is named `history` is also frequently used. -
 </script>
 
 The most commonly used one is the object `document` which model the HTML document
-and allow us to manipulate the document. We're gonna make separated section for it.
-- [Document Reference](https://developer.mozilla.org/en-US/docs/Web/API/document)
+and allow us to manipulate the document. We're gonna make separated section for it. -
+[Document Reference](https://developer.mozilla.org/en-US/docs/Web/API/document)
 
 So, that was about bundled variables of the object `window`. Let's checkout some
 bundled functions before talking about the object `document`.
