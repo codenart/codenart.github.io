@@ -76,11 +76,11 @@ used to bind `givenColor` and `givenAge` when an actual object is created later.
 And then we've created 2 objects using the keyword `new`, the sketch's name, and
 feeding detail `color` and `age` of each object. By creating objects this way,
 we don't have to write much repetitive code like variable names and the function
-`whisper` which behaves the same in those 2 objects.
+`whisper` which behave the same in those 2 objects.
 
-JavaScript also provides pre-defined objects which offer about various conveniences.
-We're gonna talk about them in the next tutorials. Here is a small example which
-use the pre-defined class `Date` to get time information from system.
+JavaScript also provides pre-defined sketches and objects which offer various
+conveniences. We're gonna talk about them in the next tutorials. Here is a small
+example which use the pre-defined class `Date` to get time information from system.
 
 `JS code:`
 <script src="https://gist.github.com/codenart/239e30c8ca1889f764fb3a29108f619b.js">
