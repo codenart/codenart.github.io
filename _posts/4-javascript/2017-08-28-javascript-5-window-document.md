@@ -58,6 +58,6 @@ is also frequently used. -
 <script src="https://gist.github.com/codenart/1e3ddf8d4dc9541ea8cee97694a8efab.js">
 </script>
 
-And the most commonly used one is `window.document` which model the HTML document.
-We're gonna save it for the next section. Let's checkout some bundled functions
-of the object `window` before talking about manipulating HTML document.
+And the most commonly used member is `window.document` which model the HTML
+document. We're gonna save it for the next section. Let's checkout some bundled
+functions of the object `window` before talking about manipulating HTML document.
