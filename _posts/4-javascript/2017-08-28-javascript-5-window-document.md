@@ -39,8 +39,8 @@ object `console` that we've used from the very first tutorial. -
 
 Since the object `window` bundles so many things and it is frequently referred
 to, the object itself is inferred by web browsers; And we can just omit its
-reference while accessing its bundled stuff. That's why we can just say `console.log`
-instead of `window.console.log`.
+reference while accessing its bundled stuff. That's why we can just say
+`console.log` instead of `window.console.log`.
 
 The next commonly used member is `window.location`. This object is used to
 get the current URL address or redirect user to another address. -
@@ -58,8 +58,6 @@ is also frequently used. -
 <script src="https://gist.github.com/codenart/1e3ddf8d4dc9541ea8cee97694a8efab.js">
 </script>
 
-The most commonly used one is `window.document` which model the HTML document
-and allow us to manipulate the document. We're gonna save it for the next section. -
-[Document Reference](https://developer.mozilla.org/en-US/docs/Web/API/document)
-
-Let's checkout some bundled functions which are commonly used.
+And the most commonly used one is `window.document` which model the HTML document.
+We're gonna save it for the next section. Let's checkout some bundled functions
+of the object `window` before talking about manipulating HTML document.
