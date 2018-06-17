@@ -42,7 +42,7 @@ to, the object itself is inferred by web browsers; And we can just omit its
 reference while accessing its bundled stuff. That's why we can just say `console.log`
 instead of `window.console.log`.
 
-The next commonly used member of `window` is `location`. This object is used to
+The next commonly used member is `window.location`. This object is used to
 get the current URL address or redirect user to another address. -
 [Location Reference](https://developer.mozilla.org/en-US/docs/Web/API/Location)
 
@@ -50,17 +50,16 @@ get the current URL address or redirect user to another address. -
 <script src="https://gist.github.com/codenart/aa7a6dc4dbebbec9b599516a29922554.js">
 </script>
 
-Related to redirecting user to another address, another member of `window` which
-is named `history` is also frequently used. -
+Related to redirecting user to another address, another member `window.history`
+is also frequently used. -
 [History Reference](https://developer.mozilla.org/en-US/docs/Web/API/History)
 
 `JS code:`
 <script src="https://gist.github.com/codenart/1e3ddf8d4dc9541ea8cee97694a8efab.js">
 </script>
 
-The most commonly used one is the object `document` which model the HTML document
-and allow us to manipulate the document. We're gonna make separated section for it. -
+The most commonly used one is `window.document` which model the HTML document
+and allow us to manipulate the document. We're gonna save it for the next section. -
 [Document Reference](https://developer.mozilla.org/en-US/docs/Web/API/document)
 
-So, that was about bundled variables of the object `window`. Let's checkout some
-bundled functions before talking about the object `document`.
+Let's checkout some bundled functions which are commonly used.
