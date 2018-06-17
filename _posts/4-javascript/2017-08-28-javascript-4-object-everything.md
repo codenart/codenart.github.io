@@ -79,8 +79,9 @@ we don't have to write much repetitive code like variable names and the function
 `whisper` which behave the same in those 2 objects.
 
 JavaScript also provides pre-defined sketches and objects which offer various
-conveniences. We're gonna talk about them in the next tutorials. Here is a small
-example which use the pre-defined class `Date` to get time information from system.
+conveniences. But, we're gonna keep things simple now and save them for the next
+tutorials. Here is a small example which use the pre-defined class `Date` to get
+time information from system.
 
 `JS code:`
 <script src="https://gist.github.com/codenart/239e30c8ca1889f764fb3a29108f619b.js">
