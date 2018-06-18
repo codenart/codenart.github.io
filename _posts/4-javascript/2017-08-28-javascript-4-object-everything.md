@@ -76,7 +76,7 @@ used to bind `givenColor` and `givenAge` when an actual object is created later.
 And then we've created 2 objects using the keyword `new`, the sketch's name, and
 feeding detail `color` and `age` of each object. By creating objects this way,
 we don't have to write much repetitive code like variable names and the function
-`whisper` which behave the same in those 2 objects.
+`whisper` which behave the same in the actual objects `water` and `grass`.
 
 JavaScript also provides pre-defined sketches and objects which offer various
 conveniences. But, we're gonna keep things simple now and save them for the next
