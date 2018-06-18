@@ -44,7 +44,7 @@ functions are called `methods`. But, it's just the words matter, isn't it? We're
 gonna keep calling them `variables` and `functions` because they're just that.
 
 To access the bundled variables and functions, a dot `.` is used to chain the object's
-reference and the bundled stuff. This is it! The dot which was mentioned in our
+reference and its bundled stuff. This is it! The dot which was mentioned in our
 [first tutorial](https://codenart.github.io/smart/#the-baby-first-javascript-statements).
 We've used it many times with the statement `console.log()`. The `console` itself
 is an object; And the function `log` is actually bundled in the object.
