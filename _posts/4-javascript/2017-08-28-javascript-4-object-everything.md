@@ -78,10 +78,10 @@ feeding detail `color` and `age` of each object. By creating objects this way,
 we don't have to write much repetitive code like variable names and the function
 `whisper` which behave the same in the actual objects `water` and `grass`.
 
-JavaScript also provides pre-defined sketches and objects which offer various
+JavaScript also provides pre-defined classes and objects which offer various
 conveniences. But, we're gonna keep things simple now and save them for the next
-tutorials. Here is a small example which use the pre-defined class `Date` to get
-time information from system.
+tutorials. Here is a small example which use a pre-defined class to get time
+information from system.
 
 `JS code:`
 <script src="https://gist.github.com/codenart/239e30c8ca1889f764fb3a29108f619b.js">
