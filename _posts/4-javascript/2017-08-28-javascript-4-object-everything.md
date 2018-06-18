@@ -110,7 +110,7 @@ A string is treated as an object, too. - [String Reference](https://www.w3school
 </script>
 
 And we'll meet more and more objects from now on. Our tutorial about `object`
-has finished. In the next tutorial, we'll meet an built-in object of web browser
+has finished. In the next tutorial, we'll meet a built-in object of web browser
 which allows us to manipulate HTML document. Goodbye and see you next time in
 the realm of `intellect`. :D
 
