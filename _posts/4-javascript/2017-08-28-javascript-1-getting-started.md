@@ -113,9 +113,9 @@ always end a JavaScript statement with a semi-colon until your love of JavaScrip
 grows big enough. :D
 - The next two `strange` things are the parentheses `()` that we mentioned above;
 and a dot `.` which stands between the two words `console` and `log`. They're the
-most beautiful tiny things in programming world. It takes some more tutorials for
-us to be available to their meanings. So, for now, please consider them as simple
-separators which help to make the statement look clearer. :D
+most beautiful tiny things in programming world; And it takes some more tutorials
+for us to be available to their meanings. So, for now, please consider them as
+simple separators which help to make the statement look clearer. :D
 
 Can we just end our first JavaScript tutorial with wonders? :D
 

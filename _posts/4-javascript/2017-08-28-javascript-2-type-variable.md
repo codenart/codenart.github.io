@@ -71,7 +71,7 @@ percent sure that we have to deal with text contents as well.
 Now you see, there's a need to represent text contents in code and make your
 computer treat them differently than `numbers`. This is where the concept of
 Type gets in. We have the first basic type: `Number`; And the next one is called
-`String` which is used to represent text content. In JavaScript, a string is
+`String` which is used to represent text contents. In JavaScript, a string is
 enclosed using single quotes `'` or double quotes `"`.
 
 `JS code:`
@@ -107,7 +107,7 @@ type` instead of `this type` in an expression which requires `this type`. :D
 In the example above, what we expect is a string concatenation; But, we've put
 there a number and... it just works. This is a smart feature of JavaScript which
 automatically converts the number to a string before the concatenation is
-processed and helps us to simplify our works.
+processed and helps us to simplify our work.
 
 Generally, in many other programming languages, type conversion must be done
 explicitly by writing extra lines of code. JavaScript also provides methods which
@@ -167,17 +167,17 @@ Ok. Let's create another box and perform a simple manipulation.
 In the second statement, the assignment operator `=` will take something on the
 right to put into the new box on the left. But, that `something` is an expression
 and your computer firstly needs to perform a calculation to get the result: The
-variable named `box` is called to take out the string `'A cat'`; A concatenation
-is processed and the result is a new string `'A cat and another cat'`.
+variable `box` is called to take out the string `'A cat'`; A concatenation is
+processed and the result is a new string `'A cat and another cat'`.
 
 You can also put the result back into the old box instead of a new box. But, I
 prefer creating a new one since variable name is very useful to describe the state
-of the stored content after each manipulation and gives your code more clarity.
+of the stored content after each manipulation and it gives your code more clarity.
 
 By naming variables, we're freely to use other beautiful names for those boxes
 but there're also some rules that we should take notes:
 
-- A variable name can contains letters, digits, underscore `_`, and dollar sign `$`.
+- A variable name can contain letters, digits, underscore `_`, and dollar sign `$`.
 - It must not begin with a number.
 - Variable name is case sensitive. `box` and `Box` are two different variables.
 - It cannot be any of reserved keywords. See list here:

@@ -18,7 +18,7 @@ date: 2017-08-28 05:10:00
 That word, `function`, is actually a typing mistake made by one of the first
 programmers of the world. The original name of this type was `action` before the
 mistake has occurred in documentation and spread over the earth. Somewhere down
-the line, people started thinking that the type is somewhat related to mathematics
+the line, people started thinking the type is somewhat related to mathematics
 and use it the mathematical way. Let's scroll up the calendar a bit and talk
 about it in term of `action`. :D
 
@@ -48,7 +48,6 @@ Do you remember the parentheses `()` which are mentioned in our
 [first tutorial](https://codenart.github.io/smart/#the-baby-first-javascript-statements)?
 This is it! The `log` itself is an action, too. The only difference here is that
 we've not put anything between the parentheses `()` when we invoke the `drink`.
-Let's talk more about this point.
 
 ## Invoking action with matter
 
@@ -107,8 +106,8 @@ second invocation also `yielded something` and the result was stored in the
 variable `excerpt`.
 
 Yes, a function invocation can `yield something`. This idea is borrowed from
-mathematics. To make a function able to yield a value, a statement is used to
-`return` a value at the end of the function definition.
+mathematics. To make a function able to yield, a statement is used to `return`
+a value at the end of the function definition.
 
 `JS code:`
 <script src="https://gist.github.com/codenart/d263325733a166cbf9034ba69a74b25d.js">
