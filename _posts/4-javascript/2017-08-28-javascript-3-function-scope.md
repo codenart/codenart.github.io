@@ -47,7 +47,7 @@ be executed until the action is invoked.
 Do you remember the parentheses `()` which are mentioned in our
 [first tutorial](https://codenart.github.io/smart/#the-baby-first-javascript-statements)?
 This is it! The `log` itself is an action, too. The only difference here is that
-we've not put anything between the parentheses `()` when we invoke the `drink`.
+we didn't put anything between the parentheses `()` when we were invoking the `drink`.
 
 ## Invoking action with matter
 
@@ -105,7 +105,7 @@ we've moved away all the details by using functions. The first function invocati
 second invocation also `yielded something` and the result was stored in the
 variable `excerpt`.
 
-Yes, a function invocation can `yield something`. This idea is borrowed from
+Yes, a function invocation can `yield something`. And this idea is borrowed from
 mathematics. To make a function able to yield, a statement is used to `return`
 a value at the end of the function definition.
 
@@ -167,9 +167,9 @@ to use its inner variables.
 <script src="https://gist.github.com/codenart/e6fb3d20885bc689f6dff7704a27daaf.js">
 </script>
 
-It doesn't mean that the outer variable is not visible to the function. In case
-there's no inner variable which has the same name as the outer one. The function
-will refer to the outer variable.
+But it doesn't mean that the outer variable is not visible to the function. In
+case there's no inner variable which has the same name as the outer one, the
+function will refer to the outer variable.
 
 `JS code:`
 <script src="https://gist.github.com/codenart/e183bd7100dff450cbe84f251525bb08.js">
