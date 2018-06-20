@@ -28,8 +28,7 @@ dropdown will be a little weird because it will have 2 buttons: 1 for showing
 the `dropdown-list` and the another one for hiding it.
 
 Please just copy the code snippets below to your sample HTML document and CSS
-file; Also create a blank JS file and link it to the HTML document so we can
-start writing JS code now.
+file; Also create a blank JS file and link it to the HTML document.
 
 `HTML code:`
 <script src="https://gist.github.com/codenart/ef2d53f28af5dc19d7b6f96edfbbbebe.js">
