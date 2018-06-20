@@ -46,9 +46,10 @@ And here is the expected result with the dropdown working properly.
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 You may notice that the dropdown is a little weird. Normally, a dropdown has only
-1 button but the dropdown we're working with comes with 2 buttons. And we'll talk
-about this point later. Please do not peek in the JS source code on CodePen.
-We're gonna make it from scratch. It's so simple and won't take much time. :D
+1 button but the dropdown we're working with comes with 2 buttons. We'll talk
+about this at the end of the tutorial. Please do not peek in the JS source code
+on CodePen. We're gonna make it from scratch. It's so simple and won't take much
+time. :D
 
 ## 1. Finding & Modifying specific elements
 
