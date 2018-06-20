@@ -23,12 +23,9 @@ as listed below:
 - Binding event listeners/actions to make components become interactive
 
 Along with exploring the object `document`, we'll apply some of its features to
-create a dropdown. I've prepared the HTML and CSS code for quick start. The
-dropdown will be a little weird because it will have 2 buttons: 1 for showing
-the `dropdown-list` and the another one for hiding it.
-
-Please just copy the code snippets below to your sample HTML document and CSS
-file; Also create a blank JS file and link it to the HTML document.
+create a dropdown. I've prepared HTML and CSS code so we can just start talking
+about JS stuff. Please just copy the code snippets below to your sample HTML
+document and CSS file; Also create a blank JS file and link it to the HTML document.
 
 `HTML code:`
 <script src="https://gist.github.com/codenart/ef2d53f28af5dc19d7b6f96edfbbbebe.js">
@@ -48,7 +45,9 @@ And here is the expected result with the dropdown working properly.
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
-Please do not peek in the JS source code on CodePen. We're gonna make it from
-scratch. It's so simple and won't take much time. :D
+I know that the dropdown is a little weird. Normally, a dropdown has only 1 button
+but the dropdown we're working with comes with 2 buttons. And we'll talk about
+this point later. Please do not peek in the JS source code on CodePen. We're
+gonna make it from scratch. It's so simple and won't take much time. :D
 
 > ...in progress
