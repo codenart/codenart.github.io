@@ -15,8 +15,8 @@ keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding
 date: 2017-08-28 05:20:00
 ---
 
-About manipulating HTML document, it includes the following possibilities that
-the object `document` offers:
+About manipulating HTML document, the object `document` offers some possibilities
+as listed below:
 
 - Finding and modifying specific HTML elements
 - Creating new elements and altering document's structure
