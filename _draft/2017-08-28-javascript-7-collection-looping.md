@@ -8,7 +8,7 @@ featured:
 permalink:
 
 title:
-short: Array & Looping
+short: Collection & Looping
 description:
 keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, javascript, function, scope, type
 

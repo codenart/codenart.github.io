@@ -15,14 +15,41 @@ keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding
 date: 2017-08-28 05:20:00
 ---
 
-Before starting our tutorial, let's have a look at the reference links which have
-all the bundled stuff of the object fully listed.
+About manipulating HTML document, it includes the following possibilities that
+the object `document` offers:
 
-- [Bundled variables](https://developer.mozilla.org/en-US/docs/Web/API/Document#Properties)
-- [Bundled functions](https://developer.mozilla.org/en-US/docs/Web/API/Document#Methods)
+- Finding and modifying specific HTML elements
+- Creating new elements and altering document's structure
+- Binding event listeners/actions to make components become interactive
 
-Too much information, right? Don't try to remember everything. Nobody should do
-that. You should only parse the information to see what utilities the object offer;
-And we'll pick up some common stuff to make examples.
+Along with learning the object `document`, we'll apply some of its featured to
+create a dropdown. I have prepared the HTML and CSS code of the dropdown. It
+will be a little weird because it will have 2 buttons: 1 for showing the
+`dropdown-list` and the another one for hiding it.
+
+Please just copy the code snippets below to your sample HTML document and CSS
+file; Also create a blank JS file and link it to the HTML document so we can
+start writing JS code now.
+
+`HTML code:`
+<script src="https://gist.github.com/codenart/ef2d53f28af5dc19d7b6f96edfbbbebe.js">
+</script>
+
+`CSS code:`
+[Click here to see CSS code](https://gist.github.com/codenart/e35ac23245ec8d2d506c280cd6751ef2#file-dropdown-css)
+
+And here is the expected result with the dropdown working properly.
+
+<p data-height="500" data-theme-id="light"
+   data-slug-hash="LrQXGj" data-default-tab="result" data-user="codenart"
+   data-embed-version="2" data-pen-title="A weird dropdown :D" class="codepen">
+   See the Pen <a href="https://codepen.io/codenart/pen/LrQXGj/">A weird dropdown :D</a>
+   by Kei Nart (<a href="https://codepen.io/codenart">@codenart</a>) on
+   <a href="https://codepen.io">CodePen</a>.
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+Please do not peek in the JS source code on CodePen. We're gonna make it from
+scratch. It's so simple and won't take much time. :D
 
 > ...in progress
