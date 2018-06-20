@@ -22,10 +22,10 @@ the object `document` offers:
 - Creating new elements and altering document's structure
 - Binding event listeners/actions to make components become interactive
 
-Along with learning the object `document`, we'll apply some of its featured to
-create a dropdown. I have prepared the HTML and CSS code of the dropdown. It
-will be a little weird because it will have 2 buttons: 1 for showing the
-`dropdown-list` and the another one for hiding it.
+Along with learning the object `document`, we'll apply some of its features to
+create a dropdown. I've prepared the HTML and CSS code for quick start. The
+dropdown will be a little weird because it will have 2 buttons: 1 for showing
+the `dropdown-list` and the another one for hiding it.
 
 Please just copy the code snippets below to your sample HTML document and CSS
 file; Also create a blank JS file and link it to the HTML document so we can
