@@ -54,10 +54,10 @@ gonna make it from scratch. It's so simple and won't take much time. :D
 
 > ...in progress
 
-## 2. Finding & Modifying specific elements
+## 2. Creating elements & Altering HTML structure
 
 > ...in progress
 
-## 3. Finding & Modifying specific elements
+## 3. Making components become interactive
 
 > ...in progress
