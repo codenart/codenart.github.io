@@ -22,7 +22,7 @@ as listed below:
 - Creating new elements and altering document's structure
 - Binding event listeners/actions to make components become interactive
 
-Along with learning the object `document`, we'll apply some of its features to
+Along with exploring the object `document`, we'll apply some of its features to
 create a dropdown. I've prepared the HTML and CSS code for quick start. The
 dropdown will be a little weird because it will have 2 buttons: 1 for showing
 the `dropdown-list` and the another one for hiding it.
