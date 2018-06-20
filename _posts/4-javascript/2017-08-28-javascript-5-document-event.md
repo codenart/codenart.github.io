@@ -18,9 +18,9 @@ date: 2017-08-28 05:20:00
 About manipulating HTML document, the object `document` offers some possibilities
 as listed below:
 
-- Finding and modifying specific HTML elements
-- Creating new elements and altering document's structure
-- Binding event listeners/actions to make components become interactive
+1. Finding and modifying specific HTML elements
+2. Creating new elements and altering document's structure
+3. Binding event listeners/actions to make components become interactive
 
 Along with exploring the object `document`, we'll apply some of its features to
 create a dropdown. I've prepared HTML and CSS code so we can just start talking
@@ -49,5 +49,15 @@ I know that the dropdown is a little weird. Normally, a dropdown has only 1 butt
 but the dropdown we're working with comes with 2 buttons. And we'll talk about
 this point later. Please do not peek in the JS source code on CodePen. We're
 gonna make it from scratch. It's so simple and won't take much time. :D
+
+## 1. Finding & Modifying specific elements
+
+> ...in progress
+
+## 2. Finding & Modifying specific elements
+
+> ...in progress
+
+## 3. Finding & Modifying specific elements
 
 > ...in progress
