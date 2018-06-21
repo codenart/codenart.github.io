@@ -36,7 +36,7 @@ We all know that calculators are great at dealing with numbers. You simply need
 to push some buttons and the result will be there within a blink. Your computer
 is even more superior than a calculator thousands times. Let's ask it to perform
 an addition and print the result to your web browser's
-[console](https://codenart.github.io/smart/#the-baby-first-javascript-statements)
+[console](https://codenart.github.io/smart/#the-baby-first-javascript-statements "ext")
 using JavaScript.
 
 `JS code:`
@@ -181,7 +181,7 @@ but there're also some rules that we should take notes:
 - It must not begin with a number.
 - Variable name is case sensitive. `box` and `Box` are two different variables.
 - It cannot be any of reserved keywords. See list here:
-[JavaScript reserved keywords](https://www.w3schools.com/js/js_reserved.asp)
+[JavaScript reserved keywords](https://www.w3schools.com/js/js_reserved.asp "ext")
 
 Ok. We've known the first two basic programming concepts. Let's take a break
 before heading to our next tutorial. :D

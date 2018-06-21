@@ -32,7 +32,7 @@ document and CSS file; And create a blank JS file linked to the HTML document.
 </script>
 
 `CSS code:`
-[Click here to see CSS code](https://gist.github.com/codenart/e35ac23245ec8d2d506c280cd6751ef2#file-dropdown-css)
+[Click here to see CSS code](https://gist.github.com/codenart/e35ac23245ec8d2d506c280cd6751ef2 "ext")
 
 And here is the expected result with the dropdown working properly.
 
@@ -47,9 +47,9 @@ And here is the expected result with the dropdown working properly.
 
 You may notice that the dropdown is a little weird. Normally, a dropdown has only
 1 button but the dropdown we're working with comes with 2 buttons. We'll talk
-about this at the end of the tutorial. Please do not peek in the JS source code
-on CodePen. We're gonna make it from scratch. It's so simple and won't take much
-time. :D
+about this at the end of the tutorial. And please don't peek in the JS source
+code on CodePen. We're gonna make it from scratch. It's so simple and won't take
+much time. :D
 
 ## 1. Finding & Modifying specific elements
 
@@ -62,3 +62,6 @@ time. :D
 ## 3. Making components become interactive
 
 > ...in progress
+
+`JS code:`
+[Click here to see JS code](https://gist.github.com/codenart/d99f103094679673c6a95e7966e72ce3 "ext")

@@ -45,7 +45,7 @@ be executed until the action is invoked.
 </script>
 
 Do you remember the parentheses `()` which are mentioned in our
-[first tutorial](https://codenart.github.io/smart/#the-baby-first-javascript-statements)?
+[first tutorial](https://codenart.github.io/smart/#the-baby-first-javascript-statements "ext")?
 This is it! The `log` itself is an action, too. The only difference here is that
 we didn't put anything between the parentheses `()` when we were invoking the `drink`.
 

@@ -15,10 +15,10 @@ keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding
 date: 2017-08-28 05:00:00
 ---
 
-Unlike [HTML](https://codenart.github.io/begin/) and
-[CSS](https://codenart.github.io/beauty/), JavaScript is a programming language.
-With JavaScript, you can teach the computer to think and make decision based on
-certain situation.
+Unlike [HTML](https://codenart.github.io/begin/ "ext") and
+[CSS](https://codenart.github.io/beauty/ "ext"), JavaScript is a programming
+language. With JavaScript, you can teach the computer to think and make decision
+based on certain situation.
 
 > JavaScript can make your website smart.  
 > \_\_A simple & happy Mind
@@ -26,8 +26,8 @@ certain situation.
 For example, you want to place a button on your webpage to greet user when he/she
 clicks on it. HTML can help to make the button show up. CSS can help to make the
 button look nice. But, none of those two languages can tell web browser `what
-to do` when user clicks on the button. This is the point where JavaScript gets in.
-Let's see.
+to do` when user clicks on the button. This is the point where JavaScript gets
+in. Let's see.
 
 `HTML code:`
 <script src="https://gist.github.com/codenart/6f9e3ffa365cc5d5e7a4147fe7da72b1.js">

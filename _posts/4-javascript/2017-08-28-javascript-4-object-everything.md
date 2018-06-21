@@ -45,7 +45,7 @@ gonna keep calling them `variables` and `functions` because they're just that.
 
 To access the bundled variables and functions, a dot `.` is used to chain the object's
 reference and its bundled stuff. This is it! The dot which was mentioned in our
-[first tutorial](https://codenart.github.io/smart/#the-baby-first-javascript-statements).
+[first tutorial](https://codenart.github.io/smart/#the-baby-first-javascript-statements "ext").
 We've used it many times with the statement `console.log()`. The `console` itself
 is an object; And the function `log` is actually bundled in the object.
 
@@ -97,13 +97,15 @@ A function is treated as an object. It's a bundle.
 <script src="https://gist.github.com/codenart/a50548b7618428a9c0583d75bede6040.js">
 </script>
 
-A number is also treated as an object. - [Number Reference](https://www.w3schools.com/jsref/jsref_obj_number.asp)
+A number is also treated as an object. -
+[Number Reference](https://www.w3schools.com/jsref/jsref_obj_number.asp "ext")
 
 `JS code:`
 <script src="https://gist.github.com/codenart/c1926748e08df122e9cd15dd0d0ffcac.js">
 </script>
 
-A string is treated as an object, too. - [String Reference](https://www.w3schools.com/jsref/jsref_obj_string.asp)
+A string is treated as an object, too. -
+[String Reference](https://www.w3schools.com/jsref/jsref_obj_string.asp "ext")
 
 `JS code:`
 <script src="https://gist.github.com/codenart/666595fc9948e30ceb6176c913bcea09.js">
