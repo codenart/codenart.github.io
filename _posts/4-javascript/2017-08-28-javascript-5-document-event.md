@@ -17,8 +17,8 @@ date: 2017-08-28 05:20:00
 
 Since the object is in-built, we don't have to care about how it was created and
 our purpose is simply exploring how to use it to manipulate HTML document. Before
-taking the discussion, please have a quick parse through the following reference
-link in which all the bundled stuff of the object `document` are fully listed:
+taking the discussion, please have a quick look at the following reference link
+in which all the bundled stuff of the object `document` are fully listed:
 [Document Reference](https://www.w3schools.com/jsref/dom_obj_document.asp "ext")
 
 About manipulating HTML document, the object `document` provides some possibilities
