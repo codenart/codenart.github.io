@@ -174,7 +174,7 @@ You can also put the result back into the old box instead of a new box. But, I
 prefer creating a new one since variable name is very useful to describe the state
 of the stored content after each manipulation and it gives your code more clarity.
 
-By naming variables, we're freely to use other beautiful names for those boxes
+About naming variables, we're freely to use other beautiful names for those boxes
 but there're also some rules that we should take notes:
 
 - A variable name can contain letters, digits, underscore `_`, and dollar sign `$`.

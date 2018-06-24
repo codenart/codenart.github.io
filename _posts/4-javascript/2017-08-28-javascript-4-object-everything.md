@@ -30,14 +30,14 @@ have a look at the example below.
 </script>
 
 Here we have an object stored in the variable `theTree`. An object in JavaScript
-is just a bundle of `variables` and `functions` enclosed by a couple of curly
-braces `{}`. The variables `name` and `age` are used to describe the tree's
-properties; And the function `produce` is used to describe its ability to yield
-fruits.
+is nothing but a bundle of `variables` and `functions` enclosed by a couple of
+curly braces `{}`. In the example above, the variables `name` and `age` are used
+to describe the tree's properties; And the function `produce` is used to describe
+its ability to yield fruits.
 
 Please take note that we don't need to use the keywords `var` and `function` for
 bundled stuff of an object; Values are bound with the variables using colons `:`
-instead of equal signs; And things are separated by commas.
+instead of equal signs `=`; And things are separated by commas `,`.
 
 Normally, when referring to object, the variables are called `properties` and the
 functions are called `methods`. But, it's just the words matter, isn't it? We're
@@ -69,7 +69,7 @@ check the code snippet below.
 <script src="https://gist.github.com/codenart/4a55e1f18ab70b50cc8eb53798571f88.js">
 </script>
 
-The `class` keyword is used to create an object named `Thing` which serves as a
+The keyword `class` is used to create an object named `Thing` which serves as a
 sketch. It does not have detail `color` and `age`; Instead, a `constructor` is
 used to bind `givenColor` and `givenAge` when an actual object is created later.
 
@@ -78,7 +78,7 @@ feeding detail `color` and `age` of each object. By creating objects this way,
 we don't have to write much repetitive code like variable names and the function
 `whisper` which behave the same in the actual objects `water` and `grass`.
 
-JavaScript also provides pre-defined classes and objects which provide various
+JavaScript also provides pre-defined classes and objects which give various
 conveniences. But, we're gonna keep things simple now and save them for the next
 tutorials. Here is a small example which use a pre-defined class to get time
 information from system.

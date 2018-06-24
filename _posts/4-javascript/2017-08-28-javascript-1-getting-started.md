@@ -66,8 +66,8 @@ Secondly, it allows us manipulate the HTML document for various purposes:
 - Change styles of a specific element
 - Add event listeners to interact with user
 
-Lastly, JavaScript also allows us to command the browser as we can do with mouse
-and even more:
+Lastly, JavaScript also allows us to interact with web browser window as we can
+do with mouse/keyboard and even more:
 
 - Close window or open a new one
 - Resize or move the window around user's screen
@@ -123,8 +123,8 @@ Can we just end our first JavaScript tutorial with wonders? :D
 
 Oh. Excuse me! There's one more little thing I need to tell you.
 
-As any other languages, JavaScript allows us to write comments in the code. There
-are 2 ways to write a comment in JavaScript:
+As any other coding languages, JavaScript allows us to write comments in the code.
+There are 2 ways to write a comment in JavaScript:
 
 - Start your comment with two slashes `//` and all the characters afterward to
 the end of the line will be ignored.

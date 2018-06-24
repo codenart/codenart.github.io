@@ -44,10 +44,10 @@ be executed until the action is invoked.
 <script src="https://gist.github.com/codenart/ba02a7de4d0916af86a61db2cb4c94cb.js">
 </script>
 
-Do you remember the parentheses `()` which are mentioned in our
+Do you remember the parentheses `()` which were mentioned in our
 [first tutorial](https://codenart.github.io/smart/#the-baby-first-javascript-statements "ext")?
 This is it! The `log` itself is an action, too. The only difference here is that
-we didn't put anything between the parentheses `()` when we were invoking the `drink`.
+we've not put anything between the parentheses `()` when we invoke the `drink`.
 
 ## Invoking action with matter
 
@@ -67,20 +67,20 @@ Let's change the definition a bit.
 </script>
 
 How about this time? Does it work? :D  
-By declaring a variable named `liquid` inside the parentheses `()` of the definition,
-we've made the action more flexible and saved a lot of time writing repetitive
-code. Just imagine if we had to write new action definition for every new kind
-of drinks. Wew...
+By declaring a variable named `liquid` between the parentheses `()` of the
+definition, we've made the action more flexible and saved a lot of time writing
+repetitive code. Just imagine if we had to write new action definition for every
+new kind of drinks. Wew...
 
-We can also have more than one variable inside the parentheses `()` of the
-definition by separating variables using commas `,` and give the action more
-details by invoking it with values separated by commas `,` as well.
+We can also have more than one variable between the parentheses `()` by separating
+variables using commas `,` and give the action more details by invoking it with
+values separated by commas `,` as well.
 
 `JS code:`
 <script src="https://gist.github.com/codenart/0fe0189e35e7d77df732423c5b6a02a4.js">
 </script>
 
-Those variables which are placed inside the parentheses `()` are often called
+Those variables which are placed between the parentheses `()` are often called
 `parameters`, another word borrowed from mathematics. Anyway, we'll keep calling
 them variables because they are just `variables`. :D
 
