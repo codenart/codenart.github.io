@@ -37,7 +37,7 @@ its ability to yield fruits.
 
 Please take note that we don't need to use the keywords `var` and `function` for
 bundled stuff of an object; Values are bound with the variables using colons `:`
-instead of equal signs `=`; And things are separated by commas `,`.
+instead of equal signs; And things are separated by commas `,`
 
 Normally, when referring to object, the variables are called `properties` and the
 functions are called `methods`. But, it's just the words matter, isn't it? We're
@@ -112,7 +112,7 @@ A string is treated as an object, too. -
 </script>
 
 And we'll meet more and more objects from now on. Our tutorial about `object`
-has finished. In the next tutorial, we'll meet an in-built object of web browser
+has finished. In the next tutorial, we'll meet a built-in object of web browser
 which allows us to manipulate HTML document. Goodbye and see you next time in
 the realm of `intellect`. :D
 

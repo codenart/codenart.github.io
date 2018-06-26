@@ -89,7 +89,7 @@ them variables because they are just `variables`. :D
 So, just a silly typing mistake and the whole world is referring to mathematics
 wherever this type is mentioned. It really scares away many creative people when
 they start thinking about coding. But, by borrowing ideas from mathematics, the
-type also acquires a tremendous beauty if we don't make it so serious.
+type also acquires a tremendous beauty if we don't take it so serious.
 
 Back to the core concept of `function`, it allows us to divide a complex task
 into simple actions. So, calculating is also considered as an action and

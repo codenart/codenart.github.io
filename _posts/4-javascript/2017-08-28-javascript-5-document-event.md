@@ -29,9 +29,9 @@ as listed below:
 3. Binding event listeners/actions to make components become interactive
 
 Along with exploring the object `document`, we'll apply some of its features to
-create a dropdown. I've prepared HTML and CSS code so we can just start talking
-about JS stuff. Please just copy the code snippets below to your sample HTML
-document and CSS file; And create a blank JS file linked to the HTML document.
+create a dropdown. So, I've prepared HTML and CSS code and we can just start
+talking about JS stuff. Please just copy the code snippets below to your sample
+HTML document and CSS file; And create a blank JS file linked to the HTML document.
 
 `HTML code:`
 <script src="https://gist.github.com/codenart/ef2d53f28af5dc19d7b6f96edfbbbebe.js">
