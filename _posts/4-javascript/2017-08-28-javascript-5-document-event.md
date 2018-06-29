@@ -60,7 +60,7 @@ much time. :D
 ## 1. Finding & Modifying specific elements
 
 The object `document` is actually a model of the root element of the HTML document
-which is created by `<html></html>` tags. All of other HTML elements are also
+which is created by `<html></html>` tags. All of other nested elements are also
 modeled by objects and nested inside the object `document` with the same hierarchy
 as in the HTML document. So, to select an element, we can travel from the root
 element following the HTML document's hierarchy. Let's get the 2 elements `<head>`
@@ -82,7 +82,7 @@ elements like this.
 </script>
 
 Traversing among nested elements is a bit inconvenient when we want to select a
-deeply nested element. So, the another way is looking up using bundled function
+deeply nested element. So, the another way is looking up using bundled functions
 of the object `document`. Here is how to look up an element using `id`.
 
 `JS code:`
@@ -99,15 +99,12 @@ and changed through the variable `textContent`.
 
 Accessing and modifying attributes can also be done with the same approach. We
 just need to find the related variables listed in the reference link or
-`console.log` the element object to see the variables' names. Let's try to check
-class names of the dropdown list and make change to hide it.
+`console.log` the element object to see the variables' names. In the example
+below, the variable `className` is used to refer to class names of the dropdown list.
 
 `JS code:`
 <script src="https://gist.github.com/codenart/cc8882cafe26715010f90c794a28e3e0.js">
 </script>
-
-And that was all about finding & modifying existed elements. Let's get to know
-how to alter the HTML document's structure and add new elements.
 
 ## 2. Altering document's structure & Creating new elements
 
