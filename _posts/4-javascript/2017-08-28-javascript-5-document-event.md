@@ -107,7 +107,7 @@ dropdown list.
 <script src="https://gist.github.com/codenart/cc8882cafe26715010f90c794a28e3e0.js">
 </script>
 
-## 2. Altering HTML's structure & Creating elements
+## 2. Altering HTML structure & Creating elements
 
 > ...in progress
 
