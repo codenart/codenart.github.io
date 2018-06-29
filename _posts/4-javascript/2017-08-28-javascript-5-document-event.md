@@ -100,7 +100,8 @@ and changed through the variable `textContent`.
 Accessing and modifying attributes can also be done with the same approach. We
 just need to find the related variables listed in the reference link or
 `console.log` the element object to see the variables' names. In the example
-below, the variable `className` is used to refer to class names of the dropdown list.
+below, the variable `className` is used to refer to the attribute `class` of the
+dropdown list.
 
 `JS code:`
 <script src="https://gist.github.com/codenart/cc8882cafe26715010f90c794a28e3e0.js">
