@@ -29,7 +29,7 @@ as listed below:
 3. Binding event listeners/actions to make components become interactive
 
 Along with exploring the object `document`, we'll apply some of its features to
-create a dropdown. So, I've prepared HTML and CSS code and we can just start
+create a dropdown. So, I've prepared HTML and CSS code here; And we can just start
 talking about JS stuff. Please copy the code snippets below to your sample HTML
 document and CSS file; And create a blank JS file linked to the HTML document.
 
@@ -59,10 +59,10 @@ much time. :D
 
 ## 1. Finding & Modifying specific elements
 
-The object `document` actually models the root element of the HTML document which
-is created by `<html></html>` tags. All descendants of the object `document` are
-also modeled by objects and nested inside it with the same hierarchy as in the
-HTML document. So, to select an HTML element, we can travel from the root
+The object `document` actually is a model of the root element of the HTML document
+which is created by `<html></html>` tags. All of other HTML elements are also
+modeled by objects and nested inside the object `document` with the same hierarchy
+as in the HTML document. So, to select an element, we can travel from the root
 element following the HTML document's hierarchy. Let's get the 2 elements `<head>`
 and `<body>`.
 
@@ -83,18 +83,15 @@ elements like this.
 
 Traversing among nested elements is a bit inconvenient when we want to select a
 deeply nested element. So, the another way is looking up using bundled function
-of the object `document`. There are some functions designed to serve looking up
-elements. Here is how to look up an element using `id`.
+of the object `document`. Here is how to look up an element using `id`.
 
 `JS code:`
 <script src="https://gist.github.com/codenart/5c3bd5136ef3e0074a93ddb29fc3786b.js">
 </script>
 
-Now we know how to find specific elements. Let's get to know how to modify an
-element's text content and its related attributes.
-
-An element's text content can be accessed and changed through the variable
-`textContent`.
+Now we know how to find specific elements. Let's make some changes to an element's
+text content and its related attributes. An element's text content can be accessed
+and changed through the variable `textContent`.
 
 `JS code:`
 <script src="https://gist.github.com/codenart/5aefa995ad4db72341142e857a06e35b.js">
@@ -102,8 +99,8 @@ An element's text content can be accessed and changed through the variable
 
 Accessing and modifying attributes can also be done with the same approach. We
 just need to find the related variables listed in the reference link or
-`console.log` the element object to see the variables' names. Let's try to
-check class names of the dropdown list and make change to hide it.
+`console.log` the element object to see the variables' names. Let's try to check
+class names of the dropdown list and make change to hide it.
 
 `JS code:`
 <script src="https://gist.github.com/codenart/cc8882cafe26715010f90c794a28e3e0.js">
