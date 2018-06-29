@@ -127,10 +127,10 @@ for better semantic markup.
 </script>
 
 Does it work? No? :D  
-I'm sorry. That was my bad. I've not told you that Bootstrap doesn't offer the two
-helper classes: `bg-trees` and `py-7`. For padding utilities, Bootstrap only offers
-5 levels of paddings: `py-1` to `py-5`. And for background utilities, Bootstrap
-only offers colors & gradients. We have to define those two classes on our own.
+I'm sorry. That was my bad. I've not told you that Bootstrap doesn't have the two
+helper classes: `bg-trees` and `py-7`. For padding utilities, Bootstrap only
+provides 5 levels of paddings: `py-1` to `py-5`. And for background utilities,
+are only colors & gradients. We have to define those two classes on our own.
 
 `CSS code:`
 <script src="https://gist.github.com/codenart/39aaa85719a5a8770983e0fd836b146e.js">

@@ -65,7 +65,7 @@ the button by adding the class `btn-sm` or `btn-lg`.
 You can checkout some more button's options in the following document:  
 [Components -> Buttons#examples](http://getbootstrap.com/docs/4.0/components/buttons/#examples "ext")
 
-For the components which do not have various pre-defined styles, Bootstrap offers
+For the components which do not have various pre-defined styles, Bootstrap provides
 other toolsets for customization. They are called `utilities` or `helper classes`.
 You can find the utilities menu below the components menu on the left sidebar.
 

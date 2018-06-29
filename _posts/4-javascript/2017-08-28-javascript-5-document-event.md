@@ -25,13 +25,13 @@ About manipulating HTML document, the object `document` provides some possibilit
 as listed below:
 
 1. Finding and modifying specific HTML elements
-2. Creating new elements and altering document's structure
+2. Altering document's structure and creating new elements
 3. Binding event listeners/actions to make components become interactive
 
 Along with exploring the object `document`, we'll apply some of its features to
 create a dropdown. So, I've prepared HTML and CSS code and we can just start
-talking about JS stuff. Please just copy the code snippets below to your sample
-HTML document and CSS file; And create a blank JS file linked to the HTML document.
+talking about JS stuff. Please copy the code snippets below to your sample HTML
+document and CSS file; And create a blank JS file linked to the HTML document.
 
 `HTML code:`
 <script src="https://gist.github.com/codenart/ef2d53f28af5dc19d7b6f96edfbbbebe.js">
@@ -59,9 +59,60 @@ much time. :D
 
 ## 1. Finding & Modifying specific elements
 
-> ...in progress
+The object `document` actually models the root element of the HTML document which
+is created by `<html></html>` tags. All descendants of the object `document` are
+also modeled by objects and nested inside it with the same hierarchy as in the
+HTML document. So, to select an HTML element, we can travel from the root
+element following the HTML document's hierarchy. Let's get the 2 elements `<head>`
+and `<body>`.
 
-## 2. Creating elements & Altering HTML structure
+`JS code:`
+<script src="https://gist.github.com/codenart/657270bc00782b7f1a2d3b59b859c41b.js">
+</script>
+
+Nested elements like `head`, `body`, and others, are created from the same class
+which is fully documented in the following reference link. -
+[Element Reference](https://www.w3schools.com/jsref/dom_obj_all.asp "ext")
+
+Start from one element, we can travel to its parent, sibling, and children
+elements like this.
+
+`JS code:`
+<script src="https://gist.github.com/codenart/af4d7d421f7a2677d0bd0b7e9ebd7ab8.js">
+</script>
+
+Traversing among nested elements is a bit inconvenient when we want to select a
+deeply nested element. So, the another way is looking up using bundled function
+of the object `document`. There are some functions designed to serve looking up
+elements. Here is how to look up an element using `id`.
+
+`JS code:`
+<script src="https://gist.github.com/codenart/5c3bd5136ef3e0074a93ddb29fc3786b.js">
+</script>
+
+Now we know how to find specific elements. Let's get to know how to modify an
+element's text content and its related attributes.
+
+An element's text content can be accessed and changed through the variable
+`textContent`.
+
+`JS code:`
+<script src="https://gist.github.com/codenart/5aefa995ad4db72341142e857a06e35b.js">
+</script>
+
+Accessing and modifying attributes can also be done with the same approach. We
+just need to find the related variables listed in the reference link or
+`console.log` the element object to see the variables' names. Let's try to
+check class names of the dropdown list and make change to hide it.
+
+`JS code:`
+<script src="https://gist.github.com/codenart/cc8882cafe26715010f90c794a28e3e0.js">
+</script>
+
+And that was all about finding & modifying existed elements. Let's get to know
+how to alter the HTML document's structure and add new elements.
+
+## 2. Altering document's structure & Creating new elements
 
 > ...in progress
 

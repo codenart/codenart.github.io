@@ -30,7 +30,7 @@ toolset is the one related to `Typography`. Let's see what we have in this tools
 ![Bootstrap's Typography toolset](/images/bootstrap/3/typography.jpg)
 
 The section `Headings` talks about common styles of heading tags pre-defined by
-Bootstrap. They also offer heading `classes` which can make any text element
+Bootstrap. They also provide heading `classes` which can make any text element
 look like a heading.
 
 Next section `Display headings` contains some classes which are pre-defined with
@@ -102,7 +102,7 @@ columns in based 12-columns grid. So, we'll have 2 products per row.
 For large screen devices, the class `col-md-3` will give `max-width: 25%`. So,
 we'll have 4 products per row.
 
-The current version of Bootstrap (v4) offers a new feature that allow us to align
-items using a helper class. Please check the [Alignment](https://getbootstrap.com/docs/4.0/layout/grid/#alignment "ext") section
+The current version of Bootstrap (v4) provides a new feature that allow us to
+align items using a helper class. Please check the [Alignment](https://getbootstrap.com/docs/4.0/layout/grid/#alignment "ext") section
 before heading to our next tutorial. We'll build a simple homepage as planned in
 the beginning of this series. :D
