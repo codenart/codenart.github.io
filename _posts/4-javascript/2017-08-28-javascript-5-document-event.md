@@ -59,7 +59,7 @@ much time. :D
 
 ## 1. Finding & Modifying specific elements
 
-The object `document` actually is a model of the root element of the HTML document
+The object `document` is actually a model of the root element of the HTML document
 which is created by `<html></html>` tags. All of other HTML elements are also
 modeled by objects and nested inside the object `document` with the same hierarchy
 as in the HTML document. So, to select an element, we can travel from the root
