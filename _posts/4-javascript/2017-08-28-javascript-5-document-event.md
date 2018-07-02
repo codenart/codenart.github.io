@@ -127,8 +127,8 @@ events, browser custom events, etc... You can try out some other event types fro
 the following reference link:
 [Event Types Reference](https://www.w3schools.com/jsref/dom_obj_event.asp "ext")
 
-About the unused variable `event`, when an event is dispatched, web browser will
-create an object to model the event and pass the object into the event
+About the unused variable `event`, when an event is dispatched, web browser
+will create an object to model the event and pass the object into the event
 listeners/actions. This object provides some information which is helpful
 in some situations. You can `console.log` to know more about the event
 object or use the following reference link for further learning:
