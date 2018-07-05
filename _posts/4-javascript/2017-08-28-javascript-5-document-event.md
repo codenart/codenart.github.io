@@ -109,12 +109,12 @@ the dropdown list.
 Now we also know how to hide the dropdown list. By toggling the attribute `class`
 of the list between 2 pre-defined CSS classes `shown` and `hidden`, we can change
 visibility state of the dropdown list. Let's get to know how to bind these actions
-to the buttons and make the dropdown working properly. We're gonna save talking
-about creating new elements for later. :D
+to the buttons and make the dropdown working properly. We're gonna talk about
+creating new elements for later. :D
 
 ## 3. Handling events to interact with user
 
-When a click is performed on a button, web browser will dispatch an event and
+When a click is performed on a button, web browser will dispatch an `event` and
 trigger event listeners/actions (if any). To bind an action to handle the event,
 the most simple way is storing a function in the button's variable `onclick`.
 
@@ -127,20 +127,51 @@ events, browser custom events, etc... You can try out some other event types fro
 the following reference link:
 [Event Types Reference](https://www.w3schools.com/jsref/dom_obj_event.asp "ext")
 
-About the unused variable `event`, when an event is dispatched, web browser
-will create an object to model the event and pass the object into the event
-listeners/actions. This object provides some information which is helpful
-in some situations. You can `console.log` to know more about the event
-object or use the following reference link for further learning:
+About the unused variable `event` in the code snippet above; When an event is
+dispatched, web browser will create an object to model the event and pass it
+into the event listeners/actions. This object provides some information which
+is helpful in some situations. You can `console.log` to know more about the
+event object or use the following reference link for further learning:
 [Event Object Reference](https://www.w3schools.com/jsref/obj_events.asp "ext")
 
-The most common uses of the event object is to determine the target element which
-directly captures the event; And to determine the pressed key when working with
-keyboard events.
+The most common use cases of the event object are to determine the target element
+which directly captures the event; And to determine the pressed key when working
+with keyboard events.
 
 ## 2. Creating elements & Altering HTML structure
 
-> ...in progress
+You may notice that the dropdown in the expected result has few more items
+compared to our HTML code snippet. They were created using JavaScript. Let's
+add some of your favorite things to the list. I tend to give the function a
+descriptive name `addNewItem` but you can choose any other name that you want.
+
+`JS code:`
+<script src="https://gist.github.com/codenart/58c2120ccdc88ce9ceaab50c946728bc.js">
+</script>
+
+Here we're gonna discuss the function outside in. The function should be re-use-able
+so we can add more items by simply calling it multiple times with various `text`.
+
+The first part of the function is about creating a new element object which models
+a `<a href="#">` element. The function `createElement` of the object `document`
+take in an HTML tag's name to create the new element object. Binding the new
+object's `textContent` with given text and modifying its attribute `href` are
+both done with its related variables.
+
+The second part of the function is about attaching the new element object to the
+dropdown list: Finding the list using its `id`; Then `appending` the new item as
+the last item of the list.
+
+So, we've known how to `edit` existed items; how to `add` new items; and maybe
+you also want to know how to `delete` existed items. To do so, you firstly need
+to find the element that we want to remove; Then call the function `removeChild`
+of the dropdown list object. Just try it by yourself. :D
+
+Reference:
+
+- [createElement](https://www.w3schools.com/jsref/met_document_createelement.asp "ext")
+- [appendChild](https://www.w3schools.com/jsref/met_node_appendchild.asp "ext")
+- [removeChild](https://www.w3schools.com/jsref/met_node_removechild.asp "ext")
 
 ## 4. Normalizing the dropdown with a single button
 
