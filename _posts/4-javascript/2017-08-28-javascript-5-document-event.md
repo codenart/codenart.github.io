@@ -142,7 +142,7 @@ with keyboard events.
 
 You may notice that the dropdown in the expected result has few more items
 compared to our HTML code snippet. They were created using JavaScript. Let's
-add some of your favorite things to the list. I tend to give the function a
+add some of your favorite things to the list. We're gonna give the function a
 descriptive name `addNewItem` but you can choose any other name that you want.
 
 `JS code:`
@@ -156,7 +156,7 @@ The first part of the function is about creating a new element object which mode
 a `<a href="#">` element. The function `createElement` of the object `document`
 take in an HTML tag's name to create the new element object. Binding the new
 object's `textContent` with given text and modifying its attribute `href` are
-both done with its related variables.
+both done by using related variables.
 
 The second part of the function is about attaching the new element object to the
 dropdown list: Finding the list using its `id`; Then `appending` the new item as
