@@ -165,7 +165,7 @@ the last item of the list.
 So, we've known how to `edit` an item; how to `add` a new item; and maybe you
 also want to know how to `delete` an items. To do so, you firstly need to find
 the element that we want to remove; Then call the function `removeChild` of the
-dropdown list object. It's simple, isn't it? So, try it yourself. :D
+dropdown list object. It's simple, isn't it? So, just try it yourself. :D
 
 References:
 
