@@ -167,7 +167,7 @@ you also want to know how to `delete` existed items. To do so, you firstly need
 to find the element that we want to remove; Then call the function `removeChild`
 of the dropdown list object. Just try it by yourself. :D
 
-Reference:
+References:
 
 - [createElement](https://www.w3schools.com/jsref/met_document_createelement.asp "ext")
 - [appendChild](https://www.w3schools.com/jsref/met_node_appendchild.asp "ext")
