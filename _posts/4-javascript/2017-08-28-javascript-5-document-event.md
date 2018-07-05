@@ -162,10 +162,10 @@ The second part of the function is about attaching the new element object to the
 dropdown list: Finding the list using its `id`; Then `appending` the new item as
 the last item of the list.
 
-So, we've known how to `edit` existed items; how to `add` new items; and maybe
-you also want to know how to `delete` existed items. To do so, you firstly need
-to find the element that we want to remove; Then call the function `removeChild`
-of the dropdown list object. It's simple, isn't it? So, try it yourself. :D
+So, we've known how to `edit` an item; how to `add` a new item; and maybe you
+also want to know how to `delete` an items. To do so, you firstly need to find
+the element that we want to remove; Then call the function `removeChild` of the
+dropdown list object. It's simple, isn't it? So, try it yourself. :D
 
 References:
 
