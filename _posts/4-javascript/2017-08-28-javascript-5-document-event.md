@@ -185,7 +185,10 @@ be able to be switched based on visibility state of the dropdown list. Among all
 the tools we've collected from the first tutorial, there's no way to make this
 happen. That's why we have to consider making a weird dropdown with two buttons.
 
-The possibility of switching a function's behavior is available with a toolset
-which includes a type called `boolean` and a switching syntax. In the next
-tutorial, we'll talk bout this toolset and we'll also normalize the current
-dropdown with a single button. And now it's time for a break. See you again.
+The possibility of switching a function's behavior is available with a toolset:
+a type called `boolean` and a switching syntax which takes advantage of the type
+to allow switching behavior of a code snippet.
+
+In the next tutorial, we'll talk about the toolset and practice using it to
+normalize the current dropdown with a single button. And now it's time for a
+break. See you again.
