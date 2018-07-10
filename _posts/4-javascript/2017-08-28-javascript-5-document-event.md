@@ -109,8 +109,8 @@ the dropdown list.
 Now we also know how to hide the dropdown list. By toggling the attribute `class`
 of the list between 2 pre-defined CSS classes `shown` and `hidden`, we can change
 visibility state of the dropdown list. Let's get to know how to bind these actions
-to the buttons and make the dropdown working properly. We're gonna talk about
-creating new elements for later. :D
+to the buttons and make the dropdown working properly. We're gonna save talking
+about creating new elements for later. :D
 
 ## 3. Handling events to interact with user
 
@@ -159,8 +159,8 @@ the new object's `textContent` with given text and modifying its attribute `href
 are both done by using related variables.
 
 The second part of the function is about attaching the new element object to the
-dropdown list: Finding the list using its `id`; Then `appending` the new item as
-the last item of the list.
+dropdown list: Finding the list using its `id`; Then `appending` the new item to
+the list.
 
 So, we've known how to `edit` an item; how to `add` a new item; and maybe you
 also want to know how to `delete` an item. To do so, you firstly need to find
@@ -173,6 +173,19 @@ References:
 - [appendChild](https://www.w3schools.com/jsref/met_node_appendchild.asp "ext")
 - [removeChild](https://www.w3schools.com/jsref/met_node_removechild.asp "ext")
 
-## 4. Normalizing the dropdown with a single button
+# About the weird part of the dropdown
 
-> ...in progress
+The main part of the tutorial has finished. Here we're gonna discuss a little
+about the weird part of the dropdown.
+
+Normally, a dropdown has only one single button to handle both of the two tasks:
+showing and hiding the dropdown list. It means that we can only have one function
+to handle the event occurred by user click. And the behavior of the function must
+be able to be switched based on visibility state of the dropdown list. Among all
+the tools we've collected from the first tutorial, there's no way to make this
+happen. That's why we have to consider making a weird dropdown with two buttons.
+
+The possibility of switching a function's behavior is available with a toolset
+which includes a type called `boolean` and a switching syntax. In the next
+tutorial, we'll talk bout this toolset and we'll also normalize the current
+dropdown with a single button. And now it's time for a break. See you again.

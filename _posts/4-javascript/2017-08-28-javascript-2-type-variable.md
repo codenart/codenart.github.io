@@ -70,8 +70,8 @@ percent sure that we have to deal with text contents as well.
 
 Now you see, there's a need to represent text contents in code and make your
 computer treat them differently than `numbers`. This is where the concept of
-Type gets in. We have the first basic type: `Number`; And the next one is called
-`String` which is used to represent text contents. In JavaScript, a string is
+Type gets in. We have the first basic type: `number`; And the next one is called
+`string` which is used to represent text contents. In JavaScript, a string is
 enclosed using single quotes `'` or double quotes `"`.
 
 `JS code:`
