@@ -182,7 +182,7 @@ Normally, a dropdown has only one single button to handle both of the two tasks:
 showing and hiding the dropdown list. It means that we can only have one function
 to handle the event occurred by user click. And the behavior of the function must
 be able to be switched based on visibility state of the dropdown list. Among all
-the tools we've collected from the first tutorial, there's no way to make this
+the tools we've collected from the first tutorial, there's no chance to make this
 happen. That's why we have to consider making a weird dropdown with two buttons.
 
 The possibility of switching a function's behavior is available with a toolset:
