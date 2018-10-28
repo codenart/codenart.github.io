@@ -59,8 +59,8 @@ times with various drinks.
 </script>
 
 What do you see in your console window? It's still taking `tea`, right? :D  
-It is because the action definition does not take advantage of the provided drinks.
-Let's change the definition a bit.
+It is because the action definition does not take advantage of the provided
+drinks. Let's change the definition a bit.
 
 `JS code:`
 <script src="https://gist.github.com/codenart/d84b97780efd98c56f408bea72b1aa23.js">
@@ -72,9 +72,9 @@ definition, we've made the action more flexible and saved a lot of time writing
 repetitive code. Just imagine if we had to write new action definition for every
 new kind of drinks. Wew...
 
-We can also have more than one variable between the parentheses `()` by separating
-variables using commas `,` and give the action more details by invoking it with
-values separated by commas `,` as well.
+We can also have more than one variable between the parentheses `()` by
+separating variables using commas `,` and give the action more details by
+invoking it with values separated by commas `,` as well.
 
 `JS code:`
 <script src="https://gist.github.com/codenart/0fe0189e35e7d77df732423c5b6a02a4.js">
@@ -100,10 +100,10 @@ sometimes we would want to do something like this.
 </script>
 
 The main task look so clean and it's easy to guess what the code does because
-we've moved away all the details by using functions. The first function invocation
-`yielded something` and the result was stored in the variable `content`. The
-second invocation also `yielded something` and the result was stored in the
-variable `excerpt`.
+we've moved away all the details by using functions. The first function
+invocation `yielded something` and the result was stored in the variable
+`content`. The second invocation also `yielded something` and the result was
+stored in the variable `excerpt`.
 
 Yes, a function invocation can `yield something`. And this idea is borrowed from
 mathematics. To make a function able to yield, a statement is used to `return`
@@ -128,8 +128,8 @@ This section is just for reminding the most basic use of function as a type
 before we go to take the concept of Scope.
 
 Since function is a type, it means that we can consider a function as a value.
-In stead of defining a function with a name, we can store a `no-name` function
-in a variable like this.
+Instead of defining a function with a name, we can store a `no-name` function in
+a variable like this.
 
 `JS code:`
 <script src="https://gist.github.com/codenart/793360f7dd9dfc11cd67eedf54b9bc3e.js">
@@ -160,14 +160,14 @@ outside; The computer cannot find the variable so it says the variable `box` is
 `undefined`. In other words, the variable's scope is protected by the function
 `just` and it is only visible inside the function.
 
-The second note about the concept of `Scope` is that a function will always prefer
-to use its inner variables.
+The second note about the concept of `Scope` is that a function will always
+prefer to use its inner variables.
 
 `JS code:`
 <script src="https://gist.github.com/codenart/e6fb3d20885bc689f6dff7704a27daaf.js">
 </script>
 
-But it doesn't mean that the outer variable is not visible to the function. In
+Yet, it doesn't mean that the outer variable is not visible to the function. In
 case there's no inner variable which has the same name as the outer one, the
 function will refer to the outer variable.
 

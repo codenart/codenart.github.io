@@ -25,9 +25,9 @@ based on certain situation.
 
 For example, you want to place a button on your webpage to greet user when he/she
 clicks on it. HTML can help to make the button show up. CSS can help to make the
-button look nice. But, none of those two languages can tell web browser `what
-to do` when user clicks on the button. This is the point where JavaScript gets
-in. Let's see.
+button look nice. But, none of those two languages can tell web browser `what to
+do` when user clicks on the button. This is the point where JavaScript gets in.
+Let's see.
 
 `HTML code:`
 <script src="https://gist.github.com/codenart/6f9e3ffa365cc5d5e7a4147fe7da72b1.js">
@@ -48,12 +48,12 @@ in. Let's see.
 </button>
 
 Well, actually, that was not how JavaScript looks like. Because the language is
-quite flexible and there are so many stuff that may confuse you at the first look;
-I just put there some words to describe what to do in JS file. :D
+quite flexible and there are so many stuff that may confuse you at the first
+look; I just put there some words to describe what to do in JS file. :D
 
-So, the another important thing that I want you to take note in this section is...
-JavaScript code can be placed in a separated file `.js` and linked to the HTML
-document using `<script>` tags.
+So, the another important thing that I want you to take note in this section
+is... JavaScript code can be placed in a separated file `.js` and linked to the
+HTML document using `<script>` tags.
 
 ## What can JavaScript actually do on the web?
 
@@ -75,10 +75,10 @@ do with mouse/keyboard and even more:
 - Send request to a server or redirect user to another address
 
 Wew... We're gonna have to learn a lot.  
-But, don't worry. The only important part is the first one: learning basic programming
-concepts and getting familiar with the language. Once you handled fundamental
-stuff, learning the next two parts is just easy as eating cake. So, let's get it
-started. :D
+But, don't worry. The only important part is the first one: learning basic
+programming concepts and getting familiar with the language. Once you handled
+fundamental stuff, learning the next two parts is just easy as eating cake. So,
+let's get it started. :D
 
 ## The baby first JavaScript statements
 

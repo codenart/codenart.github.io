@@ -86,11 +86,11 @@ sign `+` as a concatenation operator instead of an addition operator.
 <script src="https://gist.github.com/codenart/091d76fcb44a1541f31d36b575217ed4.js">
 </script>
 
-There are also many other tools in JavaScript which allow us to manipulate strings
-efficiently. But, we're not gonna bring them all here since our main purpose in
-this tutorial is just getting to know the concept of Type; And we also have another
-important concept to care about. Let's talk a little more about Type in JavaScript
-before taking the concept of Variable.
+There are also many other tools in JavaScript which allow us to manipulate
+strings efficiently. But, we're not gonna bring them all here since our main
+purpose in this tutorial is just getting to know the concept of Type; And we also
+have another important concept to care about. Let's talk a little more about Type
+in JavaScript before taking the concept of Variable.
 
 ## Automatic type conversion
 
@@ -111,7 +111,8 @@ processed and helps us to simplify our work.
 
 Generally, in many other programming languages, type conversion must be done
 explicitly by writing extra lines of code. JavaScript also provides methods which
-serve explicit type conversion and we're gonna talk about those tools in later tutorials.
+serve explicit type conversion and we're gonna talk about those tools in later
+tutorials.
 
 > JavaScript is out smart other programming languages.  
 > \_\_A simple & happy Mind
@@ -171,20 +172,41 @@ variable `box` is called to take out the string `'A cat'`; A concatenation is
 processed and the result is a new string `'A cat and another cat'`.
 
 You can also put the result back into the old box instead of a new box. But, I
-prefer creating a new one since variable name is very useful to describe the state
-of the stored content after each manipulation and it gives your code more clarity.
+prefer creating a new one since variable name is very useful to describe the
+state of the stored content after each manipulation and it gives your code more
+clarity.
 
 About naming variables, we're freely to use other beautiful names for those boxes
 but there're also some rules that we should take notes:
 
-- A variable name can contain letters, digits, underscore `_`, and dollar sign `$`.
+- A variable name can contain letters, digits, underscore `_`, and dollar sign
+`$`.
 - It must not begin with a number.
 - Variable name is case sensitive. `box` and `Box` are two different variables.
 - It cannot be any of reserved keywords. See list here:
 [JavaScript reserved keywords](https://www.w3schools.com/js/js_reserved.asp "ext")
 
-Ok. We've known the first two basic programming concepts. Let's take a break
-before heading to our next tutorial. :D
+## Undefined variables and the value `null`
+
+The main part of the tutorial has finished. This section is just for taking note
+some little tiny things before heading to our the next tutorial.
+
+If a variable is not assigned with any value, it is considered as an `undefined`
+variable. Or we can say that the variable does not exist.
+
+`JS code:`
+<script src="https://gist.github.com/codenart/c6c8e4bc124062758dfc8b5b9cb7bc92.js">
+</script>
+
+If we want to make a variable exist as an empty box, we can assign the value
+`null` to the variable. This value is considered as a worthless value.
+
+`JS code:`
+<script src="https://gist.github.com/codenart/0a87451d4cd285297e73e5d371b9b808.js">
+</script>
+
+Ok. We've known the first two basic programming concepts and some related common
+stuff. Let's take a break then move on. :D
 
 `My type:`
 <div class="embed">

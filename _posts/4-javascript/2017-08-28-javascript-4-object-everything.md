@@ -17,11 +17,11 @@ date: 2017-08-28 05:15:00
 
 Whenever we lower down vibration to identify with the intellect which is the
 inferior dimension of the mind, everything seems to be separated and definable.
-Anything can be defined by some properties and abilities. For example: A tree
-can be considered as an object which has name, age, and ability to produce.
+Anything can be defined by some properties and abilities. For example: A tree can
+be considered as an object which has name, age, and ability to produce.
 
 To reflect this dimension of the mind into programming, the first programmers of
-the world decided to allow modelling objects in code. This makes programming more
+the world decided to allow modeling objects in code. This makes programming more
 friendly and gives people more possibilities to turn their ideas into code. Let's
 have a look at the example below.
 
@@ -43,8 +43,9 @@ Normally, when referring to object, the variables are called `properties` and th
 functions are called `methods`. But, it's just the words matter, isn't it? We're
 gonna keep calling them `variables` and `functions` because they're just that.
 
-To access the bundled variables and functions, a dot `.` is used to chain the object's
-reference and its bundled stuff. This is it! The dot which was mentioned in our
+To access the bundled variables and functions, a dot `.` is used to chain the
+object's reference and its bundled stuff. This is it! The dot which was mentioned
+in our
 [first tutorial](https://codenart.github.io/smart/#the-baby-first-javascript-statements "ext").
 We've used it many times with the statement `console.log()`. The `console` itself
 is an object; And the function `log` is actually bundled in the object.
@@ -74,8 +75,8 @@ sketch. It does not have detail `color` and `age`; Instead, a `constructor` is
 used to bind `givenColor` and `givenAge` when an actual object is created later.
 
 And then we've created 2 objects using the keyword `new`, the sketch's name, and
-feeding detail `color` and `age` of each object. By creating objects this way,
-we don't have to write much repetitive code like variable names and the function
+feeding detail `color` and `age` of each object. By creating objects this way, we
+don't have to write much repetitive code like variable names and the function
 `whisper` which behave the same in the actual objects `water` and `grass`.
 
 JavaScript also provides pre-defined classes and objects which give various
@@ -111,10 +112,10 @@ A string is treated as an object, too. -
 <script src="https://gist.github.com/codenart/666595fc9948e30ceb6176c913bcea09.js">
 </script>
 
-And we'll meet more and more objects from now on. Our tutorial about `object`
-has finished. In the next tutorial, we'll meet a built-in object of web browser
-which allows us to manipulate HTML document. Goodbye and see you next time in
-the realm of `intellect`. :D
+And we'll meet more and more objects from now on. Our tutorial about `object` has
+finished. In the next tutorial, we'll meet a built-in object of web browser which
+allows us to manipulate HTML document. Goodbye and see you next time in the realm
+of `intellect`. :D
 
 In case you wonder the realm beyond, here is an invitation to the superior
 dimension of the mind, the dimension of `knowing`, where things are one, where
