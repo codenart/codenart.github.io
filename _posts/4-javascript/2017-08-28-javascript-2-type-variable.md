@@ -7,17 +7,13 @@ category: javascript
 featured:
 permalink:
 
-title: Type? Which type?
+title: What is Type?
 short: Type & Variable
 description: In this tutorial, we're gonna talk about two basic concepts in programming (Type & Variable); <br>And have a gentle introduction to the most two common Types. <br>Let's get started with the concept of Type.
 keywords: web development, beginner, non-coder, kei nart, free, tutorial, coding, programming, code nart, javascript, type, number, string, variable
 
 date: 2017-08-28 05:05:00
 ---
-
-My type is thin, medium height, smiley, and dreamy. How about yours?
-
-Oooops! Sorry! That type is not related to JavaScript. :D
 
 > Data type is a concept of classifying data for using in a program.  
 > \_\_An academic & unhappy Mind
@@ -207,11 +203,3 @@ If we want to make a variable exist as an empty box, we can assign the value
 
 Ok. We've known the first two basic programming concepts and some related common
 stuff. Let's take a break then move on. :D
-
-`My type:`
-<div class="embed">
-   <iframe width="560" height="315"
-           src="https://www.youtube.com/embed/W72LiPMNs9E"
-           frameborder="0" allowfullscreen>
-   </iframe>
-</div>
