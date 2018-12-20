@@ -181,7 +181,7 @@ document. Let’s take a break before heading to our next tutorial.
 
 `Whispering:`
 <div class="embed">
-   <iframe src="https://goo.gl/3XXjxs"
+   <iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/94722143&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
            width="100%" height="450"
            scrolling="no" frameborder="no">
    </iframe>
