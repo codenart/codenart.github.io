@@ -99,8 +99,8 @@ sometimes we would want to do something like this.
 <script src="https://gist.github.com/codenart/af6a65557f1b9cf5d7f85ab473969110.js">
 </script>
 
-The main task look so clean and it's easy to guess what the code does because
-we've moved away all the details by using functions. The first function
+The main task looks so clean and it's easy to guess what the code does because
+we've moved away all the details by using functions: The first function
 invocation `yielded something` and the result was stored in the variable
 `content`. The second invocation also `yielded something` and the result was
 stored in the variable `excerpt`.
@@ -181,7 +181,7 @@ document. Let’s take a break before heading to our next tutorial.
 
 `Whispering:`
 <div class="embed">
-   <iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/94722143&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+   <iframe src="https://bit.ly/2LCa9QY"
            width="100%" height="450"
            scrolling="no" frameborder="no">
    </iframe>
